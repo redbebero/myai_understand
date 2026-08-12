@@ -7,12 +7,12 @@ from train_xor import evaluate, load_dataset, nonzero_parameters, prune_connecti
 
 
 ROOT = Path(__file__).parent
-MODEL_COPY = ROOT.parent / "xor_model.json"
+MODEL_COPY = ROOT / "xor_model.json"
 RECORD = ROOT / "pruning_record.md"
 
 
 def run_pruning_experiment():
-    rows = load_dataset()
+    rows = load_dataset(ROOT / "xor_dataset.json")
     model = train(rows, epochs=10_000, seed=7)
     MODEL_COPY.parent.mkdir(exist_ok=True)
     MODEL_COPY.write_text(json.dumps(model, indent=2) + "\n", encoding="utf-8")
