@@ -1,0 +1,6 @@
+{
+  "examples": 120,
+  "model_accuracy": 0.875,
+  "formula_accuracy": 0.7333333333333333,
+  "model_formula_agreement": 0.675
+}

@@ -1,0 +1,277 @@
+{
+  "design": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "validation_subjects": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "fine_tune_epochs": 30,
+    "selection": "two lowest individual validation ablation drops",
+    "test_used_for_selection": false
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "selected_nodes": [
+        13,
+        1
+      ],
+      "baseline": {
+        "validation_accuracy": 0.9290966386554622,
+        "test_accuracy": 0.9433322022395657,
+        "test_geometry": {
+          "within_mse": 2.9658448146614274,
+          "between_centroid_distance": 933.8973768662061,
+          "separation_ratio": 314.884100560338
+        }
+      },
+      "posthoc": {
+        "validation_accuracy": 0.9243697478991597,
+        "test_accuracy": 0.9317950458092976,
+        "test_geometry": {
+          "within_mse": 2.7111766128344565,
+          "between_centroid_distance": 864.4579177690979,
+          "separation_ratio": 318.8497251255543
+        }
+      },
+      "finetuned": {
+        "validation_accuracy": 0.9290966386554622,
+        "test_accuracy": 0.9429928741092637,
+        "test_geometry": {
+          "within_mse": 3.1069880433231636,
+          "between_centroid_distance": 972.099754015059,
+          "separation_ratio": 312.87528000118186
+        }
+      },
+      "posthoc_vs_baseline_test": {
+        "accuracy_before": 0.9433322022395657,
+        "accuracy_after": 0.9317950458092976,
+        "difference": -0.011537156430268092,
+        "improve_count": 24,
+        "worsen_count": 58,
+        "unchanged_prediction_count": 2861
+      },
+      "finetuned_vs_baseline_test": {
+        "accuracy_before": 0.9433322022395657,
+        "accuracy_after": 0.9429928741092637,
+        "difference": -0.000339328130302019,
+        "improve_count": 10,
+        "worsen_count": 11,
+        "unchanged_prediction_count": 2926
+      }
+    },
+    {
+      "seed": 11,
+      "selected_nodes": [
+        22,
+        26
+      ],
+      "baseline": {
+        "validation_accuracy": 0.9254201680672269,
+        "test_accuracy": 0.9457074991516796,
+        "test_geometry": {
+          "within_mse": 2.279443778400146,
+          "between_centroid_distance": 655.5564576698667,
+          "separation_ratio": 287.5949228850806
+        }
+      },
+      "posthoc": {
+        "validation_accuracy": 0.9380252100840336,
+        "test_accuracy": 0.9433322022395657,
+        "test_geometry": {
+          "within_mse": 2.060737206141312,
+          "between_centroid_distance": 629.6831734366181,
+          "separation_ratio": 305.5620928083726
+        }
+      },
+      "finetuned": {
+        "validation_accuracy": 0.9322478991596639,
+        "test_accuracy": 0.9480827960637936,
+        "test_geometry": {
+          "within_mse": 2.4713967520906053,
+          "between_centroid_distance": 722.8404682047955,
+          "separation_ratio": 292.4825678407685
+        }
+      },
+      "posthoc_vs_baseline_test": {
+        "accuracy_before": 0.9457074991516796,
+        "accuracy_after": 0.9433322022395657,
+        "difference": -0.002375296912113911,
+        "improve_count": 31,
+        "worsen_count": 38,
+        "unchanged_prediction_count": 2878
+      },
+      "finetuned_vs_baseline_test": {
+        "accuracy_before": 0.9457074991516796,
+        "accuracy_after": 0.9480827960637936,
+        "difference": 0.002375296912114022,
+        "improve_count": 14,
+        "worsen_count": 7,
+        "unchanged_prediction_count": 2926
+      }
+    },
+    {
+      "seed": 19,
+      "selected_nodes": [
+        9,
+        13
+      ],
+      "baseline": {
+        "validation_accuracy": 0.928046218487395,
+        "test_accuracy": 0.9419748897183576,
+        "test_geometry": {
+          "within_mse": 2.4570869127495993,
+          "between_centroid_distance": 678.0550696393816,
+          "separation_ratio": 275.9589276720395
+        }
+      },
+      "posthoc": {
+        "validation_accuracy": 0.9385504201680672,
+        "test_accuracy": 0.9480827960637936,
+        "test_geometry": {
+          "within_mse": 2.321793619413561,
+          "between_centroid_distance": 643.3939555561271,
+          "separation_ratio": 277.11074325315604
+        }
+      },
+      "finetuned": {
+        "validation_accuracy": 0.930672268907563,
+        "test_accuracy": 0.9467254835425857,
+        "test_geometry": {
+          "within_mse": 2.75874130901898,
+          "between_centroid_distance": 759.554224177578,
+          "separation_ratio": 275.3263677512694
+        }
+      },
+      "posthoc_vs_baseline_test": {
+        "accuracy_before": 0.9419748897183576,
+        "accuracy_after": 0.9480827960637936,
+        "difference": 0.006107906345436009,
+        "improve_count": 47,
+        "worsen_count": 29,
+        "unchanged_prediction_count": 2870
+      },
+      "finetuned_vs_baseline_test": {
+        "accuracy_before": 0.9419748897183576,
+        "accuracy_after": 0.9467254835425857,
+        "difference": 0.004750593824228044,
+        "improve_count": 18,
+        "worsen_count": 4,
+        "unchanged_prediction_count": 2925
+      }
+    },
+    {
+      "seed": 23,
+      "selected_nodes": [
+        28,
+        10
+      ],
+      "baseline": {
+        "validation_accuracy": 0.9233193277310925,
+        "test_accuracy": 0.9429928741092637,
+        "test_geometry": {
+          "within_mse": 2.153448517184744,
+          "between_centroid_distance": 674.0758125486173,
+          "separation_ratio": 313.0215592197454
+        }
+      },
+      "posthoc": {
+        "validation_accuracy": 0.9353991596638656,
+        "test_accuracy": 0.9453681710213777,
+        "test_geometry": {
+          "within_mse": 1.8643732257796668,
+          "between_centroid_distance": 640.3383024181479,
+          "separation_ratio": 343.4603616721449
+        }
+      },
+      "finetuned": {
+        "validation_accuracy": 0.9311974789915967,
+        "test_accuracy": 0.9463861554122837,
+        "test_geometry": {
+          "within_mse": 2.2615878910183667,
+          "between_centroid_distance": 737.7907192905142,
+          "separation_ratio": 326.2268613218899
+        }
+      },
+      "posthoc_vs_baseline_test": {
+        "accuracy_before": 0.9429928741092637,
+        "accuracy_after": 0.9453681710213777,
+        "difference": 0.002375296912114022,
+        "improve_count": 29,
+        "worsen_count": 22,
+        "unchanged_prediction_count": 2896
+      },
+      "finetuned_vs_baseline_test": {
+        "accuracy_before": 0.9429928741092637,
+        "accuracy_after": 0.9463861554122837,
+        "difference": 0.0033932813030199682,
+        "improve_count": 20,
+        "worsen_count": 10,
+        "unchanged_prediction_count": 2917
+      }
+    },
+    {
+      "seed": 31,
+      "selected_nodes": [
+        2,
+        5
+      ],
+      "baseline": {
+        "validation_accuracy": 0.9238445378151261,
+        "test_accuracy": 0.9433322022395657,
+        "test_geometry": {
+          "within_mse": 2.3148333810438038,
+          "between_centroid_distance": 634.9945415098704,
+          "separation_ratio": 274.31544175483543
+        }
+      },
+      "posthoc": {
+        "validation_accuracy": 0.928046218487395,
+        "test_accuracy": 0.9317950458092976,
+        "test_geometry": {
+          "within_mse": 2.2390122137291164,
+          "between_centroid_distance": 617.5162594073349,
+          "separation_ratio": 275.79852205399544
+        }
+      },
+      "finetuned": {
+        "validation_accuracy": 0.9254201680672269,
+        "test_accuracy": 0.9470648116728877,
+        "test_geometry": {
+          "within_mse": 2.5760326174390458,
+          "between_centroid_distance": 689.9174000319973,
+          "separation_ratio": 267.8216864807699
+        }
+      },
+      "posthoc_vs_baseline_test": {
+        "accuracy_before": 0.9433322022395657,
+        "accuracy_after": 0.9317950458092976,
+        "difference": -0.011537156430268092,
+        "improve_count": 21,
+        "worsen_count": 55,
+        "unchanged_prediction_count": 2871
+      },
+      "finetuned_vs_baseline_test": {
+        "accuracy_before": 0.9433322022395657,
+        "accuracy_after": 0.9470648116728877,
+        "difference": 0.0037326094333219872,
+        "improve_count": 24,
+        "worsen_count": 13,
+        "unchanged_prediction_count": 2906
+      }
+    }
+  ],
+  "baseline_mean_test_accuracy": 0.9434679334916865,
+  "posthoc_mean_test_accuracy": 0.9400746521886665,
+  "finetuned_mean_test_accuracy": 0.9462504241601628
+}

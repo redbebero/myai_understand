@@ -1,0 +1,4313 @@
+{
+  "settings": {
+    "architecture": "561\u219264\u219232\u21926",
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "train_epochs": 80,
+    "sample_gain": 1.0,
+    "centroid_gain": 0.5,
+    "iterations": 5
+  },
+  "summary": {
+    "baseline": {
+      "accuracy": 0.9425856803529011,
+      "mean_margin": 14.52011667596928,
+      "q10_margin": 3.44023682792168,
+      "min_margin": -27.265993434597373
+    },
+    "one_shot": {
+      "margin_inverse": {
+        "accuracy": 0.9414319647098746,
+        "mean_margin": 14.745060995355288,
+        "q10_margin": 3.3992981914601814,
+        "min_margin": -27.55815809473621,
+        "separation_ratio": 3.7930213968378,
+        "gate_change_fraction": 0.005167811479869423
+      },
+      "centroid_inverse": {
+        "accuracy": 0.9353919239904988,
+        "mean_margin": 14.871962575163082,
+        "q10_margin": 3.1786343997076774,
+        "min_margin": -24.825073872601443,
+        "separation_ratio": 3.508992523660235,
+        "gate_change_fraction": 0.054551199220166845
+      },
+      "random_same_norm": {
+        "accuracy": 0.9427214116050221,
+        "mean_margin": 14.519712540936904,
+        "q10_margin": 3.4580477947376607,
+        "min_margin": -27.288135614849324,
+        "separation_ratio": 3.7780926545385483,
+        "gate_change_fraction": 0.0005429361624954661
+      },
+      "gradient_same_norm": {
+        "accuracy": 0.9391923990498812,
+        "mean_margin": 14.446985053629572,
+        "q10_margin": 3.2701080269861023,
+        "min_margin": -25.408068603381416,
+        "separation_ratio": 3.787687726745564,
+        "gate_change_fraction": 0.009420055767138193
+      }
+    },
+    "iterative": {
+      "accuracy": [
+        0.9423820834747201,
+        0.9420427553444182,
+        0.9420427553444182,
+        0.9420427553444182,
+        0.9420427553444182
+      ],
+      "mean_margin": [
+        14.567334694108812,
+        14.618412503701814,
+        14.667224606420612,
+        14.72178620277204,
+        14.772856357715614
+      ],
+      "q10_margin": [
+        3.4524925773479267,
+        3.4213738728902143,
+        3.425508253129771,
+        3.428901524424512,
+        3.437869509439789
+      ]
+    }
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "target_descriptions": [
+        {
+          "kind": "low_margin_sample",
+          "index": 2301,
+          "label": 0,
+          "competitor": 1,
+          "margin": 7.072817387867404,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 1616,
+          "label": 1,
+          "competitor": 2,
+          "margin": 7.134801985506829,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 485,
+          "label": 2,
+          "competitor": 1,
+          "margin": 7.3242211184684205,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 2254,
+          "label": 3,
+          "competitor": 4,
+          "margin": 5.0628732293453265,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 5097,
+          "label": 4,
+          "competitor": 3,
+          "margin": 5.198078148616529,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4078,
+          "label": 5,
+          "competitor": 3,
+          "margin": 6.9469075447009025,
+          "gain": 1.0
+        },
+        {
+          "kind": "centroid",
+          "label": 0,
+          "competitor": 1,
+          "margin": 21.65240434916186,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 1,
+          "competitor": 5,
+          "margin": 18.51631445056361,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 2,
+          "competitor": 1,
+          "margin": 22.05295234527712,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 3,
+          "competitor": 5,
+          "margin": 15.94155093038406,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 4,
+          "competitor": 3,
+          "margin": 15.170338241498712,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 5,
+          "competitor": 3,
+          "margin": 18.3412239259492,
+          "gain": 0.5
+        }
+      ],
+      "jacobian_shape": [
+        12,
+        38017
+      ],
+      "baseline": {
+        "margin": {
+          "accuracy": 0.9436715303698676,
+          "mean_margin": 14.67415864490086,
+          "min_margin": -25.83726425369283,
+          "q10_margin": 3.532683022555518,
+          "confusion": [
+            [
+              492,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              22,
+              447,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              9,
+              28,
+              383,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              437,
+              51,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              21,
+              511,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              26,
+              511
+            ]
+          ]
+        },
+        "geometry": {
+          "within": 3.2098780845580013,
+          "between": 12.701613285051929,
+          "separation_ratio": 3.957039161754,
+          "nearest_centroid_accuracy": 0.9331523583305056,
+          "mean_pair_distance": 30.070021451669707
+        },
+        "dynamic_geometry": {
+          "within": 4.3947378134001145,
+          "between": 5.668949115673182,
+          "separation_ratio": 1.2899402322449898,
+          "nearest_centroid_accuracy": 0.9516943042537851,
+          "mean_pair_distance": 23.25210468361854
+        }
+      },
+      "one_shot": {
+        "margin_inverse": {
+          "margin": {
+            "accuracy": 0.9399389209365456,
+            "mean_margin": 14.873841492387722,
+            "min_margin": -26.615515268366078,
+            "q10_margin": 3.3310791350486197,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                25,
+                444,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                29,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                429,
+                59,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.235627351889567,
+            "between": 12.872675157601725,
+            "separation_ratio": 3.9784170912278385,
+            "nearest_centroid_accuracy": 0.9334916864608076,
+            "mean_pair_distance": 30.26819699446721
+          },
+          "dynamic_geometry": {
+            "within": 4.416083326943844,
+            "between": 5.675509729298914,
+            "separation_ratio": 1.285190814827006,
+            "nearest_centroid_accuracy": 0.9509733237202596,
+            "mean_pair_distance": 23.267303548679035
+          },
+          "delta_norm": 0.0492059775040778,
+          "gate_change_fraction": 0.004827201215088865
+        },
+        "centroid_inverse": {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 15.769470429740931,
+            "min_margin": -25.42912617892959,
+            "q10_margin": 4.192836355189402,
+            "confusion": [
+              [
+                491,
+                0,
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                456,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                10,
+                30,
+                380,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                426,
+                62,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                15,
+                517,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.558870815824841,
+            "between": 13.767809831768213,
+            "separation_ratio": 3.8685893768743727,
+            "nearest_centroid_accuracy": 0.9348489989820156,
+            "mean_pair_distance": 31.369147223508026
+          },
+          "dynamic_geometry": {
+            "within": 5.115020251286393,
+            "between": 7.876932455226771,
+            "separation_ratio": 1.5399611474159416,
+            "nearest_centroid_accuracy": 0.9538572458543619,
+            "mean_pair_distance": 27.407332277129196
+          },
+          "delta_norm": 0.5718165536351711,
+          "gate_change_fraction": 0.025389916575988394
+        },
+        "random_same_norm": {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 14.669582324751696,
+            "min_margin": -25.84551003880016,
+            "q10_margin": 3.527208246170498,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                447,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                437,
+                51,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                21,
+                511,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.209009750825475,
+            "between": 12.697944144604847,
+            "separation_ratio": 3.9569665194499546,
+            "nearest_centroid_accuracy": 0.9331523583305056,
+            "mean_pair_distance": 30.066007379306914
+          },
+          "dynamic_geometry": {
+            "within": 4.392137198480483,
+            "between": 5.6652931258715,
+            "separation_ratio": 1.289871620547619,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 23.24423684136178
+          },
+          "delta_norm": 0.046510573156346914,
+          "gate_change_fraction": 0.0004123027747551687
+        },
+        "gradient_same_norm": {
+          "margin": {
+            "accuracy": 0.9419748897183576,
+            "mean_margin": 14.66805627569928,
+            "min_margin": -24.22119900506071,
+            "q10_margin": 3.507761986227795,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                447,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                452,
+                36,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                41,
+                491,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.239539799633553,
+            "between": 12.826178497329233,
+            "separation_ratio": 3.959259429002876,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 30.22643266834507
+          },
+          "dynamic_geometry": {
+            "within": 4.408731081343305,
+            "between": 5.660107754092898,
+            "separation_ratio": 1.283840554041756,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 23.234972631327253
+          },
+          "delta_norm": 0.04650859369646798,
+          "gate_change_fraction": 0.008036361987667755
+        }
+      },
+      "iterative": [
+        {
+          "margin": {
+            "accuracy": 0.9433322022395657,
+            "mean_margin": 14.716976532146727,
+            "min_margin": -25.99274611650185,
+            "q10_margin": 3.573349520436047,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                446,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                436,
+                52,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.2147408629649115,
+            "between": 12.735287280563321,
+            "separation_ratio": 3.9615284165759292,
+            "nearest_centroid_accuracy": 0.9334916864608076,
+            "mean_pair_distance": 30.10929244185026
+          },
+          "dynamic_geometry": {
+            "within": 4.398546298411717,
+            "between": 5.670410121726998,
+            "separation_ratio": 1.2891554929806108,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 23.255554384856485
+          },
+          "iteration": 1,
+          "step_norm": 0.009301718739293613,
+          "gate_change_fraction": 0.0009464544795067102
+        },
+        {
+          "margin": {
+            "accuracy": 0.9416355615880556,
+            "mean_margin": 14.765493854836127,
+            "min_margin": -26.116137149139,
+            "q10_margin": 3.4145771386197548,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                446,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                431,
+                57,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.225376051284099,
+            "between": 12.781804581192262,
+            "separation_ratio": 3.962888164964058,
+            "nearest_centroid_accuracy": 0.9334916864608076,
+            "mean_pair_distance": 30.16582343708434
+          },
+          "dynamic_geometry": {
+            "within": 4.418345584819293,
+            "between": 5.704906205965614,
+            "separation_ratio": 1.2911860551530263,
+            "nearest_centroid_accuracy": 0.9509733237202596,
+            "mean_pair_distance": 23.32759029083498
+          },
+          "iteration": 2,
+          "step_norm": 0.012054040478106456,
+          "gate_change_fraction": 0.0015330295611171564
+        },
+        {
+          "margin": {
+            "accuracy": 0.9426535459789617,
+            "mean_margin": 14.814088727408578,
+            "min_margin": -26.226388653692368,
+            "q10_margin": 3.4719141331883416,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                446,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                432,
+                56,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                18,
+                514,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.230299857816112,
+            "between": 12.8228894300558,
+            "separation_ratio": 3.9695662924385258,
+            "nearest_centroid_accuracy": 0.9334916864608076,
+            "mean_pair_distance": 30.21426510523022
+          },
+          "dynamic_geometry": {
+            "within": 4.423673484513864,
+            "between": 5.710085930828103,
+            "separation_ratio": 1.290801852988842,
+            "nearest_centroid_accuracy": 0.9509733237202596,
+            "mean_pair_distance": 23.33855234679025
+          },
+          "iteration": 3,
+          "step_norm": 0.009794700313644517,
+          "gate_change_fraction": 0.002269790533188248
+        },
+        {
+          "margin": {
+            "accuracy": 0.9423142178486597,
+            "mean_margin": 14.870621174292104,
+            "min_margin": -26.310403750157974,
+            "q10_margin": 3.4464640625908145,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                446,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                431,
+                57,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                18,
+                514,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.2425822909928947,
+            "between": 12.885796321044225,
+            "separation_ratio": 3.973930393944923,
+            "nearest_centroid_accuracy": 0.9334916864608076,
+            "mean_pair_distance": 30.290765789643515
+          },
+          "dynamic_geometry": {
+            "within": 4.441981197773209,
+            "between": 5.744547985540888,
+            "separation_ratio": 1.2932400498274652,
+            "nearest_centroid_accuracy": 0.9509733237202596,
+            "mean_pair_distance": 23.410587270689273
+          },
+          "iteration": 4,
+          "step_norm": 0.013455059062187712,
+          "gate_change_fraction": 0.002658006891548785
+        },
+        {
+          "margin": {
+            "accuracy": 0.9416355615880556,
+            "mean_margin": 14.920467853304174,
+            "min_margin": -26.502788010650384,
+            "q10_margin": 3.446680570976887,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                446,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                28,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                429,
+                59,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                18,
+                514,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.2530716508343094,
+            "between": 12.941518341304203,
+            "separation_ratio": 3.978245710630172,
+            "nearest_centroid_accuracy": 0.9331523583305056,
+            "mean_pair_distance": 30.35445483568718
+          },
+          "dynamic_geometry": {
+            "within": 4.458226491311866,
+            "between": 5.756221744602866,
+            "separation_ratio": 1.2911460994232833,
+            "nearest_centroid_accuracy": 0.9509733237202596,
+            "mean_pair_distance": 23.43442649805237
+          },
+          "iteration": 5,
+          "step_norm": 0.012303958685691079,
+          "gate_change_fraction": 0.0034401070003627133
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "target_descriptions": [
+        {
+          "kind": "low_margin_sample",
+          "index": 2301,
+          "label": 0,
+          "competitor": 1,
+          "margin": 6.683780412454637,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 7160,
+          "label": 1,
+          "competitor": 3,
+          "margin": 7.077285738436277,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 2011,
+          "label": 2,
+          "competitor": 1,
+          "margin": 6.981651307761387,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 3492,
+          "label": 3,
+          "competitor": 4,
+          "margin": 5.604131045656432,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 5495,
+          "label": 4,
+          "competitor": 3,
+          "margin": 5.567996551311831,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 6338,
+          "label": 5,
+          "competitor": 4,
+          "margin": 6.593130918644196,
+          "gain": 1.0
+        },
+        {
+          "kind": "centroid",
+          "label": 0,
+          "competitor": 5,
+          "margin": 18.43933076435242,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 1,
+          "competitor": 2,
+          "margin": 18.180256818685198,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 2,
+          "competitor": 1,
+          "margin": 21.60092800907915,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 3,
+          "competitor": 5,
+          "margin": 17.31892355652412,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 4,
+          "competitor": 3,
+          "margin": 17.540999428946673,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 5,
+          "competitor": 2,
+          "margin": 20.787290510774763,
+          "gain": 0.5
+        }
+      ],
+      "jacobian_shape": [
+        12,
+        38017
+      ],
+      "baseline": {
+        "margin": {
+          "accuracy": 0.9457074991516796,
+          "mean_margin": 14.15159724168799,
+          "min_margin": -28.191437489909816,
+          "q10_margin": 3.5034417595483527,
+          "confusion": [
+            [
+              492,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              18,
+              449,
+              3,
+              0,
+              1,
+              0
+            ],
+            [
+              10,
+              18,
+              392,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              433,
+              54,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              21,
+              511,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              27,
+              510
+            ]
+          ]
+        },
+        "geometry": {
+          "within": 2.394817318855102,
+          "between": 9.650406596161503,
+          "separation_ratio": 4.0297046961290155,
+          "nearest_centroid_accuracy": 0.9372242958941296,
+          "mean_pair_distance": 26.264837105648606
+        },
+        "dynamic_geometry": {
+          "within": 2.810405769704578,
+          "between": 3.164756650081296,
+          "separation_ratio": 1.1260853091736878,
+          "nearest_centroid_accuracy": 0.946647440519106,
+          "mean_pair_distance": 17.365012285725296
+        }
+      },
+      "one_shot": {
+        "margin_inverse": {
+          "margin": {
+            "accuracy": 0.9453681710213777,
+            "mean_margin": 14.324549955960826,
+            "min_margin": -28.14611499374417,
+            "q10_margin": 3.4824511278301777,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                449,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                18,
+                391,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                429,
+                58,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                17,
+                515,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.439765681548057,
+            "between": 9.844773502873204,
+            "separation_ratio": 4.035130741172895,
+            "nearest_centroid_accuracy": 0.9389209365456397,
+            "mean_pair_distance": 26.536799094982523
+          },
+          "dynamic_geometry": {
+            "within": 2.8720633553343604,
+            "between": 3.236488243676568,
+            "separation_ratio": 1.1268860896349489,
+            "nearest_centroid_accuracy": 0.9480894015861572,
+            "mean_pair_distance": 17.56592085965868
+          },
+          "delta_norm": 0.062293089424281765,
+          "gate_change_fraction": 0.004936298512876315
+        },
+        "centroid_inverse": {
+          "margin": {
+            "accuracy": 0.9423142178486597,
+            "mean_margin": 14.453941909361962,
+            "min_margin": -21.370666634767716,
+            "q10_margin": 3.9062118421771457,
+            "confusion": [
+              [
+                490,
+                0,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                447,
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                13,
+                21,
+                386,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                454,
+                34,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                46,
+                486,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                23,
+                514
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.544103527148112,
+            "between": 9.760204674084669,
+            "separation_ratio": 3.8364023200839075,
+            "nearest_centroid_accuracy": 0.9399389209365456,
+            "mean_pair_distance": 26.53995523921863
+          },
+          "dynamic_geometry": {
+            "within": 3.201075740218677,
+            "between": 4.296078392830121,
+            "separation_ratio": 1.3420733345524154,
+            "nearest_centroid_accuracy": 0.9488103821196827,
+            "mean_pair_distance": 20.240845235825763
+          },
+          "delta_norm": 1.4706103206260976,
+          "gate_change_fraction": 0.047787450126949585
+        },
+        "random_same_norm": {
+          "margin": {
+            "accuracy": 0.9457074991516796,
+            "mean_margin": 14.147574690570227,
+            "min_margin": -28.245056883299746,
+            "q10_margin": 3.527935126470515,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                449,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                10,
+                18,
+                392,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                433,
+                54,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                21,
+                511,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.393245195998002,
+            "between": 9.643277603622272,
+            "separation_ratio": 4.0293730119035915,
+            "nearest_centroid_accuracy": 0.9372242958941296,
+            "mean_pair_distance": 26.254730803067616
+          },
+          "dynamic_geometry": {
+            "within": 2.808000570579001,
+            "between": 3.1598862434773096,
+            "separation_ratio": 1.1253153851125288,
+            "nearest_centroid_accuracy": 0.946647440519106,
+            "mean_pair_distance": 17.351524756404377
+          },
+          "delta_norm": 0.05815022975464654,
+          "gate_change_fraction": 0.0005879919296336598
+        },
+        "gradient_same_norm": {
+          "margin": {
+            "accuracy": 0.9440108585001696,
+            "mean_margin": 14.024843572769413,
+            "min_margin": -24.735183680166507,
+            "q10_margin": 3.8155690300905403,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                19,
+                447,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                17,
+                394,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                454,
+                34,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                48,
+                484,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                26,
+                511
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.4083136871242643,
+            "between": 9.620243048995489,
+            "separation_ratio": 3.994597174125973,
+            "nearest_centroid_accuracy": 0.9375636240244316,
+            "mean_pair_distance": 26.216730966452246
+          },
+          "dynamic_geometry": {
+            "within": 2.835702631515833,
+            "between": 3.1559106430945065,
+            "separation_ratio": 1.1129201658946537,
+            "nearest_centroid_accuracy": 0.9473684210526315,
+            "mean_pair_distance": 17.33666960707807
+          },
+          "delta_norm": 0.058147339730156636,
+          "gate_change_fraction": 0.009630316013783098
+        }
+      },
+      "iterative": [
+        {
+          "margin": {
+            "accuracy": 0.9453681710213777,
+            "mean_margin": 14.188771680090865,
+            "min_margin": -28.18219045399691,
+            "q10_margin": 3.4991794598714367,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                449,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                18,
+                391,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                433,
+                54,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                21,
+                511,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.4036265471005454,
+            "between": 9.688951593207669,
+            "separation_ratio": 4.030972117900466,
+            "nearest_centroid_accuracy": 0.9379029521547336,
+            "mean_pair_distance": 26.319117392212334
+          },
+          "dynamic_geometry": {
+            "within": 2.8225344824787544,
+            "between": 3.1791356236560446,
+            "separation_ratio": 1.1263407562922394,
+            "nearest_centroid_accuracy": 0.9473684210526315,
+            "mean_pair_distance": 17.405469296457955
+          },
+          "iteration": 1,
+          "step_norm": 0.011629467946031318,
+          "gate_change_fraction": 0.0010116294885745376
+        },
+        {
+          "margin": {
+            "accuracy": 0.9453681710213777,
+            "mean_margin": 14.23183016177687,
+            "min_margin": -28.41923924254082,
+            "q10_margin": 3.4442284880030996,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                19,
+                448,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                18,
+                391,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                433,
+                54,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.4137399150110475,
+            "between": 9.722844870961458,
+            "separation_ratio": 4.028124492823394,
+            "nearest_centroid_accuracy": 0.9379029521547336,
+            "mean_pair_distance": 26.366171350718066
+          },
+          "dynamic_geometry": {
+            "within": 2.8331342318244466,
+            "between": 3.192103461780281,
+            "separation_ratio": 1.1267039259642386,
+            "nearest_centroid_accuracy": 0.9473684210526315,
+            "mean_pair_distance": 17.44176361730894
+          },
+          "iteration": 2,
+          "step_norm": 0.011381393096828417,
+          "gate_change_fraction": 0.0017951464454116794
+        },
+        {
+          "margin": {
+            "accuracy": 0.9450288428910757,
+            "mean_margin": 14.2652881042918,
+            "min_margin": -28.53289712092516,
+            "q10_margin": 3.422797131520132,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                19,
+                448,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                19,
+                390,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                433,
+                54,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.4222906973476275,
+            "between": 9.756934070498152,
+            "separation_ratio": 4.02797817833419,
+            "nearest_centroid_accuracy": 0.9382422802850356,
+            "mean_pair_distance": 26.414199323070225
+          },
+          "dynamic_geometry": {
+            "within": 2.847496444816604,
+            "between": 3.2072962318919043,
+            "separation_ratio": 1.1263565360126282,
+            "nearest_centroid_accuracy": 0.9473684210526315,
+            "mean_pair_distance": 17.484004629365234
+          },
+          "iteration": 3,
+          "step_norm": 0.011435059622358142,
+          "gate_change_fraction": 0.002300961189698948
+        },
+        {
+          "margin": {
+            "accuracy": 0.9453681710213777,
+            "mean_margin": 14.32014420910573,
+            "min_margin": -28.610686161904944,
+            "q10_margin": 3.467025101822123,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                449,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                19,
+                390,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                433,
+                54,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                20,
+                512,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.4288719669211347,
+            "between": 9.789340988905135,
+            "separation_ratio": 4.030406345919589,
+            "nearest_centroid_accuracy": 0.9385816084153377,
+            "mean_pair_distance": 26.4599332499994
+          },
+          "dynamic_geometry": {
+            "within": 2.8529889289600625,
+            "between": 3.2183596670437336,
+            "separation_ratio": 1.128065950195205,
+            "nearest_centroid_accuracy": 0.9480894015861572,
+            "mean_pair_distance": 17.51658034474413
+          },
+          "iteration": 4,
+          "step_norm": 0.011149605477542651,
+          "gate_change_fraction": 0.002836529742473703
+        },
+        {
+          "margin": {
+            "accuracy": 0.9453681710213777,
+            "mean_margin": 14.363454197461197,
+            "min_margin": -28.793352022655085,
+            "q10_margin": 3.4865972144500237,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                449,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                11,
+                19,
+                390,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                432,
+                55,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                19,
+                513,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.439610640029166,
+            "between": 9.830654749421278,
+            "separation_ratio": 4.02959988291564,
+            "nearest_centroid_accuracy": 0.9382422802850356,
+            "mean_pair_distance": 26.517247954492955
+          },
+          "dynamic_geometry": {
+            "within": 2.8718153209635546,
+            "between": 3.2387057573978844,
+            "separation_ratio": 1.12775558155015,
+            "nearest_centroid_accuracy": 0.9473684210526315,
+            "mean_pair_distance": 17.571518977684267
+          },
+          "iteration": 5,
+          "step_norm": 0.010204041106341757,
+          "gate_change_fraction": 0.0032927548059484947
+        }
+      ]
+    },
+    {
+      "seed": 19,
+      "target_descriptions": [
+        {
+          "kind": "low_margin_sample",
+          "index": 3747,
+          "label": 0,
+          "competitor": 2,
+          "margin": 6.888671489867924,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 1616,
+          "label": 1,
+          "competitor": 2,
+          "margin": 7.074718240845252,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4864,
+          "label": 2,
+          "competitor": 0,
+          "margin": 6.732042758916906,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 6511,
+          "label": 3,
+          "competitor": 4,
+          "margin": 5.25881869088826,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 5495,
+          "label": 4,
+          "competitor": 3,
+          "margin": 4.486722845815293,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 3496,
+          "label": 5,
+          "competitor": 3,
+          "margin": 6.644810316395212,
+          "gain": 1.0
+        },
+        {
+          "kind": "centroid",
+          "label": 0,
+          "competitor": 2,
+          "margin": 19.708265495043573,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 1,
+          "competitor": 0,
+          "margin": 18.58325726787214,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 2,
+          "competitor": 1,
+          "margin": 21.1162856392982,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 3,
+          "competitor": 4,
+          "margin": 17.403505872796515,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 4,
+          "competitor": 3,
+          "margin": 15.86625156579338,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 5,
+          "competitor": 3,
+          "margin": 20.606705046971904,
+          "gain": 0.5
+        }
+      ],
+      "jacobian_shape": [
+        12,
+        38017
+      ],
+      "baseline": {
+        "margin": {
+          "accuracy": 0.9433322022395657,
+          "mean_margin": 14.396389488206676,
+          "min_margin": -24.214914240026296,
+          "q10_margin": 3.5659061938996754,
+          "confusion": [
+            [
+              495,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              23,
+              443,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              7,
+              31,
+              382,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              444,
+              44,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              29,
+              503,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              24,
+              513
+            ]
+          ]
+        },
+        "geometry": {
+          "within": 2.6063980338509025,
+          "between": 9.72140183636482,
+          "separation_ratio": 3.729822425472612,
+          "nearest_centroid_accuracy": 0.9416355615880556,
+          "mean_pair_distance": 26.561924276078063
+        },
+        "dynamic_geometry": {
+          "within": 3.0926600120911947,
+          "between": 3.9093121491494496,
+          "separation_ratio": 1.2640614014684566,
+          "nearest_centroid_accuracy": 0.958904109589041,
+          "mean_pair_distance": 19.277556629686938
+        }
+      },
+      "one_shot": {
+        "margin_inverse": {
+          "margin": {
+            "accuracy": 0.9440108585001696,
+            "mean_margin": 14.66396614890734,
+            "min_margin": -24.758345795959308,
+            "q10_margin": 3.6264454298177604,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                21,
+                446,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                8,
+                30,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                442,
+                46,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                23,
+                514
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.654299755887806,
+            "between": 9.860945996871893,
+            "separation_ratio": 3.7150837899895066,
+            "nearest_centroid_accuracy": 0.9416355615880556,
+            "mean_pair_distance": 26.771807990945955
+          },
+          "dynamic_geometry": {
+            "within": 3.1383657100019455,
+            "between": 4.053934703757989,
+            "separation_ratio": 1.291734322369803,
+            "nearest_centroid_accuracy": 0.9596250901225667,
+            "mean_pair_distance": 19.640030918613533
+          },
+          "delta_norm": 0.0668541548061551,
+          "gate_change_fraction": 0.005184246916938701
+        },
+        "centroid_inverse": {
+          "margin": {
+            "accuracy": 0.9460468272819816,
+            "mean_margin": 15.539727689614784,
+            "min_margin": -21.432694642601746,
+            "q10_margin": 4.125273025873438,
+            "confusion": [
+              [
+                492,
+                0,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                17,
+                450,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                10,
+                28,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                446,
+                41,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                32,
+                500,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                19,
+                518
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.8083982463436192,
+            "between": 10.44135919649021,
+            "separation_ratio": 3.717905468031212,
+            "nearest_centroid_accuracy": 0.9419748897183576,
+            "mean_pair_distance": 27.638795554362353
+          },
+          "dynamic_geometry": {
+            "within": 3.528763348514096,
+            "between": 5.528631048205585,
+            "separation_ratio": 1.5667333006430144,
+            "nearest_centroid_accuracy": 0.9567411679884643,
+            "mean_pair_distance": 22.934265183792746
+          },
+          "delta_norm": 0.6063909801046676,
+          "gate_change_fraction": 0.029368425825172288
+        },
+        "random_same_norm": {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 14.403737463626067,
+            "min_margin": -24.23738892889138,
+            "q10_margin": 3.5962324630951277,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                31,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                444,
+                44,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.608024971373193,
+            "between": 9.725826647009095,
+            "separation_ratio": 3.7291923021305253,
+            "nearest_centroid_accuracy": 0.9416355615880556,
+            "mean_pair_distance": 26.56755520220328
+          },
+          "dynamic_geometry": {
+            "within": 3.0935878987757186,
+            "between": 3.909234990125526,
+            "separation_ratio": 1.2636573189572529,
+            "nearest_centroid_accuracy": 0.958904109589041,
+            "mean_pair_distance": 19.277810952431967
+          },
+          "delta_norm": 0.0629771535087434,
+          "gate_change_fraction": 0.0006205794341675734
+        },
+        "gradient_same_norm": {
+          "margin": {
+            "accuracy": 0.9334916864608076,
+            "mean_margin": 14.349949729382091,
+            "min_margin": -27.47807557826888,
+            "q10_margin": 2.5790166667546264,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                27,
+                440,
+                3,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                32,
+                379,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                399,
+                89,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                526,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.6015812632394373,
+            "between": 9.596926609843992,
+            "separation_ratio": 3.688882121596344,
+            "nearest_centroid_accuracy": 0.9402782490668476,
+            "mean_pair_distance": 26.419740951894614
+          },
+          "dynamic_geometry": {
+            "within": 3.07771920437116,
+            "between": 3.87939273906793,
+            "separation_ratio": 1.2604765027160976,
+            "nearest_centroid_accuracy": 0.9581831290555155,
+            "mean_pair_distance": 19.203283365140944
+          },
+          "delta_norm": 0.06291625176352866,
+          "gate_change_fraction": 0.010406748730504171
+        }
+      },
+      "iterative": [
+        {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 14.452548032578699,
+            "min_margin": -24.38869350526825,
+            "q10_margin": 3.5955040730943466,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                31,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                444,
+                44,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.615765738567611,
+            "between": 9.748820336522586,
+            "separation_ratio": 3.726947024644884,
+            "nearest_centroid_accuracy": 0.9416355615880556,
+            "mean_pair_distance": 26.60352330180464
+          },
+          "dynamic_geometry": {
+            "within": 3.1015026936048335,
+            "between": 3.938051340601108,
+            "separation_ratio": 1.2697236564460195,
+            "nearest_centroid_accuracy": 0.958904109589041,
+            "mean_pair_distance": 19.35011694740282
+          },
+          "iteration": 1,
+          "step_norm": 0.01258325035270575,
+          "gate_change_fraction": 0.0010541349292709466
+        },
+        {
+          "margin": {
+            "accuracy": 0.9440108585001696,
+            "mean_margin": 14.505736982738908,
+            "min_margin": -24.446884524401046,
+            "q10_margin": 3.5961277295453917,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                30,
+                383,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                444,
+                44,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.628298474009101,
+            "between": 9.782333817330025,
+            "separation_ratio": 3.7219265292988,
+            "nearest_centroid_accuracy": 0.9416355615880556,
+            "mean_pair_distance": 26.65228998891853
+          },
+          "dynamic_geometry": {
+            "within": 3.117749065855851,
+            "between": 3.9654136581321104,
+            "separation_ratio": 1.2718835205692116,
+            "nearest_centroid_accuracy": 0.958904109589041,
+            "mean_pair_distance": 19.418013987764642
+          },
+          "iteration": 2,
+          "step_norm": 0.01246861240082884,
+          "gate_change_fraction": 0.0015585328255350017
+        },
+        {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 14.562016249896393,
+            "min_margin": -24.493121919229935,
+            "q10_margin": 3.6005686818475136,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                31,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                444,
+                44,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.6395036368625555,
+            "between": 9.812711641576534,
+            "separation_ratio": 3.717635204034198,
+            "nearest_centroid_accuracy": 0.9409569053274517,
+            "mean_pair_distance": 26.697166286676534
+          },
+          "dynamic_geometry": {
+            "within": 3.130958300565181,
+            "between": 3.9952005848121352,
+            "separation_ratio": 1.2760312343000375,
+            "nearest_centroid_accuracy": 0.9581831290555155,
+            "mean_pair_distance": 19.492049219688916
+          },
+          "iteration": 3,
+          "step_norm": 0.013082464703432878,
+          "gate_change_fraction": 0.0023207970620239392
+        },
+        {
+          "margin": {
+            "accuracy": 0.9436715303698676,
+            "mean_margin": 14.620090866955376,
+            "min_margin": -24.52556697797856,
+            "q10_margin": 3.585021804398214,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                31,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                444,
+                44,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                24,
+                513
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.6540544378650415,
+            "between": 9.854300941562746,
+            "separation_ratio": 3.7129234430811766,
+            "nearest_centroid_accuracy": 0.9412962334577536,
+            "mean_pair_distance": 26.756987469445747
+          },
+          "dynamic_geometry": {
+            "within": 3.1492849124513476,
+            "between": 4.026885594428136,
+            "separation_ratio": 1.278666651755455,
+            "nearest_centroid_accuracy": 0.958904109589041,
+            "mean_pair_distance": 19.56939265394209
+          },
+          "iteration": 4,
+          "step_norm": 0.012577178972218495,
+          "gate_change_fraction": 0.0029257911679361624
+        },
+        {
+          "margin": {
+            "accuracy": 0.9440108585001696,
+            "mean_margin": 14.678178362700951,
+            "min_margin": -24.499649684855548,
+            "q10_margin": 3.588187074784883,
+            "confusion": [
+              [
+                495,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                21,
+                445,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                7,
+                31,
+                382,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                443,
+                45,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                29,
+                503,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                23,
+                514
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.667428393684336,
+            "between": 9.895594885101495,
+            "separation_ratio": 3.7097883896457247,
+            "nearest_centroid_accuracy": 0.9416355615880556,
+            "mean_pair_distance": 26.81604935751809
+          },
+          "dynamic_geometry": {
+            "within": 3.166135485274538,
+            "between": 4.063654222856176,
+            "separation_ratio": 1.2834745202016562,
+            "nearest_centroid_accuracy": 0.9581831290555155,
+            "mean_pair_distance": 19.657809321374177
+          },
+          "iteration": 5,
+          "step_norm": 0.012665804327171177,
+          "gate_change_fraction": 0.00373481138919115
+        }
+      ]
+    },
+    {
+      "seed": 23,
+      "target_descriptions": [
+        {
+          "kind": "low_margin_sample",
+          "index": 2301,
+          "label": 0,
+          "competitor": 1,
+          "margin": 6.966928202032418,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 1138,
+          "label": 1,
+          "competitor": 0,
+          "margin": 7.101813550273457,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4864,
+          "label": 2,
+          "competitor": 0,
+          "margin": 7.562149504616177,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 3492,
+          "label": 3,
+          "competitor": 4,
+          "margin": 5.399287888727387,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4885,
+          "label": 4,
+          "competitor": 3,
+          "margin": 5.160038749610532,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 6330,
+          "label": 5,
+          "competitor": 4,
+          "margin": 7.122296412524177,
+          "gain": 1.0
+        },
+        {
+          "kind": "centroid",
+          "label": 0,
+          "competitor": 1,
+          "margin": 19.214485842589315,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 1,
+          "competitor": 5,
+          "margin": 17.790643529724505,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 2,
+          "competitor": 1,
+          "margin": 23.45956022317614,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 3,
+          "competitor": 5,
+          "margin": 17.54699167817987,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 4,
+          "competitor": 3,
+          "margin": 16.780894122858637,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 5,
+          "competitor": 1,
+          "margin": 18.730102362457895,
+          "gain": 0.5
+        }
+      ],
+      "jacobian_shape": [
+        12,
+        38017
+      ],
+      "baseline": {
+        "margin": {
+          "accuracy": 0.9395995928062436,
+          "mean_margin": 14.053866769310218,
+          "min_margin": -30.689204025974824,
+          "q10_margin": 3.3810188967360477,
+          "confusion": [
+            [
+              488,
+              5,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              21,
+              445,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              9,
+              32,
+              379,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              429,
+              58,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              14,
+              518,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              27,
+              510
+            ]
+          ]
+        },
+        "geometry": {
+          "within": 2.5442297837756818,
+          "between": 9.809260597661149,
+          "separation_ratio": 3.8554931870595563,
+          "nearest_centroid_accuracy": 0.9365456396335257,
+          "mean_pair_distance": 26.623496070049757
+        },
+        "dynamic_geometry": {
+          "within": 2.9143691439176735,
+          "between": 3.637945014681447,
+          "separation_ratio": 1.2482787303296445,
+          "nearest_centroid_accuracy": 0.9524152847873107,
+          "mean_pair_distance": 18.585155110543344
+        }
+      },
+      "one_shot": {
+        "margin_inverse": {
+          "margin": {
+            "accuracy": 0.9379029521547336,
+            "mean_margin": 14.304658993910826,
+            "min_margin": -31.125815710995713,
+            "q10_margin": 3.362009658474012,
+            "confusion": [
+              [
+                488,
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                443,
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                427,
+                61,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                30,
+                507
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.5844367108607544,
+            "between": 10.077176663984108,
+            "separation_ratio": 3.8991771869034757,
+            "nearest_centroid_accuracy": 0.9358669833729216,
+            "mean_pair_distance": 26.979059296477715
+          },
+          "dynamic_geometry": {
+            "within": 2.9712971859216033,
+            "between": 3.710992759501599,
+            "separation_ratio": 1.2489470178495676,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 18.767793081118082
+          },
+          "delta_norm": 0.05586133650001387,
+          "gate_change_fraction": 0.005515789354370693
+        },
+        "centroid_inverse": {
+          "margin": {
+            "accuracy": 0.9321343739395996,
+            "mean_margin": 14.228858418779176,
+            "min_margin": -27.45879171369405,
+            "q10_margin": 2.7789051892474097,
+            "confusion": [
+              [
+                493,
+                0,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                32,
+                439,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                12,
+                41,
+                367,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                453,
+                34,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                47,
+                485,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.8790974724372926,
+            "between": 10.270943982586852,
+            "separation_ratio": 3.567417942919456,
+            "nearest_centroid_accuracy": 0.9311163895486936,
+            "mean_pair_distance": 27.35922234114109
+          },
+          "dynamic_geometry": {
+            "within": 3.5785387334014422,
+            "between": 4.790867605804715,
+            "separation_ratio": 1.3387776304019323,
+            "nearest_centroid_accuracy": 0.9480894015861572,
+            "mean_pair_distance": 21.347365310643436
+          },
+          "delta_norm": 1.0979951029917858,
+          "gate_change_fraction": 0.051751790895901345
+        },
+        "random_same_norm": {
+          "margin": {
+            "accuracy": 0.9395995928062436,
+            "mean_margin": 14.05507789690603,
+            "min_margin": -30.695041486722474,
+            "q10_margin": 3.4059520192482644,
+            "confusion": [
+              [
+                488,
+                5,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                21,
+                445,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                32,
+                379,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                429,
+                58,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.544483655314592,
+            "between": 9.807749651369653,
+            "separation_ratio": 3.8545146992335675,
+            "nearest_centroid_accuracy": 0.9368849677638276,
+            "mean_pair_distance": 26.62177388556631
+          },
+          "dynamic_geometry": {
+            "within": 2.9144657501642803,
+            "between": 3.638189193505525,
+            "separation_ratio": 1.2483211351172854,
+            "nearest_centroid_accuracy": 0.9531362653208363,
+            "mean_pair_distance": 18.58611646981664
+          },
+          "delta_norm": 0.051162596610247295,
+          "gate_change_fraction": 0.0005341517047515415
+        },
+        "gradient_same_norm": {
+          "margin": {
+            "accuracy": 0.9392602646759416,
+            "mean_margin": 13.916055571955638,
+            "min_margin": -27.41586405102687,
+            "q10_margin": 3.336334685444236,
+            "confusion": [
+              [
+                487,
+                6,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                21,
+                447,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                32,
+                379,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                448,
+                39,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                35,
+                497,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                27,
+                510
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.5668389761230372,
+            "between": 9.94146071313998,
+            "separation_ratio": 3.873036371044824,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 26.797407383148588
+          },
+          "dynamic_geometry": {
+            "within": 2.9522559226783254,
+            "between": 3.6724719752619372,
+            "separation_ratio": 1.2439544780149758,
+            "nearest_centroid_accuracy": 0.9524152847873107,
+            "mean_pair_distance": 18.67556987242047
+          },
+          "delta_norm": 0.051149543239580104,
+          "gate_change_fraction": 0.009434790986579615
+        }
+      },
+      "iterative": [
+        {
+          "margin": {
+            "accuracy": 0.9392602646759416,
+            "mean_margin": 14.105484654927627,
+            "min_margin": -30.775978266099948,
+            "q10_margin": 3.3856949349114314,
+            "confusion": [
+              [
+                488,
+                5,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                22,
+                444,
+                4,
+                0,
+                1,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                429,
+                59,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                29,
+                508
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.5520972498285324,
+            "between": 9.86257628574721,
+            "separation_ratio": 3.8644986143885567,
+            "nearest_centroid_accuracy": 0.9368849677638276,
+            "mean_pair_distance": 26.69470228296416
+          },
+          "dynamic_geometry": {
+            "within": 2.9254707674926137,
+            "between": 3.652706784315354,
+            "separation_ratio": 1.248587688827274,
+            "nearest_centroid_accuracy": 0.9531362653208363,
+            "mean_pair_distance": 18.622223422465023
+          },
+          "iteration": 1,
+          "step_norm": 0.010229908647915995,
+          "gate_change_fraction": 0.0011561479869423286
+        },
+        {
+          "margin": {
+            "accuracy": 0.9385816084153377,
+            "mean_margin": 14.164311019608853,
+            "min_margin": -30.97774367754441,
+            "q10_margin": 3.4081883685834016,
+            "confusion": [
+              [
+                487,
+                5,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                444,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                428,
+                60,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                29,
+                508
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.558722239139131,
+            "between": 9.914465665465668,
+            "separation_ratio": 3.8747721475236556,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 26.76370758300515
+          },
+          "dynamic_geometry": {
+            "within": 2.932563422109967,
+            "between": 3.6635212599873985,
+            "separation_ratio": 1.2492555940534478,
+            "nearest_centroid_accuracy": 0.9524152847873107,
+            "mean_pair_distance": 18.64844559026308
+          },
+          "iteration": 2,
+          "step_norm": 0.011194383410120147,
+          "gate_change_fraction": 0.002105436162495466
+        },
+        {
+          "margin": {
+            "accuracy": 0.9389209365456397,
+            "mean_margin": 14.21529083107676,
+            "min_margin": -31.05680637391731,
+            "q10_margin": 3.4163709630201957,
+            "confusion": [
+              [
+                488,
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                444,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                428,
+                60,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                29,
+                508
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.5655784135023905,
+            "between": 9.966971427891721,
+            "separation_ratio": 3.884882791122858,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 26.83383334312459
+          },
+          "dynamic_geometry": {
+            "within": 2.9404881222130754,
+            "between": 3.6774281031271827,
+            "separation_ratio": 1.2506182478164443,
+            "nearest_centroid_accuracy": 0.9524152847873107,
+            "mean_pair_distance": 18.6843410993093
+          },
+          "iteration": 3,
+          "step_norm": 0.01120547948769272,
+          "gate_change_fraction": 0.0029937998730504172
+        },
+        {
+          "margin": {
+            "accuracy": 0.9385816084153377,
+            "mean_margin": 14.268399935415848,
+            "min_margin": -31.129639123654176,
+            "q10_margin": 3.3767986772847842,
+            "confusion": [
+              [
+                488,
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                443,
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                428,
+                60,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                29,
+                508
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.572455517684593,
+            "between": 10.022999378438568,
+            "separation_ratio": 3.896277043289765,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 26.907806729600825
+          },
+          "dynamic_geometry": {
+            "within": 2.9443674021406028,
+            "between": 3.6899153695260942,
+            "separation_ratio": 1.2532115954155265,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 18.716041209789907
+          },
+          "iteration": 4,
+          "step_norm": 0.011395938447528238,
+          "gate_change_fraction": 0.0037673988937250635
+        },
+        {
+          "margin": {
+            "accuracy": 0.9385816084153377,
+            "mean_margin": 14.314349605806598,
+            "min_margin": -31.35638582228967,
+            "q10_margin": 3.3834378312541253,
+            "confusion": [
+              [
+                488,
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                23,
+                443,
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                30,
+                381,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                428,
+                60,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                14,
+                518,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                29,
+                508
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.5805999454228603,
+            "between": 10.071991299061384,
+            "separation_ratio": 3.902965012816419,
+            "nearest_centroid_accuracy": 0.9362063115032236,
+            "mean_pair_distance": 26.971553830344007
+          },
+          "dynamic_geometry": {
+            "within": 2.955784419581535,
+            "between": 3.6973317855551904,
+            "separation_ratio": 1.250880057781291,
+            "nearest_centroid_accuracy": 0.9516943042537851,
+            "mean_pair_distance": 18.73391608025254
+          },
+          "iteration": 5,
+          "step_norm": 0.010658205827989292,
+          "gate_change_fraction": 0.0043638919114980055
+        }
+      ]
+    },
+    {
+      "seed": 31,
+      "target_descriptions": [
+        {
+          "kind": "low_margin_sample",
+          "index": 6561,
+          "label": 0,
+          "competitor": 1,
+          "margin": 5.570555049707048,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 3952,
+          "label": 1,
+          "competitor": 0,
+          "margin": 5.816875866627565,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4864,
+          "label": 2,
+          "competitor": 0,
+          "margin": 5.818670713303383,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 4016,
+          "label": 3,
+          "competitor": 4,
+          "margin": 4.441492731272126,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 1493,
+          "label": 4,
+          "competitor": 3,
+          "margin": 4.883046436790163,
+          "gain": 1.0
+        },
+        {
+          "kind": "low_margin_sample",
+          "index": 2940,
+          "label": 5,
+          "competitor": 3,
+          "margin": 5.9553368683262295,
+          "gain": 1.0
+        },
+        {
+          "kind": "centroid",
+          "label": 0,
+          "competitor": 1,
+          "margin": 20.87910213857516,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 1,
+          "competitor": 0,
+          "margin": 18.71137663963407,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 2,
+          "competitor": 4,
+          "margin": 18.96714860424848,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 3,
+          "competitor": 4,
+          "margin": 19.08552158861273,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 4,
+          "competitor": 3,
+          "margin": 18.057355370005595,
+          "gain": 0.5
+        },
+        {
+          "kind": "centroid",
+          "label": 5,
+          "competitor": 3,
+          "margin": 25.860780443200525,
+          "gain": 0.5
+        }
+      ],
+      "jacobian_shape": [
+        12,
+        38017
+      ],
+      "baseline": {
+        "margin": {
+          "accuracy": 0.9406175771971497,
+          "mean_margin": 15.324571235740652,
+          "min_margin": -27.397147163383092,
+          "q10_margin": 3.218134266868806,
+          "confusion": [
+            [
+              489,
+              1,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              17,
+              443,
+              11,
+              0,
+              0,
+              0
+            ],
+            [
+              13,
+              29,
+              378,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              435,
+              53,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              17,
+              515,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              25,
+              512
+            ]
+          ]
+        },
+        "geometry": {
+          "within": 2.9027859299859498,
+          "between": 9.6427765375889,
+          "separation_ratio": 3.3219041190666005,
+          "nearest_centroid_accuracy": 0.9382422802850356,
+          "mean_pair_distance": 26.60013689466966
+        },
+        "dynamic_geometry": {
+          "within": 3.223447367168511,
+          "between": 4.947056844351927,
+          "separation_ratio": 1.534709979985633,
+          "nearest_centroid_accuracy": 0.9531362653208363,
+          "mean_pair_distance": 21.76775855033142
+        }
+      },
+      "one_shot": {
+        "margin_inverse": {
+          "margin": {
+            "accuracy": 0.9399389209365456,
+            "mean_margin": 15.55828838560973,
+            "min_margin": -27.144998704615794,
+            "q10_margin": 3.1945056061303383,
+            "confusion": [
+              [
+                488,
+                2,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                16,
+                444,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                432,
+                56,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9568740201422963,
+            "between": 9.867970270816162,
+            "separation_ratio": 3.3372981748952824,
+            "nearest_centroid_accuracy": 0.9392602646759416,
+            "mean_pair_distance": 26.90777239630665
+          },
+          "dynamic_geometry": {
+            "within": 3.2802644554252467,
+            "between": 5.077340492616735,
+            "separation_ratio": 1.5478448648307288,
+            "nearest_centroid_accuracy": 0.9545782263878875,
+            "mean_pair_distance": 22.051626143660602
+          },
+          "delta_norm": 0.06574784069620485,
+          "gate_change_fraction": 0.005375521400072542
+        },
+        "centroid_inverse": {
+          "margin": {
+            "accuracy": 0.9127926705123854,
+            "mean_margin": 14.367814428318558,
+            "min_margin": -28.434090193014107,
+            "q10_margin": 0.88994558605099,
+            "confusion": [
+              [
+                488,
+                0,
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                25,
+                437,
+                8,
+                0,
+                0,
+                1
+              ],
+              [
+                24,
+                33,
+                363,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                4,
+                0,
+                358,
+                126,
+                3
+              ],
+              [
+                0,
+                1,
+                0,
+                5,
+                526,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                19,
+                518
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 3.856214564365082,
+            "between": 9.851268936393497,
+            "separation_ratio": 2.5546475103922255,
+            "nearest_centroid_accuracy": 0.9216152019002375,
+            "mean_pair_distance": 26.87482681634025
+          },
+          "dynamic_geometry": {
+            "within": 4.940244192987188,
+            "between": 5.73148737815022,
+            "separation_ratio": 1.1601627681251514,
+            "nearest_centroid_accuracy": 0.9307858687815429,
+            "mean_pair_distance": 23.441207803233947
+          },
+          "delta_norm": 3.7180155415003946,
+          "gate_change_fraction": 0.11845841267682264
+        },
+        "random_same_norm": {
+          "margin": {
+            "accuracy": 0.9409569053274517,
+            "mean_margin": 15.322590328830508,
+            "min_margin": -27.41768073653285,
+            "q10_margin": 3.2329111187038984,
+            "confusion": [
+              [
+                489,
+                1,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                17,
+                443,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                435,
+                53,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.903852943035138,
+            "between": 9.642001922479844,
+            "separation_ratio": 3.3204167399751037,
+            "nearest_centroid_accuracy": 0.9382422802850356,
+            "mean_pair_distance": 26.598754104271155
+          },
+          "dynamic_geometry": {
+            "within": 3.223869813166699,
+            "between": 4.945464429352131,
+            "separation_ratio": 1.5340149311098787,
+            "nearest_centroid_accuracy": 0.9531362653208363,
+            "mean_pair_distance": 21.764388565812144
+          },
+          "delta_norm": 0.06166146881986639,
+          "gate_change_fraction": 0.000559654969169387
+        },
+        "gradient_same_norm": {
+          "margin": {
+            "accuracy": 0.9372242958941296,
+            "mean_margin": 15.276020118341435,
+            "min_margin": -23.190020702384125,
+            "q10_margin": 3.1118577664133173,
+            "confusion": [
+              [
+                489,
+                1,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                18,
+                442,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                14,
+                27,
+                379,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                452,
+                36,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                46,
+                486,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                23,
+                514
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.910051956962013,
+            "between": 9.960128726656635,
+            "separation_ratio": 3.422663537957804,
+            "nearest_centroid_accuracy": 0.9402782490668476,
+            "mean_pair_distance": 27.000029161251636
+          },
+          "dynamic_geometry": {
+            "within": 3.2756660601638443,
+            "between": 5.0472348385651475,
+            "separation_ratio": 1.5408270397113348,
+            "nearest_centroid_accuracy": 0.9545782263878875,
+            "mean_pair_distance": 21.98864066762589
+          },
+          "delta_norm": 0.06157844515120622,
+          "gate_change_fraction": 0.009592061117156329
+        }
+      },
+      "iterative": [
+        {
+          "margin": {
+            "accuracy": 0.9402782490668476,
+            "mean_margin": 15.372892570800142,
+            "min_margin": -27.341772662488054,
+            "q10_margin": 3.2087348984263726,
+            "confusion": [
+              [
+                488,
+                2,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                17,
+                443,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                434,
+                54,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9133902332120223,
+            "between": 9.687193579394817,
+            "separation_ratio": 3.32505871302886,
+            "nearest_centroid_accuracy": 0.9385816084153377,
+            "mean_pair_distance": 26.66115526511532
+          },
+          "dynamic_geometry": {
+            "within": 3.234510653454245,
+            "between": 4.972768457683411,
+            "separation_ratio": 1.5374098249986656,
+            "nearest_centroid_accuracy": 0.9538572458543619,
+            "mean_pair_distance": 21.824100452265622
+          },
+          "iteration": 1,
+          "step_norm": 0.012315689030241272,
+          "gate_change_fraction": 0.0011363121146173378
+        },
+        {
+          "margin": {
+            "accuracy": 0.9406175771971497,
+            "mean_margin": 15.424690499548309,
+            "min_margin": -27.330807288526877,
+            "q10_margin": 3.2437476396994245,
+            "confusion": [
+              [
+                488,
+                2,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                17,
+                443,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                435,
+                53,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9240422938475987,
+            "between": 9.72925421043915,
+            "separation_ratio": 3.3273301931747774,
+            "nearest_centroid_accuracy": 0.9389209365456397,
+            "mean_pair_distance": 26.719378770646024
+          },
+          "dynamic_geometry": {
+            "within": 3.2447002554848274,
+            "between": 4.99769962583725,
+            "separation_ratio": 1.5402654274117187,
+            "nearest_centroid_accuracy": 0.9538572458543619,
+            "mean_pair_distance": 21.878418556888317
+          },
+          "iteration": 2,
+          "step_norm": 0.012585847626797826,
+          "gate_change_fraction": 0.0018603214544795066
+        },
+        {
+          "margin": {
+            "accuracy": 0.9399389209365456,
+            "mean_margin": 15.479439119429525,
+            "min_margin": -27.281931026798098,
+            "q10_margin": 3.2158903560726713,
+            "confusion": [
+              [
+                488,
+                2,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                17,
+                443,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                433,
+                55,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9359140200074862,
+            "between": 9.779382739131732,
+            "separation_ratio": 3.330949977583743,
+            "nearest_centroid_accuracy": 0.9392602646759416,
+            "mean_pair_distance": 26.788868535829643
+          },
+          "dynamic_geometry": {
+            "within": 3.2568451815153607,
+            "between": 5.032129731409345,
+            "separation_ratio": 1.5450933191328338,
+            "nearest_centroid_accuracy": 0.9545782263878875,
+            "mean_pair_distance": 21.953717093522062
+          },
+          "iteration": 3,
+          "step_norm": 0.013064741261167516,
+          "gate_change_fraction": 0.002704762876314835
+        },
+        {
+          "margin": {
+            "accuracy": 0.9402782490668476,
+            "mean_margin": 15.52967482809114,
+            "min_margin": -27.34328424380894,
+            "q10_margin": 3.269197976026625,
+            "confusion": [
+              [
+                487,
+                3,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                16,
+                444,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                30,
+                377,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                435,
+                53,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9488727779180492,
+            "between": 9.828889235938389,
+            "separation_ratio": 3.3331004679278635,
+            "nearest_centroid_accuracy": 0.9395995928062436,
+            "mean_pair_distance": 26.85667605397406
+          },
+          "dynamic_geometry": {
+            "within": 3.2717159872981463,
+            "between": 5.061014281211363,
+            "separation_ratio": 1.546899028173548,
+            "nearest_centroid_accuracy": 0.9545782263878875,
+            "mean_pair_distance": 22.016409252924444
+          },
+          "iteration": 4,
+          "step_norm": 0.012188396555230397,
+          "gate_change_fraction": 0.0034656102647805586
+        },
+        {
+          "margin": {
+            "accuracy": 0.9406175771971497,
+            "mean_margin": 15.587831769305156,
+            "min_margin": -27.334984593864604,
+            "q10_margin": 3.2844448557330277,
+            "confusion": [
+              [
+                487,
+                3,
+                6,
+                0,
+                0,
+                0
+              ],
+              [
+                16,
+                444,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                13,
+                29,
+                378,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                435,
+                53,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                16,
+                516,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                25,
+                512
+              ]
+            ]
+          },
+          "geometry": {
+            "within": 2.9599605736513546,
+            "between": 9.870739768795277,
+            "separation_ratio": 3.3347537993112213,
+            "nearest_centroid_accuracy": 0.9399389209365456,
+            "mean_pair_distance": 26.914922494488994
+          },
+          "dynamic_geometry": {
+            "within": 3.2819511364659015,
+            "between": 5.087774644873078,
+            "separation_ratio": 1.5502286394037355,
+            "nearest_centroid_accuracy": 0.9545782263878875,
+            "mean_pair_distance": 22.073981529962058
+          },
+          "iteration": 5,
+          "step_norm": 0.012548771729700129,
+          "gate_change_fraction": 0.003931753264417846
+        }
+      ]
+    }
+  ]
+}

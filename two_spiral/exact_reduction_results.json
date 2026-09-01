@@ -1,0 +1,220 @@
+{
+  "architecture": [
+    2,
+    12,
+    12,
+    1
+  ],
+  "parameter_count": 205,
+  "nonzero_weights": 180,
+  "zero_weight_counts": {
+    "weights_input_hidden1": 0,
+    "weights_hidden1_hidden2": 0,
+    "weights_hidden2_output": 0
+  },
+  "matrix_ranks": {
+    "input_hidden1": 2,
+    "hidden1_hidden2": 12,
+    "hidden2_output": 1
+  },
+  "duplicate_neurons": {
+    "hidden1": [],
+    "hidden2": []
+  },
+  "single_connection_removals_preserving_grid": [],
+  "single_neuron_removals": [
+    {
+      "layer": 1,
+      "index": 0,
+      "max_logit_difference": 13.20332286972318,
+      "mean_logit_difference": 2.7624113771432484,
+      "decision_agreement": 0.8173237090505275,
+      "test_accuracy": 0.7833333333333333
+    },
+    {
+      "layer": 1,
+      "index": 1,
+      "max_logit_difference": 13.11719421302397,
+      "mean_logit_difference": 2.482336191706673,
+      "decision_agreement": 0.7951138256524153,
+      "test_accuracy": 0.8
+    },
+    {
+      "layer": 1,
+      "index": 2,
+      "max_logit_difference": 11.088191911500077,
+      "mean_logit_difference": 4.7540042671406075,
+      "decision_agreement": 0.609106052193226,
+      "test_accuracy": 0.6583333333333333
+    },
+    {
+      "layer": 1,
+      "index": 3,
+      "max_logit_difference": 22.338946506767826,
+      "mean_logit_difference": 2.638929109026011,
+      "decision_agreement": 0.8489727928928373,
+      "test_accuracy": 0.7416666666666667
+    },
+    {
+      "layer": 1,
+      "index": 4,
+      "max_logit_difference": 22.654792841955526,
+      "mean_logit_difference": 8.208907014741863,
+      "decision_agreement": 0.5441421432537479,
+      "test_accuracy": 0.49166666666666664
+    },
+    {
+      "layer": 1,
+      "index": 5,
+      "max_logit_difference": 16.82553538215951,
+      "mean_logit_difference": 6.808639801070822,
+      "decision_agreement": 0.6579677956690727,
+      "test_accuracy": 0.6666666666666666
+    },
+    {
+      "layer": 1,
+      "index": 6,
+      "max_logit_difference": 11.74826853947885,
+      "mean_logit_difference": 7.5998395692383856,
+      "decision_agreement": 0.5258189894503054,
+      "test_accuracy": 0.55
+    },
+    {
+      "layer": 1,
+      "index": 7,
+      "max_logit_difference": 12.599857126431157,
+      "mean_logit_difference": 2.8706458936661794,
+      "decision_agreement": 0.7673514714047751,
+      "test_accuracy": 0.7666666666666667
+    },
+    {
+      "layer": 1,
+      "index": 8,
+      "max_logit_difference": 15.572584253417109,
+      "mean_logit_difference": 4.1607086009589995,
+      "decision_agreement": 0.7551360355358134,
+      "test_accuracy": 0.6916666666666667
+    },
+    {
+      "layer": 1,
+      "index": 9,
+      "max_logit_difference": 16.52642723122709,
+      "mean_logit_difference": 5.212021683439031,
+      "decision_agreement": 0.7717934480843975,
+      "test_accuracy": 0.7
+    },
+    {
+      "layer": 1,
+      "index": 10,
+      "max_logit_difference": 19.050041103393784,
+      "mean_logit_difference": 7.524245092114593,
+      "decision_agreement": 0.4458634092171016,
+      "test_accuracy": 0.5
+    },
+    {
+      "layer": 1,
+      "index": 11,
+      "max_logit_difference": 20.540862561414027,
+      "mean_logit_difference": 2.457571571035496,
+      "decision_agreement": 0.8795113825652415,
+      "test_accuracy": 0.7916666666666666
+    },
+    {
+      "layer": 2,
+      "index": 0,
+      "max_logit_difference": 2.239520967422565,
+      "mean_logit_difference": 2.186836528581105,
+      "decision_agreement": 0.8983897834536368,
+      "test_accuracy": 0.875
+    },
+    {
+      "layer": 2,
+      "index": 1,
+      "max_logit_difference": 0.8495945698245437,
+      "mean_logit_difference": 0.7992744938088532,
+      "decision_agreement": 0.9700166574125486,
+      "test_accuracy": 0.8666666666666667
+    },
+    {
+      "layer": 2,
+      "index": 2,
+      "max_logit_difference": 3.4717389510704386,
+      "mean_logit_difference": 3.400204466327927,
+      "decision_agreement": 0.8289838978345364,
+      "test_accuracy": 0.8
+    },
+    {
+      "layer": 2,
+      "index": 3,
+      "max_logit_difference": 1.2199002112825301,
+      "mean_logit_difference": 1.1338535188250947,
+      "decision_agreement": 0.9622431982232094,
+      "test_accuracy": 0.8666666666666667
+    },
+    {
+      "layer": 2,
+      "index": 4,
+      "max_logit_difference": 5.7807137286218415,
+      "mean_logit_difference": 5.416945169963701,
+      "decision_agreement": 0.7445863409217102,
+      "test_accuracy": 0.5916666666666667
+    },
+    {
+      "layer": 2,
+      "index": 5,
+      "max_logit_difference": 5.447836164925218,
+      "mean_logit_difference": 5.27552989829048,
+      "decision_agreement": 0.7962243198223209,
+      "test_accuracy": 0.6666666666666666
+    },
+    {
+      "layer": 2,
+      "index": 6,
+      "max_logit_difference": 5.556082233051043,
+      "mean_logit_difference": 5.327320346976482,
+      "decision_agreement": 0.6707384786229872,
+      "test_accuracy": 0.6166666666666667
+    },
+    {
+      "layer": 2,
+      "index": 7,
+      "max_logit_difference": 0.7268409752230727,
+      "mean_logit_difference": 0.49430574961609525,
+      "decision_agreement": 0.9816768461965575,
+      "test_accuracy": 0.8666666666666667
+    },
+    {
+      "layer": 2,
+      "index": 8,
+      "max_logit_difference": 4.468533317276346,
+      "mean_logit_difference": 4.38098881528322,
+      "decision_agreement": 0.7884508606329816,
+      "test_accuracy": 0.675
+    },
+    {
+      "layer": 2,
+      "index": 9,
+      "max_logit_difference": 6.178043302078899,
+      "mean_logit_difference": 5.932794071118867,
+      "decision_agreement": 0.722376457523598,
+      "test_accuracy": 0.6333333333333333
+    },
+    {
+      "layer": 2,
+      "index": 10,
+      "max_logit_difference": 6.60223668195268,
+      "mean_logit_difference": 6.143810860406985,
+      "decision_agreement": 0.6002220988339811,
+      "test_accuracy": 0.5333333333333333
+    },
+    {
+      "layer": 2,
+      "index": 11,
+      "max_logit_difference": 2.7259736274007977,
+      "mean_logit_difference": 2.5921422022331932,
+      "decision_agreement": 0.8933925596890616,
+      "test_accuracy": 0.8
+    }
+  ],
+  "exact_duplicate_merges": []
+}

@@ -1,0 +1,23 @@
+{
+  "information_used": [
+    "target_model.json",
+    "model architecture",
+    "activation functions"
+  ],
+  "labels_used_during_recovery": false,
+  "probe_count": 1200,
+  "search_probe_count": 600,
+  "verification_probe_count": 600,
+  "formula": {
+    "type": "polar_cosine",
+    "frequency": 8.5,
+    "phase": 0.5890486225480862,
+    "polarity": 1,
+    "scale": 8.0,
+    "complexity": 3,
+    "agreement": 0.7933333333333333
+  },
+  "search_agreement": 0.7933333333333333,
+  "verification_agreement": 0.7433333333333333,
+  "model_formula": "sigmoid(8*cos(atan2(y,x)-frequency*hypot(x,y)+phase))"
+}

@@ -1,0 +1,55 @@
+{
+  "labels": [
+    "idle",
+    "walk",
+    "run",
+    "turn"
+  ],
+  "baseline": {
+    "train": 0.99,
+    "test": 0.92,
+    "fresh": 0.905,
+    "parameters": 188
+  },
+  "node_analysis": [
+    {
+      "node": 3,
+      "mean_activation": 0.40222434398501095,
+      "accuracy_after_removal": 0.675,
+      "accuracy_drop": 0.31499999999999995
+    },
+    {
+      "node": 0,
+      "mean_activation": -0.30239312340539376,
+      "accuracy_after_removal": 0.74,
+      "accuracy_drop": 0.25
+    },
+    {
+      "node": 1,
+      "mean_activation": -0.3674688169419914,
+      "accuracy_after_removal": 0.7475,
+      "accuracy_drop": 0.24249999999999994
+    },
+    {
+      "node": 2,
+      "mean_activation": 0.06575617923243592,
+      "accuracy_after_removal": 0.785,
+      "accuracy_drop": 0.20499999999999996
+    }
+  ],
+  "redesigned": {
+    "train": 0.935,
+    "test": 0.93,
+    "fresh": 0.9225,
+    "parameters": 32
+  },
+  "redesign_features": [
+    "mean_abs",
+    "rms",
+    "mean_step_change",
+    "alternating_change",
+    "channel_0_mean",
+    "channel_1_mean",
+    "channel_2_mean"
+  ]
+}

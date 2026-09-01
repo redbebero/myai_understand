@@ -1,0 +1,24 @@
+{
+  "fixed_nodes": {
+    "role_equations_learned": false,
+    "combination_weights_learned": false,
+    "train_accuracy": 0.9583333333333334,
+    "test_accuracy": 0.975
+  },
+  "hybrid": {
+    "role_equations_learned": false,
+    "combination_weights_learned": true,
+    "trainable_parameter_count": 7,
+    "train_accuracy": 0.9666666666666667,
+    "test_accuracy": 0.975,
+    "learned_combination_weights": [
+      -4.016591754373216,
+      3.0779819259363856,
+      -0.3722807154601329,
+      1.4000762711991674,
+      0.6043066818529433,
+      -2.570724519901375,
+      2.5707245199014706
+    ]
+  }
+}

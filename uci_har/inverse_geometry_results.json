@@ -1,0 +1,838 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "target_factor": 1.2,
+    "iterations": 5,
+    "train_epochs": 80,
+    "architecture": "561\u219264\u219232\u21926"
+  },
+  "summary": {
+    "baseline": {
+      "distance_error": 4.024479372782138,
+      "accuracy": 0.9425856803529011
+    },
+    "one_shot": {
+      "inverse_one_shot": {
+        "distance_error": 1.0120457950723387,
+        "pair_distance": 23.07420316212502,
+        "accuracy": 0.9353919239904988
+      },
+      "random_same_norm": {
+        "distance_error": 4.079191720982847,
+        "pair_distance": 20.00058235046057,
+        "accuracy": 0.9414319647098743
+      },
+      "gradient_same_norm": {
+        "distance_error": 5.055169149866085,
+        "pair_distance": 22.78790657285318,
+        "accuracy": 0.5772650152697658
+      }
+    },
+    "iterative": {
+      "distance_error": [
+        3.312832970288343,
+        3.2088502313880114,
+        2.7544608272771685,
+        2.7586818513537104,
+        2.628413047126189
+      ],
+      "accuracy": [
+        0.9424499491007804,
+        0.9226331862911434,
+        0.9249406175771971,
+        0.9176789955887343,
+        0.9107567017305735
+      ]
+    }
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "jacobian_shape": [
+        96,
+        38017
+      ],
+      "jacobian_rank": 86,
+      "linear_target_error": 0.004181799836108992,
+      "linear_target_norm": 0.5695281112258423,
+      "baseline": {
+        "geometry": {
+          "centroid_error": 0.47619110095310185,
+          "distance_error": 4.665700869557003,
+          "mean_pair_distance": 23.25210468361854,
+          "target_mean_pair_distance": 27.902525620342242
+        },
+        "accuracy": 0.9436715303698676
+      },
+      "one_shot": {
+        "inverse_one_shot": {
+          "geometry": {
+            "centroid_error": 0.10805746506109495,
+            "distance_error": 0.5017125092338337,
+            "mean_pair_distance": 27.407332277129196,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9436715303698676,
+          "delta_norm": 0.5718165536351711,
+          "gate_change_fraction": 0.031582952815829526
+        },
+        "random_same_norm": {
+          "geometry": {
+            "centroid_error": 0.4752329389552025,
+            "distance_error": 4.605207969536737,
+            "mean_pair_distance": 23.30815118824511,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9440108585001696,
+          "delta_norm": 0.5636346132066159,
+          "gate_change_fraction": 0.004341070522577372
+        },
+        "gradient_same_norm": {
+          "geometry": {
+            "centroid_error": 1.0465921909981106,
+            "distance_error": 4.978827768131377,
+            "mean_pair_distance": 22.943618102075202,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.8052256532066508,
+          "delta_norm": 0.5634065064779267,
+          "gate_change_fraction": 0.05968734145104008
+        }
+      },
+      "iterative": [
+        {
+          "iteration": 1,
+          "geometry": {
+            "centroid_error": 0.3861987321336007,
+            "distance_error": 3.780113913890311,
+            "mean_pair_distance": 24.135426319082963,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9433322022395657,
+          "step_norm": 0.11268130129558546
+        },
+        {
+          "iteration": 2,
+          "geometry": {
+            "centroid_error": 0.31604117718928293,
+            "distance_error": 3.07470554685143,
+            "mean_pair_distance": 24.839430995107957,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9433322022395657,
+          "step_norm": 0.12247379331058844
+        },
+        {
+          "iteration": 3,
+          "geometry": {
+            "centroid_error": 0.2638748893338678,
+            "distance_error": 2.5152005288264907,
+            "mean_pair_distance": 25.397541321612763,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9433322022395657,
+          "step_norm": 0.155081221872302
+        },
+        {
+          "iteration": 4,
+          "geometry": {
+            "centroid_error": 0.2318575046775049,
+            "distance_error": 2.0711778868182544,
+            "mean_pair_distance": 25.840220344142626,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9446895147607737,
+          "step_norm": 0.2883978365033865
+        },
+        {
+          "iteration": 5,
+          "geometry": {
+            "centroid_error": 0.2926042391954834,
+            "distance_error": 2.025505169023908,
+            "mean_pair_distance": 25.89633874719928,
+            "target_mean_pair_distance": 27.902525620342242
+          },
+          "accuracy": 0.9392602646759416,
+          "step_norm": 1.0666868369036604
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "jacobian_shape": [
+        96,
+        38017
+      ],
+      "jacobian_rank": 85,
+      "linear_target_error": 0.004457965335050839,
+      "linear_target_norm": 0.435348004995115,
+      "baseline": {
+        "geometry": {
+          "centroid_error": 0.35579525854520855,
+          "distance_error": 3.486067345349506,
+          "mean_pair_distance": 17.365012285725296,
+          "target_mean_pair_distance": 20.838014742870353
+        },
+        "accuracy": 0.9457074991516796
+      },
+      "one_shot": {
+        "inverse_one_shot": {
+          "geometry": {
+            "centroid_error": 0.13746468533426842,
+            "distance_error": 0.6185206894765579,
+            "mean_pair_distance": 20.240845235825763,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9423142178486597,
+          "delta_norm": 1.4706103206260976,
+          "gate_change_fraction": 0.05580289193302892
+        },
+        "random_same_norm": {
+          "geometry": {
+            "centroid_error": 0.3857100782760282,
+            "distance_error": 3.5172308677242414,
+            "mean_pair_distance": 17.35145269426165,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9446895147607737,
+          "delta_norm": 1.442911993953361,
+          "gate_change_fraction": 0.01431697108066971
+        },
+        "gradient_same_norm": {
+          "geometry": {
+            "centroid_error": 4.837438786268527,
+            "distance_error": 2.0791802459386544,
+            "mean_pair_distance": 19.309694407259013,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.34034611469290804,
+          "delta_norm": 1.4416805729458066,
+          "gate_change_fraction": 0.15505771182141045
+        }
+      },
+      "iterative": [
+        {
+          "iteration": 1,
+          "geometry": {
+            "centroid_error": 0.29244012183452256,
+            "distance_error": 2.8582352234429638,
+            "mean_pair_distance": 17.990964860737947,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9460468272819816,
+          "step_norm": 0.28833611458916214
+        },
+        {
+          "iteration": 2,
+          "geometry": {
+            "centroid_error": 0.24105720472789136,
+            "distance_error": 2.3349823802110974,
+            "mean_pair_distance": 18.512217899359488,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9467254835425857,
+          "step_norm": 0.09399542125939639
+        },
+        {
+          "iteration": 3,
+          "geometry": {
+            "centroid_error": 0.20259291726811854,
+            "distance_error": 1.917581116396501,
+            "mean_pair_distance": 18.927391909056528,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9460468272819816,
+          "step_norm": 0.11780193032341671
+        },
+        {
+          "iteration": 4,
+          "geometry": {
+            "centroid_error": 0.17945642723016833,
+            "distance_error": 1.6110104566732708,
+            "mean_pair_distance": 19.230172387657312,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9467254835425857,
+          "step_norm": 0.20939831229189043
+        },
+        {
+          "iteration": 5,
+          "geometry": {
+            "centroid_error": 0.1597244111002707,
+            "distance_error": 1.3383841416893296,
+            "mean_pair_distance": 19.501224375856022,
+            "target_mean_pair_distance": 20.838014742870353
+          },
+          "accuracy": 0.9460468272819816,
+          "step_norm": 0.24632017665857317
+        }
+      ]
+    },
+    {
+      "seed": 19,
+      "jacobian_shape": [
+        96,
+        38017
+      ],
+      "jacobian_rank": 82,
+      "linear_target_error": 0.003403489986073249,
+      "linear_target_norm": 0.4866097844809123,
+      "baseline": {
+        "geometry": {
+          "centroid_error": 0.3954396110229449,
+          "distance_error": 3.874501084363495,
+          "mean_pair_distance": 19.277556629686938,
+          "target_mean_pair_distance": 23.133067955624327
+        },
+        "accuracy": 0.9433322022395657
+      },
+      "one_shot": {
+        "inverse_one_shot": {
+          "geometry": {
+            "centroid_error": 0.09132341262988117,
+            "distance_error": 0.23001418892076006,
+            "mean_pair_distance": 22.934265183792746,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9460468272819816,
+          "delta_norm": 0.6063909801046676,
+          "gate_change_fraction": 0.03682141045154744
+        },
+        "random_same_norm": {
+          "geometry": {
+            "centroid_error": 0.4122171674985813,
+            "distance_error": 3.992121232077924,
+            "mean_pair_distance": 19.164961352655272,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9436715303698676,
+          "delta_norm": 0.5839851838705274,
+          "gate_change_fraction": 0.0059329020801623545
+        },
+        "gradient_same_norm": {
+          "geometry": {
+            "centroid_error": 1.0174712328153606,
+            "distance_error": 4.791008742178092,
+            "mean_pair_distance": 18.38750132962026,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.7862232779097387,
+          "delta_norm": 0.5829202765376027,
+          "gate_change_fraction": 0.07763191273465246
+        }
+      },
+      "iterative": [
+        {
+          "iteration": 1,
+          "geometry": {
+            "centroid_error": 0.3181293364526391,
+            "distance_error": 3.1123829603993594,
+            "mean_pair_distance": 20.037163006719542,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9450288428910757,
+          "step_norm": 0.11658405530752075
+        },
+        {
+          "iteration": 2,
+          "geometry": {
+            "centroid_error": 0.2587297656583483,
+            "distance_error": 2.515370555562738,
+            "mean_pair_distance": 20.631632333760553,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9436715303698676,
+          "step_norm": 0.10405127924062232
+        },
+        {
+          "iteration": 3,
+          "geometry": {
+            "centroid_error": 0.21416180514239902,
+            "distance_error": 2.048447506796161,
+            "mean_pair_distance": 21.095787378750995,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9433322022395657,
+          "step_norm": 0.12846373542112607
+        },
+        {
+          "iteration": 4,
+          "geometry": {
+            "centroid_error": 0.1849025010158581,
+            "distance_error": 1.693705424920786,
+            "mean_pair_distance": 21.44640211320454,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9433322022395657,
+          "step_norm": 0.21621665106426435
+        },
+        {
+          "iteration": 5,
+          "geometry": {
+            "centroid_error": 0.17990948365116102,
+            "distance_error": 1.505950974115069,
+            "mean_pair_distance": 21.628332038118018,
+            "target_mean_pair_distance": 23.133067955624327
+          },
+          "accuracy": 0.9419748897183576,
+          "step_norm": 0.4905326453636474
+        }
+      ]
+    },
+    {
+      "seed": 23,
+      "jacobian_shape": [
+        96,
+        38017
+      ],
+      "jacobian_rank": 84,
+      "linear_target_error": 0.0011062177376238223,
+      "linear_target_norm": 0.4803365287395128,
+      "baseline": {
+        "geometry": {
+          "centroid_error": 0.38146795486286644,
+          "distance_error": 3.7376073705482717,
+          "mean_pair_distance": 18.585155110543344,
+          "target_mean_pair_distance": 22.30218613265201
+        },
+        "accuracy": 0.9395995928062436
+      },
+      "one_shot": {
+        "inverse_one_shot": {
+          "geometry": {
+            "centroid_error": 0.2604187101145178,
+            "distance_error": 1.0012125978251896,
+            "mean_pair_distance": 21.347365310643436,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9321343739395996,
+          "delta_norm": 1.0979951029917858,
+          "gate_change_fraction": 0.062132166412988334
+        },
+        "random_same_norm": {
+          "geometry": {
+            "centroid_error": 0.39361648336577515,
+            "distance_error": 3.7384971439230217,
+            "mean_pair_distance": 18.58840620277713,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9395995928062436,
+          "delta_norm": 1.0532241822840498,
+          "gate_change_fraction": 0.012687087772704211
+        },
+        "gradient_same_norm": {
+          "geometry": {
+            "centroid_error": 2.0641932849785776,
+            "distance_error": 3.1391435131049295,
+            "mean_pair_distance": 19.23546589232108,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.6080760095011877,
+          "delta_norm": 1.0525378321181493,
+          "gate_change_fraction": 0.11786212582445459
+        }
+      },
+      "iterative": [
+        {
+          "iteration": 1,
+          "geometry": {
+            "centroid_error": 0.31537436411943576,
+            "distance_error": 3.0686723934061564,
+            "mean_pair_distance": 19.254166650330564,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9385816084153377,
+          "step_norm": 0.21050756642362978
+        },
+        {
+          "iteration": 2,
+          "geometry": {
+            "centroid_error": 0.43333002207391547,
+            "distance_error": 2.734321324744566,
+            "mean_pair_distance": 19.58893934743289,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9300984051577876,
+          "step_norm": 1.2401531331900535
+        },
+        {
+          "iteration": 3,
+          "geometry": {
+            "centroid_error": 0.38313879625544217,
+            "distance_error": 2.317341320569677,
+            "mean_pair_distance": 20.01030340779967,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9317950458092976,
+          "step_norm": 0.23265112401004917
+        },
+        {
+          "iteration": 4,
+          "geometry": {
+            "centroid_error": 0.4609853174319976,
+            "distance_error": 2.54025191422964,
+            "mean_pair_distance": 19.833549872286554,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9205972175093315,
+          "step_norm": 1.2885981763455465
+        },
+        {
+          "iteration": 5,
+          "geometry": {
+            "centroid_error": 0.6108076565293991,
+            "distance_error": 2.7580145673039516,
+            "mean_pair_distance": 19.661021061963595,
+            "target_mean_pair_distance": 22.30218613265201
+          },
+          "accuracy": 0.9114353579911775,
+          "step_norm": 2.150861952350804
+        }
+      ]
+    },
+    {
+      "seed": 31,
+      "jacobian_shape": [
+        96,
+        38017
+      ],
+      "jacobian_rank": 92,
+      "linear_target_error": 0.008769002555228401,
+      "linear_target_norm": 0.5598748631803051,
+      "baseline": {
+        "geometry": {
+          "centroid_error": 0.4448396045476133,
+          "distance_error": 4.358520194092415,
+          "mean_pair_distance": 21.76775855033142,
+          "target_mean_pair_distance": 26.121310260397703
+        },
+        "accuracy": 0.9406175771971497
+      },
+      "one_shot": {
+        "inverse_one_shot": {
+          "geometry": {
+            "centroid_error": 0.8134972140803981,
+            "distance_error": 2.7087689899053533,
+            "mean_pair_distance": 23.441207803233947,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.9127926705123854,
+          "delta_norm": 3.7180155415003946,
+          "gate_change_fraction": 0.13278792491121258
+        },
+        "random_same_norm": {
+          "geometry": {
+            "centroid_error": 0.5599201439333007,
+            "distance_error": 4.542901391652314,
+            "mean_pair_distance": 21.58994031436369,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.9351883271123176,
+          "delta_norm": 3.4495086102315,
+          "gate_change_fraction": 0.034046803652968034
+        },
+        "gradient_same_norm": {
+          "geometry": {
+            "centroid_error": 8.278982817728384,
+            "distance_error": 10.287685479977373,
+            "mean_pair_distance": 34.063253132990354,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.34645402103834405,
+          "delta_norm": 3.4495025804639163,
+          "gate_change_fraction": 0.1941146626078133
+        }
+      },
+      "iterative": [
+        {
+          "iteration": 1,
+          "geometry": {
+            "centroid_error": 0.39299429175621126,
+            "distance_error": 3.7447603603029216,
+            "mean_pair_distance": 22.38967165129874,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.9392602646759416,
+          "step_norm": 0.6899005160927867
+        },
+        {
+          "iteration": 2,
+          "geometry": {
+            "centroid_error": 0.9322366175167823,
+            "distance_error": 5.384871349570226,
+            "mean_pair_distance": 20.807337519875535,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.8493383101459111,
+          "step_norm": 5.330593296649692
+        },
+        {
+          "iteration": 3,
+          "geometry": {
+            "centroid_error": 0.8212892147161792,
+            "distance_error": 4.973733663797013,
+            "mean_pair_distance": 21.21293321768,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.8601968103155752,
+          "step_norm": 0.827364785366369
+        },
+        {
+          "iteration": 4,
+          "geometry": {
+            "centroid_error": 1.1410076747701634,
+            "distance_error": 5.8772635741266015,
+            "mean_pair_distance": 20.48390759783407,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.833050559891415,
+          "step_norm": 4.172673200205779
+        },
+        {
+          "iteration": 5,
+          "geometry": {
+            "centroid_error": 1.105438974437151,
+            "distance_error": 5.514210383498686,
+            "mean_pair_distance": 20.780678605501993,
+            "target_mean_pair_distance": 26.121310260397703
+          },
+          "accuracy": 0.8150661689854088,
+          "step_norm": 1.6459710345613403
+        }
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "step": "\ubaa9\ud45c geometry",
+      "hypothesis": "centroid pair distance\ub97c 20% \ud655\ub300\ud558\uba74 \ubaa9\ud45c\uac00 class separation\uc744 \uba85\ud655\ud788 \uc9c0\uc815\ud55c\ub2e4.",
+      "actual_result": {
+        "baseline": {
+          "distance_error": 4.024479372782138,
+          "accuracy": 0.9425856803529011
+        },
+        "one_shot": {
+          "inverse_one_shot": {
+            "distance_error": 1.0120457950723387,
+            "pair_distance": 23.07420316212502,
+            "accuracy": 0.9353919239904988
+          },
+          "random_same_norm": {
+            "distance_error": 4.079191720982847,
+            "pair_distance": 20.00058235046057,
+            "accuracy": 0.9414319647098743
+          },
+          "gradient_same_norm": {
+            "distance_error": 5.055169149866085,
+            "pair_distance": 22.78790657285318,
+            "accuracy": 0.5772650152697658
+          }
+        },
+        "iterative": {
+          "distance_error": [
+            3.312832970288343,
+            3.2088502313880114,
+            2.7544608272771685,
+            2.7586818513537104,
+            2.628413047126189
+          ],
+          "accuracy": [
+            0.9424499491007804,
+            0.9226331862911434,
+            0.9249406175771971,
+            0.9176789955887343,
+            0.9107567017305735
+          ]
+        }
+      },
+      "mismatch": "ReLU gate \ubcc0\ud654, Jacobian \uc120\ud615\uadfc\uc0ac, parameter \uc790\uc720\ub3c4, test generalization\uc744 \uc6d0\uc790\ub8cc\uc5d0\uc11c \ubd84\ub9ac\ud55c\ub2e4.",
+      "revised_principle": "centroid-level geometry\ub294 local Jacobian \ubc94\uc704 \uc548\uc5d0\uc11c\ub9cc \uc5ed\uc124\uacc4 \uac00\ub2a5\ud558\ub2e4."
+    },
+    {
+      "step": "\ud544\uc694\ud55c \u0394h",
+      "hypothesis": "\ud604\uc7ac centroid\uc640 \ubaa9\ud45c centroid \ucc28\uc774\uac00 \ud544\uc694\ud55c hidden \uc774\ub3d9\uc744 \uc815\uc758\ud55c\ub2e4.",
+      "actual_result": {
+        "baseline": {
+          "distance_error": 4.024479372782138,
+          "accuracy": 0.9425856803529011
+        },
+        "one_shot": {
+          "inverse_one_shot": {
+            "distance_error": 1.0120457950723387,
+            "pair_distance": 23.07420316212502,
+            "accuracy": 0.9353919239904988
+          },
+          "random_same_norm": {
+            "distance_error": 4.079191720982847,
+            "pair_distance": 20.00058235046057,
+            "accuracy": 0.9414319647098743
+          },
+          "gradient_same_norm": {
+            "distance_error": 5.055169149866085,
+            "pair_distance": 22.78790657285318,
+            "accuracy": 0.5772650152697658
+          }
+        },
+        "iterative": {
+          "distance_error": [
+            3.312832970288343,
+            3.2088502313880114,
+            2.7544608272771685,
+            2.7586818513537104,
+            2.628413047126189
+          ],
+          "accuracy": [
+            0.9424499491007804,
+            0.9226331862911434,
+            0.9249406175771971,
+            0.9176789955887343,
+            0.9107567017305735
+          ]
+        }
+      },
+      "mismatch": "ReLU gate \ubcc0\ud654, Jacobian \uc120\ud615\uadfc\uc0ac, parameter \uc790\uc720\ub3c4, test generalization\uc744 \uc6d0\uc790\ub8cc\uc5d0\uc11c \ubd84\ub9ac\ud55c\ub2e4.",
+      "revised_principle": "centroid-level geometry\ub294 local Jacobian \ubc94\uc704 \uc548\uc5d0\uc11c\ub9cc \uc5ed\uc124\uacc4 \uac00\ub2a5\ud558\ub2e4."
+    },
+    {
+      "step": "\uc5ed\uacc4\uc0b0 \u0394\u03b8",
+      "hypothesis": "centroid Jacobian\uc758 regularized pseudoinverse\uac00 \ucd5c\uc18c-norm parameter update\ub97c \uc81c\uacf5\ud55c\ub2e4.",
+      "actual_result": {
+        "baseline": {
+          "distance_error": 4.024479372782138,
+          "accuracy": 0.9425856803529011
+        },
+        "one_shot": {
+          "inverse_one_shot": {
+            "distance_error": 1.0120457950723387,
+            "pair_distance": 23.07420316212502,
+            "accuracy": 0.9353919239904988
+          },
+          "random_same_norm": {
+            "distance_error": 4.079191720982847,
+            "pair_distance": 20.00058235046057,
+            "accuracy": 0.9414319647098743
+          },
+          "gradient_same_norm": {
+            "distance_error": 5.055169149866085,
+            "pair_distance": 22.78790657285318,
+            "accuracy": 0.5772650152697658
+          }
+        },
+        "iterative": {
+          "distance_error": [
+            3.312832970288343,
+            3.2088502313880114,
+            2.7544608272771685,
+            2.7586818513537104,
+            2.628413047126189
+          ],
+          "accuracy": [
+            0.9424499491007804,
+            0.9226331862911434,
+            0.9249406175771971,
+            0.9176789955887343,
+            0.9107567017305735
+          ]
+        }
+      },
+      "mismatch": "ReLU gate \ubcc0\ud654, Jacobian \uc120\ud615\uadfc\uc0ac, parameter \uc790\uc720\ub3c4, test generalization\uc744 \uc6d0\uc790\ub8cc\uc5d0\uc11c \ubd84\ub9ac\ud55c\ub2e4.",
+      "revised_principle": "centroid-level geometry\ub294 local Jacobian \ubc94\uc704 \uc548\uc5d0\uc11c\ub9cc \uc5ed\uc124\uacc4 \uac00\ub2a5\ud558\ub2e4."
+    },
+    {
+      "step": "\uc2e4\uc81c \uc801\uc6a9",
+      "hypothesis": "inverse update\uac00 random/gradient \ub3d9\uc77c norm\ubcf4\ub2e4 \ubaa9\ud45c geometry\uc5d0 \uac00\uae4c\uc6cc\uc9c4\ub2e4.",
+      "actual_result": {
+        "baseline": {
+          "distance_error": 4.024479372782138,
+          "accuracy": 0.9425856803529011
+        },
+        "one_shot": {
+          "inverse_one_shot": {
+            "distance_error": 1.0120457950723387,
+            "pair_distance": 23.07420316212502,
+            "accuracy": 0.9353919239904988
+          },
+          "random_same_norm": {
+            "distance_error": 4.079191720982847,
+            "pair_distance": 20.00058235046057,
+            "accuracy": 0.9414319647098743
+          },
+          "gradient_same_norm": {
+            "distance_error": 5.055169149866085,
+            "pair_distance": 22.78790657285318,
+            "accuracy": 0.5772650152697658
+          }
+        },
+        "iterative": {
+          "distance_error": [
+            3.312832970288343,
+            3.2088502313880114,
+            2.7544608272771685,
+            2.7586818513537104,
+            2.628413047126189
+          ],
+          "accuracy": [
+            0.9424499491007804,
+            0.9226331862911434,
+            0.9249406175771971,
+            0.9176789955887343,
+            0.9107567017305735
+          ]
+        }
+      },
+      "mismatch": "ReLU gate \ubcc0\ud654, Jacobian \uc120\ud615\uadfc\uc0ac, parameter \uc790\uc720\ub3c4, test generalization\uc744 \uc6d0\uc790\ub8cc\uc5d0\uc11c \ubd84\ub9ac\ud55c\ub2e4.",
+      "revised_principle": "centroid-level geometry\ub294 local Jacobian \ubc94\uc704 \uc548\uc5d0\uc11c\ub9cc \uc5ed\uc124\uacc4 \uac00\ub2a5\ud558\ub2e4."
+    },
+    {
+      "step": "\ubc18\ubcf5 inverse",
+      "hypothesis": "Jacobian\uc744 \uac31\uc2e0\ud558\uba74 \uc791\uc740 inverse step\uc774 \ubaa9\ud45c\uc5d0 \uc548\uc815\uc801\uc73c\ub85c \uc811\uadfc\ud55c\ub2e4.",
+      "actual_result": {
+        "baseline": {
+          "distance_error": 4.024479372782138,
+          "accuracy": 0.9425856803529011
+        },
+        "one_shot": {
+          "inverse_one_shot": {
+            "distance_error": 1.0120457950723387,
+            "pair_distance": 23.07420316212502,
+            "accuracy": 0.9353919239904988
+          },
+          "random_same_norm": {
+            "distance_error": 4.079191720982847,
+            "pair_distance": 20.00058235046057,
+            "accuracy": 0.9414319647098743
+          },
+          "gradient_same_norm": {
+            "distance_error": 5.055169149866085,
+            "pair_distance": 22.78790657285318,
+            "accuracy": 0.5772650152697658
+          }
+        },
+        "iterative": {
+          "distance_error": [
+            3.312832970288343,
+            3.2088502313880114,
+            2.7544608272771685,
+            2.7586818513537104,
+            2.628413047126189
+          ],
+          "accuracy": [
+            0.9424499491007804,
+            0.9226331862911434,
+            0.9249406175771971,
+            0.9176789955887343,
+            0.9107567017305735
+          ]
+        }
+      },
+      "mismatch": "ReLU gate \ubcc0\ud654, Jacobian \uc120\ud615\uadfc\uc0ac, parameter \uc790\uc720\ub3c4, test generalization\uc744 \uc6d0\uc790\ub8cc\uc5d0\uc11c \ubd84\ub9ac\ud55c\ub2e4.",
+      "revised_principle": "centroid-level geometry\ub294 local Jacobian \ubc94\uc704 \uc548\uc5d0\uc11c\ub9cc \uc5ed\uc124\uacc4 \uac00\ub2a5\ud558\ub2e4."
+    }
+  ]
+}

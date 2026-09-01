@@ -1,0 +1,370 @@
+{
+  "scale": {
+    "channels": 6,
+    "steps": 24,
+    "inputs": 144,
+    "train_examples": 400
+  },
+  "baseline": {
+    "train": 1.0,
+    "test": 0.955,
+    "fresh": 0.95,
+    "parameters": 2576
+  },
+  "node_roles": [
+    {
+      "node": 0,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": -0.6646045264364697
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": -0.6395696912923954
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": -0.638564876845439
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": -0.6240331176462777
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": -0.6921036909169248
+        },
+        {
+          "name": "rms",
+          "correlation": -0.6629897926119365
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": -0.6627557701948245
+        },
+        {
+          "name": "mean_abs",
+          "correlation": -0.661928629117395
+        }
+      ]
+    },
+    {
+      "node": 2,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": 0.6311849924330998
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.61638609297992
+        },
+        {
+          "name": "channel_4_rms",
+          "correlation": 0.6027635863401605
+        },
+        {
+          "name": "channel_2_change",
+          "correlation": 0.5989442947159781
+        }
+      ]
+    },
+    {
+      "node": 3,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": 0.5069713200385791
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.49342044497480997
+        },
+        {
+          "name": "channel_4_rms",
+          "correlation": 0.4927305357655325
+        },
+        {
+          "name": "channel_2_change",
+          "correlation": 0.48877647433791493
+        }
+      ]
+    },
+    {
+      "node": 4,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": 0.7974329107666271
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.7761020804727646
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": 0.7603819239195868
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": 0.7596055851066934
+        }
+      ]
+    },
+    {
+      "node": 5,
+      "top_roles": [
+        {
+          "name": "channel_4_rms",
+          "correlation": -0.6718080126782366
+        },
+        {
+          "name": "rms",
+          "correlation": -0.6584237178247202
+        },
+        {
+          "name": "channel_2_rms",
+          "correlation": -0.6530688778685401
+        },
+        {
+          "name": "channel_3_rms",
+          "correlation": -0.650249183257574
+        }
+      ]
+    },
+    {
+      "node": 6,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": 0.8855487419235037
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.8535458640380121
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": 0.8422483816437822
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": 0.8392173938885905
+        }
+      ]
+    },
+    {
+      "node": 7,
+      "top_roles": [
+        {
+          "name": "channel_5_rms",
+          "correlation": -0.15788578451254912
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": 0.1525637672701456
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.1493296517170198
+        },
+        {
+          "name": "mean_change",
+          "correlation": 0.1373320156180499
+        }
+      ]
+    },
+    {
+      "node": 8,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": -0.7161136152642168
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": -0.6937416371076214
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": -0.6844652982897212
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": -0.6721507140838591
+        }
+      ]
+    },
+    {
+      "node": 9,
+      "top_roles": [
+        {
+          "name": "channel_4_change",
+          "correlation": 0.24226872223284332
+        },
+        {
+          "name": "mean_change",
+          "correlation": 0.23888407634769462
+        },
+        {
+          "name": "channel_2_change",
+          "correlation": 0.23635720618222178
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": 0.22412679064628968
+        }
+      ]
+    },
+    {
+      "node": 10,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": -0.7029906119935577
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": -0.6870720189914334
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": -0.6796373123148443
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": -0.6561495761877966
+        }
+      ]
+    },
+    {
+      "node": 11,
+      "top_roles": [
+        {
+          "name": "channel_5_rms",
+          "correlation": 0.5936932668442312
+        },
+        {
+          "name": "rms",
+          "correlation": 0.5753818695279271
+        },
+        {
+          "name": "mean_abs",
+          "correlation": 0.5699100222051687
+        },
+        {
+          "name": "channel_1_rms",
+          "correlation": 0.5551876158604331
+        }
+      ]
+    },
+    {
+      "node": 12,
+      "top_roles": [
+        {
+          "name": "channel_5_change",
+          "correlation": 0.418053588247784
+        },
+        {
+          "name": "channel_5_rms",
+          "correlation": 0.4179139187472831
+        },
+        {
+          "name": "mean_change",
+          "correlation": 0.41742723758977535
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": 0.39963756192236366
+        }
+      ]
+    },
+    {
+      "node": 13,
+      "top_roles": [
+        {
+          "name": "channel_4_rms",
+          "correlation": -0.4737767098136872
+        },
+        {
+          "name": "rms",
+          "correlation": -0.4735994570245249
+        },
+        {
+          "name": "channel_2_rms",
+          "correlation": -0.46726431787551514
+        },
+        {
+          "name": "mean_abs",
+          "correlation": -0.4541738621180977
+        }
+      ]
+    },
+    {
+      "node": 14,
+      "top_roles": [
+        {
+          "name": "mean_change",
+          "correlation": -0.47904050296220074
+        },
+        {
+          "name": "channel_4_change",
+          "correlation": -0.47014584319341163
+        },
+        {
+          "name": "channel_3_change",
+          "correlation": -0.46384608124333354
+        },
+        {
+          "name": "channel_5_change",
+          "correlation": -0.4461927755482851
+        }
+      ]
+    },
+    {
+      "node": 15,
+      "top_roles": [
+        {
+          "name": "rms",
+          "correlation": 0.7125442137276894
+        },
+        {
+          "name": "mean_abs",
+          "correlation": 0.6988635072900533
+        },
+        {
+          "name": "channel_4_rms",
+          "correlation": 0.6903998458814962
+        },
+        {
+          "name": "channel_5_rms",
+          "correlation": 0.6861445713234948
+        }
+      ]
+    }
+  ],
+  "selected_roles": [
+    "mean_change",
+    "channel_4_change",
+    "channel_5_change",
+    "channel_3_change",
+    "rms",
+    "mean_abs",
+    "channel_4_rms",
+    "channel_5_rms",
+    "channel_2_rms",
+    "channel_3_rms"
+  ],
+  "redesigned": {
+    "train": 0.9275,
+    "test": 0.9125,
+    "fresh": 0.9325,
+    "parameters": 44
+  }
+}

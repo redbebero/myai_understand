@@ -1,0 +1,22 @@
+{
+  "structure": {
+    "windows": 8,
+    "raw_role_features": 768,
+    "thresholded_event_features": 48,
+    "model_input_features": 816
+  },
+  "train": 0.9508977149075082,
+  "test": 0.8591788259246692,
+  "noise_0.05": 0.8513742789277231,
+  "scale_1.1": 0.8622327790973872,
+  "parameters": 4902,
+  "model_file_bytes": 53130,
+  "class_predictions": {
+    "0": 511,
+    "1": 440,
+    "2": 439,
+    "3": 455,
+    "4": 592,
+    "5": 510
+  }
+}

@@ -1,0 +1,2470 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "updates_per_condition": 10,
+    "conditions": [
+      "unscaled",
+      "scale_only",
+      "decorrelated",
+      "eigen_flattened"
+    ]
+  },
+  "summary": {
+    "unscaled": {
+      "parameter_update_norm": 0.10413756028253056,
+      "jacobian_amplification": 7.055817903586693,
+      "same_norm_geometry_gain": 1.7388700769602823,
+      "hidden_class_distance_gap_change": 0.14896613037593995,
+      "geometry_gain_per_hidden_norm": 0.2724948175688706,
+      "input_gradient_alignment": 0.7401070128187024,
+      "input_update_alignment": 0.675409076118939
+    },
+    "scale_only": {
+      "parameter_update_norm": 0.11570514471527175,
+      "jacobian_amplification": 8.008795618446127,
+      "same_norm_geometry_gain": 4.090195066407682,
+      "hidden_class_distance_gap_change": 0.33271800264641127,
+      "geometry_gain_per_hidden_norm": 0.40618673915580833,
+      "input_gradient_alignment": 0.8933221260890971,
+      "input_update_alignment": 0.8846722438187493
+    },
+    "decorrelated": {
+      "parameter_update_norm": 0.0927464553783629,
+      "jacobian_amplification": 1.7189963812507765,
+      "same_norm_geometry_gain": 0.3699062636080908,
+      "hidden_class_distance_gap_change": 0.013333877580832123,
+      "geometry_gain_per_hidden_norm": 0.10717461321903077,
+      "input_gradient_alignment": 0.9536980868642368,
+      "input_update_alignment": 0.26358610333472143
+    },
+    "eigen_flattened": {
+      "parameter_update_norm": 0.10103250167176737,
+      "jacobian_amplification": 2.003380989876648,
+      "same_norm_geometry_gain": 0.15277660616577354,
+      "hidden_class_distance_gap_change": 0.0026162299804005813,
+      "geometry_gain_per_hidden_norm": 0.013899400536419781,
+      "input_gradient_alignment": 0.36075073703985777,
+      "input_update_alignment": 0.3100896478644367
+    }
+  },
+  "results": {
+    "unscaled": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18208420834859662,
+              "jacobian_amplification": 11.074403822388506,
+              "predicted_hidden_movement_norm": 2.0164740529322835,
+              "hidden_class_distance_gap_change": -0.08709739686097073,
+              "same_norm_geometry_gain": 0.910506830079205,
+              "geometry_gain_per_hidden_norm": -0.04319291722812741,
+              "input_gradient_alignment": 0.8571592189667591,
+              "input_update_alignment": 0.6441635429253852
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.13455951960463888,
+              "jacobian_amplification": 7.223429436962956,
+              "predicted_hidden_movement_norm": 0.9719811949357425,
+              "hidden_class_distance_gap_change": 0.0366264219061512,
+              "same_norm_geometry_gain": 1.0948709413961917,
+              "geometry_gain_per_hidden_norm": 0.03768223304831794,
+              "input_gradient_alignment": 0.7135178820381388,
+              "input_update_alignment": 0.6490612988893463
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11324889409688171,
+              "jacobian_amplification": 5.855821548956154,
+              "predicted_hidden_movement_norm": 0.6631653144479733,
+              "hidden_class_distance_gap_change": 0.14880951006135706,
+              "same_norm_geometry_gain": 1.1562801874951825,
+              "geometry_gain_per_hidden_norm": 0.22439278234150087,
+              "input_gradient_alignment": 0.7125705435598503,
+              "input_update_alignment": 0.6687299605114974
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.1071134744526594,
+              "jacobian_amplification": 5.601447654853887,
+              "predicted_hidden_movement_norm": 0.5999905202761007,
+              "hidden_class_distance_gap_change": 0.20791446287681262,
+              "same_norm_geometry_gain": 1.2757157119709361,
+              "geometry_gain_per_hidden_norm": 0.3465295798025868,
+              "input_gradient_alignment": 0.7718423505820127,
+              "input_update_alignment": 0.7001065007980654
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.0971271655420757,
+              "jacobian_amplification": 4.376515667912074,
+              "predicted_hidden_movement_norm": 0.425078561774784,
+              "hidden_class_distance_gap_change": 0.1750607031680417,
+              "same_norm_geometry_gain": 1.634977226647714,
+              "geometry_gain_per_hidden_norm": 0.4118314093214438,
+              "input_gradient_alignment": 0.587253059105784,
+              "input_update_alignment": 0.7052617227799823
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.09092941842540557,
+              "jacobian_amplification": 4.43497747050853,
+              "predicted_hidden_movement_norm": 0.4032699221231169,
+              "hidden_class_distance_gap_change": 0.14839572081100919,
+              "same_norm_geometry_gain": 1.8955812664055465,
+              "geometry_gain_per_hidden_norm": 0.36798112794959326,
+              "input_gradient_alignment": 0.7137446827783367,
+              "input_update_alignment": 0.7017432620448061
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.08677532165415057,
+              "jacobian_amplification": 4.7435350752733125,
+              "predicted_hidden_movement_norm": 0.41162178193458704,
+              "hidden_class_distance_gap_change": 0.16234253121563996,
+              "same_norm_geometry_gain": 2.5877439816302896,
+              "geometry_gain_per_hidden_norm": 0.3943973286657572,
+              "input_gradient_alignment": 0.8696678281665521,
+              "input_update_alignment": 0.7260053402856015
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.08391675593819556,
+              "jacobian_amplification": 5.295947544977972,
+              "predicted_hidden_movement_norm": 0.44441873759340245,
+              "hidden_class_distance_gap_change": 0.20790065649104306,
+              "same_norm_geometry_gain": 3.0840513093023034,
+              "geometry_gain_per_hidden_norm": 0.4678035350553802,
+              "input_gradient_alignment": 0.7058779142607825,
+              "input_update_alignment": 0.723943778678374
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.08132475466206955,
+              "jacobian_amplification": 5.193555102170989,
+              "predicted_hidden_movement_norm": 0.42236459450799524,
+              "hidden_class_distance_gap_change": 0.21342015739437944,
+              "same_norm_geometry_gain": 3.2542001865757615,
+              "geometry_gain_per_hidden_norm": 0.5052984084591386,
+              "input_gradient_alignment": 0.6912114662599681,
+              "input_update_alignment": 0.7100218730376715
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.07987380515504486,
+              "jacobian_amplification": 5.340602902076027,
+              "predicted_hidden_movement_norm": 0.4265742756108877,
+              "hidden_class_distance_gap_change": 0.21182733276898014,
+              "same_norm_geometry_gain": 3.0644080752584175,
+              "geometry_gain_per_hidden_norm": 0.4965778409061982,
+              "input_gradient_alignment": 0.8141124713980412,
+              "input_update_alignment": 0.7229393734669557
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.1741966413325827,
+              "jacobian_amplification": 8.501017438807448,
+              "predicted_hidden_movement_norm": 1.4808486857499719,
+              "hidden_class_distance_gap_change": 0.029922383752811366,
+              "same_norm_geometry_gain": 0.7643745426431173,
+              "geometry_gain_per_hidden_norm": 0.02020623986822614,
+              "input_gradient_alignment": 0.6614631455709491,
+              "input_update_alignment": 0.5748153841064331
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1374894563974905,
+              "jacobian_amplification": 6.913565900737079,
+              "predicted_hidden_movement_norm": 0.9505424174605677,
+              "hidden_class_distance_gap_change": 0.2123571403102799,
+              "same_norm_geometry_gain": 1.3671012534124765,
+              "geometry_gain_per_hidden_norm": 0.22340627457489487,
+              "input_gradient_alignment": 0.7015383730727309,
+              "input_update_alignment": 0.5704725258646829
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.12854626704835026,
+              "jacobian_amplification": 7.6541491553625605,
+              "predicted_hidden_movement_norm": 0.9839123013531402,
+              "hidden_class_distance_gap_change": 0.3072186914807258,
+              "same_norm_geometry_gain": 1.5227557868037243,
+              "geometry_gain_per_hidden_norm": 0.31224194580982334,
+              "input_gradient_alignment": 0.8385733774871373,
+              "input_update_alignment": 0.6261017321623438
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.11190802766453965,
+              "jacobian_amplification": 7.910189771658597,
+              "predicted_hidden_movement_norm": 0.8852137357985289,
+              "hidden_class_distance_gap_change": 0.3256755014657766,
+              "same_norm_geometry_gain": 1.7532017526481882,
+              "geometry_gain_per_hidden_norm": 0.3679060641461838,
+              "input_gradient_alignment": 0.7047901606322892,
+              "input_update_alignment": 0.6345192171798666
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09942658465691012,
+              "jacobian_amplification": 8.132818475141478,
+              "predicted_hidden_movement_norm": 0.8086183646179369,
+              "hidden_class_distance_gap_change": 0.16660081734373258,
+              "same_norm_geometry_gain": 1.9200378497308193,
+              "geometry_gain_per_hidden_norm": 0.20603145393865696,
+              "input_gradient_alignment": 0.8248416279434051,
+              "input_update_alignment": 0.6561970619454395
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.09468052465498304,
+              "jacobian_amplification": 7.672059247978076,
+              "predicted_hidden_movement_norm": 0.7263945947826789,
+              "hidden_class_distance_gap_change": 0.13678335656673396,
+              "same_norm_geometry_gain": 1.9626331262900112,
+              "geometry_gain_per_hidden_norm": 0.18830448016708673,
+              "input_gradient_alignment": 0.6730322219361244,
+              "input_update_alignment": 0.6651861635806292
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.08918872236114447,
+              "jacobian_amplification": 7.502429673114899,
+              "predicted_hidden_movement_norm": 0.6691321171494566,
+              "hidden_class_distance_gap_change": 0.15831799326350127,
+              "same_norm_geometry_gain": 2.221508813839383,
+              "geometry_gain_per_hidden_norm": 0.236601994144214,
+              "input_gradient_alignment": 0.7765341315887455,
+              "input_update_alignment": 0.666521353686155
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.08308492935512352,
+              "jacobian_amplification": 6.552011199235622,
+              "predicted_hidden_movement_norm": 0.5443733876224698,
+              "hidden_class_distance_gap_change": 0.17346938289773473,
+              "same_norm_geometry_gain": 2.342598199433823,
+              "geometry_gain_per_hidden_norm": 0.3186588228630273,
+              "input_gradient_alignment": 0.751554032730327,
+              "input_update_alignment": 0.6888199132976836
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.08034061786760631,
+              "jacobian_amplification": 6.378283270303915,
+              "predicted_hidden_movement_norm": 0.5124352188708331,
+              "hidden_class_distance_gap_change": 0.17845969361480107,
+              "same_norm_geometry_gain": 2.5231056834176515,
+              "geometry_gain_per_hidden_norm": 0.3482580569072566,
+              "input_gradient_alignment": 0.7069871001001681,
+              "input_update_alignment": 0.7206117790606261
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.07696904090170398,
+              "jacobian_amplification": 6.50051161834209,
+              "predicted_hidden_movement_norm": 0.5003381446341743,
+              "hidden_class_distance_gap_change": 0.20180801598730055,
+              "same_norm_geometry_gain": 2.434752433549885,
+              "geometry_gain_per_hidden_norm": 0.4033432552596083,
+              "input_gradient_alignment": 0.7460886221926836,
+              "input_update_alignment": 0.7249694872834344
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.17739935906313836,
+              "jacobian_amplification": 14.993499822935929,
+              "predicted_hidden_movement_norm": 2.659837258702112,
+              "hidden_class_distance_gap_change": 0.1760027223678787,
+              "same_norm_geometry_gain": 1.5625526907590235,
+              "geometry_gain_per_hidden_norm": 0.06617048535283718,
+              "input_gradient_alignment": 0.7880407980696352,
+              "input_update_alignment": 0.6611762310250116
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1374004538863771,
+              "jacobian_amplification": 10.74889211978138,
+              "predicted_hidden_movement_norm": 1.4769026560336636,
+              "hidden_class_distance_gap_change": 0.15327594508350387,
+              "same_norm_geometry_gain": 0.8755171354120072,
+              "geometry_gain_per_hidden_norm": 0.10378202277402512,
+              "input_gradient_alignment": 0.7061070944558457,
+              "input_update_alignment": 0.6489670447519392
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11756871308947796,
+              "jacobian_amplification": 7.932135264213854,
+              "predicted_hidden_movement_norm": 0.9325709350652891,
+              "hidden_class_distance_gap_change": 0.13794165750709383,
+              "same_norm_geometry_gain": 0.8475639582238533,
+              "geometry_gain_per_hidden_norm": 0.14791545856770302,
+              "input_gradient_alignment": 0.7678607365175231,
+              "input_update_alignment": 0.6577036183444674
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09970648715137174,
+              "jacobian_amplification": 6.132578617047996,
+              "predicted_hidden_movement_norm": 0.6114578710854731,
+              "hidden_class_distance_gap_change": 0.15427083674788328,
+              "same_norm_geometry_gain": 1.1983765569418008,
+              "geometry_gain_per_hidden_norm": 0.2523000259593002,
+              "input_gradient_alignment": 0.7756635483224026,
+              "input_update_alignment": 0.6628994744418786
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.0909738681119376,
+              "jacobian_amplification": 4.8895090372694145,
+              "predicted_hidden_movement_norm": 0.4448175502886747,
+              "hidden_class_distance_gap_change": 0.13504837959716753,
+              "same_norm_geometry_gain": 1.2581579335480295,
+              "geometry_gain_per_hidden_norm": 0.3036039821484668,
+              "input_gradient_alignment": 0.7433877236221038,
+              "input_update_alignment": 0.6696561570374955
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08249710260867935,
+              "jacobian_amplification": 4.944112863397036,
+              "predicted_hidden_movement_norm": 0.40787498620055673,
+              "hidden_class_distance_gap_change": 0.14197914122058033,
+              "same_norm_geometry_gain": 1.4576453473297628,
+              "geometry_gain_per_hidden_norm": 0.3480947496759892,
+              "input_gradient_alignment": 0.7798564707154865,
+              "input_update_alignment": 0.6950268118542479
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07822616083288687,
+              "jacobian_amplification": 5.356300125119955,
+              "predicted_hidden_movement_norm": 0.4190027950568457,
+              "hidden_class_distance_gap_change": 0.1824624067830352,
+              "same_norm_geometry_gain": 2.013842347563719,
+              "geometry_gain_per_hidden_norm": 0.4354682329941993,
+              "input_gradient_alignment": 0.8084393794125924,
+              "input_update_alignment": 0.7070415463130124
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07287907307293388,
+              "jacobian_amplification": 6.494141111269073,
+              "predicted_hidden_movement_norm": 0.47328698459412283,
+              "hidden_class_distance_gap_change": 0.14623192402767848,
+              "same_norm_geometry_gain": 1.6292030503467407,
+              "geometry_gain_per_hidden_norm": 0.30897093896018024,
+              "input_gradient_alignment": 0.7769856998731328,
+              "input_update_alignment": 0.7103946965235425
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06795872591982077,
+              "jacobian_amplification": 5.192840091782763,
+              "predicted_hidden_movement_norm": 0.3528987965429217,
+              "hidden_class_distance_gap_change": 0.17944224696791455,
+              "same_norm_geometry_gain": 1.9708523162493212,
+              "geometry_gain_per_hidden_norm": 0.5084807563124962,
+              "input_gradient_alignment": 0.7985564480044374,
+              "input_update_alignment": 0.7326450221574597
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06605227952256768,
+              "jacobian_amplification": 5.545343018434663,
+              "predicted_hidden_movement_norm": 0.36628254710216546,
+              "hidden_class_distance_gap_change": 0.19697503620770856,
+              "same_norm_geometry_gain": 2.401153351986877,
+              "geometry_gain_per_hidden_norm": 0.5377680093306965,
+              "input_gradient_alignment": 0.7364517750302579,
+              "input_update_alignment": 0.7298543577948935
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18054134447150147,
+              "jacobian_amplification": 10.130453969246023,
+              "predicted_hidden_movement_norm": 1.8289657797143357,
+              "hidden_class_distance_gap_change": -0.23391662013875988,
+              "same_norm_geometry_gain": 0.7409391401672315,
+              "geometry_gain_per_hidden_norm": -0.1278955695799268,
+              "input_gradient_alignment": 0.7785688628089048,
+              "input_update_alignment": 0.6209953151373043
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1372911350859209,
+              "jacobian_amplification": 8.068167404605566,
+              "predicted_hidden_movement_norm": 1.1076878610415264,
+              "hidden_class_distance_gap_change": 0.13413708736730434,
+              "same_norm_geometry_gain": 1.5461113484766298,
+              "geometry_gain_per_hidden_norm": 0.12109646777313166,
+              "input_gradient_alignment": 0.7694073856587663,
+              "input_update_alignment": 0.654162217621307
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.12165011806984213,
+              "jacobian_amplification": 7.086471411611338,
+              "predicted_hidden_movement_norm": 0.8620700839210802,
+              "hidden_class_distance_gap_change": 0.21627804828732866,
+              "same_norm_geometry_gain": 2.5080203899404707,
+              "geometry_gain_per_hidden_norm": 0.2508822105316535,
+              "input_gradient_alignment": 0.7829500933348016,
+              "input_update_alignment": 0.6761045395931696
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.11017149923796885,
+              "jacobian_amplification": 8.493175068253933,
+              "predicted_hidden_movement_norm": 0.9357058305600742,
+              "hidden_class_distance_gap_change": 0.26068393908977466,
+              "same_norm_geometry_gain": 2.755187903905696,
+              "geometry_gain_per_hidden_norm": 0.2785960400970679,
+              "input_gradient_alignment": 0.7750473288742253,
+              "input_update_alignment": 0.6830709352405961
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09564163759248834,
+              "jacobian_amplification": 6.613307257424581,
+              "predicted_hidden_movement_norm": 0.6325075360023747,
+              "hidden_class_distance_gap_change": 0.15537256370900432,
+              "same_norm_geometry_gain": 1.690485638643665,
+              "geometry_gain_per_hidden_norm": 0.2456453952960032,
+              "input_gradient_alignment": 0.7406860342355343,
+              "input_update_alignment": 0.6723255341339016
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.09016318296601658,
+              "jacobian_amplification": 10.048844481784673,
+              "predicted_hidden_movement_norm": 0.9060358036081976,
+              "hidden_class_distance_gap_change": 0.051094567408684566,
+              "same_norm_geometry_gain": 1.4058400146455483,
+              "geometry_gain_per_hidden_norm": 0.056393541188113676,
+              "input_gradient_alignment": 0.7567211469706989,
+              "input_update_alignment": 0.6747555259623618
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07841779408300178,
+              "jacobian_amplification": 7.603087415563561,
+              "predicted_hidden_movement_norm": 0.5962173433487256,
+              "hidden_class_distance_gap_change": 0.1298795746483843,
+              "same_norm_geometry_gain": 1.956232993086681,
+              "geometry_gain_per_hidden_norm": 0.21783930993838627,
+              "input_gradient_alignment": 0.816071428359855,
+              "input_update_alignment": 0.7177866013537639
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07480727717854259,
+              "jacobian_amplification": 6.8091180023856825,
+              "predicted_hidden_movement_norm": 0.5093715777458699,
+              "hidden_class_distance_gap_change": 0.24425263750645004,
+              "same_norm_geometry_gain": 2.5019889507088484,
+              "geometry_gain_per_hidden_norm": 0.4795176020368963,
+              "input_gradient_alignment": 0.7827098412878344,
+              "input_update_alignment": 0.7475137005572916
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07319472478855708,
+              "jacobian_amplification": 7.524985468767226,
+              "predicted_hidden_movement_norm": 0.5507892404243083,
+              "hidden_class_distance_gap_change": 0.25787254183261565,
+              "same_norm_geometry_gain": 2.5301202991132756,
+              "geometry_gain_per_hidden_norm": 0.4681873263064469,
+              "input_gradient_alignment": 0.6988913944403107,
+              "input_update_alignment": 0.7503245091374611
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06949280564743489,
+              "jacobian_amplification": 6.031443408451558,
+              "predicted_hidden_movement_norm": 0.41914192455702637,
+              "hidden_class_distance_gap_change": 0.1992016747526547,
+              "same_norm_geometry_gain": 2.255468176172947,
+              "geometry_gain_per_hidden_norm": 0.4752606768296506,
+              "input_gradient_alignment": 0.666093873156856,
+              "input_update_alignment": 0.7160538513948461
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18209017652277978,
+              "jacobian_amplification": 11.554167615346525,
+              "predicted_hidden_movement_norm": 2.1039004206522343,
+              "hidden_class_distance_gap_change": -0.009777071338395893,
+              "same_norm_geometry_gain": 1.3431619737720075,
+              "geometry_gain_per_hidden_norm": -0.0046471169654336035,
+              "input_gradient_alignment": 0.8208106195717307,
+              "input_update_alignment": 0.6489929655649546
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.14186120253279158,
+              "jacobian_amplification": 10.511840930524194,
+              "predicted_hidden_movement_norm": 1.491222395237581,
+              "hidden_class_distance_gap_change": -0.03421701654225534,
+              "same_norm_geometry_gain": 1.1220553747409303,
+              "geometry_gain_per_hidden_norm": -0.022945616060710983,
+              "input_gradient_alignment": 0.8397615128694552,
+              "input_update_alignment": 0.6507748577422127
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11870931920202053,
+              "jacobian_amplification": 8.197595196216778,
+              "predicted_hidden_movement_norm": 0.9731309448366475,
+              "hidden_class_distance_gap_change": 0.08227307972086596,
+              "same_norm_geometry_gain": 1.173861369643935,
+              "geometry_gain_per_hidden_norm": 0.08454471636874784,
+              "input_gradient_alignment": 0.6419373301068368,
+              "input_update_alignment": 0.6498675287138878
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.10519663287307084,
+              "jacobian_amplification": 6.372124491490826,
+              "predicted_hidden_movement_norm": 0.6703260407528636,
+              "hidden_class_distance_gap_change": 0.14584670053962517,
+              "same_norm_geometry_gain": 0.9751505506509972,
+              "geometry_gain_per_hidden_norm": 0.21757576413982113,
+              "input_gradient_alignment": 0.5277694073199439,
+              "input_update_alignment": 0.6216906423671394
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09305225944912378,
+              "jacobian_amplification": 4.723133120521708,
+              "predicted_hidden_movement_norm": 0.43949820854353555,
+              "hidden_class_distance_gap_change": 0.11053090638324141,
+              "same_norm_geometry_gain": 0.8855037345624539,
+              "geometry_gain_per_hidden_norm": 0.2514934173441403,
+              "input_gradient_alignment": 0.6391580013574009,
+              "input_update_alignment": 0.6281460992234937
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08973653170019749,
+              "jacobian_amplification": 4.712911029418568,
+              "predicted_hidden_movement_norm": 0.4229202899916297,
+              "hidden_class_distance_gap_change": 0.1297714229253067,
+              "same_norm_geometry_gain": 1.0147021382350632,
+              "geometry_gain_per_hidden_norm": 0.306846055855762,
+              "input_gradient_alignment": 0.6690453211534136,
+              "input_update_alignment": 0.6261088386787512
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.08641939073727747,
+              "jacobian_amplification": 5.158393122701247,
+              "predicted_hidden_movement_norm": 0.44578519084720397,
+              "hidden_class_distance_gap_change": 0.13639463333015198,
+              "same_norm_geometry_gain": 1.1850841352525172,
+              "geometry_gain_per_hidden_norm": 0.30596492689884397,
+              "input_gradient_alignment": 0.6693435319750888,
+              "input_update_alignment": 0.6321115282894587
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.08135980495800464,
+              "jacobian_amplification": 5.22336384732666,
+              "predicted_hidden_movement_norm": 0.42497186384318986,
+              "hidden_class_distance_gap_change": 0.15246462084676166,
+              "same_norm_geometry_gain": 1.5543614590963357,
+              "geometry_gain_per_hidden_norm": 0.3587640355009938,
+              "input_gradient_alignment": 0.6872937281826212,
+              "input_update_alignment": 0.6593893171525208
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07902930933825154,
+              "jacobian_amplification": 6.019572921950441,
+              "predicted_hidden_movement_norm": 0.4757226905329841,
+              "hidden_class_distance_gap_change": 0.2001988322969815,
+              "same_norm_geometry_gain": 2.0821530472577,
+              "geometry_gain_per_hidden_norm": 0.4208309510582421,
+              "input_gradient_alignment": 0.7057920762144358,
+              "input_update_alignment": 0.670363949469826
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.07460551431239247,
+              "jacobian_amplification": 6.822114967729346,
+              "predicted_hidden_movement_norm": 0.5089673958657186,
+              "hidden_class_distance_gap_change": 0.2005210231449864,
+              "same_norm_geometry_gain": 1.7318053630494055,
+              "geometry_gain_per_hidden_norm": 0.39397616580903755,
+              "input_gradient_alignment": 0.7335818386622063,
+              "input_update_alignment": 0.7143591167837725
+            }
+          ]
+        }
+      ]
+    },
+    "scale_only": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.1896515430198668,
+              "jacobian_amplification": 9.6415692349057,
+              "predicted_hidden_movement_norm": 1.8285384825327429,
+              "hidden_class_distance_gap_change": 0.18249390523858267,
+              "same_norm_geometry_gain": 3.4638800300701185,
+              "geometry_gain_per_hidden_norm": 0.09980315261716939,
+              "input_gradient_alignment": 0.9586498561870976,
+              "input_update_alignment": 0.8402314419130382
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.15376184535549264,
+              "jacobian_amplification": 8.929562667951787,
+              "predicted_hidden_movement_norm": 1.373026034041783,
+              "hidden_class_distance_gap_change": 0.4188464334678908,
+              "same_norm_geometry_gain": 4.166624546107832,
+              "geometry_gain_per_hidden_norm": 0.3050535263595335,
+              "input_gradient_alignment": 0.9474717469571183,
+              "input_update_alignment": 0.8832324195679461
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.1335419759226627,
+              "jacobian_amplification": 8.174448135241173,
+              "predicted_hidden_movement_norm": 1.0916319560574317,
+              "hidden_class_distance_gap_change": 0.45684791836313754,
+              "same_norm_geometry_gain": 3.8793963200945334,
+              "geometry_gain_per_hidden_norm": 0.4184999493905457,
+              "input_gradient_alignment": 0.9212086054837885,
+              "input_update_alignment": 0.8918473381860889
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.11820718984748779,
+              "jacobian_amplification": 8.357275756305167,
+              "predicted_hidden_movement_norm": 0.987890081933372,
+              "hidden_class_distance_gap_change": 0.42796937428682846,
+              "same_norm_geometry_gain": 4.551410132538338,
+              "geometry_gain_per_hidden_norm": 0.433215579459267,
+              "input_gradient_alignment": 0.9125153412905435,
+              "input_update_alignment": 0.897944562529135
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.1084125306311235,
+              "jacobian_amplification": 7.194275348580784,
+              "predicted_hidden_movement_norm": 0.7799495965967509,
+              "hidden_class_distance_gap_change": 0.355068325618374,
+              "same_norm_geometry_gain": 4.021395108571463,
+              "geometry_gain_per_hidden_norm": 0.45524521990611555,
+              "input_gradient_alignment": 0.7994909078178496,
+              "input_update_alignment": 0.8951071551040689
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.10047687278405996,
+              "jacobian_amplification": 6.236837629835145,
+              "predicted_hidden_movement_norm": 0.626657941107784,
+              "hidden_class_distance_gap_change": 0.30940707527290084,
+              "same_norm_geometry_gain": 3.8294872891632563,
+              "geometry_gain_per_hidden_norm": 0.4937415693255907,
+              "input_gradient_alignment": 0.8870784033314393,
+              "input_update_alignment": 0.8933155261895256
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.09581069227932369,
+              "jacobian_amplification": 6.551812159604993,
+              "predicted_hidden_movement_norm": 0.6277336586958452,
+              "hidden_class_distance_gap_change": 0.3322910350406443,
+              "same_norm_geometry_gain": 4.122229695654183,
+              "geometry_gain_per_hidden_norm": 0.5293503549435267,
+              "input_gradient_alignment": 0.862992642174881,
+              "input_update_alignment": 0.896313498699439
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.09010737842601708,
+              "jacobian_amplification": 6.767666333958294,
+              "predicted_hidden_movement_norm": 0.6098166714149957,
+              "hidden_class_distance_gap_change": 0.31200214635667434,
+              "same_norm_geometry_gain": 4.0215536989258425,
+              "geometry_gain_per_hidden_norm": 0.5116326938598058,
+              "input_gradient_alignment": 0.8635442574115861,
+              "input_update_alignment": 0.8973665923900914
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.0867149791420729,
+              "jacobian_amplification": 6.973033894720897,
+              "predicted_hidden_movement_norm": 0.60466648873769,
+              "hidden_class_distance_gap_change": 0.309021556577462,
+              "same_norm_geometry_gain": 4.082152343416812,
+              "geometry_gain_per_hidden_norm": 0.5110611590574162,
+              "input_gradient_alignment": 0.832059055937384,
+              "input_update_alignment": 0.894104095027974
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.08352868541058941,
+              "jacobian_amplification": 6.859547919257478,
+              "predicted_hidden_movement_norm": 0.5729690202065211,
+              "hidden_class_distance_gap_change": 0.32146638562742413,
+              "same_norm_geometry_gain": 4.364140938893749,
+              "geometry_gain_per_hidden_norm": 0.5610536945113624,
+              "input_gradient_alignment": 0.9105875143686348,
+              "input_update_alignment": 0.8979718290900792
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965165561922787,
+              "jacobian_amplification": 9.701071901894032,
+              "predicted_hidden_movement_norm": 1.8398243474753748,
+              "hidden_class_distance_gap_change": -0.2331996113483803,
+              "same_norm_geometry_gain": 2.704960253477468,
+              "geometry_gain_per_hidden_norm": -0.12675101928528074,
+              "input_gradient_alignment": 0.9793916137056595,
+              "input_update_alignment": 0.8431876669556236
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.14920897460740948,
+              "jacobian_amplification": 8.926051579775743,
+              "predicted_hidden_movement_norm": 1.3318470035111862,
+              "hidden_class_distance_gap_change": 0.09853931845005619,
+              "same_norm_geometry_gain": 2.7676984466020977,
+              "geometry_gain_per_hidden_norm": 0.0739869656126223,
+              "input_gradient_alignment": 0.9587619422364838,
+              "input_update_alignment": 0.8804744939498526
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.12887117833625866,
+              "jacobian_amplification": 9.07862794599536,
+              "predicted_hidden_movement_norm": 1.1699734810769096,
+              "hidden_class_distance_gap_change": 0.11360493142945811,
+              "same_norm_geometry_gain": 2.6934594746542713,
+              "geometry_gain_per_hidden_norm": 0.09710043284475964,
+              "input_gradient_alignment": 0.9221162222462392,
+              "input_update_alignment": 0.8815996844717147
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.11576493559550254,
+              "jacobian_amplification": 7.695829355034869,
+              "predicted_hidden_movement_norm": 0.8909071896395894,
+              "hidden_class_distance_gap_change": 0.16650303305634256,
+              "same_norm_geometry_gain": 2.9985717542016053,
+              "geometry_gain_per_hidden_norm": 0.18689155839420296,
+              "input_gradient_alignment": 0.9437683242965355,
+              "input_update_alignment": 0.8894783626733243
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.10882084432080684,
+              "jacobian_amplification": 7.930022967178976,
+              "predicted_hidden_movement_norm": 0.8629517947718061,
+              "hidden_class_distance_gap_change": 0.21466421536507574,
+              "same_norm_geometry_gain": 3.501533618958958,
+              "geometry_gain_per_hidden_norm": 0.24875574356020697,
+              "input_gradient_alignment": 0.932403423870091,
+              "input_update_alignment": 0.8936900977207454
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.10230440894574078,
+              "jacobian_amplification": 7.8375744061124974,
+              "predicted_hidden_movement_norm": 0.8018184171856043,
+              "hidden_class_distance_gap_change": 0.22256929465560688,
+              "same_norm_geometry_gain": 3.617309474917756,
+              "geometry_gain_per_hidden_norm": 0.27758067149022186,
+              "input_gradient_alignment": 0.9185036691015337,
+              "input_update_alignment": 0.8982866105580842
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.09837537386760314,
+              "jacobian_amplification": 8.418305075955862,
+              "predicted_hidden_movement_norm": 0.8281539091786992,
+              "hidden_class_distance_gap_change": 0.3043492671460031,
+              "same_norm_geometry_gain": 4.104961902327253,
+              "geometry_gain_per_hidden_norm": 0.36750326693239155,
+              "input_gradient_alignment": 0.8806039297155323,
+              "input_update_alignment": 0.9022033337843834
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.09137884489024808,
+              "jacobian_amplification": 7.949767126085121,
+              "predicted_hidden_movement_norm": 0.7264405371281255,
+              "hidden_class_distance_gap_change": 0.315135377815561,
+              "same_norm_geometry_gain": 4.027852309987682,
+              "geometry_gain_per_hidden_norm": 0.4338075337334585,
+              "input_gradient_alignment": 0.8780930325941216,
+              "input_update_alignment": 0.9018139807722355
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.08802036498756567,
+              "jacobian_amplification": 7.857742492265245,
+              "predicted_hidden_movement_norm": 0.6916413621474907,
+              "hidden_class_distance_gap_change": 0.31851122517488567,
+              "same_norm_geometry_gain": 4.13633254795521,
+              "geometry_gain_per_hidden_norm": 0.4605150047503434,
+              "input_gradient_alignment": 0.897379488434605,
+              "input_update_alignment": 0.9019905401546572
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.08410876158399427,
+              "jacobian_amplification": 7.588015873124357,
+              "predicted_hidden_movement_norm": 0.6382186179681807,
+              "hidden_class_distance_gap_change": 0.3310150946845652,
+              "same_norm_geometry_gain": 4.19170253093978,
+              "geometry_gain_per_hidden_norm": 0.5186547138633747,
+              "input_gradient_alignment": 0.8958818785387914,
+              "input_update_alignment": 0.8975541131405748
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.1896516132831685,
+              "jacobian_amplification": 11.103069823227365,
+              "predicted_hidden_movement_norm": 2.1057151043707343,
+              "hidden_class_distance_gap_change": 0.16137843609640362,
+              "same_norm_geometry_gain": 3.685328338202745,
+              "geometry_gain_per_hidden_norm": 0.07663830485018508,
+              "input_gradient_alignment": 0.9763390083824766,
+              "input_update_alignment": 0.8454486851524206
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.15639178630342976,
+              "jacobian_amplification": 9.059564978626863,
+              "predicted_hidden_movement_norm": 1.4168415501394485,
+              "hidden_class_distance_gap_change": 0.4433481776748195,
+              "same_norm_geometry_gain": 4.265910222205632,
+              "geometry_gain_per_hidden_norm": 0.31291302660568093,
+              "input_gradient_alignment": 0.9418946999065589,
+              "input_update_alignment": 0.8896250997938936
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.13281962629211158,
+              "jacobian_amplification": 8.514643333340414,
+              "predicted_hidden_movement_norm": 1.1309117455448932,
+              "hidden_class_distance_gap_change": 0.40560227322874076,
+              "same_norm_geometry_gain": 4.273746955123585,
+              "geometry_gain_per_hidden_norm": 0.3586506858970807,
+              "input_gradient_alignment": 0.9301782775908377,
+              "input_update_alignment": 0.8936785508587236
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.12028743215272256,
+              "jacobian_amplification": 7.648321403174162,
+              "predicted_hidden_movement_norm": 0.9199969418665278,
+              "hidden_class_distance_gap_change": 0.41546333061373214,
+              "same_norm_geometry_gain": 4.42139163673299,
+              "geometry_gain_per_hidden_norm": 0.45159207787237093,
+              "input_gradient_alignment": 0.8926886666076727,
+              "input_update_alignment": 0.8955087516606632
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.10849508311246779,
+              "jacobian_amplification": 8.526359716538702,
+              "predicted_hidden_movement_norm": 0.9250681060926638,
+              "hidden_class_distance_gap_change": 0.4250009455692658,
+              "same_norm_geometry_gain": 4.610251122824038,
+              "geometry_gain_per_hidden_norm": 0.4594266549350623,
+              "input_gradient_alignment": 0.7790224875408837,
+              "input_update_alignment": 0.8913463933027138
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.09951870608889497,
+              "jacobian_amplification": 7.580136539111702,
+              "predicted_hidden_movement_norm": 0.754365380349551,
+              "hidden_class_distance_gap_change": 0.41838397704401376,
+              "same_norm_geometry_gain": 4.699342015523012,
+              "geometry_gain_per_hidden_norm": 0.5546171496498775,
+              "input_gradient_alignment": 0.8749255031350318,
+              "input_update_alignment": 0.8880492764066603
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.09313254799364801,
+              "jacobian_amplification": 7.453963046194096,
+              "predicted_hidden_movement_norm": 0.6942065711425504,
+              "hidden_class_distance_gap_change": 0.39068851239902747,
+              "same_norm_geometry_gain": 4.598125757892668,
+              "geometry_gain_per_hidden_norm": 0.56278423258947,
+              "input_gradient_alignment": 0.8503303975206651,
+              "input_update_alignment": 0.8836321497536361
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.0886140226948917,
+              "jacobian_amplification": 6.663876605422209,
+              "predicted_hidden_movement_norm": 0.5905129127488415,
+              "hidden_class_distance_gap_change": 0.3658571322078053,
+              "same_norm_geometry_gain": 4.320428402622671,
+              "geometry_gain_per_hidden_norm": 0.619558225246486,
+              "input_gradient_alignment": 0.8730748158063817,
+              "input_update_alignment": 0.8890968423695015
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.08480168570354936,
+              "jacobian_amplification": 7.250156048929515,
+              "predicted_hidden_movement_norm": 0.614825454563008,
+              "hidden_class_distance_gap_change": 0.3420447417128831,
+              "same_norm_geometry_gain": 4.265948306981899,
+              "geometry_gain_per_hidden_norm": 0.5563282053050229,
+              "input_gradient_alignment": 0.8237399178973095,
+              "input_update_alignment": 0.8881544356401302
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.0825288647433952,
+              "jacobian_amplification": 7.650181145436169,
+              "predicted_hidden_movement_norm": 0.6313607650141737,
+              "hidden_class_distance_gap_change": 0.32242478338078606,
+              "same_norm_geometry_gain": 4.224773950928602,
+              "geometry_gain_per_hidden_norm": 0.5106823249834789,
+              "input_gradient_alignment": 0.9082719427363092,
+              "input_update_alignment": 0.8946305207780277
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965166812533152,
+              "jacobian_amplification": 9.457814852630358,
+              "predicted_hidden_movement_norm": 1.793690363621884,
+              "hidden_class_distance_gap_change": 0.24277104208794015,
+              "same_norm_geometry_gain": 3.6243167910130376,
+              "geometry_gain_per_hidden_norm": 0.1353472410911146,
+              "input_gradient_alignment": 0.9547560900240626,
+              "input_update_alignment": 0.8267607435820699
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1571943578035589,
+              "jacobian_amplification": 9.661821392860649,
+              "predicted_hidden_movement_norm": 1.5187838090634165,
+              "hidden_class_distance_gap_change": 0.5889972270015845,
+              "same_norm_geometry_gain": 5.017813650704811,
+              "geometry_gain_per_hidden_norm": 0.387808471150874,
+              "input_gradient_alignment": 0.9267047681041409,
+              "input_update_alignment": 0.885964854580054
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.1315331636199137,
+              "jacobian_amplification": 8.173821391079514,
+              "predicted_hidden_movement_norm": 1.0751285864328124,
+              "hidden_class_distance_gap_change": 0.49588644441373986,
+              "same_norm_geometry_gain": 4.5499417131671684,
+              "geometry_gain_per_hidden_norm": 0.461234545031539,
+              "input_gradient_alignment": 0.9008014664003265,
+              "input_update_alignment": 0.8887254335296729
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.1186268109788532,
+              "jacobian_amplification": 7.756188717929075,
+              "predicted_hidden_movement_norm": 0.9200919329580862,
+              "hidden_class_distance_gap_change": 0.4397838176335528,
+              "same_norm_geometry_gain": 4.699702845642575,
+              "geometry_gain_per_hidden_norm": 0.4779781257506,
+              "input_gradient_alignment": 0.8650118104654403,
+              "input_update_alignment": 0.8898906450835324
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.11012083298927468,
+              "jacobian_amplification": 7.545433298381318,
+              "predicted_hidden_movement_norm": 0.830909400082761,
+              "hidden_class_distance_gap_change": 0.41013589645906934,
+              "same_norm_geometry_gain": 4.410533493795258,
+              "geometry_gain_per_hidden_norm": 0.49359881645125037,
+              "input_gradient_alignment": 0.8532393528626645,
+              "input_update_alignment": 0.8903256474836061
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.10196972104586724,
+              "jacobian_amplification": 7.230879290818396,
+              "predicted_hidden_movement_norm": 0.7373307442010901,
+              "hidden_class_distance_gap_change": 0.37899718978764496,
+              "same_norm_geometry_gain": 4.096496351856276,
+              "geometry_gain_per_hidden_norm": 0.5140124601725303,
+              "input_gradient_alignment": 0.764884609513013,
+              "input_update_alignment": 0.885753446946256
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.0946978219564947,
+              "jacobian_amplification": 7.000581891301841,
+              "predicted_hidden_movement_norm": 0.6629398575343627,
+              "hidden_class_distance_gap_change": 0.3684051290903332,
+              "same_norm_geometry_gain": 4.043185214979054,
+              "geometry_gain_per_hidden_norm": 0.5557142550766565,
+              "input_gradient_alignment": 0.8182229238156151,
+              "input_update_alignment": 0.8776855118252251
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.08887535780284223,
+              "jacobian_amplification": 7.211365466389497,
+              "predicted_hidden_movement_norm": 0.6409126860724267,
+              "hidden_class_distance_gap_change": 0.3859566937504998,
+              "same_norm_geometry_gain": 4.537418950770739,
+              "geometry_gain_per_hidden_norm": 0.6021985554938517,
+              "input_gradient_alignment": 0.8942127957797725,
+              "input_update_alignment": 0.8761250041958036
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.08464539211822691,
+              "jacobian_amplification": 6.980977540849066,
+              "predicted_hidden_movement_norm": 0.5909075813137047,
+              "hidden_class_distance_gap_change": 0.3337625587336471,
+              "same_norm_geometry_gain": 4.107371793605145,
+              "geometry_gain_per_hidden_norm": 0.5648303885213771,
+              "input_gradient_alignment": 0.840970979179251,
+              "input_update_alignment": 0.8744525853080655
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.08160351656122922,
+              "jacobian_amplification": 7.751956936733604,
+              "predicted_hidden_movement_norm": 0.6325869462686764,
+              "hidden_class_distance_gap_change": 0.3387237795279254,
+              "same_norm_geometry_gain": 4.254433579955615,
+              "geometry_gain_per_hidden_norm": 0.5354580607865728,
+              "input_gradient_alignment": 0.8651419901153798,
+              "input_update_alignment": 0.8772606104809283
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.1896516255970671,
+              "jacobian_amplification": 9.17802959708678,
+              "predicted_hidden_movement_norm": 1.7406282328655027,
+              "hidden_class_distance_gap_change": 0.21155185833612775,
+              "same_norm_geometry_gain": 3.6297268333210297,
+              "geometry_gain_per_hidden_norm": 0.12153764620252154,
+              "input_gradient_alignment": 0.9709492446096255,
+              "input_update_alignment": 0.8244344465143653
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1535488834878719,
+              "jacobian_amplification": 10.122887820086609,
+              "predicted_hidden_movement_norm": 1.5543581224472762,
+              "hidden_class_distance_gap_change": 0.46536589661693967,
+              "same_norm_geometry_gain": 4.611653932910464,
+              "geometry_gain_per_hidden_norm": 0.2993942579231607,
+              "input_gradient_alignment": 0.9594385656186084,
+              "input_update_alignment": 0.8897808689353744
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.13115860343940472,
+              "jacobian_amplification": 8.405296842126969,
+              "predicted_hidden_movement_norm": 1.1024269953070118,
+              "hidden_class_distance_gap_change": 0.44775298433927624,
+              "same_norm_geometry_gain": 4.573756049710077,
+              "geometry_gain_per_hidden_norm": 0.40615205019955336,
+              "input_gradient_alignment": 0.92998847992426,
+              "input_update_alignment": 0.897393554243841
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.12373979475747697,
+              "jacobian_amplification": 9.357575639426269,
+              "predicted_hidden_movement_norm": 1.1579044890501728,
+              "hidden_class_distance_gap_change": 0.5120645166118477,
+              "same_norm_geometry_gain": 5.272522638375777,
+              "geometry_gain_per_hidden_norm": 0.44223381242082704,
+              "input_gradient_alignment": 0.8752879874298868,
+              "input_update_alignment": 0.9009472525037333
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.11065573492162799,
+              "jacobian_amplification": 7.788806418892909,
+              "predicted_hidden_movement_norm": 0.8618760984448883,
+              "hidden_class_distance_gap_change": 0.44203597009595985,
+              "same_norm_geometry_gain": 4.430056175363311,
+              "geometry_gain_per_hidden_norm": 0.5128764690116596,
+              "input_gradient_alignment": 0.875358285017302,
+              "input_update_alignment": 0.8950893929505851
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.10199721737243417,
+              "jacobian_amplification": 7.921984792060727,
+              "predicted_hidden_movement_norm": 0.8080204048569357,
+              "hidden_class_distance_gap_change": 0.3814354693901959,
+              "same_norm_geometry_gain": 4.3505014524971575,
+              "geometry_gain_per_hidden_norm": 0.47206167950391187,
+              "input_gradient_alignment": 0.8778239739098213,
+              "input_update_alignment": 0.8871475910672295
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.09463659920945922,
+              "jacobian_amplification": 7.595931475138436,
+              "predicted_hidden_movement_norm": 0.7188531226351925,
+              "hidden_class_distance_gap_change": 0.3077402852106109,
+              "same_norm_geometry_gain": 3.87900992428494,
+              "geometry_gain_per_hidden_norm": 0.4280989753268202,
+              "input_gradient_alignment": 0.9268702057405451,
+              "input_update_alignment": 0.8857294368429545
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.08856499383687459,
+              "jacobian_amplification": 7.119906301049922,
+              "predicted_hidden_movement_norm": 0.6305744576716109,
+              "hidden_class_distance_gap_change": 0.29700152607333213,
+              "same_norm_geometry_gain": 3.748463463803703,
+              "geometry_gain_per_hidden_norm": 0.4710015168866924,
+              "input_gradient_alignment": 0.8284982209937313,
+              "input_update_alignment": 0.8872838314958827
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.0822236099226352,
+              "jacobian_amplification": 7.149691042770134,
+              "predicted_hidden_movement_norm": 0.5878734073680904,
+              "hidden_class_distance_gap_change": 0.31580108255781647,
+              "same_norm_geometry_gain": 4.01580250512855,
+              "geometry_gain_per_hidden_norm": 0.5371923250817862,
+              "input_gradient_alignment": 0.8836796561177233,
+              "input_update_alignment": 0.8826746545851174
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.07720112627581065,
+              "jacobian_amplification": 6.909519770909545,
+              "predicted_hidden_movement_norm": 0.533422708339198,
+              "hidden_class_distance_gap_change": 0.30443215239595006,
+              "same_norm_geometry_gain": 4.045146833003332,
+              "geometry_gain_per_hidden_norm": 0.5707146464457692,
+              "input_gradient_alignment": 0.9012973260096409,
+              "input_update_alignment": 0.8733026301882157
+            }
+          ]
+        }
+      ]
+    },
+    "decorrelated": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.17342921566606714,
+              "jacobian_amplification": 1.7280877842129,
+              "predicted_hidden_movement_norm": 0.29970090901815516,
+              "hidden_class_distance_gap_change": 0.016368964596715257,
+              "same_norm_geometry_gain": 0.24824638601814045,
+              "geometry_gain_per_hidden_norm": 0.05461766749504141,
+              "input_gradient_alignment": 0.9633265226502391,
+              "input_update_alignment": 0.12550352136325207
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.12398581532002184,
+              "jacobian_amplification": 1.4974187286187612,
+              "predicted_hidden_movement_norm": 0.18565868194326762,
+              "hidden_class_distance_gap_change": 0.021795504008432456,
+              "same_norm_geometry_gain": 0.3360679684083921,
+              "geometry_gain_per_hidden_norm": 0.11739555500610839,
+              "input_gradient_alignment": 0.9752272366162504,
+              "input_update_alignment": 0.17644680432416884
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.10261766209671583,
+              "jacobian_amplification": 1.504967519042819,
+              "predicted_hidden_movement_norm": 0.15443624833566874,
+              "hidden_class_distance_gap_change": 0.016448676664359434,
+              "same_norm_geometry_gain": 0.3278669765765857,
+              "geometry_gain_per_hidden_norm": 0.10650787520173419,
+              "input_gradient_alignment": 0.9651753504795192,
+              "input_update_alignment": 0.213141979204964
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09082104373911315,
+              "jacobian_amplification": 2.445293462714554,
+              "predicted_hidden_movement_norm": 0.22208410453216595,
+              "hidden_class_distance_gap_change": 0.01550940693599845,
+              "same_norm_geometry_gain": 0.41515912139908595,
+              "geometry_gain_per_hidden_norm": 0.06983573618953948,
+              "input_gradient_alignment": 0.9338257501938535,
+              "input_update_alignment": 0.24054460221157759
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.08261188687055745,
+              "jacobian_amplification": 1.782840942860608,
+              "predicted_hidden_movement_norm": 0.14728385427979854,
+              "hidden_class_distance_gap_change": 0.02745336628540292,
+              "same_norm_geometry_gain": 0.5158259651309437,
+              "geometry_gain_per_hidden_norm": 0.18639766333958865,
+              "input_gradient_alignment": 0.959805166818489,
+              "input_update_alignment": 0.26090798791146774
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.07604260333041545,
+              "jacobian_amplification": 1.5894052013252262,
+              "predicted_hidden_movement_norm": 0.12086250925567328,
+              "hidden_class_distance_gap_change": 0.02228112437269858,
+              "same_norm_geometry_gain": 0.465494022597369,
+              "geometry_gain_per_hidden_norm": 0.18435099941177752,
+              "input_gradient_alignment": 0.9646779344583185,
+              "input_update_alignment": 0.2778352940424721
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.0712149057800236,
+              "jacobian_amplification": 1.5831564820202102,
+              "predicted_hidden_movement_norm": 0.11274433970210289,
+              "hidden_class_distance_gap_change": 0.03296857297288305,
+              "same_norm_geometry_gain": 0.6373485650076081,
+              "geometry_gain_per_hidden_norm": 0.2924188749518937,
+              "input_gradient_alignment": 0.9634381322258564,
+              "input_update_alignment": 0.3012772042620779
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.06780508646825774,
+              "jacobian_amplification": 1.7957270015483606,
+              "predicted_hidden_movement_norm": 0.12175942461337179,
+              "hidden_class_distance_gap_change": 0.03743277797483752,
+              "same_norm_geometry_gain": 0.7196878563116517,
+              "geometry_gain_per_hidden_norm": 0.30743228373244624,
+              "input_gradient_alignment": 0.9650160993174188,
+              "input_update_alignment": 0.31934977772314743
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06537172208164435,
+              "jacobian_amplification": 1.8471435133835672,
+              "predicted_hidden_movement_norm": 0.12075095240182267,
+              "hidden_class_distance_gap_change": 0.03982414705301628,
+              "same_norm_geometry_gain": 0.7666255806605715,
+              "geometry_gain_per_hidden_norm": 0.32980399956178863,
+              "input_gradient_alignment": 0.93475138324548,
+              "input_update_alignment": 0.33159082382074256
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06277107179776598,
+              "jacobian_amplification": 1.7330156406450583,
+              "predicted_hidden_movement_norm": 0.10878324920558236,
+              "hidden_class_distance_gap_change": 0.04101407428311148,
+              "same_norm_geometry_gain": 0.8358983489352835,
+              "geometry_gain_per_hidden_norm": 0.3770256411959314,
+              "input_gradient_alignment": 0.9610966076366915,
+              "input_update_alignment": 0.347358909914031
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.17342167337051076,
+              "jacobian_amplification": 1.503281872273113,
+              "predicted_hidden_movement_norm": 0.26070165783715765,
+              "hidden_class_distance_gap_change": 0.003036597910750144,
+              "same_norm_geometry_gain": 0.10939077520646155,
+              "geometry_gain_per_hidden_norm": 0.011647789031886008,
+              "input_gradient_alignment": 0.9678442100786798,
+              "input_update_alignment": 0.14837376360413262
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.12453021546200457,
+              "jacobian_amplification": 1.4190260291615229,
+              "predicted_hidden_movement_norm": 0.17671161715767722,
+              "hidden_class_distance_gap_change": 0.0043824291369397445,
+              "same_norm_geometry_gain": 0.1463890612500454,
+              "geometry_gain_per_hidden_norm": 0.024799892658043905,
+              "input_gradient_alignment": 0.9616876292725149,
+              "input_update_alignment": 0.19884096903860735
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.10373174327806445,
+              "jacobian_amplification": 2.1483564580473096,
+              "predicted_hidden_movement_norm": 0.22285276057593534,
+              "hidden_class_distance_gap_change": -0.0035711912326381184,
+              "same_norm_geometry_gain": 0.12242947443722839,
+              "geometry_gain_per_hidden_norm": -0.016024891158668248,
+              "input_gradient_alignment": 0.9351269480254066,
+              "input_update_alignment": 0.21866453666102031
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09143156520262827,
+              "jacobian_amplification": 1.5061138893455572,
+              "predicted_hidden_movement_norm": 0.13770635027628236,
+              "hidden_class_distance_gap_change": 0.008884844628114159,
+              "same_norm_geometry_gain": 0.28329304044251913,
+              "geometry_gain_per_hidden_norm": 0.0645202244507124,
+              "input_gradient_alignment": 0.9432580507364359,
+              "input_update_alignment": 0.2487934990627587
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.08445762613632271,
+              "jacobian_amplification": 1.5865557074013086,
+              "predicted_hidden_movement_norm": 0.13399672878014873,
+              "hidden_class_distance_gap_change": 0.012091148488297619,
+              "same_norm_geometry_gain": 0.3165376638432388,
+              "geometry_gain_per_hidden_norm": 0.09023465422156553,
+              "input_gradient_alignment": 0.9431612484799362,
+              "input_update_alignment": 0.27245218346732536
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.07843717581871301,
+              "jacobian_amplification": 1.5590513381786317,
+              "predicted_hidden_movement_norm": 0.12228758392311714,
+              "hidden_class_distance_gap_change": 0.016310579639264286,
+              "same_norm_geometry_gain": 0.36515687553871856,
+              "geometry_gain_per_hidden_norm": 0.13337886902335755,
+              "input_gradient_alignment": 0.9289012763802154,
+              "input_update_alignment": 0.2896120328875052
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07413938777794435,
+              "jacobian_amplification": 1.6804029757679433,
+              "predicted_hidden_movement_norm": 0.12458404784367116,
+              "hidden_class_distance_gap_change": 0.023812843897301136,
+              "same_norm_geometry_gain": 0.4671601263828722,
+              "geometry_gain_per_hidden_norm": 0.19113878790631078,
+              "input_gradient_alignment": 0.921368143723781,
+              "input_update_alignment": 0.3063253986021239
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.0701902056054194,
+              "jacobian_amplification": 1.5237857522074416,
+              "predicted_hidden_movement_norm": 0.10695483524604898,
+              "hidden_class_distance_gap_change": 0.02200377817403971,
+              "same_norm_geometry_gain": 0.46383401976636024,
+              "geometry_gain_per_hidden_norm": 0.2057296252518191,
+              "input_gradient_alignment": 0.9451376773088105,
+              "input_update_alignment": 0.32452897578186196
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06648087006513696,
+              "jacobian_amplification": 1.6687239041231112,
+              "predicted_hidden_movement_norm": 0.11093821704459662,
+              "hidden_class_distance_gap_change": 0.021910370102217823,
+              "same_norm_geometry_gain": 0.49672162981622936,
+              "geometry_gain_per_hidden_norm": 0.19750065113638848,
+              "input_gradient_alignment": 0.9257394529657778,
+              "input_update_alignment": 0.34268878518280654
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06433079080079812,
+              "jacobian_amplification": 1.8098087493860329,
+              "predicted_hidden_movement_norm": 0.11642642804620695,
+              "hidden_class_distance_gap_change": 0.029185688132475164,
+              "same_norm_geometry_gain": 0.6042091189273217,
+              "geometry_gain_per_hidden_norm": 0.2506792368558455,
+              "input_gradient_alignment": 0.8937959024792205,
+              "input_update_alignment": 0.35773863652322935
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.17344015942018012,
+              "jacobian_amplification": 1.3753890709066732,
+              "predicted_hidden_movement_norm": 0.23854769972282683,
+              "hidden_class_distance_gap_change": -0.013330089111834774,
+              "same_norm_geometry_gain": 0.04622826296444237,
+              "geometry_gain_per_hidden_norm": -0.055880182987818626,
+              "input_gradient_alignment": 0.969503032909871,
+              "input_update_alignment": 0.16039312630506083
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1252530171145814,
+              "jacobian_amplification": 1.5024210436365821,
+              "predicted_hidden_movement_norm": 0.18818276869192005,
+              "hidden_class_distance_gap_change": -0.01746841419084298,
+              "same_norm_geometry_gain": 0.032694843155291684,
+              "geometry_gain_per_hidden_norm": -0.0928268529168102,
+              "input_gradient_alignment": 0.965146506311361,
+              "input_update_alignment": 0.204451859676579
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.10450140443730425,
+              "jacobian_amplification": 1.6113597119888525,
+              "predicted_hidden_movement_norm": 0.16838935295652518,
+              "hidden_class_distance_gap_change": -0.012566935204975573,
+              "same_norm_geometry_gain": 0.0696689020632056,
+              "geometry_gain_per_hidden_norm": -0.07463022444311018,
+              "input_gradient_alignment": 0.964005721295488,
+              "input_update_alignment": 0.2466732188936691
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09314036463025478,
+              "jacobian_amplification": 1.6322892110183687,
+              "predicted_hidden_movement_norm": 0.15203201229628174,
+              "hidden_class_distance_gap_change": 0.004206696574316793,
+              "same_norm_geometry_gain": 0.26551084307253986,
+              "geometry_gain_per_hidden_norm": 0.02766980789623921,
+              "input_gradient_alignment": 0.9522046094615619,
+              "input_update_alignment": 0.26551392634217313
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.08477015323449333,
+              "jacobian_amplification": 1.7956028054400806,
+              "predicted_hidden_movement_norm": 0.15221352496544174,
+              "hidden_class_distance_gap_change": 0.009077264455436185,
+              "same_norm_geometry_gain": 0.3232045720526143,
+              "geometry_gain_per_hidden_norm": 0.0596350715713145,
+              "input_gradient_alignment": 0.9673511228851943,
+              "input_update_alignment": 0.2823164394105586
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.07937121780229534,
+              "jacobian_amplification": 1.7419480394992952,
+              "predicted_hidden_movement_norm": 0.13826053724337992,
+              "hidden_class_distance_gap_change": 0.006508223714940012,
+              "same_norm_geometry_gain": 0.3586698243157407,
+              "geometry_gain_per_hidden_norm": 0.047072171457598136,
+              "input_gradient_alignment": 0.9619667891229969,
+              "input_update_alignment": 0.3015681231560445
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.0744247703157209,
+              "jacobian_amplification": 1.7783949442019447,
+              "predicted_hidden_movement_norm": 0.132356635252869,
+              "hidden_class_distance_gap_change": 0.01580045839872331,
+              "same_norm_geometry_gain": 0.4248911715600385,
+              "geometry_gain_per_hidden_norm": 0.1193779093019125,
+              "input_gradient_alignment": 0.939965999204143,
+              "input_update_alignment": 0.3104230428720414
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07062943409836446,
+              "jacobian_amplification": 1.8140673725909113,
+              "predicted_hidden_movement_norm": 0.12812655194240294,
+              "hidden_class_distance_gap_change": 0.018329474319320024,
+              "same_norm_geometry_gain": 0.5156670366400886,
+              "geometry_gain_per_hidden_norm": 0.14305757894397814,
+              "input_gradient_alignment": 0.9574087333980071,
+              "input_update_alignment": 0.32419270006065576
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06785185711439395,
+              "jacobian_amplification": 1.8412323055232038,
+              "predicted_hidden_movement_norm": 0.12493103130876658,
+              "hidden_class_distance_gap_change": 0.024276492548992036,
+              "same_norm_geometry_gain": 0.5680479488895722,
+              "geometry_gain_per_hidden_norm": 0.1943191558948455,
+              "input_gradient_alignment": 0.9518602328610497,
+              "input_update_alignment": 0.33604986895272554
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06530978528883874,
+              "jacobian_amplification": 1.898813185532465,
+              "predicted_hidden_movement_norm": 0.1240110814507412,
+              "hidden_class_distance_gap_change": 0.028970772987376724,
+              "same_norm_geometry_gain": 0.6168143028919755,
+              "geometry_gain_per_hidden_norm": 0.23361438871802992,
+              "input_gradient_alignment": 0.9440870807253777,
+              "input_update_alignment": 0.3447545021266891
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.1734206330974888,
+              "jacobian_amplification": 1.7946421974607372,
+              "predicted_hidden_movement_norm": 0.31122798606710955,
+              "hidden_class_distance_gap_change": -0.019620288835875827,
+              "same_norm_geometry_gain": 0.019456404679406722,
+              "geometry_gain_per_hidden_norm": -0.06304153133466968,
+              "input_gradient_alignment": 0.9589654210642113,
+              "input_update_alignment": 0.13465974482857235
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.12400205659188977,
+              "jacobian_amplification": 1.4948762040738681,
+              "predicted_hidden_movement_norm": 0.18536772365543716,
+              "hidden_class_distance_gap_change": -0.017724833219782465,
+              "same_norm_geometry_gain": 0.025675127627283648,
+              "geometry_gain_per_hidden_norm": -0.09561984616442457,
+              "input_gradient_alignment": 0.9737020936397552,
+              "input_update_alignment": 0.1880640713804024
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.10292412910531956,
+              "jacobian_amplification": 1.7493289841582214,
+              "predicted_hidden_movement_norm": 0.1800481622131783,
+              "hidden_class_distance_gap_change": -0.007370767674789915,
+              "same_norm_geometry_gain": 0.09565839918220924,
+              "geometry_gain_per_hidden_norm": -0.040937755677077525,
+              "input_gradient_alignment": 0.9687684760226516,
+              "input_update_alignment": 0.22318490658155332
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09046319743901089,
+              "jacobian_amplification": 1.6458287164732912,
+              "predicted_hidden_movement_norm": 0.14888692812911722,
+              "hidden_class_distance_gap_change": 0.00403651529130564,
+              "same_norm_geometry_gain": 0.2245381569161562,
+              "geometry_gain_per_hidden_norm": 0.027111280634422835,
+              "input_gradient_alignment": 0.954502260096272,
+              "input_update_alignment": 0.25319577022294143
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.08289376559621085,
+              "jacobian_amplification": 1.7051720832106796,
+              "predicted_hidden_movement_norm": 0.14134813496686863,
+              "hidden_class_distance_gap_change": 0.004952717743135241,
+              "same_norm_geometry_gain": 0.2862700917626829,
+              "geometry_gain_per_hidden_norm": 0.035039144621866684,
+              "input_gradient_alignment": 0.9697130416365444,
+              "input_update_alignment": 0.2783026041424592
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.07717443552420639,
+              "jacobian_amplification": 1.7160981249708729,
+              "predicted_hidden_movement_norm": 0.1324389040987761,
+              "hidden_class_distance_gap_change": 0.00387993588183168,
+              "same_norm_geometry_gain": 0.28366738781290396,
+              "geometry_gain_per_hidden_norm": 0.029296043396266184,
+              "input_gradient_alignment": 0.9470511201575438,
+              "input_update_alignment": 0.29625978738758985
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07301994223433145,
+              "jacobian_amplification": 1.6754084431119056,
+              "predicted_hidden_movement_norm": 0.12233822773494253,
+              "hidden_class_distance_gap_change": 0.011709772395932651,
+              "same_norm_geometry_gain": 0.3883953584676732,
+              "geometry_gain_per_hidden_norm": 0.09571638082989883,
+              "input_gradient_alignment": 0.9473435042168454,
+              "input_update_alignment": 0.3154843604141026
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.06894542322814379,
+              "jacobian_amplification": 1.7878942080820674,
+              "predicted_hidden_movement_norm": 0.12326712286336512,
+              "hidden_class_distance_gap_change": 0.010578139656895717,
+              "same_norm_geometry_gain": 0.391369478935609,
+              "geometry_gain_per_hidden_norm": 0.08581476886274865,
+              "input_gradient_alignment": 0.942622351034497,
+              "input_update_alignment": 0.33275499705707673
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06568992796399081,
+              "jacobian_amplification": 1.7993725968644723,
+              "predicted_hidden_movement_norm": 0.11820065626840627,
+              "hidden_class_distance_gap_change": 0.022777899929139735,
+              "same_norm_geometry_gain": 0.5489893897732333,
+              "geometry_gain_per_hidden_norm": 0.19270535924450713,
+              "input_gradient_alignment": 0.9438705687120577,
+              "input_update_alignment": 0.3481675326550403
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06417647151709673,
+              "jacobian_amplification": 1.963684577562572,
+              "predicted_hidden_movement_norm": 0.12602234736050652,
+              "hidden_class_distance_gap_change": 0.018746591246936836,
+              "same_norm_geometry_gain": 0.49085215183617414,
+              "geometry_gain_per_hidden_norm": 0.1487560868336256,
+              "input_gradient_alignment": 0.9668472977496069,
+              "input_update_alignment": 0.3565704376918347
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.17340843595149016,
+              "jacobian_amplification": 1.4999009577264624,
+              "predicted_hidden_movement_norm": 0.260095479161488,
+              "hidden_class_distance_gap_change": -0.0015338517607720661,
+              "same_norm_geometry_gain": 0.1080039255459574,
+              "geometry_gain_per_hidden_norm": -0.005897264211269619,
+              "input_gradient_alignment": 0.9715655681437033,
+              "input_update_alignment": 0.1320588560100697
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1249300941145124,
+              "jacobian_amplification": 1.6850021799508281,
+              "predicted_hidden_movement_norm": 0.2105074809244155,
+              "hidden_class_distance_gap_change": 0.012195735752161927,
+              "same_norm_geometry_gain": 0.22143363236783553,
+              "geometry_gain_per_hidden_norm": 0.057934928006387144,
+              "input_gradient_alignment": 0.9647160950869917,
+              "input_update_alignment": 0.16642777917610593
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.10436503722507384,
+              "jacobian_amplification": 1.5373550967320417,
+              "predicted_hidden_movement_norm": 0.16044612189859653,
+              "hidden_class_distance_gap_change": 0.004457415420234628,
+              "same_norm_geometry_gain": 0.2137354892683126,
+              "geometry_gain_per_hidden_norm": 0.027781384601191898,
+              "input_gradient_alignment": 0.9736685455604448,
+              "input_update_alignment": 0.1981097476257649
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09167802321583894,
+              "jacobian_amplification": 1.8171714489220094,
+              "predicted_hidden_movement_norm": 0.16659468628143168,
+              "hidden_class_distance_gap_change": 0.01254353757711555,
+              "same_norm_geometry_gain": 0.3022085979556067,
+              "geometry_gain_per_hidden_norm": 0.07529374349867021,
+              "input_gradient_alignment": 0.9486711086833353,
+              "input_update_alignment": 0.2188713866286833
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.08312618769941302,
+              "jacobian_amplification": 1.651359067604713,
+              "predicted_hidden_movement_norm": 0.13727118381283704,
+              "hidden_class_distance_gap_change": 0.018813877281277508,
+              "same_norm_geometry_gain": 0.37668045985783166,
+              "geometry_gain_per_hidden_norm": 0.13705627618779312,
+              "input_gradient_alignment": 0.9586578649214913,
+              "input_update_alignment": 0.23879881142857154
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.07756789673983855,
+              "jacobian_amplification": 1.8874043838924406,
+              "predicted_hidden_movement_norm": 0.14640198835608742,
+              "hidden_class_distance_gap_change": 0.01874138085239578,
+              "same_norm_geometry_gain": 0.42806522792328466,
+              "geometry_gain_per_hidden_norm": 0.12801315790064208,
+              "input_gradient_alignment": 0.9633901223724028,
+              "input_update_alignment": 0.25783953589764846
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07283479331216029,
+              "jacobian_amplification": 1.88769623807362,
+              "predicted_hidden_movement_norm": 0.13748996533623464,
+              "hidden_class_distance_gap_change": 0.02471721537955099,
+              "same_norm_geometry_gain": 0.5637125146600043,
+              "geometry_gain_per_hidden_norm": 0.17977468624058862,
+              "input_gradient_alignment": 0.9522037822404784,
+              "input_update_alignment": 0.27678073946778536
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.0695205836133118,
+              "jacobian_amplification": 1.8581853353665356,
+              "predicted_hidden_movement_norm": 0.12918212897637907,
+              "hidden_class_distance_gap_change": 0.023738170617619205,
+              "same_norm_geometry_gain": 0.49935425571507935,
+              "geometry_gain_per_hidden_norm": 0.18375738815977963,
+              "input_gradient_alignment": 0.9465340939341957,
+              "input_update_alignment": 0.2826939752791746
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.06669233142767673,
+              "jacobian_amplification": 1.9260511806736609,
+              "predicted_hidden_movement_norm": 0.12845284368815588,
+              "hidden_class_distance_gap_change": 0.02031466173136428,
+              "same_norm_geometry_gain": 0.5350063692765383,
+              "geometry_gain_per_hidden_norm": 0.15814878945523425,
+              "input_gradient_alignment": 0.95117271113164,
+              "input_update_alignment": 0.295128050994356
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06397497319658826,
+              "jacobian_amplification": 1.9637063950254119,
+              "predicted_hidden_movement_norm": 0.1256280639877197,
+              "hidden_class_distance_gap_change": 0.027792405260260118,
+              "same_norm_geometry_gain": 0.6275004765786211,
+              "geometry_gain_per_hidden_norm": 0.2212276809660687,
+              "input_gradient_alignment": 0.9550777655392267,
+              "input_update_alignment": 0.30763957848086776
+            }
+          ]
+        }
+      ]
+    },
+    "eigen_flattened": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965082339141925,
+              "jacobian_amplification": 2.6670899608498586,
+              "predicted_hidden_movement_norm": 0.5058158071341639,
+              "hidden_class_distance_gap_change": 0.024928011289154436,
+              "same_norm_geometry_gain": 0.3133022817215207,
+              "geometry_gain_per_hidden_norm": 0.04928278424193744,
+              "input_gradient_alignment": 0.42558863647088974,
+              "input_update_alignment": 0.15864027646520726
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.13557117093533608,
+              "jacobian_amplification": 2.0960922513698903,
+              "predicted_hidden_movement_norm": 0.2841696809067008,
+              "hidden_class_distance_gap_change": 0.018409637476429548,
+              "same_norm_geometry_gain": 0.25698691462267803,
+              "geometry_gain_per_hidden_norm": 0.06478396082822727,
+              "input_gradient_alignment": 0.38565613659438713,
+              "input_update_alignment": 0.21707108871407016
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.1129892020337374,
+              "jacobian_amplification": 2.1513352163030426,
+              "predicted_hidden_movement_norm": 0.24307764939715865,
+              "hidden_class_distance_gap_change": 0.007783360492909591,
+              "same_norm_geometry_gain": 0.1882308918002946,
+              "geometry_gain_per_hidden_norm": 0.032020058249751085,
+              "input_gradient_alignment": 0.48174240283203645,
+              "input_update_alignment": 0.25626502723478517
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.0996176495213667,
+              "jacobian_amplification": 2.8074880552830925,
+              "predicted_hidden_movement_norm": 0.2796753611266145,
+              "hidden_class_distance_gap_change": 0.001260535023680745,
+              "same_norm_geometry_gain": 0.16850501239870613,
+              "geometry_gain_per_hidden_norm": 0.004507136483539128,
+              "input_gradient_alignment": 0.4557664056742374,
+              "input_update_alignment": 0.2829650073622191
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09040404587350849,
+              "jacobian_amplification": 1.9710231895923485,
+              "predicted_hidden_movement_norm": 0.1781884708496557,
+              "hidden_class_distance_gap_change": 0.006897333146255263,
+              "same_norm_geometry_gain": 0.16822099327272774,
+              "geometry_gain_per_hidden_norm": 0.03870807753928593,
+              "input_gradient_alignment": 0.4008846065954109,
+              "input_update_alignment": 0.30618247223541284
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08373296487670862,
+              "jacobian_amplification": 1.7049658387909457,
+              "predicted_hidden_movement_norm": 0.1427618446954703,
+              "hidden_class_distance_gap_change": -0.0006743234206061932,
+              "same_norm_geometry_gain": 0.09282190123639464,
+              "geometry_gain_per_hidden_norm": -0.004723414873523198,
+              "input_gradient_alignment": 0.3678405778090482,
+              "input_update_alignment": 0.3268590140926607
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07865234384107558,
+              "jacobian_amplification": 1.6647505522929276,
+              "predicted_hidden_movement_norm": 0.13093653284856382,
+              "hidden_class_distance_gap_change": 0.0039394606288128305,
+              "same_norm_geometry_gain": 0.14666682956206958,
+              "geometry_gain_per_hidden_norm": 0.03008679505336421,
+              "input_gradient_alignment": 0.4065827045854932,
+              "input_update_alignment": 0.34999449210805517
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07490201036069642,
+              "jacobian_amplification": 1.7830308136841124,
+              "predicted_hidden_movement_norm": 0.13355259248000836,
+              "hidden_class_distance_gap_change": 0.0093477090350459,
+              "same_norm_geometry_gain": 0.20901115455048644,
+              "geometry_gain_per_hidden_norm": 0.06999271868455244,
+              "input_gradient_alignment": 0.30791624589612315,
+              "input_update_alignment": 0.3711247975172948
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07201206849647207,
+              "jacobian_amplification": 1.7415004794955065,
+              "predicted_hidden_movement_norm": 0.12540905181606937,
+              "hidden_class_distance_gap_change": 0.009245610581410175,
+              "same_norm_geometry_gain": 0.18968781394638176,
+              "geometry_gain_per_hidden_norm": 0.07372363037215375,
+              "input_gradient_alignment": 0.3432657767947545,
+              "input_update_alignment": 0.3863576365383226
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06965264568497125,
+              "jacobian_amplification": 1.5619547823357738,
+              "predicted_hidden_movement_norm": 0.10879428302998004,
+              "hidden_class_distance_gap_change": 0.0026330298877947286,
+              "same_norm_geometry_gain": 0.14209780313043344,
+              "geometry_gain_per_hidden_norm": 0.02420191405709392,
+              "input_gradient_alignment": 0.3136524019409364,
+              "input_update_alignment": 0.40186571476370475
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965030197365265,
+              "jacobian_amplification": 2.73302331590598,
+              "predicted_hidden_movement_norm": 0.5183186971626026,
+              "hidden_class_distance_gap_change": -0.028562269334920315,
+              "same_norm_geometry_gain": 0.05000223752039884,
+              "geometry_gain_per_hidden_norm": -0.05510561261107662,
+              "input_gradient_alignment": 0.374510194332985,
+              "input_update_alignment": 0.15096768152702505
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.13629615301663672,
+              "jacobian_amplification": 2.251308385864314,
+              "predicted_hidden_movement_norm": 0.3068446722474,
+              "hidden_class_distance_gap_change": -0.0051152360627453874,
+              "same_norm_geometry_gain": 0.07549154282943563,
+              "geometry_gain_per_hidden_norm": -0.016670441188632146,
+              "input_gradient_alignment": 0.3608288377065049,
+              "input_update_alignment": 0.20083931799103444
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11287430173714118,
+              "jacobian_amplification": 2.3159324881952945,
+              "predicted_hidden_movement_norm": 0.2614092624754038,
+              "hidden_class_distance_gap_change": -0.019067673143845568,
+              "same_norm_geometry_gain": 0.009738736424789118,
+              "geometry_gain_per_hidden_norm": -0.07294184208809226,
+              "input_gradient_alignment": 0.3359902677607663,
+              "input_update_alignment": 0.22964778822067042
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09936106540344426,
+              "jacobian_amplification": 1.9646614356062075,
+              "predicted_hidden_movement_norm": 0.19521085339889307,
+              "hidden_class_distance_gap_change": -0.007302375945648032,
+              "same_norm_geometry_gain": 0.0587594112969311,
+              "geometry_gain_per_hidden_norm": -0.03740763291847501,
+              "input_gradient_alignment": 0.3686439419374946,
+              "input_update_alignment": 0.26552561177524825
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09069050561791832,
+              "jacobian_amplification": 2.131068885789957,
+              "predicted_hidden_movement_norm": 0.193267714758905,
+              "hidden_class_distance_gap_change": -0.01574532900193655,
+              "same_norm_geometry_gain": -0.005051078373907614,
+              "geometry_gain_per_hidden_norm": -0.08146900801087403,
+              "input_gradient_alignment": 0.4204722195006641,
+              "input_update_alignment": 0.29723878608497595
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08419307203045623,
+              "jacobian_amplification": 2.0072576599296985,
+              "predicted_hidden_movement_norm": 0.16899718874614614,
+              "hidden_class_distance_gap_change": -0.003283670216380666,
+              "same_norm_geometry_gain": 0.06719541938625023,
+              "geometry_gain_per_hidden_norm": -0.019430324496776858,
+              "input_gradient_alignment": 0.35344059722035975,
+              "input_update_alignment": 0.32140202394996387
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07912941223746457,
+              "jacobian_amplification": 1.9587664553911772,
+              "predicted_hidden_movement_norm": 0.15499603832556572,
+              "hidden_class_distance_gap_change": 0.002050334306189238,
+              "same_norm_geometry_gain": 0.13892631998652585,
+              "geometry_gain_per_hidden_norm": 0.013228301370403782,
+              "input_gradient_alignment": 0.307821382057625,
+              "input_update_alignment": 0.3388417139174488
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.0746498813771737,
+              "jacobian_amplification": 1.8095641027076805,
+              "predicted_hidden_movement_norm": 0.13508374561152012,
+              "hidden_class_distance_gap_change": -0.0011048373809174304,
+              "same_norm_geometry_gain": 0.08818028566456769,
+              "geometry_gain_per_hidden_norm": -0.008178906913750906,
+              "input_gradient_alignment": 0.35335887602005456,
+              "input_update_alignment": 0.35916003108476463
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07160460929486454,
+              "jacobian_amplification": 1.9617059211650514,
+              "predicted_hidden_movement_norm": 0.14046718603644584,
+              "hidden_class_distance_gap_change": -0.0007849409328817107,
+              "same_norm_geometry_gain": 0.10362428779035712,
+              "geometry_gain_per_hidden_norm": -0.005588073307584084,
+              "input_gradient_alignment": 0.29807183995953646,
+              "input_update_alignment": 0.3765240373335059
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06896675992659156,
+              "jacobian_amplification": 1.7744694984371203,
+              "predicted_hidden_movement_norm": 0.12237941189577221,
+              "hidden_class_distance_gap_change": 0.0014754020385222347,
+              "same_norm_geometry_gain": 0.11074637976744642,
+              "geometry_gain_per_hidden_norm": 0.012055966078500208,
+              "input_gradient_alignment": 0.29675606921764586,
+              "input_update_alignment": 0.39020467268451464
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965074987855413,
+              "jacobian_amplification": 2.3782983569202396,
+              "predicted_hidden_movement_norm": 0.4510460668248566,
+              "hidden_class_distance_gap_change": 0.01944488458531686,
+              "same_norm_geometry_gain": 0.27466256678875395,
+              "geometry_gain_per_hidden_norm": 0.04311063994460549,
+              "input_gradient_alignment": 0.39544170928504885,
+              "input_update_alignment": 0.17089090705249824
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.13618602870936009,
+              "jacobian_amplification": 2.024542178137876,
+              "predicted_hidden_movement_norm": 0.27571435919519516,
+              "hidden_class_distance_gap_change": 0.006073055400151822,
+              "same_norm_geometry_gain": 0.1776861401638283,
+              "geometry_gain_per_hidden_norm": 0.0220266199333214,
+              "input_gradient_alignment": 0.39041096037961864,
+              "input_update_alignment": 0.23449676424134838
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11369530826292056,
+              "jacobian_amplification": 1.936392878456572,
+              "predicted_hidden_movement_norm": 0.220158785234244,
+              "hidden_class_distance_gap_change": -0.00039366033877309,
+              "same_norm_geometry_gain": 0.1501551239230162,
+              "geometry_gain_per_hidden_norm": -0.0017880746314722087,
+              "input_gradient_alignment": 0.36609009567987594,
+              "input_update_alignment": 0.2815060481948461
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.10044149443138746,
+              "jacobian_amplification": 1.9558882017260573,
+              "predicted_hidden_movement_norm": 0.19645233392208422,
+              "hidden_class_distance_gap_change": -0.004690246709970987,
+              "same_norm_geometry_gain": 0.05831194739707288,
+              "geometry_gain_per_hidden_norm": -0.02387473142381299,
+              "input_gradient_alignment": 0.3292468352974982,
+              "input_update_alignment": 0.30393264832932815
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09136600549771903,
+              "jacobian_amplification": 1.7400494113707223,
+              "predicted_hidden_movement_norm": 0.15898136408560018,
+              "hidden_class_distance_gap_change": -0.001749425982367235,
+              "same_norm_geometry_gain": 0.09181594888389424,
+              "geometry_gain_per_hidden_norm": -0.011003968876662131,
+              "input_gradient_alignment": 0.37435364082571443,
+              "input_update_alignment": 0.3289703369892694
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08520386210305224,
+              "jacobian_amplification": 1.6568268141458586,
+              "predicted_hidden_movement_norm": 0.1411680434011231,
+              "hidden_class_distance_gap_change": -0.0008241658298059548,
+              "same_norm_geometry_gain": 0.11303393233329723,
+              "geometry_gain_per_hidden_norm": -0.00583818979104302,
+              "input_gradient_alignment": 0.3507679776718623,
+              "input_update_alignment": 0.34987598467481196
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.08034642605264823,
+              "jacobian_amplification": 1.962487365259795,
+              "predicted_hidden_movement_norm": 0.15767884597210258,
+              "hidden_class_distance_gap_change": -0.007651362331488349,
+              "same_norm_geometry_gain": 0.04139578920921949,
+              "geometry_gain_per_hidden_norm": -0.04852497672923146,
+              "input_gradient_alignment": 0.2810725822564893,
+              "input_update_alignment": 0.3583564644833089
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07607385067031286,
+              "jacobian_amplification": 1.5423176306396627,
+              "predicted_hidden_movement_norm": 0.11733004111947244,
+              "hidden_class_distance_gap_change": 0.005821167259591257,
+              "same_norm_geometry_gain": 0.1591057605316592,
+              "geometry_gain_per_hidden_norm": 0.049613613052975895,
+              "input_gradient_alignment": 0.3319370190785132,
+              "input_update_alignment": 0.3769551117039502
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07247105081871097,
+              "jacobian_amplification": 1.5159922711372698,
+              "predicted_hidden_movement_norm": 0.10986555292236214,
+              "hidden_class_distance_gap_change": 0.002347982402622916,
+              "same_norm_geometry_gain": 0.10603406534461368,
+              "geometry_gain_per_hidden_norm": 0.02137141570007978,
+              "input_gradient_alignment": 0.31132042059593545,
+              "input_update_alignment": 0.3906286324485936
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.0700768650919232,
+              "jacobian_amplification": 1.8022299824849037,
+              "predicted_hidden_movement_norm": 0.1262946273472137,
+              "hidden_class_distance_gap_change": 0.001158277496722003,
+              "same_norm_geometry_gain": 0.114785376579609,
+              "geometry_gain_per_hidden_norm": 0.009171233337880837,
+              "input_gradient_alignment": 0.3262555885945125,
+              "input_update_alignment": 0.39939810472588044
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965076000095563,
+              "jacobian_amplification": 3.032070515481713,
+              "predicted_hidden_movement_norm": 0.5750344776375962,
+              "hidden_class_distance_gap_change": -0.00895043582530701,
+              "same_norm_geometry_gain": 0.16444125888224004,
+              "geometry_gain_per_hidden_norm": -0.01556504205117913,
+              "input_gradient_alignment": 0.31965364886544245,
+              "input_update_alignment": 0.15457827446536507
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.1357628233608582,
+              "jacobian_amplification": 2.4420550217693853,
+              "predicted_hidden_movement_norm": 0.3315402845579738,
+              "hidden_class_distance_gap_change": -0.009122726087119129,
+              "same_norm_geometry_gain": 0.11018316718094964,
+              "geometry_gain_per_hidden_norm": -0.027516191883837002,
+              "input_gradient_alignment": 0.38712831195380576,
+              "input_update_alignment": 0.2215883545917885
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.1127475425493062,
+              "jacobian_amplification": 2.214358221168563,
+              "predicted_hidden_movement_norm": 0.24966344776060853,
+              "hidden_class_distance_gap_change": 0.003863642896917544,
+              "same_norm_geometry_gain": 0.20196893862893062,
+              "geometry_gain_per_hidden_norm": 0.015475404716120977,
+              "input_gradient_alignment": 0.31731631982756103,
+              "input_update_alignment": 0.2660212525585741
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09962138752167833,
+              "jacobian_amplification": 2.0361318164155433,
+              "predicted_hidden_movement_norm": 0.20284227672835164,
+              "hidden_class_distance_gap_change": -0.006814863912812885,
+              "same_norm_geometry_gain": 0.11350367697488384,
+              "geometry_gain_per_hidden_norm": -0.033596861673660945,
+              "input_gradient_alignment": 0.33498877061643767,
+              "input_update_alignment": 0.3000080466970371
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09088259018216857,
+              "jacobian_amplification": 1.9771771855208686,
+              "predicted_hidden_movement_norm": 0.17969098386922658,
+              "hidden_class_distance_gap_change": 0.004711334852851506,
+              "same_norm_geometry_gain": 0.16551473672781836,
+              "geometry_gain_per_hidden_norm": 0.026219094310709914,
+              "input_gradient_alignment": 0.32774617953471985,
+              "input_update_alignment": 0.32940695540034753
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.08408716852810895,
+              "jacobian_amplification": 1.9796130592440844,
+              "predicted_hidden_movement_norm": 0.16646005693310265,
+              "hidden_class_distance_gap_change": -0.00038388036475003884,
+              "same_norm_geometry_gain": 0.13364364452714841,
+              "geometry_gain_per_hidden_norm": -0.0023061410155849793,
+              "input_gradient_alignment": 0.3921653388724209,
+              "input_update_alignment": 0.35340774991928314
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.07950116787183678,
+              "jacobian_amplification": 1.8902090822227344,
+              "predicted_hidden_movement_norm": 0.15027382955866014,
+              "hidden_class_distance_gap_change": 0.0012636417128891048,
+              "same_norm_geometry_gain": 0.17180660359445482,
+              "geometry_gain_per_hidden_norm": 0.008408927333523738,
+              "input_gradient_alignment": 0.335966003446492,
+              "input_update_alignment": 0.37560034128693065
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07534832981980036,
+              "jacobian_amplification": 1.8726871526080324,
+              "predicted_hidden_movement_norm": 0.14110384922401284,
+              "hidden_class_distance_gap_change": 0.0016930254648627463,
+              "same_norm_geometry_gain": 0.15164704958928177,
+              "geometry_gain_per_hidden_norm": 0.011998435720736028,
+              "input_gradient_alignment": 0.3282784691707503,
+              "input_update_alignment": 0.3934846403730959
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07170285119610817,
+              "jacobian_amplification": 1.6622458960214057,
+              "predicted_hidden_movement_norm": 0.11918777013376435,
+              "hidden_class_distance_gap_change": 0.0032883938021525047,
+              "same_norm_geometry_gain": 0.14276699616127303,
+              "geometry_gain_per_hidden_norm": 0.027590027051113908,
+              "input_gradient_alignment": 0.33655484560018845,
+              "input_update_alignment": 0.40944759528840247
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.06930201596473425,
+              "jacobian_amplification": 1.9475637679790156,
+              "predicted_hidden_movement_norm": 0.13497009534081972,
+              "hidden_class_distance_gap_change": 0.005129695333570959,
+              "same_norm_geometry_gain": 0.1699601055884507,
+              "geometry_gain_per_hidden_norm": 0.038006162184428406,
+              "input_gradient_alignment": 0.3650696815375805,
+              "input_update_alignment": 0.4237774912092319
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "parameter_update_norm": 0.18965074792128347,
+              "jacobian_amplification": 2.5997829074128274,
+              "predicted_hidden_movement_norm": 0.49305077282381155,
+              "hidden_class_distance_gap_change": 0.03421294378706094,
+              "same_norm_geometry_gain": 0.39847690190506513,
+              "geometry_gain_per_hidden_norm": 0.06939030556856406,
+              "input_gradient_alignment": 0.4529008318704783,
+              "input_update_alignment": 0.15746450607188417
+            },
+            {
+              "update": 2,
+              "parameter_update_norm": 0.13593652841387607,
+              "jacobian_amplification": 2.232553672364693,
+              "predicted_hidden_movement_norm": 0.3034855957189065,
+              "hidden_class_distance_gap_change": 0.018426634670380294,
+              "same_norm_geometry_gain": 0.2751788959270099,
+              "geometry_gain_per_hidden_norm": 0.06071666968816324,
+              "input_gradient_alignment": 0.38622270452823504,
+              "input_update_alignment": 0.21526246200606117
+            },
+            {
+              "update": 3,
+              "parameter_update_norm": 0.11327404337584766,
+              "jacobian_amplification": 1.873514814947155,
+              "predicted_hidden_movement_norm": 0.21222059841361723,
+              "hidden_class_distance_gap_change": 0.012862204839022843,
+              "same_norm_geometry_gain": 0.25616935622665354,
+              "geometry_gain_per_hidden_norm": 0.06060771166969593,
+              "input_gradient_alignment": 0.3461611676472373,
+              "input_update_alignment": 0.25660002662753223
+            },
+            {
+              "update": 4,
+              "parameter_update_norm": 0.09949513194731187,
+              "jacobian_amplification": 2.0530798351182886,
+              "predicted_hidden_movement_norm": 0.2042714490934594,
+              "hidden_class_distance_gap_change": 0.010824079759721161,
+              "same_norm_geometry_gain": 0.23634364268817004,
+              "geometry_gain_per_hidden_norm": 0.0529887059976202,
+              "input_gradient_alignment": 0.371218931222854,
+              "input_update_alignment": 0.28407357470752403
+            },
+            {
+              "update": 5,
+              "parameter_update_norm": 0.09131170386532253,
+              "jacobian_amplification": 1.9042966607640863,
+              "predicted_hidden_movement_norm": 0.1738845727594128,
+              "hidden_class_distance_gap_change": 0.008001612643123206,
+              "same_norm_geometry_gain": 0.1947302012403787,
+              "geometry_gain_per_hidden_norm": 0.046016805954339955,
+              "input_gradient_alignment": 0.3875736119607514,
+              "input_update_alignment": 0.31373583006431954
+            },
+            {
+              "update": 6,
+              "parameter_update_norm": 0.0845174708445781,
+              "jacobian_amplification": 1.7312347778844461,
+              "predicted_hidden_movement_norm": 0.14631958486496832,
+              "hidden_class_distance_gap_change": 0.003506483525835876,
+              "same_norm_geometry_gain": 0.1387508609362898,
+              "geometry_gain_per_hidden_norm": 0.023964553542656985,
+              "input_gradient_alignment": 0.3680316861764893,
+              "input_update_alignment": 0.33836209909498327
+            },
+            {
+              "update": 7,
+              "parameter_update_norm": 0.079158243524329,
+              "jacobian_amplification": 1.6859950961817018,
+              "predicted_hidden_movement_norm": 0.13346041040437565,
+              "hidden_class_distance_gap_change": 0.00806479779468406,
+              "same_norm_geometry_gain": 0.18855499531090028,
+              "geometry_gain_per_hidden_norm": 0.06042839048859726,
+              "input_gradient_alignment": 0.37283649459489226,
+              "input_update_alignment": 0.3577023632556287
+            },
+            {
+              "update": 8,
+              "parameter_update_norm": 0.07579698676839813,
+              "jacobian_amplification": 1.9431591633242977,
+              "predicted_hidden_movement_norm": 0.14728560939138338,
+              "hidden_class_distance_gap_change": 0.006327292254877399,
+              "same_norm_geometry_gain": 0.20400017734598813,
+              "geometry_gain_per_hidden_norm": 0.04295933785400465,
+              "input_gradient_alignment": 0.35169048178343815,
+              "input_update_alignment": 0.37334872873973995
+            },
+            {
+              "update": 9,
+              "parameter_update_norm": 0.07313850339744057,
+              "jacobian_amplification": 1.7955668116497474,
+              "predicted_hidden_movement_norm": 0.1313250693541766,
+              "hidden_class_distance_gap_change": 0.0036843765365277004,
+              "same_norm_geometry_gain": 0.17789825066905418,
+              "geometry_gain_per_hidden_norm": 0.028055393799877894,
+              "input_gradient_alignment": 0.3862033433442881,
+              "input_update_alignment": 0.3892156897457609
+            },
+            {
+              "update": 10,
+              "parameter_update_norm": 0.07062645738720304,
+              "jacobian_amplification": 1.723739656484888,
+              "predicted_hidden_movement_norm": 0.12174162539536194,
+              "hidden_class_distance_gap_change": 0.0043569709172181885,
+              "same_norm_geometry_gain": 0.18315905849428452,
+              "geometry_gain_per_hidden_norm": 0.03578867049843232,
+              "input_gradient_alignment": 0.35414307886680235,
+              "input_update_alignment": 0.4087082166736239
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "stages": [
+    {
+      "hypothesis": "feature scale\ub9cc \uc815\uaddc\ud654\ud574\ub3c4 W1 geometry \ud615\uc131\uc774 \uc720\uc9c0\ub41c\ub2e4.",
+      "control": "unscaled vs scale_only",
+      "actual_result": {
+        "unscaled": {
+          "parameter_update_norm": 0.10413756028253056,
+          "jacobian_amplification": 7.055817903586693,
+          "same_norm_geometry_gain": 1.7388700769602823,
+          "hidden_class_distance_gap_change": 0.14896613037593995,
+          "geometry_gain_per_hidden_norm": 0.2724948175688706,
+          "input_gradient_alignment": 0.7401070128187024,
+          "input_update_alignment": 0.675409076118939
+        },
+        "scale_only": {
+          "parameter_update_norm": 0.11570514471527175,
+          "jacobian_amplification": 8.008795618446127,
+          "same_norm_geometry_gain": 4.090195066407682,
+          "hidden_class_distance_gap_change": 0.33271800264641127,
+          "geometry_gain_per_hidden_norm": 0.40618673915580833,
+          "input_gradient_alignment": 0.8933221260890971,
+          "input_update_alignment": 0.8846722438187493
+        }
+      }
+    },
+    {
+      "hypothesis": "\uc0c1\uad00 \uad6c\uc870\ub97c \uc81c\uac70\ud558\uba74 W1 \uc815\ub82c\uacfc geometry gain\uc774 \uc57d\ud574\uc9c4\ub2e4.",
+      "control": "scale_only vs decorrelated PCA rotation",
+      "actual_result": {
+        "scale_only": {
+          "parameter_update_norm": 0.11570514471527175,
+          "jacobian_amplification": 8.008795618446127,
+          "same_norm_geometry_gain": 4.090195066407682,
+          "hidden_class_distance_gap_change": 0.33271800264641127,
+          "geometry_gain_per_hidden_norm": 0.40618673915580833,
+          "input_gradient_alignment": 0.8933221260890971,
+          "input_update_alignment": 0.8846722438187493
+        },
+        "decorrelated": {
+          "parameter_update_norm": 0.0927464553783629,
+          "jacobian_amplification": 1.7189963812507765,
+          "same_norm_geometry_gain": 0.3699062636080908,
+          "hidden_class_distance_gap_change": 0.013333877580832123,
+          "geometry_gain_per_hidden_norm": 0.10717461321903077,
+          "input_gradient_alignment": 0.9536980868642368,
+          "input_update_alignment": 0.26358610333472143
+        }
+      }
+    },
+    {
+      "hypothesis": "\uace0\uc720\uac12 spectrum \ud3c9\ud0c4\ud654\uac00 \ucd94\uac00\ub85c W1 \uc99d\ud3ed\uc744 \uc57d\ud654\ud55c\ub2e4.",
+      "control": "decorrelated vs eigen_flattened",
+      "actual_result": {
+        "decorrelated": {
+          "parameter_update_norm": 0.0927464553783629,
+          "jacobian_amplification": 1.7189963812507765,
+          "same_norm_geometry_gain": 0.3699062636080908,
+          "hidden_class_distance_gap_change": 0.013333877580832123,
+          "geometry_gain_per_hidden_norm": 0.10717461321903077,
+          "input_gradient_alignment": 0.9536980868642368,
+          "input_update_alignment": 0.26358610333472143
+        },
+        "eigen_flattened": {
+          "parameter_update_norm": 0.10103250167176737,
+          "jacobian_amplification": 2.003380989876648,
+          "same_norm_geometry_gain": 0.15277660616577354,
+          "hidden_class_distance_gap_change": 0.0026162299804005813,
+          "geometry_gain_per_hidden_norm": 0.013899400536419781,
+          "input_gradient_alignment": 0.36075073703985777,
+          "input_update_alignment": 0.3100896478644367
+        }
+      }
+    },
+    {
+      "hypothesis": "W1 gradient/update\uac00 input class-separating subspace\uc640 \uc815\ub82c\ub420\uc218\ub85d geometry gain\uc774 \ucee4\uc9c4\ub2e4.",
+      "control": "\uac01 \uc870\uac74\uc758 input class-subspace projection alignment\uc640 geometry \uc9c0\ud45c\uc758 \ube44\uad50",
+      "actual_result": {
+        "unscaled": {
+          "alignment": 0.675409076118939,
+          "geometry_efficiency": 0.2724948175688706
+        },
+        "scale_only": {
+          "alignment": 0.8846722438187493,
+          "geometry_efficiency": 0.40618673915580833
+        },
+        "decorrelated": {
+          "alignment": 0.26358610333472143,
+          "geometry_efficiency": 0.10717461321903077
+        },
+        "eigen_flattened": {
+          "alignment": 0.3100896478644367,
+          "geometry_efficiency": 0.013899400536419781
+        }
+      }
+    }
+  ]
+}

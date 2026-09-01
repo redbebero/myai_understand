@@ -1,0 +1,2677 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "updates_per_seed": 10,
+    "common_norm": 1.0
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "records": [
+        {
+          "update": 1,
+          "loss_before": 2.2744186075820334,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.18965154301986667,
+                "predicted_hidden_norm": 1.8285384825327415,
+                "predicted_distance_change": {
+                  "same_class": 0.16598815582467033,
+                  "different_class": 0.3484820610632527,
+                  "gap": 0.18249390523858236
+                },
+                "amplification": 9.6415692349057,
+                "geometry_gain_per_parameter_norm": 0.9622590058202979,
+                "geometry_gain_per_hidden_norm": 0.0998031526171693
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.966400447525427,
+                "distance_change": {
+                  "same_class": 0.9123040210901805,
+                  "different_class": 4.376184051160299,
+                  "gap": 3.463880030070119
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.04554047973330154,
+                "predicted_hidden_norm": 0.10088194026678542,
+                "predicted_distance_change": {
+                  "same_class": -0.01564620609280644,
+                  "different_class": -0.02442688423093437,
+                  "gap": -0.008780678138127933
+                },
+                "amplification": 2.2152147025586855,
+                "geometry_gain_per_parameter_norm": -0.19281040053926024,
+                "geometry_gain_per_hidden_norm": -0.08703914808643805
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.019508766813162,
+                "distance_change": {
+                  "same_class": -0.2224695240597343,
+                  "different_class": -0.06761825806710665,
+                  "gap": 0.15485126599262766
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 2,
+          "loss_before": 1.8003996178894097,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.15376184535549256,
+                "predicted_hidden_norm": 1.3730260340417824,
+                "predicted_distance_change": {
+                  "same_class": 0.15090260915377832,
+                  "different_class": 0.5697490426216688,
+                  "gap": 0.4188464334678905
+                },
+                "amplification": 8.929562667951787,
+                "geometry_gain_per_parameter_norm": 2.7239945807071364,
+                "geometry_gain_per_hidden_norm": 0.3050535263595334
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.261899268327107,
+                "distance_change": {
+                  "same_class": 1.3726976637476473,
+                  "different_class": 5.53932220985548,
+                  "gap": 4.166624546107832
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.037339362681000535,
+                "predicted_hidden_norm": 0.08543233343203456,
+                "predicted_distance_change": {
+                  "same_class": -0.011803141823241525,
+                  "different_class": 0.0010473498612033319,
+                  "gap": 0.012850491684444857
+                },
+                "amplification": 2.2879965617491718,
+                "geometry_gain_per_parameter_norm": 0.3441540176844957,
+                "geometry_gain_per_hidden_norm": 0.15041719180792396
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 1.9767759096369377,
+                "distance_change": {
+                  "same_class": -0.19277758106903495,
+                  "different_class": 0.42063172524147335,
+                  "gap": 0.6134093063105083
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 3,
+          "loss_before": 1.5828930374620047,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.13354197592266262,
+                "predicted_hidden_norm": 1.0916319560574315,
+                "predicted_distance_change": {
+                  "same_class": 0.14904897285981453,
+                  "different_class": 0.6058968912229519,
+                  "gap": 0.4568479183631373
+                },
+                "amplification": 8.174448135241176,
+                "geometry_gain_per_parameter_norm": 3.421006130894072,
+                "geometry_gain_per_hidden_norm": 0.4184999493905456
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.765188600412809,
+                "distance_change": {
+                  "same_class": 1.543012624341897,
+                  "different_class": 5.422408944436433,
+                  "gap": 3.879396320094536
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03350219881559052,
+                "predicted_hidden_norm": 0.07905835080210574,
+                "predicted_distance_change": {
+                  "same_class": -0.008497524798108134,
+                  "different_class": 0.01213813488725436,
+                  "gap": 0.020635659685362497
+                },
+                "amplification": 2.35979588197403,
+                "geometry_gain_per_parameter_norm": 0.6159494127221143,
+                "geometry_gain_per_hidden_norm": 0.26101808949969724
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 1.9976165413539324,
+                "distance_change": {
+                  "same_class": -0.06066933736948539,
+                  "different_class": 0.6739132580456269,
+                  "gap": 0.7345825954151123
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 4,
+          "loss_before": 1.3645593086694996,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.11820718984748772,
+                "predicted_hidden_norm": 0.9878900819333716,
+                "predicted_distance_change": {
+                  "same_class": 0.11875899023448425,
+                  "different_class": 0.5467283645213126,
+                  "gap": 0.42796937428682835
+                },
+                "amplification": 8.35727575630517,
+                "geometry_gain_per_parameter_norm": 3.6205020594686275,
+                "geometry_gain_per_hidden_norm": 0.43321557945926703
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 8.377721221891004,
+                "distance_change": {
+                  "same_class": 1.7990027089630198,
+                  "different_class": 6.35041284150136,
+                  "gap": 4.55141013253834
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.031619176972148035,
+                "predicted_hidden_norm": 0.0897556026352649,
+                "predicted_distance_change": {
+                  "same_class": -0.007345608930213126,
+                  "different_class": 0.018571975972555915,
+                  "gap": 0.02591758490276904
+                },
+                "amplification": 2.83864449458399,
+                "geometry_gain_per_parameter_norm": 0.819679301760407,
+                "geometry_gain_per_hidden_norm": 0.28875729360415486
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.5436712662472343,
+                "distance_change": {
+                  "same_class": 0.0329025663032891,
+                  "different_class": 0.9331086434694705,
+                  "gap": 0.9002060771661814
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 5,
+          "loss_before": 1.2666675959692895,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10841253063112342,
+                "predicted_hidden_norm": 0.7799495965967504,
+                "predicted_distance_change": {
+                  "same_class": 0.17188098679704794,
+                  "different_class": 0.5269493124154218,
+                  "gap": 0.3550683256183738
+                },
+                "amplification": 7.194275348580785,
+                "geometry_gain_per_parameter_norm": 3.2751594631298055,
+                "geometry_gain_per_hidden_norm": 0.4552452199061156
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.4341455455059835,
+                "distance_change": {
+                  "same_class": 2.074910942477469,
+                  "different_class": 6.096306051048933,
+                  "gap": 4.021395108571465
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.029321334416828687,
+                "predicted_hidden_norm": 0.07355562372071632,
+                "predicted_distance_change": {
+                  "same_class": -0.0011894567997713192,
+                  "different_class": 0.02180378547672006,
+                  "gap": 0.02299324227649138
+                },
+                "amplification": 2.508604235914304,
+                "geometry_gain_per_parameter_norm": 0.7841813046303457,
+                "geometry_gain_per_hidden_norm": 0.3125966596897407
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.128190780534472,
+                "distance_change": {
+                  "same_class": 0.19494725340870991,
+                  "different_class": 0.986153392834037,
+                  "gap": 0.7912061394253271
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 6,
+          "loss_before": 1.151862638705637,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10047687278405992,
+                "predicted_hidden_norm": 0.6266579411077837,
+                "predicted_distance_change": {
+                  "same_class": 0.12869313621174486,
+                  "different_class": 0.4381002114846456,
+                  "gap": 0.3094070752729008
+                },
+                "amplification": 6.236837629835145,
+                "geometry_gain_per_parameter_norm": 3.0793859989837027,
+                "geometry_gain_per_hidden_norm": 0.49374156932559077
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.393843837973051,
+                "distance_change": {
+                  "same_class": 1.5401076110568375,
+                  "different_class": 5.369594900220094,
+                  "gap": 3.8294872891632568
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.028388122389365684,
+                "predicted_hidden_norm": 0.07474150147274401,
+                "predicted_distance_change": {
+                  "same_class": -0.001069654975825565,
+                  "different_class": 0.02426316744551914,
+                  "gap": 0.025332822421344707
+                },
+                "amplification": 2.6328441327540038,
+                "geometry_gain_per_parameter_norm": 0.8923740032498414,
+                "geometry_gain_per_hidden_norm": 0.33893916929917217
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.2613330776923615,
+                "distance_change": {
+                  "same_class": 0.21182813546076662,
+                  "different_class": 1.1247331902246314,
+                  "gap": 0.9129050547638647
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 7,
+          "loss_before": 1.0661298381817228,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09581069227932364,
+                "predicted_hidden_norm": 0.6277336586958451,
+                "predicted_distance_change": {
+                  "same_class": 0.10900807642294183,
+                  "different_class": 0.4412991114635861,
+                  "gap": 0.3322910350406443
+                },
+                "amplification": 6.551812159604996,
+                "geometry_gain_per_parameter_norm": 3.468204092210219,
+                "geometry_gain_per_hidden_norm": 0.5293503549435268
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.51377107713649,
+                "distance_change": {
+                  "same_class": 1.3600903123097046,
+                  "different_class": 5.482320007963888,
+                  "gap": 4.122229695654183
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.027492063335751746,
+                "predicted_hidden_norm": 0.08044604807816048,
+                "predicted_distance_change": {
+                  "same_class": 0.000977562227771235,
+                  "different_class": 0.030016581009191797,
+                  "gap": 0.029039018781420563
+                },
+                "amplification": 2.926155345115378,
+                "geometry_gain_per_parameter_norm": 1.056269164914119,
+                "geometry_gain_per_hidden_norm": 0.3609750817492809
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.532642802303323,
+                "distance_change": {
+                  "same_class": 0.2719300107435399,
+                  "different_class": 1.3771092190521466,
+                  "gap": 1.1051792083086067
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 8,
+          "loss_before": 1.0173006923754675,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09010737842601704,
+                "predicted_hidden_norm": 0.6098166714149956,
+                "predicted_distance_change": {
+                  "same_class": 0.15628522021720342,
+                  "different_class": 0.4682873665738778,
+                  "gap": 0.3120021463566744
+                },
+                "amplification": 6.767666333958296,
+                "geometry_gain_per_parameter_norm": 3.4625593575874007,
+                "geometry_gain_per_hidden_norm": 0.511632693859806
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.834342650342254,
+                "distance_change": {
+                  "same_class": 1.8434305571163734,
+                  "different_class": 5.864984256042216,
+                  "gap": 4.0215536989258425
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.025086265640558162,
+                "predicted_hidden_norm": 0.07501014965684522,
+                "predicted_distance_change": {
+                  "same_class": 0.0023508234121217466,
+                  "different_class": 0.03432213229978675,
+                  "gap": 0.031971308887665
+                },
+                "amplification": 2.9900883109350773,
+                "geometry_gain_per_parameter_norm": 1.2744546895005153,
+                "geometry_gain_per_hidden_norm": 0.4262264378077719
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.643034118836571,
+                "distance_change": {
+                  "same_class": 0.32452437035028636,
+                  "different_class": 1.642776661252431,
+                  "gap": 1.3182522909021448
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 9,
+          "loss_before": 1.0389187534454347,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08671497914207286,
+                "predicted_hidden_norm": 0.6046664887376899,
+                "predicted_distance_change": {
+                  "same_class": 0.15679944906070867,
+                  "different_class": 0.4658210056381707,
+                  "gap": 0.309021556577462
+                },
+                "amplification": 6.973033894720899,
+                "geometry_gain_per_parameter_norm": 3.563646784382713,
+                "geometry_gain_per_hidden_norm": 0.5110611590574163
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.937352752289937,
+                "distance_change": {
+                  "same_class": 1.971449172935594,
+                  "different_class": 6.053601516352407,
+                  "gap": 4.082152343416812
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.023908278502977394,
+                "predicted_hidden_norm": 0.07960617828246523,
+                "predicted_distance_change": {
+                  "same_class": 0.007838920657508788,
+                  "different_class": 0.040427377499100955,
+                  "gap": 0.032588456841592166
+                },
+                "amplification": 3.3296491118150375,
+                "geometry_gain_per_parameter_norm": 1.3630616205819166,
+                "geometry_gain_per_hidden_norm": 0.40937095015363134
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.955995581006607,
+                "distance_change": {
+                  "same_class": 0.5694583260797093,
+                  "different_class": 1.9712743667599903,
+                  "gap": 1.401816040680281
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 10,
+          "loss_before": 0.8643148344260301,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08352868541058937,
+                "predicted_hidden_norm": 0.5729690202065207,
+                "predicted_distance_change": {
+                  "same_class": 0.14400454304988436,
+                  "different_class": 0.4654709286773086,
+                  "gap": 0.32146638562742424
+                },
+                "amplification": 6.859547919257477,
+                "geometry_gain_per_parameter_norm": 3.84857470277714,
+                "geometry_gain_per_hidden_norm": 0.561053694511363
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.797012970897215,
+                "distance_change": {
+                  "same_class": 1.7659493548543361,
+                  "different_class": 6.130090293748086,
+                  "gap": 4.36414093889375
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.022443653473674375,
+                "predicted_hidden_norm": 0.07631138425652333,
+                "predicted_distance_change": {
+                  "same_class": 0.007286163215423483,
+                  "different_class": 0.044108194454374416,
+                  "gap": 0.036822031238950934
+                },
+                "amplification": 3.400131994821339,
+                "geometry_gain_per_parameter_norm": 1.6406433686093886,
+                "geometry_gain_per_hidden_norm": 0.4825234347102448
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.138674986203731,
+                "distance_change": {
+                  "same_class": 0.524199287372362,
+                  "different_class": 2.213192258562321,
+                  "gap": 1.6889929711899592
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "records": [
+        {
+          "update": 1,
+          "loss_before": 2.798520740035116,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.1896516556192277,
+                "predicted_hidden_norm": 1.8398243474753735,
+                "predicted_distance_change": {
+                  "same_class": 0.06561078731137168,
+                  "different_class": -0.16758882403700853,
+                  "gap": -0.23319961134838021
+                },
+                "amplification": 9.701071901894034,
+                "geometry_gain_per_parameter_norm": -1.2296207517248663,
+                "geometry_gain_per_hidden_norm": -0.1267510192852808
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.6041052189430784,
+                "distance_change": {
+                  "same_class": 0.5128885508107234,
+                  "different_class": 3.217848804288193,
+                  "gap": 2.7049602534774695
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.04550784012300889,
+                "predicted_hidden_norm": 0.1204298183676228,
+                "predicted_distance_change": {
+                  "same_class": -0.017160402790122188,
+                  "different_class": -0.04093067891982354,
+                  "gap": -0.023770276129701354
+                },
+                "amplification": 2.646353200725366,
+                "geometry_gain_per_parameter_norm": -0.5223336476846555,
+                "geometry_gain_per_hidden_norm": -0.1973786596367725
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.4795918708335942,
+                "distance_change": {
+                  "same_class": -0.2108840824268103,
+                  "different_class": -0.34279543040111016,
+                  "gap": -0.13191134797429985
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 2,
+          "loss_before": 2.2203266255540908,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.14920897460740937,
+                "predicted_hidden_norm": 1.3318470035111853,
+                "predicted_distance_change": {
+                  "same_class": 0.013217107214347856,
+                  "different_class": 0.11175642566440379,
+                  "gap": 0.09853931845005594
+                },
+                "amplification": 8.926051579775745,
+                "geometry_gain_per_parameter_norm": 0.6604114712893597,
+                "geometry_gain_per_hidden_norm": 0.07398696561262216
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.614188521556415,
+                "distance_change": {
+                  "same_class": 0.6587939917229837,
+                  "different_class": 3.4264924383250825,
+                  "gap": 2.7676984466020986
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03724214100949275,
+                "predicted_hidden_norm": 0.10510777404021927,
+                "predicted_distance_change": {
+                  "same_class": -0.010819828374963878,
+                  "different_class": -0.018369022275023343,
+                  "gap": -0.007549193900059465
+                },
+                "amplification": 2.8222806528074758,
+                "geometry_gain_per_parameter_norm": -0.20270569025919402,
+                "geometry_gain_per_hidden_norm": -0.07182336386622346
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.6229164147880084,
+                "distance_change": {
+                  "same_class": -0.1364833202884507,
+                  "different_class": -0.04156691827853784,
+                  "gap": 0.09491640200991286
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 3,
+          "loss_before": 1.681685565793407,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.12887117833625858,
+                "predicted_hidden_norm": 1.1699734810769096,
+                "predicted_distance_change": {
+                  "same_class": 0.11891017886756432,
+                  "different_class": 0.23251511029702226,
+                  "gap": 0.11360493142945795
+                },
+                "amplification": 9.078627945995365,
+                "geometry_gain_per_parameter_norm": 0.8815387031926797,
+                "geometry_gain_per_hidden_norm": 0.09710043284475948
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.880160753134635,
+                "distance_change": {
+                  "same_class": 1.2614484795400958,
+                  "different_class": 3.954907954194367,
+                  "gap": 2.6934594746542713
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03493489034950406,
+                "predicted_hidden_norm": 0.11402588620417431,
+                "predicted_distance_change": {
+                  "same_class": -0.005865326285744956,
+                  "different_class": -0.0107483855651078,
+                  "gap": -0.004883059279362844
+                },
+                "amplification": 3.263954317972921,
+                "geometry_gain_per_parameter_norm": -0.13977600131303014,
+                "geometry_gain_per_hidden_norm": -0.04282412916852281
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.0511411438024645,
+                "distance_change": {
+                  "same_class": 0.040267837338546324,
+                  "different_class": 0.21862767452092396,
+                  "gap": 0.17835983718237763
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 4,
+          "loss_before": 1.5648855856763875,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.11576493559550247,
+                "predicted_hidden_norm": 0.890907189639589,
+                "predicted_distance_change": {
+                  "same_class": 0.10366118177736082,
+                  "different_class": 0.27016421483370306,
+                  "gap": 0.16650303305634223
+                },
+                "amplification": 7.695829355034871,
+                "geometry_gain_per_parameter_norm": 1.4382855412983184,
+                "geometry_gain_per_hidden_norm": 0.18689155839420266
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.4711329587099975,
+                "distance_change": {
+                  "same_class": 1.1112275231658204,
+                  "different_class": 4.109799277367425,
+                  "gap": 2.9985717542016044
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03294884738027165,
+                "predicted_hidden_norm": 0.1005853964222838,
+                "predicted_distance_change": {
+                  "same_class": -0.004044052979853585,
+                  "different_class": -0.002386709646768683,
+                  "gap": 0.0016573433330849016
+                },
+                "amplification": 3.0527743584289992,
+                "geometry_gain_per_parameter_norm": 0.05030049500539577,
+                "geometry_gain_per_hidden_norm": 0.016476977692934082
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.888800275541174,
+                "distance_change": {
+                  "same_class": -0.0009181213076666532,
+                  "different_class": 0.41649146059638004,
+                  "gap": 0.4174095819040467
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 5,
+          "loss_before": 1.4960058635451985,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10882084432080677,
+                "predicted_hidden_norm": 0.8629517947718055,
+                "predicted_distance_change": {
+                  "same_class": 0.111163386042628,
+                  "different_class": 0.3258276014077035,
+                  "gap": 0.21466421536507552
+                },
+                "amplification": 7.930022967178976,
+                "geometry_gain_per_parameter_norm": 1.972638759650124,
+                "geometry_gain_per_hidden_norm": 0.24875574356020688
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.894628312129418,
+                "distance_change": {
+                  "same_class": 1.125942828465563,
+                  "different_class": 4.62747644742452,
+                  "gap": 3.501533618958957
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.031222455597951115,
+                "predicted_hidden_norm": 0.1022434998743202,
+                "predicted_distance_change": {
+                  "same_class": 0.0006615739350604901,
+                  "different_class": 0.007967588607618625,
+                  "gap": 0.007306014672558135
+                },
+                "amplification": 3.2746783658178904,
+                "geometry_gain_per_parameter_norm": 0.2339987208769566,
+                "geometry_gain_per_hidden_norm": 0.07145700882245656
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.0623095699384617,
+                "distance_change": {
+                  "same_class": 0.12053266310909835,
+                  "different_class": 0.71486301060674,
+                  "gap": 0.5943303474976416
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 6,
+          "loss_before": 1.4389413594600073,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10230440894574071,
+                "predicted_hidden_norm": 0.8018184171856039,
+                "predicted_distance_change": {
+                  "same_class": 0.11931280603011181,
+                  "different_class": 0.3418821006857185,
+                  "gap": 0.2225692946556067
+                },
+                "amplification": 7.837574406112498,
+                "geometry_gain_per_parameter_norm": 2.1755591665032834,
+                "geometry_gain_per_hidden_norm": 0.2775806714902218
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.93034242962174,
+                "distance_change": {
+                  "same_class": 1.3724430343647205,
+                  "different_class": 4.989752509282476,
+                  "gap": 3.6173094749177555
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.029655270483608442,
+                "predicted_hidden_norm": 0.0982913059533266,
+                "predicted_distance_change": {
+                  "same_class": 0.0015529152017954133,
+                  "different_class": 0.010020335529124102,
+                  "gap": 0.008467420327328688
+                },
+                "amplification": 3.3144633095710865,
+                "geometry_gain_per_parameter_norm": 0.2855283458638134,
+                "geometry_gain_per_hidden_norm": 0.08614617788626619
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.1136305831988422,
+                "distance_change": {
+                  "same_class": 0.14915977983332232,
+                  "different_class": 0.85325377038986,
+                  "gap": 0.7040939905565377
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 7,
+          "loss_before": 1.215928858825467,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09837537386760307,
+                "predicted_hidden_norm": 0.8281539091786989,
+                "predicted_distance_change": {
+                  "same_class": 0.13116758542362586,
+                  "different_class": 0.4355168525696288,
+                  "gap": 0.30434926714600297
+                },
+                "amplification": 8.418305075955866,
+                "geometry_gain_per_parameter_norm": 3.093754617447315,
+                "geometry_gain_per_hidden_norm": 0.3675032669323916
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.454950416912069,
+                "distance_change": {
+                  "same_class": 1.6597933220417782,
+                  "different_class": 5.764755224369032,
+                  "gap": 4.104961902327254
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02819691725020016,
+                "predicted_hidden_norm": 0.10057606805034196,
+                "predicted_distance_change": {
+                  "same_class": 0.0034972326428254416,
+                  "different_class": 0.02295389469211975,
+                  "gap": 0.019456662049294308
+                },
+                "amplification": 3.566917161826547,
+                "geometry_gain_per_parameter_norm": 0.690027986983442,
+                "geometry_gain_per_hidden_norm": 0.1934522041521403
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.3714008690621506,
+                "distance_change": {
+                  "same_class": 0.3024078569096558,
+                  "different_class": 1.282188912950814,
+                  "gap": 0.9797810560411582
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 8,
+          "loss_before": 1.001561602014833,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09137884489024804,
+                "predicted_hidden_norm": 0.7264405371281251,
+                "predicted_distance_change": {
+                  "same_class": 0.173612625834896,
+                  "different_class": 0.48874800365045684,
+                  "gap": 0.31513537781556084
+                },
+                "amplification": 7.949767126085119,
+                "geometry_gain_per_parameter_norm": 3.44866887072231,
+                "geometry_gain_per_hidden_norm": 0.43380753373345854
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.227473919729448,
+                "distance_change": {
+                  "same_class": 1.90921184496269,
+                  "different_class": 5.937064154950373,
+                  "gap": 4.027852309987683
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.026449111519849057,
+                "predicted_hidden_norm": 0.09235291805642512,
+                "predicted_distance_change": {
+                  "same_class": 0.005473430716563134,
+                  "different_class": 0.030032603713067457,
+                  "gap": 0.024559172996504324
+                },
+                "amplification": 3.491720997399771,
+                "geometry_gain_per_parameter_norm": 0.928544347437667,
+                "geometry_gain_per_hidden_norm": 0.2659274174910135
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.348615499993367,
+                "distance_change": {
+                  "same_class": 0.34146427586541883,
+                  "different_class": 1.474386342300052,
+                  "gap": 1.1329220664346331
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 9,
+          "loss_before": 1.1282338722423748,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08802036498756563,
+                "predicted_hidden_norm": 0.6916413621474905,
+                "predicted_distance_change": {
+                  "same_class": 0.13115664242544695,
+                  "different_class": 0.44966786760033234,
+                  "gap": 0.3185112251748854
+                },
+                "amplification": 7.8577424922652455,
+                "geometry_gain_per_parameter_norm": 3.618608321152503,
+                "geometry_gain_per_hidden_norm": 0.4605150047503431
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.151502796884933,
+                "distance_change": {
+                  "same_class": 1.8493007811124782,
+                  "different_class": 5.985633329067689,
+                  "gap": 4.13633254795521
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.025191519406764354,
+                "predicted_hidden_norm": 0.09708581171379849,
+                "predicted_distance_change": {
+                  "same_class": 0.006877061898488452,
+                  "different_class": 0.032170405583370636,
+                  "gap": 0.02529334368488218
+                },
+                "amplification": 3.853908537479057,
+                "geometry_gain_per_parameter_norm": 1.0040420062193822,
+                "geometry_gain_per_hidden_norm": 0.2605256446682963
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.63637682372133,
+                "distance_change": {
+                  "same_class": 0.4929146665897693,
+                  "different_class": 1.715986178316901,
+                  "gap": 1.2230715117271318
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 10,
+          "loss_before": 0.9614923180191596,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08410876158399423,
+                "predicted_hidden_norm": 0.6382186179681805,
+                "predicted_distance_change": {
+                  "same_class": 0.12525440234221222,
+                  "different_class": 0.4562694970267773,
+                  "gap": 0.33101509468456514
+                },
+                "amplification": 7.588015873124358,
+                "geometry_gain_per_parameter_norm": 3.93556020146606,
+                "geometry_gain_per_hidden_norm": 0.5186547138633748
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.94042199833774,
+                "distance_change": {
+                  "same_class": 1.6005499785023733,
+                  "different_class": 5.7922525094421555,
+                  "gap": 4.191702530939782
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02405008661343434,
+                "predicted_hidden_norm": 0.09226784269852369,
+                "predicted_distance_change": {
+                  "same_class": 0.004610469936182148,
+                  "different_class": 0.03553245188164194,
+                  "gap": 0.03092198194545979
+                },
+                "amplification": 3.836486919218953,
+                "geometry_gain_per_parameter_norm": 1.2857326646044935,
+                "geometry_gain_per_hidden_norm": 0.33513281595294686
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.6276261878081035,
+                "distance_change": {
+                  "same_class": 0.37494261870114337,
+                  "different_class": 1.830989635117882,
+                  "gap": 1.4560470164167387
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 19,
+      "records": [
+        {
+          "update": 1,
+          "loss_before": 2.286680217009919,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.18965161328316837,
+                "predicted_hidden_norm": 2.105715104370732,
+                "predicted_distance_change": {
+                  "same_class": 0.2736224060025639,
+                  "different_class": 0.4350008420989671,
+                  "gap": 0.16137843609640323
+                },
+                "amplification": 11.103069823227361,
+                "geometry_gain_per_parameter_norm": 0.8509204498853878,
+                "geometry_gain_per_hidden_norm": 0.07663830485018497
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.9553944953143425,
+                "distance_change": {
+                  "same_class": 0.9390170131372659,
+                  "different_class": 4.624345351340012,
+                  "gap": 3.685328338202746
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.04515502129039834,
+                "predicted_hidden_norm": 0.1184027870264301,
+                "predicted_distance_change": {
+                  "same_class": -0.006065420684740169,
+                  "different_class": -0.010184960281286388,
+                  "gap": -0.004119539596546219
+                },
+                "amplification": 2.622139988927588,
+                "geometry_gain_per_parameter_norm": -0.09123104095229799,
+                "geometry_gain_per_hidden_norm": -0.03479258976924798
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.4766176560846893,
+                "distance_change": {
+                  "same_class": -0.050986466884693875,
+                  "different_class": 0.08947369182437144,
+                  "gap": 0.1404601587090653
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 2,
+          "loss_before": 1.9680889570572708,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.15639178630342965,
+                "predicted_hidden_norm": 1.4168415501394476,
+                "predicted_distance_change": {
+                  "same_class": 0.21318268823856018,
+                  "different_class": 0.6565308659133791,
+                  "gap": 0.4433481776748189
+                },
+                "amplification": 9.059564978626863,
+                "geometry_gain_per_parameter_norm": 2.834855897192961,
+                "geometry_gain_per_hidden_norm": 0.3129130266056807
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.438132080879037,
+                "distance_change": {
+                  "same_class": 1.415599433064572,
+                  "different_class": 5.6815096552702045,
+                  "gap": 4.265910222205632
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.0392248006590815,
+                "predicted_hidden_norm": 0.0999732709751363,
+                "predicted_distance_change": {
+                  "same_class": -0.01019408947781105,
+                  "different_class": -0.0024743964808491086,
+                  "gap": 0.00771969299696194
+                },
+                "amplification": 2.5487260430981955,
+                "geometry_gain_per_parameter_norm": 0.19680643030048497,
+                "geometry_gain_per_hidden_norm": 0.07721756947296297
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.3863749629107116,
+                "distance_change": {
+                  "same_class": -0.1587025931251556,
+                  "different_class": 0.2540659563928773,
+                  "gap": 0.41276854951803293
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 3,
+          "loss_before": 1.5540707672716623,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.13281962629211147,
+                "predicted_hidden_norm": 1.1309117455448927,
+                "predicted_distance_change": {
+                  "same_class": 0.17709896414610057,
+                  "different_class": 0.582701237374841,
+                  "gap": 0.40560227322874043
+                },
+                "amplification": 8.514643333340418,
+                "geometry_gain_per_parameter_norm": 3.0537826716715455,
+                "geometry_gain_per_hidden_norm": 0.3586506858970806
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.904053566653463,
+                "distance_change": {
+                  "same_class": 1.8559824450407763,
+                  "different_class": 6.129729400164361,
+                  "gap": 4.273746955123585
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03596259247847856,
+                "predicted_hidden_norm": 0.09534475557407544,
+                "predicted_distance_change": {
+                  "same_class": -0.00945905014941216,
+                  "different_class": 0.0007301156721791779,
+                  "gap": 0.010189165821591338
+                },
+                "amplification": 2.6512203098576257,
+                "geometry_gain_per_parameter_norm": 0.2833267881810506,
+                "geometry_gain_per_hidden_norm": 0.10686655768575704
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.4485798665190437,
+                "distance_change": {
+                  "same_class": -0.10181012895487611,
+                  "different_class": 0.31919737924074365,
+                  "gap": 0.4210075081956198
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 4,
+          "loss_before": 1.4157707720744173,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.12028743215272249,
+                "predicted_hidden_norm": 0.9199969418665273,
+                "predicted_distance_change": {
+                  "same_class": 0.1476069994870467,
+                  "different_class": 0.5630703301007786,
+                  "gap": 0.41546333061373186
+                },
+                "amplification": 7.648321403174162,
+                "geometry_gain_per_parameter_norm": 3.4539213546951473,
+                "geometry_gain_per_hidden_norm": 0.4515920778723709
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.307545985089975,
+                "distance_change": {
+                  "same_class": 1.4727321548877115,
+                  "different_class": 5.894123791620702,
+                  "gap": 4.421391636732991
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03370577970079591,
+                "predicted_hidden_norm": 0.09235040843347854,
+                "predicted_distance_change": {
+                  "same_class": -0.007875809139406222,
+                  "different_class": 0.005662270166995685,
+                  "gap": 0.013538079306401907
+                },
+                "amplification": 2.7398982979556417,
+                "geometry_gain_per_parameter_norm": 0.401654536004762,
+                "geometry_gain_per_hidden_norm": 0.14659468795044475
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.5585833900574824,
+                "distance_change": {
+                  "same_class": -0.0603024059116247,
+                  "different_class": 0.4541406785369367,
+                  "gap": 0.5144430844485613
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 5,
+          "loss_before": 1.1876738247140948,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10849508311246771,
+                "predicted_hidden_norm": 0.9250681060926633,
+                "predicted_distance_change": {
+                  "same_class": 0.18170666924136222,
+                  "different_class": 0.606707614810628,
+                  "gap": 0.4250009455692657
+                },
+                "amplification": 8.526359716538705,
+                "geometry_gain_per_parameter_norm": 3.9172369233424438,
+                "geometry_gain_per_hidden_norm": 0.4594266549350624
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 8.468567390633833,
+                "distance_change": {
+                  "same_class": 1.9936515709879503,
+                  "different_class": 6.60390269381199,
+                  "gap": 4.61025112282404
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.031140045051872865,
+                "predicted_hidden_norm": 0.09572441688483131,
+                "predicted_distance_change": {
+                  "same_class": -0.0037205063224429826,
+                  "different_class": 0.012249107834666999,
+                  "gap": 0.01596961415710998
+                },
+                "amplification": 3.0739973794313484,
+                "geometry_gain_per_parameter_norm": 0.5128320826289079,
+                "geometry_gain_per_hidden_norm": 0.1668290565438854
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.885233469446983,
+                "distance_change": {
+                  "same_class": 0.04848851066676635,
+                  "different_class": 0.7124732385705107,
+                  "gap": 0.6639847279037443
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 6,
+          "loss_before": 1.1146935848048711,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09951870608889492,
+                "predicted_hidden_norm": 0.7543653803495507,
+                "predicted_distance_change": {
+                  "same_class": 0.13457427873591649,
+                  "different_class": 0.5529582557799299,
+                  "gap": 0.41838397704401337
+                },
+                "amplification": 7.580136539111703,
+                "geometry_gain_per_parameter_norm": 4.204073721279018,
+                "geometry_gain_per_hidden_norm": 0.5546171496498773
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.3796976694927325,
+                "distance_change": {
+                  "same_class": 1.4297576023542398,
+                  "different_class": 6.1290996178772525,
+                  "gap": 4.699342015523013
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.030072809712207292,
+                "predicted_hidden_norm": 0.09663317089250564,
+                "predicted_distance_change": {
+                  "same_class": -0.0036307224637229184,
+                  "different_class": 0.011786459288985744,
+                  "gap": 0.015417181752708663
+                },
+                "amplification": 3.213307031077973,
+                "geometry_gain_per_parameter_norm": 0.5126618330727657,
+                "geometry_gain_per_hidden_norm": 0.159543370152457
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.9691598385441056,
+                "distance_change": {
+                  "same_class": 0.03249063853698184,
+                  "different_class": 0.738812458013762,
+                  "gap": 0.7063218194767802
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 7,
+          "loss_before": 0.8816554628965297,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09313254799364797,
+                "predicted_hidden_norm": 0.6942065711425504,
+                "predicted_distance_change": {
+                  "same_class": 0.15442078740205858,
+                  "different_class": 0.5451092998010857,
+                  "gap": 0.39068851239902713
+                },
+                "amplification": 7.453963046194099,
+                "geometry_gain_per_parameter_norm": 4.1949728727026105,
+                "geometry_gain_per_hidden_norm": 0.5627842325894694
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.257669589774263,
+                "distance_change": {
+                  "same_class": 1.686247467196151,
+                  "different_class": 6.284373225088819,
+                  "gap": 4.598125757892668
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02772485144014137,
+                "predicted_hidden_norm": 0.08878640960666188,
+                "predicted_distance_change": {
+                  "same_class": -0.002815929634593847,
+                  "different_class": 0.014361629122878222,
+                  "gap": 0.01717755875747207
+                },
+                "amplification": 3.2024124565050927,
+                "geometry_gain_per_parameter_norm": 0.6195726168112691,
+                "geometry_gain_per_hidden_norm": 0.19347058669870115
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.0111666372538264,
+                "distance_change": {
+                  "same_class": 0.0645868106709479,
+                  "different_class": 0.8791263949903795,
+                  "gap": 0.8145395843194316
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 8,
+          "loss_before": 0.8776817779608841,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08861402269489166,
+                "predicted_hidden_norm": 0.590512912748841,
+                "predicted_distance_change": {
+                  "same_class": 0.11992111477576331,
+                  "different_class": 0.48577824698356825,
+                  "gap": 0.3658571322078049
+                },
+                "amplification": 6.663876605422207,
+                "geometry_gain_per_parameter_norm": 4.128659562916959,
+                "geometry_gain_per_hidden_norm": 0.619558225246486
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.61358418782214,
+                "distance_change": {
+                  "same_class": 1.5769653881621493,
+                  "different_class": 5.897393790784821,
+                  "gap": 4.320428402622672
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02638230479476714,
+                "predicted_hidden_norm": 0.08632400229164885,
+                "predicted_distance_change": {
+                  "same_class": -0.0011070555440241307,
+                  "different_class": 0.0184758730135457,
+                  "gap": 0.01958292855756983
+                },
+                "amplification": 3.272041732637817,
+                "geometry_gain_per_parameter_norm": 0.7422751237963884,
+                "geometry_gain_per_hidden_norm": 0.2268538070258626
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.08800963876578,
+                "distance_change": {
+                  "same_class": 0.11275463620062434,
+                  "different_class": 1.0990137297452527,
+                  "gap": 0.9862590935446284
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 9,
+          "loss_before": 0.7926188926886639,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08480168570354932,
+                "predicted_hidden_norm": 0.6148254545630079,
+                "predicted_distance_change": {
+                  "same_class": 0.14212891631132826,
+                  "different_class": 0.4841736580242113,
+                  "gap": 0.342044741712883
+                },
+                "amplification": 7.250156048929517,
+                "geometry_gain_per_parameter_norm": 4.033466302882314,
+                "geometry_gain_per_hidden_norm": 0.5563282053050228
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.183315997771157,
+                "distance_change": {
+                  "same_class": 1.8348891320565839,
+                  "different_class": 6.100837439038485,
+                  "gap": 4.265948306981901
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02525715335218264,
+                "predicted_hidden_norm": 0.09066817878016095,
+                "predicted_distance_change": {
+                  "same_class": 0.0030195380090851666,
+                  "different_class": 0.022276129786217232,
+                  "gap": 0.019256591777132067
+                },
+                "amplification": 3.5898019668287637,
+                "geometry_gain_per_parameter_norm": 0.7624213033282302,
+                "geometry_gain_per_hidden_norm": 0.21238533779114122
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.4395208524641285,
+                "distance_change": {
+                  "same_class": 0.29548718461331247,
+                  "different_class": 1.2667219164817172,
+                  "gap": 0.9712347318684047
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 10,
+          "loss_before": 0.714598015684362,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08252886474339516,
+                "predicted_hidden_norm": 0.6313607650141736,
+                "predicted_distance_change": {
+                  "same_class": 0.15299460845358578,
+                  "different_class": 0.47541939183437165,
+                  "gap": 0.32242478338078584
+                },
+                "amplification": 7.650181145436171,
+                "geometry_gain_per_parameter_norm": 3.906812293896115,
+                "geometry_gain_per_hidden_norm": 0.5106823249834785
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.616195706391576,
+                "distance_change": {
+                  "same_class": 2.015065783305453,
+                  "different_class": 6.239839734234056,
+                  "gap": 4.224773950928602
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.024443049977310886,
+                "predicted_hidden_norm": 0.09785771219336326,
+                "predicted_distance_change": {
+                  "same_class": 0.0029743964521242628,
+                  "different_class": 0.021603515959561063,
+                  "gap": 0.0186291195074368
+                },
+                "amplification": 4.003498429377639,
+                "geometry_gain_per_parameter_norm": 0.7621438210341659,
+                "geometry_gain_per_hidden_norm": 0.19036945673353106
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.7688896697007372,
+                "distance_change": {
+                  "same_class": 0.36890850442975115,
+                  "different_class": 1.442871566194387,
+                  "gap": 1.0739630617646359
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 23,
+      "records": [
+        {
+          "update": 1,
+          "loss_before": 2.1224585592299987,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.18965166812533138,
+                "predicted_hidden_norm": 1.793690363621883,
+                "predicted_distance_change": {
+                  "same_class": 0.15328151179793198,
+                  "different_class": 0.3960525538858718,
+                  "gap": 0.24277104208793981
+                },
+                "amplification": 9.45781485263036,
+                "geometry_gain_per_parameter_norm": 1.280089147054085,
+                "geometry_gain_per_hidden_norm": 0.13534724109111448
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.349958554622222,
+                "distance_change": {
+                  "same_class": 1.092088992174626,
+                  "different_class": 4.716405783187664,
+                  "gap": 3.624316791013038
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.045309770636956764,
+                "predicted_hidden_norm": 0.10712562230255368,
+                "predicted_distance_change": {
+                  "same_class": -0.002076217995052229,
+                  "different_class": 0.0010856094441370884,
+                  "gap": 0.0031618274391893176
+                },
+                "amplification": 2.364294076014965,
+                "geometry_gain_per_parameter_norm": 0.06978246401914874,
+                "geometry_gain_per_hidden_norm": 0.029515137193410222
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.262222799450337,
+                "distance_change": {
+                  "same_class": -0.0039361915984184054,
+                  "different_class": 0.3709513131962989,
+                  "gap": 0.37488750479471733
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 2,
+          "loss_before": 1.7073652481512962,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.15719435780355878,
+                "predicted_hidden_norm": 1.5187838090634158,
+                "predicted_distance_change": {
+                  "same_class": 0.17583016386428346,
+                  "different_class": 0.7648273908658674,
+                  "gap": 0.588997227001584
+                },
+                "amplification": 9.66182139286065,
+                "geometry_gain_per_parameter_norm": 3.746936182898095,
+                "geometry_gain_per_hidden_norm": 0.38780847115087386
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 8.146520146674575,
+                "distance_change": {
+                  "same_class": 1.3602992372155327,
+                  "different_class": 6.378112887920345,
+                  "gap": 5.017813650704812
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03750953115466178,
+                "predicted_hidden_norm": 0.08919505214950244,
+                "predicted_distance_change": {
+                  "same_class": -0.004444021353309366,
+                  "different_class": 0.013972627587192305,
+                  "gap": 0.01841664894050167
+                },
+                "amplification": 2.3779303394043367,
+                "geometry_gain_per_parameter_norm": 0.49098584742541634,
+                "geometry_gain_per_hidden_norm": 0.20647612728151093
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.26909394445204,
+                "distance_change": {
+                  "same_class": -0.024573645157326223,
+                  "different_class": 0.689877792784482,
+                  "gap": 0.7144514379418082
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 3,
+          "loss_before": 1.391696525007748,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.13153316361991363,
+                "predicted_hidden_norm": 1.0751285864328117,
+                "predicted_distance_change": {
+                  "same_class": 0.15358056236404174,
+                  "different_class": 0.6494670067777814,
+                  "gap": 0.49588644441373964
+                },
+                "amplification": 8.173821391079514,
+                "geometry_gain_per_parameter_norm": 3.7700487904836213,
+                "geometry_gain_per_hidden_norm": 0.46123454503153904
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.618473373414818,
+                "distance_change": {
+                  "same_class": 1.5673289734066929,
+                  "different_class": 6.117270686573862,
+                  "gap": 4.549941713167169
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.0328108917501971,
+                "predicted_hidden_norm": 0.07567131798203666,
+                "predicted_distance_change": {
+                  "same_class": -0.0001598524162030833,
+                  "different_class": 0.021613865653552004,
+                  "gap": 0.021773718069755088
+                },
+                "amplification": 2.3062865391819805,
+                "geometry_gain_per_parameter_norm": 0.6636125051256582,
+                "geometry_gain_per_hidden_norm": 0.28774070084155096
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.1850845460180617,
+                "distance_change": {
+                  "same_class": 0.09838894943243805,
+                  "different_class": 0.9233593938520401,
+                  "gap": 0.8249704444196021
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 4,
+          "loss_before": 1.2378045022245274,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.11862681097885314,
+                "predicted_hidden_norm": 0.9200919329580859,
+                "predicted_distance_change": {
+                  "same_class": 0.1582648249370907,
+                  "different_class": 0.5980486425706434,
+                  "gap": 0.4397838176335527
+                },
+                "amplification": 7.756188717929077,
+                "geometry_gain_per_parameter_norm": 3.70728854636369,
+                "geometry_gain_per_hidden_norm": 0.47797812575060006
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.749202535659852,
+                "distance_change": {
+                  "same_class": 1.3302575733673503,
+                  "different_class": 6.029960419009925,
+                  "gap": 4.699702845642575
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.030091623677832,
+                "predicted_hidden_norm": 0.07137790554028942,
+                "predicted_distance_change": {
+                  "same_class": 0.0016521163665822838,
+                  "different_class": 0.025096787831584973,
+                  "gap": 0.02344467146500269
+                },
+                "amplification": 2.3720190809401998,
+                "geometry_gain_per_parameter_norm": 0.779109552744872,
+                "geometry_gain_per_hidden_norm": 0.32845838341066613
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.2928634880992433,
+                "distance_change": {
+                  "same_class": 0.14686008922911054,
+                  "different_class": 1.1192636641434228,
+                  "gap": 0.9724035749143123
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 5,
+          "loss_before": 1.1204215749714832,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.11012083298927461,
+                "predicted_hidden_norm": 0.8309094000827607,
+                "predicted_distance_change": {
+                  "same_class": 0.12256198590294999,
+                  "different_class": 0.5326978823620192,
+                  "gap": 0.4101358964590692
+                },
+                "amplification": 7.54543329838132,
+                "geometry_gain_per_parameter_norm": 3.724416945692874,
+                "geometry_gain_per_hidden_norm": 0.4935988164512504
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.68481152595228,
+                "distance_change": {
+                  "same_class": 1.530138503604052,
+                  "different_class": 5.940671997399311,
+                  "gap": 4.410533493795259
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.028399715568502786,
+                "predicted_hidden_norm": 0.07805991736035733,
+                "predicted_distance_change": {
+                  "same_class": 0.0022909069264020207,
+                  "different_class": 0.028225815576816336,
+                  "gap": 0.025934908650414316
+                },
+                "amplification": 2.748616167372151,
+                "geometry_gain_per_parameter_norm": 0.9132101547938702,
+                "geometry_gain_per_hidden_norm": 0.3322436088509791
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.6692128174717626,
+                "distance_change": {
+                  "same_class": 0.1779849597208867,
+                  "different_class": 1.2786375603791649,
+                  "gap": 1.1006526006582782
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 6,
+          "loss_before": 1.0783764693339872,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10196972104586718,
+                "predicted_hidden_norm": 0.7373307442010896,
+                "predicted_distance_change": {
+                  "same_class": 0.10161680425298855,
+                  "different_class": 0.48061399404063315,
+                  "gap": 0.37899718978764463
+                },
+                "amplification": 7.230879290818394,
+                "geometry_gain_per_parameter_norm": 3.7167620534841634,
+                "geometry_gain_per_hidden_norm": 0.5140124601725302
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.2516899017545615,
+                "distance_change": {
+                  "same_class": 1.4849441185210375,
+                  "different_class": 5.58144047037731,
+                  "gap": 4.096496351856272
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.027046426613100055,
+                "predicted_hidden_norm": 0.07569368246360596,
+                "predicted_distance_change": {
+                  "same_class": 0.0037895546866516965,
+                  "different_class": 0.02629115790441566,
+                  "gap": 0.02250160321776396
+                },
+                "amplification": 2.798657417721252,
+                "geometry_gain_per_parameter_norm": 0.8319621493681983,
+                "geometry_gain_per_hidden_norm": 0.2972718790446334
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.755303702745557,
+                "distance_change": {
+                  "same_class": 0.2627467934372761,
+                  "different_class": 1.268565873892783,
+                  "gap": 1.005819080455507
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 7,
+          "loss_before": 0.9860919530379366,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09469782195649465,
+                "predicted_hidden_norm": 0.6629398575343625,
+                "predicted_distance_change": {
+                  "same_class": 0.07852878054121833,
+                  "different_class": 0.4469339096315515,
+                  "gap": 0.3684051290903332
+                },
+                "amplification": 7.0005818913018425,
+                "geometry_gain_per_parameter_norm": 3.8903231508279363,
+                "geometry_gain_per_hidden_norm": 0.5557142550766567
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.974274603805011,
+                "distance_change": {
+                  "same_class": 1.2832876589691056,
+                  "different_class": 5.32647287394816,
+                  "gap": 4.043185214979054
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02497820863517178,
+                "predicted_hidden_norm": 0.0712267844225286,
+                "predicted_distance_change": {
+                  "same_class": 0.005687427264944787,
+                  "different_class": 0.030210551382729094,
+                  "gap": 0.024523124117784307
+                },
+                "amplification": 2.851556949613843,
+                "geometry_gain_per_parameter_norm": 0.9817807384014452,
+                "geometry_gain_per_hidden_norm": 0.34429638115219746
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.8071836389708364,
+                "distance_change": {
+                  "same_class": 0.30956108756408546,
+                  "different_class": 1.459870526738057,
+                  "gap": 1.1503094391739714
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 8,
+          "loss_before": 0.874076368162419,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08887535780284217,
+                "predicted_hidden_norm": 0.6409126860724266,
+                "predicted_distance_change": {
+                  "same_class": 0.07929964521136454,
+                  "different_class": 0.46525633896186447,
+                  "gap": 0.3859566937504999
+                },
+                "amplification": 7.211365466389499,
+                "geometry_gain_per_parameter_norm": 4.3426738669980045,
+                "geometry_gain_per_hidden_norm": 0.6021985554938519
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.164348796243741,
+                "distance_change": {
+                  "same_class": 1.2403606185692113,
+                  "different_class": 5.777779569339951,
+                  "gap": 4.537418950770739
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02349905959441005,
+                "predicted_hidden_norm": 0.0726704409101095,
+                "predicted_distance_change": {
+                  "same_class": 0.006839088227121547,
+                  "different_class": 0.0306806572475751,
+                  "gap": 0.023841569020453552
+                },
+                "amplification": 3.0924829403554654,
+                "geometry_gain_per_parameter_norm": 1.0145754524629989,
+                "geometry_gain_per_hidden_norm": 0.3280779464369102
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.0946177850531655,
+                "distance_change": {
+                  "same_class": 0.3459618919736136,
+                  "different_class": 1.6082076887770285,
+                  "gap": 1.2622457968034149
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 9,
+          "loss_before": 0.7819326359822484,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08464539211822686,
+                "predicted_hidden_norm": 0.5909075813137044,
+                "predicted_distance_change": {
+                  "same_class": 0.10666514803383094,
+                  "different_class": 0.44042770676747767,
+                  "gap": 0.33376255873364674
+                },
+                "amplification": 6.980977540849067,
+                "geometry_gain_per_parameter_norm": 3.943068256656785,
+                "geometry_gain_per_hidden_norm": 0.5648303885213769
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.994041770283084,
+                "distance_change": {
+                  "same_class": 1.7391721655442411,
+                  "different_class": 5.846543959149385,
+                  "gap": 4.107371793605144
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02267322230210865,
+                "predicted_hidden_norm": 0.0773668590258757,
+                "predicted_distance_change": {
+                  "same_class": 0.007954735588574265,
+                  "different_class": 0.03337111237196726,
+                  "gap": 0.025416376783392994
+                },
+                "amplification": 3.412256890308902,
+                "geometry_gain_per_parameter_norm": 1.1209865296045383,
+                "geometry_gain_per_hidden_norm": 0.32851762503234583
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.461955396689903,
+                "distance_change": {
+                  "same_class": 0.4597985734121954,
+                  "different_class": 1.84733833654345,
+                  "gap": 1.3875397631312545
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 10,
+          "loss_before": 0.819570476536343,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08160351656122918,
+                "predicted_hidden_norm": 0.6325869462686761,
+                "predicted_distance_change": {
+                  "same_class": 0.14782991894467096,
+                  "different_class": 0.4865536984725955,
+                  "gap": 0.33872377952792454
+                },
+                "amplification": 7.751956936733604,
+                "geometry_gain_per_parameter_norm": 4.150847828644388,
+                "geometry_gain_per_hidden_norm": 0.5354580607865718
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.579709550062225,
+                "distance_change": {
+                  "same_class": 2.2674771560606053,
+                  "different_class": 6.5219107360162205,
+                  "gap": 4.254433579955615
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02133041738489418,
+                "predicted_hidden_norm": 0.07883462137376886,
+                "predicted_distance_change": {
+                  "same_class": 0.010582045579850777,
+                  "different_class": 0.03770668186423276,
+                  "gap": 0.027124636284381984
+                },
+                "amplification": 3.6958780482935194,
+                "geometry_gain_per_parameter_norm": 1.2716411402053092,
+                "geometry_gain_per_hidden_norm": 0.3440701028521377
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.6637878118722766,
+                "distance_change": {
+                  "same_class": 0.6638186994528631,
+                  "different_class": 2.1284338156073064,
+                  "gap": 1.4646151161544432
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 31,
+      "records": [
+        {
+          "update": 1,
+          "loss_before": 2.0620398637522315,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.18965162559706697,
+                "predicted_hidden_norm": 1.7406282328655018,
+                "predicted_distance_change": {
+                  "same_class": 0.15179529191625726,
+                  "different_class": 0.3633471502523847,
+                  "gap": 0.2115518583361274
+                },
+                "amplification": 9.178029597086782,
+                "geometry_gain_per_parameter_norm": 1.1154761140070035,
+                "geometry_gain_per_hidden_norm": 0.12153764620252142
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.348713281058933,
+                "distance_change": {
+                  "same_class": 1.1071971588002918,
+                  "different_class": 4.736923992121322,
+                  "gap": 3.62972683332103
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.04475383412695545,
+                "predicted_hidden_norm": 0.11925396982057117,
+                "predicted_distance_change": {
+                  "same_class": 0.0029697584688910925,
+                  "different_class": 0.011094147435890241,
+                  "gap": 0.008124388966999149
+                },
+                "amplification": 2.6646648750200357,
+                "geometry_gain_per_parameter_norm": 0.18153503773447177,
+                "geometry_gain_per_hidden_norm": 0.06812678000760107
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.623700356574453,
+                "distance_change": {
+                  "same_class": 0.11248665879003635,
+                  "different_class": 0.6993649483885375,
+                  "gap": 0.5868782895985011
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 2,
+          "loss_before": 1.865654102926905,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.1535488834878718,
+                "predicted_hidden_norm": 1.5543581224472753,
+                "predicted_distance_change": {
+                  "same_class": 0.25509729211916354,
+                  "different_class": 0.7204631887361028,
+                  "gap": 0.4653658966169393
+                },
+                "amplification": 10.122887820086609,
+                "geometry_gain_per_parameter_norm": 3.030734486934232,
+                "geometry_gain_per_hidden_norm": 0.29939425792316066
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 8.703020982058849,
+                "distance_change": {
+                  "same_class": 1.7508410142273014,
+                  "different_class": 6.362494947137767,
+                  "gap": 4.611653932910466
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.036097136497651734,
+                "predicted_hidden_norm": 0.11586651636992938,
+                "predicted_distance_change": {
+                  "same_class": 0.003083393858475332,
+                  "different_class": 0.018011672380382433,
+                  "gap": 0.0149282785219071
+                },
+                "amplification": 3.2098534014593367,
+                "geometry_gain_per_parameter_norm": 0.41355852486742944,
+                "geometry_gain_per_hidden_norm": 0.12884031547341324
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.062984542027219,
+                "distance_change": {
+                  "same_class": 0.09776258262036223,
+                  "different_class": 0.6753582745561656,
+                  "gap": 0.5775956919358034
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 3,
+          "loss_before": 1.3038581455554006,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.13115860343940464,
+                "predicted_hidden_norm": 1.102426995307011,
+                "predicted_distance_change": {
+                  "same_class": 0.13847812908258664,
+                  "different_class": 0.5862311134218627,
+                  "gap": 0.4477529843392761
+                },
+                "amplification": 8.405296842126967,
+                "geometry_gain_per_parameter_norm": 3.413828544965701,
+                "geometry_gain_per_hidden_norm": 0.4061520501995536
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.584802007810841,
+                "distance_change": {
+                  "same_class": 1.4056948369167088,
+                  "different_class": 5.979450886626787,
+                  "gap": 4.573756049710078
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.03188661290965145,
+                "predicted_hidden_norm": 0.09984292262478342,
+                "predicted_distance_change": {
+                  "same_class": 0.0020047328785600207,
+                  "different_class": 0.02210030365660258,
+                  "gap": 0.020095570778042558
+                },
+                "amplification": 3.1311862099521686,
+                "geometry_gain_per_parameter_norm": 0.6302196735345328,
+                "geometry_gain_per_hidden_norm": 0.20127186033569047
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 2.971724615884944,
+                "distance_change": {
+                  "same_class": 0.16228233540166073,
+                  "different_class": 0.9401087187143159,
+                  "gap": 0.7778263833126552
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 4,
+          "loss_before": 1.3126144035711587,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.12373979475747691,
+                "predicted_hidden_norm": 1.1579044890501724,
+                "predicted_distance_change": {
+                  "same_class": 0.19352678423627026,
+                  "different_class": 0.7055913008481178,
+                  "gap": 0.5120645166118476
+                },
+                "amplification": 9.357575639426269,
+                "geometry_gain_per_parameter_norm": 4.1382363500397386,
+                "geometry_gain_per_hidden_norm": 0.4422338124208271
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 9.014048041339484,
+                "distance_change": {
+                  "same_class": 1.750756225395653,
+                  "different_class": 7.02327886377143,
+                  "gap": 5.272522638375777
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.031056937683104534,
+                "predicted_hidden_norm": 0.11374403030404318,
+                "predicted_distance_change": {
+                  "same_class": 0.0010673171875659458,
+                  "different_class": 0.02130547158997115,
+                  "gap": 0.020238154402405204
+                },
+                "amplification": 3.662435474632186,
+                "geometry_gain_per_parameter_norm": 0.6516468110574559,
+                "geometry_gain_per_hidden_norm": 0.17792717866869726
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.487847850075091,
+                "distance_change": {
+                  "same_class": 0.14694723675333946,
+                  "different_class": 0.956473798775948,
+                  "gap": 0.8095265620226085
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 5,
+          "loss_before": 1.0286665503871277,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.11065573492162793,
+                "predicted_hidden_norm": 0.861876098444888,
+                "predicted_distance_change": {
+                  "same_class": 0.1182674920989007,
+                  "different_class": 0.5603034621948604,
+                  "gap": 0.4420359700959597
+                },
+                "amplification": 7.78880641889291,
+                "geometry_gain_per_parameter_norm": 3.9946955339371453,
+                "geometry_gain_per_hidden_norm": 0.5128764690116596
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.370531110830873,
+                "distance_change": {
+                  "same_class": 1.3758677820000698,
+                  "different_class": 5.80592395736338,
+                  "gap": 4.43005617536331
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.027637394152946356,
+                "predicted_hidden_norm": 0.08858658219647593,
+                "predicted_distance_change": {
+                  "same_class": -0.0001356024809326177,
+                  "different_class": 0.02105517345076757,
+                  "gap": 0.021190775931700188
+                },
+                "amplification": 3.2053160188053376,
+                "geometry_gain_per_parameter_norm": 0.7667429068901958,
+                "geometry_gain_per_hidden_norm": 0.23920976976740366
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.0161778040418334,
+                "distance_change": {
+                  "same_class": 0.10188412435651603,
+                  "different_class": 0.9519157746292928,
+                  "gap": 0.8500316502727767
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 6,
+          "loss_before": 1.045290344185404,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.10199721737243411,
+                "predicted_hidden_norm": 0.8080204048569356,
+                "predicted_distance_change": {
+                  "same_class": 0.12951851231614261,
+                  "different_class": 0.5109539817063383,
+                  "gap": 0.3814354693901957
+                },
+                "amplification": 7.921984792060731,
+                "geometry_gain_per_parameter_norm": 3.739665445944635,
+                "geometry_gain_per_hidden_norm": 0.47206167950391165
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.6864268425193725,
+                "distance_change": {
+                  "same_class": 1.6615087724519446,
+                  "different_class": 6.012010224949105,
+                  "gap": 4.35050145249716
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.02513539322679903,
+                "predicted_hidden_norm": 0.08471093402440015,
+                "predicted_distance_change": {
+                  "same_class": 0.0005356019042943276,
+                  "different_class": 0.018430408985204483,
+                  "gap": 0.017894807080910156
+                },
+                "amplification": 3.3701853501970462,
+                "geometry_gain_per_parameter_norm": 0.7119366273462929,
+                "geometry_gain_per_hidden_norm": 0.21124554093283557
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.258380945741047,
+                "distance_change": {
+                  "same_class": 0.11150412681820748,
+                  "different_class": 1.0121457232591857,
+                  "gap": 0.9006415964409782
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 7,
+          "loss_before": 0.9133956293085282,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.09463659920945916,
+                "predicted_hidden_norm": 0.7188531226351924,
+                "predicted_distance_change": {
+                  "same_class": 0.10791058016148268,
+                  "different_class": 0.4156508653720936,
+                  "gap": 0.3077402852106109
+                },
+                "amplification": 7.59593147513844,
+                "geometry_gain_per_parameter_norm": 3.251810481159508,
+                "geometry_gain_per_hidden_norm": 0.42809897532682023
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 7.412428393896684,
+                "distance_change": {
+                  "same_class": 1.5476556099293088,
+                  "different_class": 5.4266655342142505,
+                  "gap": 3.879009924284942
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.023304853470552674,
+                "predicted_hidden_norm": 0.0770686388009704,
+                "predicted_distance_change": {
+                  "same_class": -0.0019586542926517394,
+                  "different_class": 0.01836328964501297,
+                  "gap": 0.020321943937664712
+                },
+                "amplification": 3.3069780463692706,
+                "geometry_gain_per_parameter_norm": 0.8720047934797325,
+                "geometry_gain_per_hidden_norm": 0.26368629644732783
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.152578873009267,
+                "distance_change": {
+                  "same_class": 0.005588392568313217,
+                  "different_class": 0.9798482019590676,
+                  "gap": 0.9742598093907544
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 8,
+          "loss_before": 0.8392052363120843,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08856499383687455,
+                "predicted_hidden_norm": 0.6305744576716106,
+                "predicted_distance_change": {
+                  "same_class": 0.07083196066459871,
+                  "different_class": 0.36783348673793065,
+                  "gap": 0.29700152607333197
+                },
+                "amplification": 7.119906301049921,
+                "geometry_gain_per_parameter_norm": 3.353486667885632,
+                "geometry_gain_per_hidden_norm": 0.47100151688669234
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.876072968191999,
+                "distance_change": {
+                  "same_class": 1.3432160882173227,
+                  "different_class": 5.091679552021025,
+                  "gap": 3.7484634638037027
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.022304254168731698,
+                "predicted_hidden_norm": 0.07815611588446984,
+                "predicted_distance_change": {
+                  "same_class": 0.0012105911516627527,
+                  "different_class": 0.02157222446927707,
+                  "gap": 0.020361633317614317
+                },
+                "amplification": 3.504090084932622,
+                "geometry_gain_per_parameter_norm": 0.9129035727255683,
+                "geometry_gain_per_hidden_norm": 0.26052514364599216
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.3076944317358223,
+                "distance_change": {
+                  "same_class": 0.0778807377767499,
+                  "different_class": 1.167561823557026,
+                  "gap": 1.0896810857802761
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 9,
+          "loss_before": 0.819082890022505,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.08222360992263515,
+                "predicted_hidden_norm": 0.5878734073680905,
+                "predicted_distance_change": {
+                  "same_class": 0.0898412296858631,
+                  "different_class": 0.40564231224367947,
+                  "gap": 0.31580108255781636
+                },
+                "amplification": 7.149691042770139,
+                "geometry_gain_per_parameter_norm": 3.8407591548821087,
+                "geometry_gain_per_hidden_norm": 0.5371923250817858
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.77197055215136,
+                "distance_change": {
+                  "same_class": 1.5614435284862267,
+                  "different_class": 5.577246033614777,
+                  "gap": 4.01580250512855
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.021310330994940428,
+                "predicted_hidden_norm": 0.07828300485147321,
+                "predicted_distance_change": {
+                  "same_class": 0.003548397196037375,
+                  "different_class": 0.028256908697737622,
+                  "gap": 0.024708511501700246
+                },
+                "amplification": 3.673476722161633,
+                "geometry_gain_per_parameter_norm": 1.1594616483229014,
+                "geometry_gain_per_hidden_norm": 0.31563059630349966
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.470612464054883,
+                "distance_change": {
+                  "same_class": 0.20174464887301083,
+                  "different_class": 1.584356072976313,
+                  "gap": 1.3826114241033023
+                }
+              }
+            }
+          }
+        },
+        {
+          "update": 10,
+          "loss_before": 0.840673024799856,
+          "layers": {
+            "W1": {
+              "actual": {
+                "parameter_norm": 0.0772011262758106,
+                "predicted_hidden_norm": 0.5334227083391978,
+                "predicted_distance_change": {
+                  "same_class": 0.09014242163239287,
+                  "different_class": 0.39457457402834284,
+                  "gap": 0.30443215239594995
+                },
+                "amplification": 6.9095197709095455,
+                "geometry_gain_per_parameter_norm": 3.943364133164694,
+                "geometry_gain_per_hidden_norm": 0.5707146464457692
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 6.604094988726722,
+                "distance_change": {
+                  "same_class": 1.5664453554931768,
+                  "different_class": 5.611592188496509,
+                  "gap": 4.045146833003332
+                }
+              }
+            },
+            "W2": {
+              "actual": {
+                "parameter_norm": 0.020073452952799126,
+                "predicted_hidden_norm": 0.0723389747933883,
+                "predicted_distance_change": {
+                  "same_class": 0.0036892265985002874,
+                  "different_class": 0.026804233184865286,
+                  "gap": 0.023115006586365
+                },
+                "amplification": 3.6037135695331903,
+                "geometry_gain_per_parameter_norm": 1.1515211977091238,
+                "geometry_gain_per_hidden_norm": 0.31953738150679023
+              },
+              "same_norm_counterfactual": {
+                "common_parameter_norm": 1.0,
+                "actual_hidden_norm": 3.4250903985798984,
+                "distance_change": {
+                  "same_class": 0.2780688418802033,
+                  "different_class": 1.5854443334987223,
+                  "gap": 1.307375491618519
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "hypothesis": "W1\uc758 \uc6b0\uc138\ub294 \ub2e8\uc21c\ud788 W1 parameter update norm\uc774 \ub354 \ud06c\uae30 \ub54c\ubb38\uc774\ub2e4.",
+      "control": "\uc2e4\uc81c W1/W2 group norm\uacfc \ub3d9\uc77c norm counterfactual\uc744 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": {
+        "W1": 0.11570514471527168,
+        "W2": 0.030326349833089714
+      }
+    },
+    {
+      "hypothesis": "W1 \ubcc0\ud654\uac00 downstream W2\ub97c \uac70\uce58\uba70 hidden2\uc5d0\uc11c \ub354 \ud06c\uac8c \uc99d\ud3ed\ub41c\ub2e4.",
+      "control": "Jacobian predicted hidden norm / parameter norm\uacfc distance gap\uc744 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": {
+        "W1": {
+          "amplification": 8.008795618446127,
+          "predicted_hidden_norm": 0.9553536213955072
+        },
+        "W2": {
+          "amplification": 3.057631688628724,
+          "predicted_hidden_norm": 0.09049808879688212
+        }
+      }
+    },
+    {
+      "hypothesis": "\ub3d9\uc77c norm\uc5d0\uc11c\ub3c4 W1\uc774 class-separating \ubc29\ud5a5\uc73c\ub85c \ub354 \ud6a8\uc728\uc801\uc774\ub2e4.",
+      "control": "W1/W2\ub97c \uac19\uc740 unit norm\uc73c\ub85c \uc801\uc6a9\ud55c counterfactual\uc758 distance gap\uc744 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": {
+        "W1": 4.0901950664076825,
+        "W2": 0.8497945294924577
+      }
+    },
+    {
+      "hypothesis": "\uc774 \uc138 \ud6a8\uacfc\uc758 \uc870\ud569\uc774 seed\ub9c8\ub2e4 \ubc18\ubcf5\ub41c\ub2e4.",
+      "control": "5\uac1c seed \u00d7 \ucd08\uae30 10\uac1c update\uc758 group metric\uc744 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": "5\uac1c seed \ubaa8\ub450 \ub3d9\uc77c norm counterfactual\uacfc \uc2e4\uc81c update metric\uc744 JSON\uc5d0 \ubcf4\uc874"
+    }
+  ]
+}

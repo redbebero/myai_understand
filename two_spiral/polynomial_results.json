@@ -1,0 +1,82 @@
+{
+  "neural_baseline": {
+    "train": 0.9416666666666667,
+    "test": 0.875
+  },
+  "direct_degree_1": {
+    "parameters": 3,
+    "train": {
+      "accuracy": 0.5583333333333333
+    },
+    "test": {
+      "accuracy": 0.5333333333333333
+    }
+  },
+  "direct_degree_2": {
+    "parameters": 6,
+    "train": {
+      "accuracy": 0.55
+    },
+    "test": {
+      "accuracy": 0.55
+    }
+  },
+  "direct_degree_3": {
+    "parameters": 10,
+    "train": {
+      "accuracy": 0.6333333333333333
+    },
+    "test": {
+      "accuracy": 0.575
+    }
+  },
+  "direct_degree_4": {
+    "parameters": 15,
+    "train": {
+      "accuracy": 0.625
+    },
+    "test": {
+      "accuracy": 0.6333333333333333
+    }
+  },
+  "imitate_neural_degree_1": {
+    "parameters": 3,
+    "train": {
+      "accuracy": 0.525
+    },
+    "test": {
+      "accuracy": 0.5583333333333333,
+      "neural_agreement": 0.5333333333333333
+    }
+  },
+  "imitate_neural_degree_2": {
+    "parameters": 6,
+    "train": {
+      "accuracy": 0.525
+    },
+    "test": {
+      "accuracy": 0.5416666666666666,
+      "neural_agreement": 0.5333333333333333
+    }
+  },
+  "imitate_neural_degree_3": {
+    "parameters": 10,
+    "train": {
+      "accuracy": 0.55
+    },
+    "test": {
+      "accuracy": 0.5166666666666667,
+      "neural_agreement": 0.5583333333333333
+    }
+  },
+  "imitate_neural_degree_4": {
+    "parameters": 15,
+    "train": {
+      "accuracy": 0.5416666666666666
+    },
+    "test": {
+      "accuracy": 0.5666666666666667,
+      "neural_agreement": 0.5416666666666666
+    }
+  }
+}

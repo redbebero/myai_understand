@@ -1,0 +1,208 @@
+{
+  "baseline_accuracy": 0.9212758737699356,
+  "filter_ablations": [
+    {
+      "filter": 4,
+      "accuracy_after_removal": 0.7512724804886325,
+      "accuracy_drop": 0.1700033932813031
+    },
+    {
+      "filter": 1,
+      "accuracy_after_removal": 0.7529691211401425,
+      "accuracy_drop": 0.1683067526297931
+    },
+    {
+      "filter": 0,
+      "accuracy_after_removal": 0.7604343400067866,
+      "accuracy_drop": 0.16084153376314902
+    },
+    {
+      "filter": 6,
+      "accuracy_after_removal": 0.7916525279945708,
+      "accuracy_drop": 0.12962334577536483
+    },
+    {
+      "filter": 10,
+      "accuracy_after_removal": 0.8014930437733289,
+      "accuracy_drop": 0.11978282999660672
+    },
+    {
+      "filter": 9,
+      "accuracy_after_removal": 0.8106549032914828,
+      "accuracy_drop": 0.11062097047845276
+    },
+    {
+      "filter": 5,
+      "accuracy_after_removal": 0.8523922633186292,
+      "accuracy_drop": 0.06888361045130642
+    },
+    {
+      "filter": 7,
+      "accuracy_after_removal": 0.8642687478791992,
+      "accuracy_drop": 0.05700712589073642
+    },
+    {
+      "filter": 8,
+      "accuracy_after_removal": 0.8656260604004072,
+      "accuracy_drop": 0.055649813369528345
+    },
+    {
+      "filter": 3,
+      "accuracy_after_removal": 0.8870037326094333,
+      "accuracy_drop": 0.034272141160502256
+    },
+    {
+      "filter": 2,
+      "accuracy_after_removal": 0.8883610451306413,
+      "accuracy_drop": 0.03291482863929429
+    },
+    {
+      "filter": 11,
+      "accuracy_after_removal": 0.9100780454699695,
+      "accuracy_drop": 0.011197828299966073
+    }
+  ],
+  "filter_activation_mean": [
+    3.01613221229881,
+    2.8905517010151143,
+    3.3174506811744586,
+    2.522763485085515,
+    2.3100780257246987,
+    2.438481271869149,
+    2.757756768194227,
+    3.3351187097375266,
+    1.8540138689999246,
+    1.9914322419775756,
+    1.7416689417533648,
+    2.020899061925276
+  ],
+  "filter_role_matches": [
+    {
+      "filter": 0,
+      "role": "channel_6_frequency_peak",
+      "correlation": 0.7480717712943827
+    },
+    {
+      "filter": 1,
+      "role": "channel_6_rms",
+      "correlation": 0.9008267202449978
+    },
+    {
+      "filter": 2,
+      "role": "channel_6_rms",
+      "correlation": 0.7809436665615312
+    },
+    {
+      "filter": 3,
+      "role": "channel_6_mean",
+      "correlation": 0.7735693414155796
+    },
+    {
+      "filter": 4,
+      "role": "global_mean_abs_change",
+      "correlation": 0.9278458782895873
+    },
+    {
+      "filter": 5,
+      "role": "channel_7_mean",
+      "correlation": -0.7787025438652933
+    },
+    {
+      "filter": 6,
+      "role": "channel_5_std",
+      "correlation": 0.8603040471051802
+    },
+    {
+      "filter": 7,
+      "role": "channel_7_mean",
+      "correlation": 0.8429243761440365
+    },
+    {
+      "filter": 8,
+      "role": "channel_0_mean_abs_change",
+      "correlation": 0.6107126794158022
+    },
+    {
+      "filter": 9,
+      "role": "channel_7_mean",
+      "correlation": -0.8097020616267951
+    },
+    {
+      "filter": 10,
+      "role": "channel_0_rms",
+      "correlation": 0.8871314713186047
+    },
+    {
+      "filter": 11,
+      "role": "channel_6_mean",
+      "correlation": 0.7469847190530408
+    }
+  ],
+  "top_pair": {
+    "filters": [
+      4,
+      1
+    ],
+    "accuracy_after_removal": 0.5802511028164234,
+    "accuracy_drop": 0.34102477095351214
+  },
+  "role_names": [
+    "channel_0_mean",
+    "channel_0_std",
+    "channel_0_rms",
+    "channel_0_mean_abs_change",
+    "channel_0_trend",
+    "channel_0_frequency_peak",
+    "channel_1_mean",
+    "channel_1_std",
+    "channel_1_rms",
+    "channel_1_mean_abs_change",
+    "channel_1_trend",
+    "channel_1_frequency_peak",
+    "channel_2_mean",
+    "channel_2_std",
+    "channel_2_rms",
+    "channel_2_mean_abs_change",
+    "channel_2_trend",
+    "channel_2_frequency_peak",
+    "channel_3_mean",
+    "channel_3_std",
+    "channel_3_rms",
+    "channel_3_mean_abs_change",
+    "channel_3_trend",
+    "channel_3_frequency_peak",
+    "channel_4_mean",
+    "channel_4_std",
+    "channel_4_rms",
+    "channel_4_mean_abs_change",
+    "channel_4_trend",
+    "channel_4_frequency_peak",
+    "channel_5_mean",
+    "channel_5_std",
+    "channel_5_rms",
+    "channel_5_mean_abs_change",
+    "channel_5_trend",
+    "channel_5_frequency_peak",
+    "channel_6_mean",
+    "channel_6_std",
+    "channel_6_rms",
+    "channel_6_mean_abs_change",
+    "channel_6_trend",
+    "channel_6_frequency_peak",
+    "channel_7_mean",
+    "channel_7_std",
+    "channel_7_rms",
+    "channel_7_mean_abs_change",
+    "channel_7_trend",
+    "channel_7_frequency_peak",
+    "channel_8_mean",
+    "channel_8_std",
+    "channel_8_rms",
+    "channel_8_mean_abs_change",
+    "channel_8_trend",
+    "channel_8_frequency_peak",
+    "global_rms",
+    "global_mean_abs_change",
+    "cross_channel_std"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "original": {
+    "accuracy": 0.9212758737699356,
+    "milliseconds": 561.6213779999271
+  },
+  "8_bit": {
+    "accuracy": 0.9199185612487275,
+    "milliseconds": 560.3212710002481
+  },
+  "4_bit": {
+    "accuracy": 0.9182219205972175,
+    "milliseconds": 559.943175999706
+  },
+  "2_bit": {
+    "accuracy": 0.38717339667458434,
+    "milliseconds": 559.1097749997971
+  },
+  "parameter_count": 1062,
+  "weight_storage_bytes_theoretical": {
+    "8": 1062,
+    "4": 531,
+    "2": 265
+  },
+  "human_role_model": {
+    "accuracy": 0.8836104513064132,
+    "milliseconds": 860.3119720000905,
+    "file_bytes": 4686,
+    "parameters": 348
+  },
+  "structured_role_model": {
+    "accuracy": 0.8591788259246692,
+    "milliseconds": 9803.171872999883,
+    "file_bytes": 53130,
+    "parameters": 4902
+  }
+}

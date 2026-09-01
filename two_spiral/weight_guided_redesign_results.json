@@ -1,0 +1,123 @@
+{
+  "baseline": {
+    "train_accuracy": 0.9416666666666667,
+    "test_accuracy": 0.875
+  },
+  "importance_ranking": [
+    {
+      "index": 3,
+      "accuracy_after_removal": 0.55,
+      "accuracy_drop": 0.3916666666666666
+    },
+    {
+      "index": 4,
+      "accuracy_after_removal": 0.6583333333333333,
+      "accuracy_drop": 0.2833333333333333
+    },
+    {
+      "index": 1,
+      "accuracy_after_removal": 0.6666666666666666,
+      "accuracy_drop": 0.275
+    },
+    {
+      "index": 2,
+      "accuracy_after_removal": 0.7333333333333333,
+      "accuracy_drop": 0.20833333333333337
+    },
+    {
+      "index": 6,
+      "accuracy_after_removal": 0.7833333333333333,
+      "accuracy_drop": 0.15833333333333333
+    },
+    {
+      "index": 5,
+      "accuracy_after_removal": 0.8,
+      "accuracy_drop": 0.1416666666666666
+    },
+    {
+      "index": 10,
+      "accuracy_after_removal": 0.8083333333333333,
+      "accuracy_drop": 0.1333333333333333
+    },
+    {
+      "index": 7,
+      "accuracy_after_removal": 0.8166666666666667,
+      "accuracy_drop": 0.125
+    },
+    {
+      "index": 8,
+      "accuracy_after_removal": 0.8166666666666667,
+      "accuracy_drop": 0.125
+    },
+    {
+      "index": 9,
+      "accuracy_after_removal": 0.8166666666666667,
+      "accuracy_drop": 0.125
+    },
+    {
+      "index": 11,
+      "accuracy_after_removal": 0.8166666666666667,
+      "accuracy_drop": 0.125
+    },
+    {
+      "index": 0,
+      "accuracy_after_removal": 0.8333333333333334,
+      "accuracy_drop": 0.10833333333333328
+    }
+  ],
+  "selected_hidden1_nodes": [
+    3,
+    4,
+    1,
+    2,
+    6,
+    5
+  ],
+  "size_sweep": [
+    {
+      "selected_count": 4,
+      "train_accuracy": 0.8583333333333333,
+      "test_accuracy": 0.75
+    },
+    {
+      "selected_count": 6,
+      "train_accuracy": 0.9416666666666667,
+      "test_accuracy": 0.8416666666666667
+    },
+    {
+      "selected_count": 8,
+      "train_accuracy": 0.95,
+      "test_accuracy": 0.85
+    },
+    {
+      "selected_count": 10,
+      "train_accuracy": 0.975,
+      "test_accuracy": 0.8416666666666667
+    },
+    {
+      "selected_count": 12,
+      "train_accuracy": 0.9666666666666667,
+      "test_accuracy": 0.8916666666666667
+    }
+  ],
+  "redesigned": {
+    "architecture": [
+      2,
+      6,
+      12,
+      1
+    ],
+    "frozen_node_equations": [
+      "node_0 = tanh((-4.10771)*x + (1.79478)*y + (-2.13978))  # original hidden1[3]",
+      "node_1 = tanh((-6.49674)*x + (-2.01831)*y + (1.25494))  # original hidden1[4]",
+      "node_2 = tanh((-3.49466)*x + (-3.78521)*y + (2.68231))  # original hidden1[1]",
+      "node_3 = tanh((-0.184556)*x + (-2.56922)*y + (-1.41729))  # original hidden1[2]",
+      "node_4 = tanh((-0.199948)*x + (3.75393)*y + (-1.71665))  # original hidden1[6]",
+      "node_5 = tanh((-0.127627)*x + (-2.66568)*y + (-0.189886))  # original hidden1[5]"
+    ],
+    "trainable_part": "hidden1_to_hidden2 and hidden2_to_output only",
+    "trainable_parameter_count": 97,
+    "train_accuracy": 0.9416666666666667,
+    "test_accuracy": 0.8416666666666667
+  }
+}

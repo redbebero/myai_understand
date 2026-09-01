@@ -1,0 +1,14 @@
+{
+  "architecture": "fixed distance/direction/spiral nodes -> learned logistic vote",
+  "fixed_spiral_constant": 12.566370614359172,
+  "combination_weights": [
+    -4.016591754373216,
+    3.0779819259363856,
+    -0.3722807154601329,
+    1.4000762711991674,
+    0.6043066818529433,
+    -2.570724519901375,
+    2.5707245199014706
+  ],
+  "trainable_parameter_count": 7
+}

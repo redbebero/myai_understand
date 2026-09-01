@@ -1,0 +1,5799 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "dynamic_labels": [
+      0,
+      1,
+      2
+    ]
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "activity_results": {
+        "0": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 503,
+                "name": "fBodyAccMag-std()",
+                "direction_correlation": 0.7795985382710746
+              },
+              {
+                "index": 302,
+                "name": "fBodyAcc-bandsEnergy()-1,8",
+                "direction_correlation": 0.7523158975590784
+              },
+              {
+                "index": 15,
+                "name": "tBodyAcc-sma()",
+                "direction_correlation": 0.6635475190332326
+              },
+              {
+                "index": 207,
+                "name": "tBodyAccMag-iqr()",
+                "direction_correlation": 0.6473347769232166
+              },
+              {
+                "index": 37,
+                "name": "tBodyAcc-correlation()-X,Y",
+                "direction_correlation": 0.6408880682718675
+              },
+              {
+                "index": 68,
+                "name": "tGravityAcc-arCoeff()-X,4",
+                "direction_correlation": 0.6346057634306328
+              }
+            ],
+            "combination_r2": 0.8155435638519932,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccMag-iqr()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  207,
+                  68
+                ],
+                "single_r2": 0.4190423134142288,
+                "joint_r2": 0.6405872525748092,
+                "joint_gain": 0.22154493916058038
+              },
+              {
+                "features": [
+                  "tBodyAcc-sma()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  15,
+                  68
+                ],
+                "single_r2": 0.4402953100151594,
+                "joint_r2": 0.6467348048356211,
+                "joint_gain": 0.20643949482046164
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  37,
+                  68
+                ],
+                "single_r2": 0.41073751605324693,
+                "joint_r2": 0.6116314149344475,
+                "joint_gain": 0.20089389888120057
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  503,
+                  68
+                ],
+                "single_r2": 0.6077738808743968,
+                "joint_r2": 0.7731785788179492,
+                "joint_gain": 0.1654046979435524
+              },
+              {
+                "features": [
+                  "tBodyAccMag-iqr()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  207,
+                  37
+                ],
+                "single_r2": 0.4190423134142288,
+                "joint_r2": 0.5793587148007262,
+                "joint_gain": 0.1603164013864974
+              },
+              {
+                "features": [
+                  "tBodyAcc-sma()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  15,
+                  37
+                ],
+                "single_r2": 0.4402953100151594,
+                "joint_r2": 0.5846563010544286,
+                "joint_gain": 0.14436099103926914
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  302,
+                  68
+                ],
+                "single_r2": 0.5659792097201239,
+                "joint_r2": 0.6927694102986943,
+                "joint_gain": 0.12679020057857038
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  302,
+                  37
+                ],
+                "single_r2": 0.5659792097201239,
+                "joint_r2": 0.68059903276075,
+                "joint_gain": 0.11461982304062601
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  503,
+                  37
+                ],
+                "single_r2": 0.6077738808743968,
+                "joint_r2": 0.6677677990269365,
+                "joint_gain": 0.05999391815253974
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "fBodyAcc-bandsEnergy()-1,8"
+                ],
+                "indices": [
+                  503,
+                  302
+                ],
+                "single_r2": 0.6077738808743968,
+                "joint_r2": 0.6504604490519077,
+                "joint_gain": 0.04268656817751093
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                503,
+                302,
+                15,
+                207
+              ],
+              "accuracy": 0.9452054794520548,
+              "loss_change": 0.030754853227470014,
+              "recall": [
+                0.9919354838709677,
+                0.9341825902335457,
+                0.9023809523809524
+              ]
+            },
+            "single": {
+              "indices": [
+                503
+              ],
+              "accuracy": 0.9480894015861572,
+              "loss_change": 0.021984368594020837
+            },
+            "random": {
+              "indices": [
+                527,
+                349,
+                503,
+                383
+              ],
+              "accuracy": 0.9480894015861572,
+              "loss_change": 0.03516593963178008
+            },
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "recall": [
+                0.9919354838709677,
+                0.9490445859872612,
+                0.9119047619047619
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 0,
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "target_recall": 0.9919354838709677
+            },
+            "selected_full": {
+              "accuracy": 0.6604181687094448,
+              "loss_change": 1.03085097666029,
+              "target_recall": 0.17137096774193547
+            },
+            "selected_half": {
+              "accuracy": 0.958904109589041,
+              "loss_change": -0.01962948760028954,
+              "target_recall": 0.969758064516129
+            },
+            "random_direction": {
+              "accuracy": 0.9531362653208363,
+              "loss_change": 0.003881031949122038,
+              "target_recall": 0.9919354838709677
+            }
+          }
+        },
+        "1": {
+          "direction_norm": 1.0,
+          "train_score_mean": -3.460786536426668e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 228,
+                "name": "tBodyAccJerkMag-mad()",
+                "direction_correlation": 0.7704857392161053
+              },
+              {
+                "index": 73,
+                "name": "tGravityAcc-arCoeff()-Z,1",
+                "direction_correlation": 0.7217358699425452
+              },
+              {
+                "index": 352,
+                "name": "fBodyAccJerk-mad()-Z",
+                "direction_correlation": 0.7031404992247035
+              },
+              {
+                "index": 295,
+                "name": "fBodyAcc-meanFreq()-Z",
+                "direction_correlation": 0.6996186116504188
+              },
+              {
+                "index": 69,
+                "name": "tGravityAcc-arCoeff()-Y,1",
+                "direction_correlation": 0.6804606730528093
+              },
+              {
+                "index": 175,
+                "name": "tBodyGyroJerk-sma()",
+                "direction_correlation": 0.6657493273472523
+              }
+            ],
+            "combination_r2": 0.7607493813310151,
+            "interactions": [
+              {
+                "features": [
+                  "fBodyAccJerk-mad()-Z",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  352,
+                  69
+                ],
+                "single_r2": 0.494406561649966,
+                "joint_r2": 0.6789819768427661,
+                "joint_gain": 0.18457541519280007
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "tBodyGyroJerk-sma()"
+                ],
+                "indices": [
+                  69,
+                  175
+                ],
+                "single_r2": 0.4630267275714802,
+                "joint_r2": 0.6077228452005491,
+                "joint_gain": 0.14469611762906887
+              },
+              {
+                "features": [
+                  "fBodyAccJerk-mad()-Z",
+                  "fBodyAcc-meanFreq()-Z"
+                ],
+                "indices": [
+                  352,
+                  295
+                ],
+                "single_r2": 0.494406561649966,
+                "joint_r2": 0.6222283270475457,
+                "joint_gain": 0.12782176539757972
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  295,
+                  69
+                ],
+                "single_r2": 0.48946620176765787,
+                "joint_r2": 0.6032939070187506,
+                "joint_gain": 0.11382770525109276
+              },
+              {
+                "features": [
+                  "tBodyAccJerkMag-mad()",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  228,
+                  69
+                ],
+                "single_r2": 0.5936482743353897,
+                "joint_r2": 0.706500257902996,
+                "joint_gain": 0.11285198356760628
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyAccJerk-mad()-Z"
+                ],
+                "indices": [
+                  73,
+                  352
+                ],
+                "single_r2": 0.5209026659617254,
+                "joint_r2": 0.6318753338536169,
+                "joint_gain": 0.11097266789189153
+              },
+              {
+                "features": [
+                  "tBodyAccJerkMag-mad()",
+                  "tGravityAcc-arCoeff()-Z,1"
+                ],
+                "indices": [
+                  228,
+                  73
+                ],
+                "single_r2": 0.5936482743353897,
+                "joint_r2": 0.7015807572900036,
+                "joint_gain": 0.10793248295461388
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "tBodyGyroJerk-sma()"
+                ],
+                "indices": [
+                  295,
+                  175
+                ],
+                "single_r2": 0.48946620176765787,
+                "joint_r2": 0.5934710337079643,
+                "joint_gain": 0.10400483194030641
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  73,
+                  69
+                ],
+                "single_r2": 0.5209026659617254,
+                "joint_r2": 0.6060359270151021,
+                "joint_gain": 0.08513326105337671
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tBodyGyroJerk-sma()"
+                ],
+                "indices": [
+                  73,
+                  175
+                ],
+                "single_r2": 0.5209026659617254,
+                "joint_r2": 0.6024969450124918,
+                "joint_gain": 0.08159427905076644
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                228,
+                73,
+                352,
+                295
+              ],
+              "accuracy": 0.9574621485219899,
+              "loss_change": -0.010775027800954823,
+              "recall": [
+                0.9919354838709677,
+                0.9490445859872612,
+                0.9261904761904762
+              ]
+            },
+            "single": {
+              "indices": [
+                228
+              ],
+              "accuracy": 0.9552992069214131,
+              "loss_change": -0.008778642403957954
+            },
+            "random": {
+              "indices": [
+                131,
+                182,
+                553,
+                401
+              ],
+              "accuracy": 0.958904109589041,
+              "loss_change": -0.026176386185137263
+            },
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "recall": [
+                0.9919354838709677,
+                0.9490445859872612,
+                0.9119047619047619
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 1,
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "target_recall": 0.9490445859872612
+            },
+            "selected_full": {
+              "accuracy": 0.6496034607065609,
+              "loss_change": 1.6367443822858472,
+              "target_recall": 0.09978768577494693
+            },
+            "selected_half": {
+              "accuracy": 0.9077144917087239,
+              "loss_change": 0.1488292680476866,
+              "target_recall": 0.8067940552016986
+            },
+            "random_direction": {
+              "accuracy": 0.9524152847873107,
+              "loss_change": -0.002274276938441122,
+              "target_recall": 0.9532908704883227
+            }
+          }
+        },
+        "2": {
+          "direction_norm": 1.0,
+          "train_score_mean": 3.460786536426668e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 508,
+                "name": "fBodyAccMag-energy()",
+                "direction_correlation": 0.9142024970801855
+              },
+              {
+                "index": 268,
+                "name": "fBodyAcc-std()-X",
+                "direction_correlation": 0.8659770830118204
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.8038371665267171
+              },
+              {
+                "index": 89,
+                "name": "tBodyAccJerk-max()-X",
+                "direction_correlation": 0.7899718440676087
+              },
+              {
+                "index": 280,
+                "name": "fBodyAcc-sma()",
+                "direction_correlation": 0.7868952945081802
+              },
+              {
+                "index": 220,
+                "name": "tGravityAccMag-iqr()",
+                "direction_correlation": 0.7531217346152634
+              }
+            ],
+            "combination_r2": 0.8814277823970265,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  89,
+                  220
+                ],
+                "single_r2": 0.6240555144195787,
+                "joint_r2": 0.7191483702259918,
+                "joint_gain": 0.09509285580641302
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  509,
+                  89
+                ],
+                "single_r2": 0.6461541902896992,
+                "joint_r2": 0.7392217311209697,
+                "joint_gain": 0.09306754083127045
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  268,
+                  509
+                ],
+                "single_r2": 0.7499163083016558,
+                "joint_r2": 0.8241846008031961,
+                "joint_gain": 0.07426829250154032
+              },
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  89,
+                  280
+                ],
+                "single_r2": 0.6240555144195787,
+                "joint_r2": 0.6947182512963654,
+                "joint_gain": 0.0706627368767867
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  509,
+                  220
+                ],
+                "single_r2": 0.6461541902896992,
+                "joint_r2": 0.715492424161331,
+                "joint_gain": 0.06933823387163174
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  268,
+                  89
+                ],
+                "single_r2": 0.7499163083016558,
+                "joint_r2": 0.8113721177071618,
+                "joint_gain": 0.06145580940550599
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  509,
+                  280
+                ],
+                "single_r2": 0.6461541902896992,
+                "joint_r2": 0.7038689199677577,
+                "joint_gain": 0.05771472967805846
+              },
+              {
+                "features": [
+                  "fBodyAcc-sma()",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  280,
+                  220
+                ],
+                "single_r2": 0.6192042045191133,
+                "joint_r2": 0.6720766538339603,
+                "joint_gain": 0.052872449314847025
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  268,
+                  280
+                ],
+                "single_r2": 0.7499163083016558,
+                "joint_r2": 0.7995964118553803,
+                "joint_gain": 0.04968010355372454
+              },
+              {
+                "features": [
+                  "fBodyAccMag-energy()",
+                  "fBodyAcc-std()-X"
+                ],
+                "indices": [
+                  508,
+                  268
+                ],
+                "single_r2": 0.8357662056676436,
+                "joint_r2": 0.8651419828721016,
+                "joint_gain": 0.029375777204458053
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                508,
+                268,
+                509,
+                89
+              ],
+              "accuracy": 0.9365537130497477,
+              "loss_change": 0.10327655608325659,
+              "recall": [
+                0.9959677419354839,
+                0.9447983014861996,
+                0.8571428571428571
+              ]
+            },
+            "single": {
+              "indices": [
+                508
+              ],
+              "accuracy": 0.9488103821196827,
+              "loss_change": 0.01988523124000799
+            },
+            "random": {
+              "indices": [
+                160,
+                538,
+                486,
+                235
+              ],
+              "accuracy": 0.9516943042537851,
+              "loss_change": 0.0006101869361795076
+            },
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "recall": [
+                0.9919354838709677,
+                0.9490445859872612,
+                0.9119047619047619
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 2,
+            "baseline": {
+              "accuracy": 0.9531362653208363,
+              "target_recall": 0.9119047619047619
+            },
+            "selected_full": {
+              "accuracy": 0.7361211247296323,
+              "loss_change": 1.4166071666908122,
+              "target_recall": 0.3547619047619048
+            },
+            "selected_half": {
+              "accuracy": 0.9336697909156453,
+              "loss_change": 0.1255314997501516,
+              "target_recall": 0.8238095238095238
+            },
+            "random_direction": {
+              "accuracy": 0.9473684210526315,
+              "loss_change": 0.036122645414017024,
+              "target_recall": 0.8785714285714286
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 11,
+      "activity_results": {
+        "0": {
+          "direction_norm": 1.0,
+          "train_score_mean": -5.191179804640001e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 503,
+                "name": "fBodyAccMag-std()",
+                "direction_correlation": 0.7615842403281486
+              },
+              {
+                "index": 302,
+                "name": "fBodyAcc-bandsEnergy()-1,8",
+                "direction_correlation": 0.7192690466535151
+              },
+              {
+                "index": 37,
+                "name": "tBodyAcc-correlation()-X,Y",
+                "direction_correlation": 0.6475898984189418
+              },
+              {
+                "index": 15,
+                "name": "tBodyAcc-sma()",
+                "direction_correlation": 0.6442706074684209
+              },
+              {
+                "index": 68,
+                "name": "tGravityAcc-arCoeff()-X,4",
+                "direction_correlation": 0.6362597163937956
+              },
+              {
+                "index": 220,
+                "name": "tGravityAccMag-iqr()",
+                "direction_correlation": 0.6237221815391025
+              }
+            ],
+            "combination_r2": 0.7946282317907059,
+            "interactions": [
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,4",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  68,
+                  220
+                ],
+                "single_r2": 0.4048264267055154,
+                "joint_r2": 0.6188301504607012,
+                "joint_gain": 0.21400372375518584
+              },
+              {
+                "features": [
+                  "tBodyAcc-sma()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  15,
+                  68
+                ],
+                "single_r2": 0.41508461564772836,
+                "joint_r2": 0.6287551515287071,
+                "joint_gain": 0.21367053588097873
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  37,
+                  68
+                ],
+                "single_r2": 0.41937267653425536,
+                "joint_r2": 0.6197372427125154,
+                "joint_gain": 0.20036456617826004
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  503,
+                  68
+                ],
+                "single_r2": 0.5800105551162019,
+                "joint_r2": 0.7518406253670745,
+                "joint_gain": 0.1718300702508726
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  37,
+                  15
+                ],
+                "single_r2": 0.41937267653425536,
+                "joint_r2": 0.5729851423077466,
+                "joint_gain": 0.1536124657734912
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  37,
+                  220
+                ],
+                "single_r2": 0.41937267653425536,
+                "joint_r2": 0.5647139091807394,
+                "joint_gain": 0.14534123264648402
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  302,
+                  68
+                ],
+                "single_r2": 0.5173479614738538,
+                "joint_r2": 0.6563642369046853,
+                "joint_gain": 0.1390162754308315
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  302,
+                  37
+                ],
+                "single_r2": 0.5173479614738538,
+                "joint_r2": 0.6489087242967067,
+                "joint_gain": 0.1315607628228529
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  503,
+                  37
+                ],
+                "single_r2": 0.5800105551162019,
+                "joint_r2": 0.6503886722907604,
+                "joint_gain": 0.07037811717455844
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "fBodyAcc-bandsEnergy()-1,8"
+                ],
+                "indices": [
+                  503,
+                  302
+                ],
+                "single_r2": 0.5800105551162019,
+                "joint_r2": 0.6106932216840604,
+                "joint_gain": 0.030682666567858452
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                503,
+                302,
+                37,
+                15
+              ],
+              "accuracy": 0.9488103821196827,
+              "loss_change": 0.04856698381906155,
+              "recall": [
+                0.9919354838709677,
+                0.9469214437367304,
+                0.9
+              ]
+            },
+            "single": {
+              "indices": [
+                503
+              ],
+              "accuracy": 0.9560201874549387,
+              "loss_change": 0.018162123316552398
+            },
+            "random": {
+              "indices": [
+                74,
+                280,
+                71,
+                446
+              ],
+              "accuracy": 0.9632299927901946,
+              "loss_change": -0.002635697333577408
+            },
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "recall": [
+                0.9919354838709677,
+                0.9532908704883227,
+                0.9333333333333333
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 0,
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "target_recall": 0.9919354838709677
+            },
+            "selected_full": {
+              "accuracy": 0.6524873828406633,
+              "loss_change": 0.967361585640475,
+              "target_recall": 0.12903225806451613
+            },
+            "selected_half": {
+              "accuracy": 0.9646719538572458,
+              "loss_change": -0.02716760297059724,
+              "target_recall": 0.967741935483871
+            },
+            "random_direction": {
+              "accuracy": 0.9603460706560922,
+              "loss_change": -0.0002994097251818595,
+              "target_recall": 0.9919354838709677
+            }
+          }
+        },
+        "1": {
+          "direction_norm": 0.9999999999999999,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 69,
+                "name": "tGravityAcc-arCoeff()-Y,1",
+                "direction_correlation": 0.7660313705758098
+              },
+              {
+                "index": 73,
+                "name": "tGravityAcc-arCoeff()-Z,1",
+                "direction_correlation": 0.757502558743705
+              },
+              {
+                "index": 295,
+                "name": "fBodyAcc-meanFreq()-Z",
+                "direction_correlation": 0.7042033603984701
+              },
+              {
+                "index": 516,
+                "name": "fBodyBodyAccJerkMag-std()",
+                "direction_correlation": 0.6835253664761257
+              },
+              {
+                "index": 349,
+                "name": "fBodyAccJerk-std()-Z",
+                "direction_correlation": 0.6457098673848484
+              },
+              {
+                "index": 234,
+                "name": "tBodyAccJerkMag-entropy()",
+                "direction_correlation": 0.6449950189416316
+              }
+            ],
+            "combination_r2": 0.7758930906256091,
+            "interactions": [
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "tGravityAcc-arCoeff()-Z,1"
+                ],
+                "indices": [
+                  69,
+                  73
+                ],
+                "single_r2": 0.5868040607062548,
+                "joint_r2": 0.7128515306599724,
+                "joint_gain": 0.12604746995371763
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyAccJerk-std()-Z"
+                ],
+                "indices": [
+                  69,
+                  349
+                ],
+                "single_r2": 0.5868040607062548,
+                "joint_r2": 0.7070150672495488,
+                "joint_gain": 0.12021100654329397
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  69,
+                  516
+                ],
+                "single_r2": 0.5868040607062548,
+                "joint_r2": 0.7001840992870123,
+                "joint_gain": 0.11338003858075751
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  295,
+                  516
+                ],
+                "single_r2": 0.49590237279649674,
+                "joint_r2": 0.6002977869847725,
+                "joint_gain": 0.1043954141882758
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyAcc-meanFreq()-Z"
+                ],
+                "indices": [
+                  69,
+                  295
+                ],
+                "single_r2": 0.5868040607062548,
+                "joint_r2": 0.6887420372992631,
+                "joint_gain": 0.1019379765930083
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyAccJerk-std()-Z"
+                ],
+                "indices": [
+                  295,
+                  349
+                ],
+                "single_r2": 0.49590237279649674,
+                "joint_r2": 0.5836601506353214,
+                "joint_gain": 0.08775777783882466
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  73,
+                  516
+                ],
+                "single_r2": 0.573810126503262,
+                "joint_r2": 0.6590651986461533,
+                "joint_gain": 0.0852550721428913
+              },
+              {
+                "features": [
+                  "fBodyAccJerk-std()-Z",
+                  "tBodyAccJerkMag-entropy()"
+                ],
+                "indices": [
+                  349,
+                  234
+                ],
+                "single_r2": 0.4169412328381593,
+                "joint_r2": 0.4924463807427679,
+                "joint_gain": 0.0755051479046086
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "tBodyAccJerkMag-entropy()"
+                ],
+                "indices": [
+                  69,
+                  234
+                ],
+                "single_r2": 0.5868040607062548,
+                "joint_r2": 0.6533193891359158,
+                "joint_gain": 0.06651532842966101
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tBodyAccJerkMag-entropy()"
+                ],
+                "indices": [
+                  73,
+                  234
+                ],
+                "single_r2": 0.573810126503262,
+                "joint_r2": 0.6336101984038263,
+                "joint_gain": 0.059800071900564244
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                69,
+                73,
+                295,
+                516
+              ],
+              "accuracy": 0.9581831290555155,
+              "loss_change": 0.009411071007002503,
+              "recall": [
+                0.9919354838709677,
+                0.9426751592356688,
+                0.9357142857142857
+              ]
+            },
+            "single": {
+              "indices": [
+                69
+              ],
+              "accuracy": 0.9617880317231434,
+              "loss_change": 0.0011859680602915312
+            },
+            "random": {
+              "indices": [
+                140,
+                544,
+                531,
+                341
+              ],
+              "accuracy": 0.9646719538572458,
+              "loss_change": -0.007001619877665011
+            },
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "recall": [
+                0.9919354838709677,
+                0.9532908704883227,
+                0.9333333333333333
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 1,
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "target_recall": 0.9532908704883227
+            },
+            "selected_full": {
+              "accuracy": 0.6669069935111752,
+              "loss_change": 1.293486840604512,
+              "target_recall": 0.1316348195329087
+            },
+            "selected_half": {
+              "accuracy": 0.9336697909156453,
+              "loss_change": 0.07436387853882365,
+              "target_recall": 0.861995753715499
+            },
+            "random_direction": {
+              "accuracy": 0.9560201874549387,
+              "loss_change": 0.011993941377056672,
+              "target_recall": 0.9554140127388535
+            }
+          }
+        },
+        "2": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 508,
+                "name": "fBodyAccMag-energy()",
+                "direction_correlation": 0.9146479981230623
+              },
+              {
+                "index": 268,
+                "name": "fBodyAcc-std()-X",
+                "direction_correlation": 0.866054589409241
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.7944142202197485
+              },
+              {
+                "index": 207,
+                "name": "tBodyAccMag-iqr()",
+                "direction_correlation": 0.7632770710468234
+              },
+              {
+                "index": 89,
+                "name": "tBodyAccJerk-max()-X",
+                "direction_correlation": 0.7629997934484741
+              },
+              {
+                "index": 280,
+                "name": "fBodyAcc-sma()",
+                "direction_correlation": 0.7553452911026771
+              }
+            ],
+            "combination_r2": 0.8769265941734659,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccMag-iqr()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  207,
+                  89
+                ],
+                "single_r2": 0.5825918871858161,
+                "joint_r2": 0.7016048013129287,
+                "joint_gain": 0.11901291412711257
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  509,
+                  207
+                ],
+                "single_r2": 0.6310939532873481,
+                "joint_r2": 0.7134511057802745,
+                "joint_gain": 0.08235715249292641
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  509,
+                  89
+                ],
+                "single_r2": 0.6310939532873481,
+                "joint_r2": 0.7072758141620121,
+                "joint_gain": 0.07618186087466405
+              },
+              {
+                "features": [
+                  "tBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  207,
+                  280
+                ],
+                "single_r2": 0.5825918871858161,
+                "joint_r2": 0.651248472433313,
+                "joint_gain": 0.06865658524749685
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  268,
+                  509
+                ],
+                "single_r2": 0.7500505518368104,
+                "joint_r2": 0.8172128600980467,
+                "joint_gain": 0.06716230826123637
+              },
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  89,
+                  280
+                ],
+                "single_r2": 0.5821686848024155,
+                "joint_r2": 0.6442275708380016,
+                "joint_gain": 0.06205888603558618
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  268,
+                  89
+                ],
+                "single_r2": 0.7500505518368104,
+                "joint_r2": 0.7939296412003335,
+                "joint_gain": 0.04387908936352314
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  509,
+                  280
+                ],
+                "single_r2": 0.6310939532873481,
+                "joint_r2": 0.6712010026219268,
+                "joint_gain": 0.04010704933457876
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  268,
+                  280
+                ],
+                "single_r2": 0.7500505518368104,
+                "joint_r2": 0.7811548762349052,
+                "joint_gain": 0.03110432439809485
+              },
+              {
+                "features": [
+                  "fBodyAccMag-energy()",
+                  "fBodyAcc-std()-X"
+                ],
+                "indices": [
+                  508,
+                  268
+                ],
+                "single_r2": 0.8365809604705232,
+                "joint_r2": 0.8657629889921853,
+                "joint_gain": 0.029182028521662073
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                508,
+                268,
+                509,
+                207
+              ],
+              "accuracy": 0.9488103821196827,
+              "loss_change": 0.04435082534002749,
+              "recall": [
+                0.9939516129032258,
+                0.9447983014861996,
+                0.9
+              ]
+            },
+            "single": {
+              "indices": [
+                508
+              ],
+              "accuracy": 0.9567411679884643,
+              "loss_change": 0.016564258495686573
+            },
+            "random": {
+              "indices": [
+                479,
+                483,
+                459,
+                499
+              ],
+              "accuracy": 0.9567411679884643,
+              "loss_change": 0.01626583032516629
+            },
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "recall": [
+                0.9919354838709677,
+                0.9532908704883227,
+                0.9333333333333333
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 2,
+            "baseline": {
+              "accuracy": 0.9610670511896179,
+              "target_recall": 0.9333333333333333
+            },
+            "selected_full": {
+              "accuracy": 0.7317952415284787,
+              "loss_change": 1.1170322368622676,
+              "target_recall": 0.5261904761904762
+            },
+            "selected_half": {
+              "accuracy": 0.9365537130497477,
+              "loss_change": 0.13316183632592066,
+              "target_recall": 0.8571428571428571
+            },
+            "random_direction": {
+              "accuracy": 0.9596250901225667,
+              "loss_change": -0.005778964354179045,
+              "target_recall": 0.9333333333333333
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 19,
+      "activity_results": {
+        "0": {
+          "direction_norm": 0.9999999999999999,
+          "train_score_mean": 1.730393268213334e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 503,
+                "name": "fBodyAccMag-std()",
+                "direction_correlation": 0.7503477012861465
+              },
+              {
+                "index": 302,
+                "name": "fBodyAcc-bandsEnergy()-1,8",
+                "direction_correlation": 0.7212108679999127
+              },
+              {
+                "index": 68,
+                "name": "tGravityAcc-arCoeff()-X,4",
+                "direction_correlation": 0.6545778325295246
+              },
+              {
+                "index": 37,
+                "name": "tBodyAcc-correlation()-X,Y",
+                "direction_correlation": 0.6276335616475535
+              },
+              {
+                "index": 15,
+                "name": "tBodyAcc-sma()",
+                "direction_correlation": 0.6113560276820516
+              },
+              {
+                "index": 207,
+                "name": "tBodyAccMag-iqr()",
+                "direction_correlation": 0.6083188248378377
+              }
+            ],
+            "combination_r2": 0.7973234581011348,
+            "interactions": [
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,4",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  68,
+                  207
+                ],
+                "single_r2": 0.42847213883905155,
+                "joint_r2": 0.623078588130664,
+                "joint_gain": 0.19460644929161242
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  503,
+                  68
+                ],
+                "single_r2": 0.563021672825404,
+                "joint_r2": 0.7545577160828761,
+                "joint_gain": 0.1915360432574721
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,4",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  68,
+                  37
+                ],
+                "single_r2": 0.42847213883905155,
+                "joint_r2": 0.6186028974259132,
+                "joint_gain": 0.19013075858686168
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,4",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  68,
+                  15
+                ],
+                "single_r2": 0.42847213883905155,
+                "joint_r2": 0.6157998947008518,
+                "joint_gain": 0.18732775586180028
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  302,
+                  68
+                ],
+                "single_r2": 0.5201451161211883,
+                "joint_r2": 0.6738695018939296,
+                "joint_gain": 0.15372438577274128
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  37,
+                  207
+                ],
+                "single_r2": 0.39392388770639175,
+                "joint_r2": 0.5335917395469567,
+                "joint_gain": 0.13966785184056496
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  37,
+                  15
+                ],
+                "single_r2": 0.39392388770639175,
+                "joint_r2": 0.5272790416272224,
+                "joint_gain": 0.13335515392083064
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  302,
+                  37
+                ],
+                "single_r2": 0.5201451161211883,
+                "joint_r2": 0.6353290579409991,
+                "joint_gain": 0.11518394181981084
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  503,
+                  37
+                ],
+                "single_r2": 0.563021672825404,
+                "joint_r2": 0.6249213431817482,
+                "joint_gain": 0.06189967035634414
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "fBodyAcc-bandsEnergy()-1,8"
+                ],
+                "indices": [
+                  503,
+                  302
+                ],
+                "single_r2": 0.563021672825404,
+                "joint_r2": 0.6006403475382676,
+                "joint_gain": 0.03761867471286351
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                503,
+                302,
+                68,
+                37
+              ],
+              "accuracy": 0.9372746935832732,
+              "loss_change": 0.07665439175739067,
+              "recall": [
+                0.9979838709677419,
+                0.9363057324840764,
+                0.8666666666666667
+              ]
+            },
+            "single": {
+              "indices": [
+                503
+              ],
+              "accuracy": 0.946647440519106,
+              "loss_change": 0.022762267619107157
+            },
+            "random": {
+              "indices": [
+                199,
+                519,
+                328,
+                234
+              ],
+              "accuracy": 0.9560201874549387,
+              "loss_change": -0.03591069563221508
+            },
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "recall": [
+                0.9979838709677419,
+                0.940552016985138,
+                0.9095238095238095
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 0,
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "target_recall": 0.9979838709677419
+            },
+            "selected_full": {
+              "accuracy": 0.6279740447007931,
+              "loss_change": 0.8985750036943639,
+              "target_recall": 0.05040322580645161
+            },
+            "selected_half": {
+              "accuracy": 0.9502523431867339,
+              "loss_change": -0.021403618297581806,
+              "target_recall": 0.9596774193548387
+            },
+            "random_direction": {
+              "accuracy": 0.9495313626532084,
+              "loss_change": 0.0030173568025612663,
+              "target_recall": 0.9979838709677419
+            }
+          }
+        },
+        "1": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 73,
+                "name": "tGravityAcc-arCoeff()-Z,1",
+                "direction_correlation": 0.7470804902765363
+              },
+              {
+                "index": 69,
+                "name": "tGravityAcc-arCoeff()-Y,1",
+                "direction_correlation": 0.7326339249361433
+              },
+              {
+                "index": 295,
+                "name": "fBodyAcc-meanFreq()-Z",
+                "direction_correlation": 0.7119733755911906
+              },
+              {
+                "index": 516,
+                "name": "fBodyBodyAccJerkMag-std()",
+                "direction_correlation": 0.701671571729488
+              },
+              {
+                "index": 234,
+                "name": "tBodyAccJerkMag-entropy()",
+                "direction_correlation": 0.6452220066678209
+              },
+              {
+                "index": 298,
+                "name": "fBodyAcc-skewness()-Y",
+                "direction_correlation": 0.6215191359720328
+              }
+            ],
+            "combination_r2": 0.7766158246841597,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccJerkMag-entropy()",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  234,
+                  298
+                ],
+                "single_r2": 0.41631143788845104,
+                "joint_r2": 0.5649818263774551,
+                "joint_gain": 0.14867038848900405
+              },
+              {
+                "features": [
+                  "fBodyBodyAccJerkMag-std()",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  516,
+                  298
+                ],
+                "single_r2": 0.492342994573329,
+                "joint_r2": 0.6352334003779212,
+                "joint_gain": 0.14289040580459222
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  69,
+                  516
+                ],
+                "single_r2": 0.5367524679673336,
+                "joint_r2": 0.6796370031954424,
+                "joint_gain": 0.14288453522810884
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyAcc-meanFreq()-Z"
+                ],
+                "indices": [
+                  69,
+                  295
+                ],
+                "single_r2": 0.5367524679673336,
+                "joint_r2": 0.6610583330820818,
+                "joint_gain": 0.12430586511474828
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  295,
+                  516
+                ],
+                "single_r2": 0.5069060875507184,
+                "joint_r2": 0.6225007823311346,
+                "joint_gain": 0.11559469478041617
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  73,
+                  69
+                ],
+                "single_r2": 0.5581292589518319,
+                "joint_r2": 0.6726239439957793,
+                "joint_gain": 0.11449468504394744
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  295,
+                  298
+                ],
+                "single_r2": 0.5069060875507184,
+                "joint_r2": 0.6163737103292019,
+                "joint_gain": 0.10946762277848343
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  73,
+                  298
+                ],
+                "single_r2": 0.5581292589518319,
+                "joint_r2": 0.6620720377506314,
+                "joint_gain": 0.10394277879879954
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  73,
+                  516
+                ],
+                "single_r2": 0.5581292589518319,
+                "joint_r2": 0.6619022626411246,
+                "joint_gain": 0.10377300368929276
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "tBodyAccJerkMag-entropy()"
+                ],
+                "indices": [
+                  69,
+                  234
+                ],
+                "single_r2": 0.5367524679673336,
+                "joint_r2": 0.6157072518793902,
+                "joint_gain": 0.07895478391205668
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                73,
+                69,
+                295,
+                516
+              ],
+              "accuracy": 0.9459264599855803,
+              "loss_change": 0.016469346433022752,
+              "recall": [
+                0.9919354838709677,
+                0.9235668789808917,
+                0.9166666666666666
+              ]
+            },
+            "single": {
+              "indices": [
+                73
+              ],
+              "accuracy": 0.9509733237202596,
+              "loss_change": 0.001254704662489614
+            },
+            "random": {
+              "indices": [
+                156,
+                146,
+                497,
+                258
+              ],
+              "accuracy": 0.9516943042537851,
+              "loss_change": -0.01760212885835391
+            },
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "recall": [
+                0.9979838709677419,
+                0.940552016985138,
+                0.9095238095238095
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 1,
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "target_recall": 0.940552016985138
+            },
+            "selected_full": {
+              "accuracy": 0.6676279740447008,
+              "loss_change": 1.2285920851927412,
+              "target_recall": 0.09341825902335456
+            },
+            "selected_half": {
+              "accuracy": 0.9192501802451334,
+              "loss_change": 0.08569080420867611,
+              "target_recall": 0.8237791932059448
+            },
+            "random_direction": {
+              "accuracy": 0.9574621485219899,
+              "loss_change": -0.032316301270954945,
+              "target_recall": 0.9426751592356688
+            }
+          }
+        },
+        "2": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 508,
+                "name": "fBodyAccMag-energy()",
+                "direction_correlation": 0.8810748270119825
+              },
+              {
+                "index": 268,
+                "name": "fBodyAcc-std()-X",
+                "direction_correlation": 0.8439169640816607
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.7506264460652353
+              },
+              {
+                "index": 89,
+                "name": "tBodyAccJerk-max()-X",
+                "direction_correlation": 0.7376028812623531
+              },
+              {
+                "index": 207,
+                "name": "tBodyAccMag-iqr()",
+                "direction_correlation": 0.7190982218790399
+              },
+              {
+                "index": 280,
+                "name": "fBodyAcc-sma()",
+                "direction_correlation": 0.6945562039365568
+              }
+            ],
+            "combination_r2": 0.8330741753444466,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  89,
+                  207
+                ],
+                "single_r2": 0.544058010446526,
+                "joint_r2": 0.6396007068365105,
+                "joint_gain": 0.09554269638998447
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  509,
+                  89
+                ],
+                "single_r2": 0.5634400615325248,
+                "joint_r2": 0.6445316910173704,
+                "joint_gain": 0.0810916294848456
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  509,
+                  207
+                ],
+                "single_r2": 0.5634400615325248,
+                "joint_r2": 0.6353671862931027,
+                "joint_gain": 0.07192712476057794
+              },
+              {
+                "features": [
+                  "tBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  207,
+                  280
+                ],
+                "single_r2": 0.517102252709599,
+                "joint_r2": 0.565526635900165,
+                "joint_gain": 0.04842438319056608
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  268,
+                  509
+                ],
+                "single_r2": 0.7121958422648116,
+                "joint_r2": 0.7603406964560281,
+                "joint_gain": 0.0481448541912165
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  268,
+                  89
+                ],
+                "single_r2": 0.7121958422648116,
+                "joint_r2": 0.7505096055857227,
+                "joint_gain": 0.038313763320911076
+              },
+              {
+                "features": [
+                  "fBodyAccMag-energy()",
+                  "fBodyAcc-std()-X"
+                ],
+                "indices": [
+                  508,
+                  268
+                ],
+                "single_r2": 0.7762928507941953,
+                "joint_r2": 0.809693811636252,
+                "joint_gain": 0.03340096084205668
+              },
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  89,
+                  280
+                ],
+                "single_r2": 0.544058010446526,
+                "joint_r2": 0.5774470564270284,
+                "joint_gain": 0.03338904598050241
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  509,
+                  280
+                ],
+                "single_r2": 0.5634400615325248,
+                "joint_r2": 0.5881992828104544,
+                "joint_gain": 0.02475922127792962
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  268,
+                  280
+                ],
+                "single_r2": 0.7121958422648116,
+                "joint_r2": 0.7244712435050986,
+                "joint_gain": 0.012275401240287032
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                508,
+                268,
+                509,
+                89
+              ],
+              "accuracy": 0.9322278298485941,
+              "loss_change": 0.08835951104048059,
+              "recall": [
+                0.9979838709677419,
+                0.9256900212314225,
+                0.861904761904762
+              ]
+            },
+            "single": {
+              "indices": [
+                508
+              ],
+              "accuracy": 0.9473684210526315,
+              "loss_change": 0.030505561660764624
+            },
+            "random": {
+              "indices": [
+                339,
+                168,
+                216,
+                436
+              ],
+              "accuracy": 0.9509733237202596,
+              "loss_change": 0.006982620302834891
+            },
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "recall": [
+                0.9979838709677419,
+                0.940552016985138,
+                0.9095238095238095
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 2,
+            "baseline": {
+              "accuracy": 0.9516943042537851,
+              "target_recall": 0.9095238095238095
+            },
+            "selected_full": {
+              "accuracy": 0.7375630857966835,
+              "loss_change": 0.8359034408335838,
+              "target_recall": 0.3357142857142857
+            },
+            "selected_half": {
+              "accuracy": 0.9365537130497477,
+              "loss_change": 0.08637245224288678,
+              "target_recall": 0.8547619047619047
+            },
+            "random_direction": {
+              "accuracy": 0.9509733237202596,
+              "loss_change": -0.004628513270793472,
+              "target_recall": 0.9071428571428571
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "activity_results": {
+        "0": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 503,
+                "name": "fBodyAccMag-std()",
+                "direction_correlation": 0.7980256530497405
+              },
+              {
+                "index": 310,
+                "name": "fBodyAcc-bandsEnergy()-1,16",
+                "direction_correlation": 0.763293881801496
+              },
+              {
+                "index": 220,
+                "name": "tGravityAccMag-iqr()",
+                "direction_correlation": 0.64480027933817
+              },
+              {
+                "index": 37,
+                "name": "tBodyAcc-correlation()-X,Y",
+                "direction_correlation": 0.6412044212735627
+              },
+              {
+                "index": 68,
+                "name": "tGravityAcc-arCoeff()-X,4",
+                "direction_correlation": 0.6212654669686973
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.616409448380405
+              }
+            ],
+            "combination_r2": 0.8278212030564862,
+            "interactions": [
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,4",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  68,
+                  509
+                ],
+                "single_r2": 0.38597078044783306,
+                "joint_r2": 0.6655434505443436,
+                "joint_gain": 0.27957267009651054
+              },
+              {
+                "features": [
+                  "tGravityAccMag-iqr()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  220,
+                  68
+                ],
+                "single_r2": 0.4157674002345826,
+                "joint_r2": 0.6250961966812626,
+                "joint_gain": 0.20932879644668
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  37,
+                  68
+                ],
+                "single_r2": 0.41114310986076663,
+                "joint_r2": 0.5994724081624776,
+                "joint_gain": 0.18832929830171097
+              },
+              {
+                "features": [
+                  "tGravityAccMag-iqr()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  220,
+                  37
+                ],
+                "single_r2": 0.4157674002345826,
+                "joint_r2": 0.577340189220422,
+                "joint_gain": 0.16157278898583938
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  503,
+                  68
+                ],
+                "single_r2": 0.6368449429254674,
+                "joint_r2": 0.7861519207996812,
+                "joint_gain": 0.14930697787421376
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,16",
+                  "tGravityAcc-arCoeff()-X,4"
+                ],
+                "indices": [
+                  310,
+                  68
+                ],
+                "single_r2": 0.5826175499955952,
+                "joint_r2": 0.7149065175045832,
+                "joint_gain": 0.132288967508988
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  37,
+                  509
+                ],
+                "single_r2": 0.41114310986076663,
+                "joint_r2": 0.5324710542249325,
+                "joint_gain": 0.12132794436416583
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,16",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  310,
+                  37
+                ],
+                "single_r2": 0.5826175499955952,
+                "joint_r2": 0.6897099066098311,
+                "joint_gain": 0.10709235661423588
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  503,
+                  37
+                ],
+                "single_r2": 0.6368449429254674,
+                "joint_r2": 0.691036312731036,
+                "joint_gain": 0.0541913698055686
+              },
+              {
+                "features": [
+                  "tGravityAccMag-iqr()",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  220,
+                  509
+                ],
+                "single_r2": 0.4157674002345826,
+                "joint_r2": 0.4679976691214415,
+                "joint_gain": 0.05223026888685889
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                503,
+                310,
+                220,
+                37
+              ],
+              "accuracy": 0.9408795962509012,
+              "loss_change": 0.03911966522257598,
+              "recall": [
+                0.9858870967741935,
+                0.9426751592356688,
+                0.8857142857142857
+              ]
+            },
+            "single": {
+              "indices": [
+                503
+              ],
+              "accuracy": 0.9423215573179524,
+              "loss_change": 0.010961880122770634
+            },
+            "random": {
+              "indices": [
+                236,
+                359,
+                20,
+                387
+              ],
+              "accuracy": 0.9459264599855803,
+              "loss_change": 0.0024243862091817003
+            },
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "recall": [
+                0.9838709677419355,
+                0.9447983014861996,
+                0.9023809523809524
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 0,
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "target_recall": 0.9838709677419355
+            },
+            "selected_full": {
+              "accuracy": 0.6186012977649603,
+              "loss_change": 1.167546912317953,
+              "target_recall": 0.03225806451612903
+            },
+            "selected_half": {
+              "accuracy": 0.9452054794520548,
+              "loss_change": -0.0050799542373705375,
+              "target_recall": 0.9375
+            },
+            "random_direction": {
+              "accuracy": 0.9480894015861572,
+              "loss_change": 0.0018488118428527656,
+              "target_recall": 0.9818548387096774
+            }
+          }
+        },
+        "1": {
+          "direction_norm": 0.9999999999999998,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 228,
+                "name": "tBodyAccJerkMag-mad()",
+                "direction_correlation": 0.7616022150104186
+              },
+              {
+                "index": 73,
+                "name": "tGravityAcc-arCoeff()-Z,1",
+                "direction_correlation": 0.7311891118606887
+              },
+              {
+                "index": 295,
+                "name": "fBodyAcc-meanFreq()-Z",
+                "direction_correlation": 0.7037312926342154
+              },
+              {
+                "index": 352,
+                "name": "fBodyAccJerk-mad()-Z",
+                "direction_correlation": 0.6726853608693171
+              },
+              {
+                "index": 69,
+                "name": "tGravityAcc-arCoeff()-Y,1",
+                "direction_correlation": 0.6615878384478893
+              },
+              {
+                "index": 175,
+                "name": "tBodyGyroJerk-sma()",
+                "direction_correlation": 0.6244632586436003
+              }
+            ],
+            "combination_r2": 0.748369975186381,
+            "interactions": [
+              {
+                "features": [
+                  "fBodyAccJerk-mad()-Z",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  352,
+                  69
+                ],
+                "single_r2": 0.452505594727883,
+                "joint_r2": 0.6311297076551774,
+                "joint_gain": 0.1786241129272944
+              },
+              {
+                "features": [
+                  "tBodyAccJerkMag-mad()",
+                  "tGravityAcc-arCoeff()-Z,1"
+                ],
+                "indices": [
+                  228,
+                  73
+                ],
+                "single_r2": 0.5800379339087711,
+                "joint_r2": 0.7003285334922695,
+                "joint_gain": 0.12029059958349841
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "tBodyGyroJerk-sma()"
+                ],
+                "indices": [
+                  69,
+                  175
+                ],
+                "single_r2": 0.4376984679821503,
+                "joint_r2": 0.555782230865401,
+                "joint_gain": 0.11808376288325073
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyAccJerk-mad()-Z"
+                ],
+                "indices": [
+                  295,
+                  352
+                ],
+                "single_r2": 0.49523773223262224,
+                "joint_r2": 0.6002146353810769,
+                "joint_gain": 0.10497690314845465
+              },
+              {
+                "features": [
+                  "tBodyAccJerkMag-mad()",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  228,
+                  69
+                ],
+                "single_r2": 0.5800379339087711,
+                "joint_r2": 0.6819672467357474,
+                "joint_gain": 0.10192931282697626
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  295,
+                  69
+                ],
+                "single_r2": 0.49523773223262224,
+                "joint_r2": 0.5921436431603933,
+                "joint_gain": 0.09690591092777101
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyAccJerk-mad()-Z"
+                ],
+                "indices": [
+                  73,
+                  352
+                ],
+                "single_r2": 0.5346375173036221,
+                "joint_r2": 0.6173197953329701,
+                "joint_gain": 0.08268227802934802
+              },
+              {
+                "features": [
+                  "tBodyAccJerkMag-mad()",
+                  "fBodyAcc-meanFreq()-Z"
+                ],
+                "indices": [
+                  228,
+                  295
+                ],
+                "single_r2": 0.5800379339087711,
+                "joint_r2": 0.6599133953643976,
+                "joint_gain": 0.07987546145562652
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "tBodyGyroJerk-sma()"
+                ],
+                "indices": [
+                  295,
+                  175
+                ],
+                "single_r2": 0.49523773223262224,
+                "joint_r2": 0.5676988914173495,
+                "joint_gain": 0.07246115918472729
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  73,
+                  69
+                ],
+                "single_r2": 0.5346375173036221,
+                "joint_r2": 0.6021763662682118,
+                "joint_gain": 0.06753884896458973
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                228,
+                73,
+                295,
+                352
+              ],
+              "accuracy": 0.9423215573179524,
+              "loss_change": 0.031177774030089644,
+              "recall": [
+                0.9818548387096774,
+                0.9384288747346072,
+                0.9
+              ]
+            },
+            "single": {
+              "indices": [
+                228
+              ],
+              "accuracy": 0.9452054794520548,
+              "loss_change": 0.016959577524647662
+            },
+            "random": {
+              "indices": [
+                420,
+                213,
+                184,
+                227
+              ],
+              "accuracy": 0.9459264599855803,
+              "loss_change": -0.006248938487403072
+            },
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "recall": [
+                0.9838709677419355,
+                0.9447983014861996,
+                0.9023809523809524
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 1,
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "target_recall": 0.9447983014861996
+            },
+            "selected_full": {
+              "accuracy": 0.6596971881759193,
+              "loss_change": 1.1251844856546174,
+              "target_recall": 0.07430997876857749
+            },
+            "selected_half": {
+              "accuracy": 0.9170872386445565,
+              "loss_change": 0.05316923021511577,
+              "target_recall": 0.8343949044585988
+            },
+            "random_direction": {
+              "accuracy": 0.9488103821196827,
+              "loss_change": -0.0037125082698804823,
+              "target_recall": 0.9554140127388535
+            }
+          }
+        },
+        "2": {
+          "direction_norm": 0.9999999999999999,
+          "train_score_mean": 1.730393268213334e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 508,
+                "name": "fBodyAccMag-energy()",
+                "direction_correlation": 0.8923301946938703
+              },
+              {
+                "index": 268,
+                "name": "fBodyAcc-std()-X",
+                "direction_correlation": 0.8444414104506973
+              },
+              {
+                "index": 89,
+                "name": "tBodyAccJerk-max()-X",
+                "direction_correlation": 0.7608973822971117
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.7603310121580084
+              },
+              {
+                "index": 220,
+                "name": "tGravityAccMag-iqr()",
+                "direction_correlation": 0.7179427986276243
+              },
+              {
+                "index": 280,
+                "name": "fBodyAcc-sma()",
+                "direction_correlation": 0.7170587952922165
+              }
+            ],
+            "combination_r2": 0.847271236427857,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  89,
+                  509
+                ],
+                "single_r2": 0.5789648263865954,
+                "joint_r2": 0.6731167331806056,
+                "joint_gain": 0.0941519067940102
+              },
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  89,
+                  220
+                ],
+                "single_r2": 0.5789648263865954,
+                "joint_r2": 0.6613851463763936,
+                "joint_gain": 0.08242031998979815
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tGravityAccMag-iqr()"
+                ],
+                "indices": [
+                  509,
+                  220
+                ],
+                "single_r2": 0.5781032480492181,
+                "joint_r2": 0.6441184531831154,
+                "joint_gain": 0.06601520513389736
+              },
+              {
+                "features": [
+                  "tGravityAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  220,
+                  280
+                ],
+                "single_r2": 0.5154418621012641,
+                "joint_r2": 0.5813819856411362,
+                "joint_gain": 0.06594012353987211
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  268,
+                  509
+                ],
+                "single_r2": 0.7130812956839617,
+                "joint_r2": 0.7671762177319857,
+                "joint_gain": 0.05409492204802402
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  268,
+                  89
+                ],
+                "single_r2": 0.7130812956839617,
+                "joint_r2": 0.7652163261562595,
+                "joint_gain": 0.05213503047229773
+              },
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  89,
+                  280
+                ],
+                "single_r2": 0.5789648263865954,
+                "joint_r2": 0.6148456987587245,
+                "joint_gain": 0.03588087237212911
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  509,
+                  280
+                ],
+                "single_r2": 0.5781032480492181,
+                "joint_r2": 0.6111873579513358,
+                "joint_gain": 0.03308410990211774
+              },
+              {
+                "features": [
+                  "fBodyAccMag-energy()",
+                  "fBodyAcc-std()-X"
+                ],
+                "indices": [
+                  508,
+                  268
+                ],
+                "single_r2": 0.7962531763624042,
+                "joint_r2": 0.82372689167666,
+                "joint_gain": 0.027473715314255798
+              },
+              {
+                "features": [
+                  "fBodyAcc-std()-X",
+                  "fBodyAcc-sma()"
+                ],
+                "indices": [
+                  268,
+                  280
+                ],
+                "single_r2": 0.7130812956839617,
+                "joint_r2": 0.7336311782343172,
+                "joint_gain": 0.020549882550355503
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                508,
+                268,
+                89,
+                509
+              ],
+              "accuracy": 0.9379956741167988,
+              "loss_change": 0.09326396871244919,
+              "recall": [
+                0.9879032258064516,
+                0.9384288747346072,
+                0.8785714285714286
+              ]
+            },
+            "single": {
+              "indices": [
+                508
+              ],
+              "accuracy": 0.9416005767844268,
+              "loss_change": 0.039859534776045535
+            },
+            "random": {
+              "indices": [
+                478,
+                89,
+                0,
+                281
+              ],
+              "accuracy": 0.9408795962509012,
+              "loss_change": 0.05621164213677465
+            },
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "recall": [
+                0.9838709677419355,
+                0.9447983014861996,
+                0.9023809523809524
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 2,
+            "baseline": {
+              "accuracy": 0.9459264599855803,
+              "target_recall": 0.9023809523809524
+            },
+            "selected_full": {
+              "accuracy": 0.7245854361932228,
+              "loss_change": 0.9439902556533114,
+              "target_recall": 0.40714285714285714
+            },
+            "selected_half": {
+              "accuracy": 0.935832732516222,
+              "loss_change": 0.08658108838027728,
+              "target_recall": 0.8642857142857143
+            },
+            "random_direction": {
+              "accuracy": 0.9516943042537851,
+              "loss_change": -0.019945836273418532,
+              "target_recall": 0.9095238095238095
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 31,
+      "activity_results": {
+        "0": {
+          "direction_norm": 0.9999999999999999,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 503,
+                "name": "fBodyAccMag-std()",
+                "direction_correlation": 0.6946169902594626
+              },
+              {
+                "index": 67,
+                "name": "tGravityAcc-arCoeff()-X,3",
+                "direction_correlation": 0.6748412859458398
+              },
+              {
+                "index": 302,
+                "name": "fBodyAcc-bandsEnergy()-1,8",
+                "direction_correlation": 0.6510944674709969
+              },
+              {
+                "index": 37,
+                "name": "tBodyAcc-correlation()-X,Y",
+                "direction_correlation": 0.6141069830876928
+              },
+              {
+                "index": 209,
+                "name": "tBodyAccMag-arCoeff()1",
+                "direction_correlation": 0.5978665944953373
+              },
+              {
+                "index": 15,
+                "name": "tBodyAcc-sma()",
+                "direction_correlation": 0.5742587905647935
+              }
+            ],
+            "combination_r2": 0.8043903627596917,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccMag-arCoeff()1",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  209,
+                  15
+                ],
+                "single_r2": 0.3574444648134505,
+                "joint_r2": 0.6807191786965097,
+                "joint_gain": 0.3232747138830592
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tGravityAcc-arCoeff()-X,3"
+                ],
+                "indices": [
+                  503,
+                  67
+                ],
+                "single_r2": 0.4824927631571131,
+                "joint_r2": 0.7340263200858339,
+                "joint_gain": 0.2515335569287208
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAccMag-arCoeff()1"
+                ],
+                "indices": [
+                  302,
+                  209
+                ],
+                "single_r2": 0.42392400557133914,
+                "joint_r2": 0.6578850232553157,
+                "joint_gain": 0.2339610176839766
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tBodyAccMag-arCoeff()1"
+                ],
+                "indices": [
+                  37,
+                  209
+                ],
+                "single_r2": 0.3771273866770658,
+                "joint_r2": 0.5702126675824242,
+                "joint_gain": 0.19308528090535837
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,3",
+                  "fBodyAcc-bandsEnergy()-1,8"
+                ],
+                "indices": [
+                  67,
+                  302
+                ],
+                "single_r2": 0.4554107612170355,
+                "joint_r2": 0.6439678999354246,
+                "joint_gain": 0.18855713871838908
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,3",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  67,
+                  37
+                ],
+                "single_r2": 0.4554107612170355,
+                "joint_r2": 0.6335959302088698,
+                "joint_gain": 0.17818516899183434
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-X,3",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  67,
+                  15
+                ],
+                "single_r2": 0.4554107612170355,
+                "joint_r2": 0.633386975228293,
+                "joint_gain": 0.17797621401125752
+              },
+              {
+                "features": [
+                  "fBodyAccMag-std()",
+                  "tBodyAccMag-arCoeff()1"
+                ],
+                "indices": [
+                  503,
+                  209
+                ],
+                "single_r2": 0.4824927631571131,
+                "joint_r2": 0.658451180342412,
+                "joint_gain": 0.17595841718529892
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAcc-correlation()-X,Y"
+                ],
+                "indices": [
+                  302,
+                  37
+                ],
+                "single_r2": 0.42392400557133914,
+                "joint_r2": 0.5532171633056477,
+                "joint_gain": 0.1292931577343086
+              },
+              {
+                "features": [
+                  "tBodyAcc-correlation()-X,Y",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  37,
+                  15
+                ],
+                "single_r2": 0.3771273866770658,
+                "joint_r2": 0.4863073793187459,
+                "joint_gain": 0.1091799926416801
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                503,
+                67,
+                302,
+                37
+              ],
+              "accuracy": 0.9329488103821196,
+              "loss_change": 0.07243200003742395,
+              "recall": [
+                0.9858870967741935,
+                0.9426751592356688,
+                0.8595238095238096
+              ]
+            },
+            "single": {
+              "indices": [
+                503
+              ],
+              "accuracy": 0.9408795962509012,
+              "loss_change": 0.018524140245806175
+            },
+            "random": {
+              "indices": [
+                504,
+                306,
+                37,
+                276
+              ],
+              "accuracy": 0.9387166546503244,
+              "loss_change": 0.02932100423363987
+            },
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "recall": [
+                0.9858870967741935,
+                0.940552016985138,
+                0.9
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 0,
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "target_recall": 0.9858870967741935
+            },
+            "selected_full": {
+              "accuracy": 0.7274693583273252,
+              "loss_change": 0.9243876992265234,
+              "target_recall": 0.3487903225806452
+            },
+            "selected_half": {
+              "accuracy": 0.9279019466474405,
+              "loss_change": 0.04832091465355848,
+              "target_recall": 0.905241935483871
+            },
+            "random_direction": {
+              "accuracy": 0.9322278298485941,
+              "loss_change": 0.05933778752283697,
+              "target_recall": 0.9818548387096774
+            }
+          }
+        },
+        "1": {
+          "direction_norm": 1.0,
+          "train_score_mean": 0.0,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 73,
+                "name": "tGravityAcc-arCoeff()-Z,1",
+                "direction_correlation": 0.7606508791787051
+              },
+              {
+                "index": 69,
+                "name": "tGravityAcc-arCoeff()-Y,1",
+                "direction_correlation": 0.7528988123627481
+              },
+              {
+                "index": 295,
+                "name": "fBodyAcc-meanFreq()-Z",
+                "direction_correlation": 0.7023335529187554
+              },
+              {
+                "index": 516,
+                "name": "fBodyBodyAccJerkMag-std()",
+                "direction_correlation": 0.6223090167027888
+              },
+              {
+                "index": 538,
+                "name": "fBodyBodyGyroMag-meanFreq()",
+                "direction_correlation": 0.6077246067849433
+              },
+              {
+                "index": 298,
+                "name": "fBodyAcc-skewness()-Y",
+                "direction_correlation": 0.6006610359102585
+              }
+            ],
+            "combination_r2": 0.749840676216514,
+            "interactions": [
+              {
+                "features": [
+                  "fBodyBodyGyroMag-meanFreq()",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  538,
+                  298
+                ],
+                "single_r2": 0.36932919769191586,
+                "joint_r2": 0.536719604216376,
+                "joint_gain": 0.16739040652446013
+              },
+              {
+                "features": [
+                  "fBodyBodyAccJerkMag-std()",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  516,
+                  298
+                ],
+                "single_r2": 0.38726851226959247,
+                "joint_r2": 0.5385386462311545,
+                "joint_gain": 0.15127013396156208
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "tGravityAcc-arCoeff()-Y,1"
+                ],
+                "indices": [
+                  73,
+                  69
+                ],
+                "single_r2": 0.5785897599953402,
+                "joint_r2": 0.7035232933250708,
+                "joint_gain": 0.12493353332973056
+              },
+              {
+                "features": [
+                  "fBodyBodyAccJerkMag-std()",
+                  "fBodyBodyGyroMag-meanFreq()"
+                ],
+                "indices": [
+                  516,
+                  538
+                ],
+                "single_r2": 0.38726851226959247,
+                "joint_r2": 0.49467866322385423,
+                "joint_gain": 0.10741015095426176
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyAcc-meanFreq()-Z"
+                ],
+                "indices": [
+                  69,
+                  295
+                ],
+                "single_r2": 0.5668566216572349,
+                "joint_r2": 0.6733443911664001,
+                "joint_gain": 0.10648776950916516
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  295,
+                  298
+                ],
+                "single_r2": 0.4932724195554825,
+                "joint_r2": 0.5908424407270372,
+                "joint_gain": 0.09757002117155467
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Z,1",
+                  "fBodyAcc-skewness()-Y"
+                ],
+                "indices": [
+                  73,
+                  298
+                ],
+                "single_r2": 0.5785897599953402,
+                "joint_r2": 0.6640571591083093,
+                "joint_gain": 0.08546739911296908
+              },
+              {
+                "features": [
+                  "tGravityAcc-arCoeff()-Y,1",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  69,
+                  516
+                ],
+                "single_r2": 0.5668566216572349,
+                "joint_r2": 0.6414808567408528,
+                "joint_gain": 0.07462423508361782
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyBodyAccJerkMag-std()"
+                ],
+                "indices": [
+                  295,
+                  516
+                ],
+                "single_r2": 0.4932724195554825,
+                "joint_r2": 0.5545816180386001,
+                "joint_gain": 0.061309198483117555
+              },
+              {
+                "features": [
+                  "fBodyAcc-meanFreq()-Z",
+                  "fBodyBodyGyroMag-meanFreq()"
+                ],
+                "indices": [
+                  295,
+                  538
+                ],
+                "single_r2": 0.4932724195554825,
+                "joint_r2": 0.5532229325328241,
+                "joint_gain": 0.05995051297734155
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                73,
+                69,
+                295,
+                516
+              ],
+              "accuracy": 0.9343907714491708,
+              "loss_change": 0.025762625656379268,
+              "recall": [
+                0.9818548387096774,
+                0.921443736730361,
+                0.8928571428571429
+              ]
+            },
+            "single": {
+              "indices": [
+                73
+              ],
+              "accuracy": 0.9416005767844268,
+              "loss_change": 0.009183251961771888
+            },
+            "random": {
+              "indices": [
+                481,
+                489,
+                321,
+                89
+              ],
+              "accuracy": 0.9379956741167988,
+              "loss_change": 0.0981883162519232
+            },
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "recall": [
+                0.9858870967741935,
+                0.940552016985138,
+                0.9
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 1,
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "target_recall": 0.940552016985138
+            },
+            "selected_full": {
+              "accuracy": 0.6481614996395098,
+              "loss_change": 1.2146240354681284,
+              "target_recall": 0.01910828025477707
+            },
+            "selected_half": {
+              "accuracy": 0.9120403749098774,
+              "loss_change": 0.03381474209428609,
+              "target_recall": 0.8110403397027601
+            },
+            "random_direction": {
+              "accuracy": 0.9365537130497477,
+              "loss_change": 0.016028586505437037,
+              "target_recall": 0.910828025477707
+            }
+          }
+        },
+        "2": {
+          "direction_norm": 1.0000000000000002,
+          "train_score_mean": -3.460786536426668e-17,
+          "feature_analysis": {
+            "controlled_features": [
+              {
+                "index": 508,
+                "name": "fBodyAccMag-energy()",
+                "direction_correlation": 0.8883328907386949
+              },
+              {
+                "index": 302,
+                "name": "fBodyAcc-bandsEnergy()-1,8",
+                "direction_correlation": 0.8373342323296739
+              },
+              {
+                "index": 509,
+                "name": "fBodyAccMag-iqr()",
+                "direction_correlation": 0.7424192214564238
+              },
+              {
+                "index": 15,
+                "name": "tBodyAcc-sma()",
+                "direction_correlation": 0.7311019355178792
+              },
+              {
+                "index": 89,
+                "name": "tBodyAccJerk-max()-X",
+                "direction_correlation": 0.7266473341387527
+              },
+              {
+                "index": 207,
+                "name": "tBodyAccMag-iqr()",
+                "direction_correlation": 0.7176742783900197
+              }
+            ],
+            "combination_r2": 0.8566673343505158,
+            "interactions": [
+              {
+                "features": [
+                  "tBodyAccJerk-max()-X",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  89,
+                  207
+                ],
+                "single_r2": 0.5280163482109559,
+                "joint_r2": 0.628399068259059,
+                "joint_gain": 0.10038272004810311
+              },
+              {
+                "features": [
+                  "tBodyAcc-sma()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  15,
+                  89
+                ],
+                "single_r2": 0.5345100401179883,
+                "joint_r2": 0.6264921284633078,
+                "joint_gain": 0.09198208834531951
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  509,
+                  89
+                ],
+                "single_r2": 0.5511863003879652,
+                "joint_r2": 0.6281888102180502,
+                "joint_gain": 0.07700250983008494
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  509,
+                  207
+                ],
+                "single_r2": 0.5511863003879652,
+                "joint_r2": 0.6264436237336641,
+                "joint_gain": 0.0752573233456989
+              },
+              {
+                "features": [
+                  "fBodyAccMag-iqr()",
+                  "tBodyAcc-sma()"
+                ],
+                "indices": [
+                  509,
+                  15
+                ],
+                "single_r2": 0.5511863003879652,
+                "joint_r2": 0.6242618058844853,
+                "joint_gain": 0.07307550549652009
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "fBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  302,
+                  509
+                ],
+                "single_r2": 0.7011286166311235,
+                "joint_r2": 0.7710212884069637,
+                "joint_gain": 0.06989267177584024
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAccJerk-max()-X"
+                ],
+                "indices": [
+                  302,
+                  89
+                ],
+                "single_r2": 0.7011286166311235,
+                "joint_r2": 0.7545363786818657,
+                "joint_gain": 0.05340776205074227
+              },
+              {
+                "features": [
+                  "tBodyAcc-sma()",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  15,
+                  207
+                ],
+                "single_r2": 0.5345100401179883,
+                "joint_r2": 0.5792804328954915,
+                "joint_gain": 0.044770392777503165
+              },
+              {
+                "features": [
+                  "fBodyAccMag-energy()",
+                  "fBodyAcc-bandsEnergy()-1,8"
+                ],
+                "indices": [
+                  508,
+                  302
+                ],
+                "single_r2": 0.7891353247681697,
+                "joint_r2": 0.8310224966610003,
+                "joint_gain": 0.04188717189283053
+              },
+              {
+                "features": [
+                  "fBodyAcc-bandsEnergy()-1,8",
+                  "tBodyAccMag-iqr()"
+                ],
+                "indices": [
+                  302,
+                  207
+                ],
+                "single_r2": 0.7011286166311235,
+                "joint_r2": 0.7158102986841548,
+                "joint_gain": 0.01468168205303133
+              }
+            ]
+          },
+          "feature_intervention": {
+            "selected": {
+              "indices": [
+                508,
+                302,
+                509,
+                15
+              ],
+              "accuracy": 0.9343907714491708,
+              "loss_change": 0.08145202390558975,
+              "recall": [
+                0.9899193548387096,
+                0.9384288747346072,
+                0.8642857142857143
+              ]
+            },
+            "single": {
+              "indices": [
+                508
+              ],
+              "accuracy": 0.9379956741167988,
+              "loss_change": 0.0318568827190428
+            },
+            "random": {
+              "indices": [
+                247,
+                490,
+                212,
+                318
+              ],
+              "accuracy": 0.9459264599855803,
+              "loss_change": -0.020160591460633787
+            },
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "recall": [
+                0.9858870967741935,
+                0.940552016985138,
+                0.9
+              ]
+            }
+          },
+          "activation_intervention": {
+            "target_label": 2,
+            "baseline": {
+              "accuracy": 0.9444844989185291,
+              "target_recall": 0.9
+            },
+            "selected_full": {
+              "accuracy": 0.7238644556596971,
+              "loss_change": 1.022855235365961,
+              "target_recall": 0.3238095238095238
+            },
+            "selected_half": {
+              "accuracy": 0.9257390050468637,
+              "loss_change": 0.10397465726121519,
+              "target_recall": 0.85
+            },
+            "random_direction": {
+              "accuracy": 0.943042537851478,
+              "loss_change": 0.004159038194575471,
+              "target_recall": 0.9
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seed_similarity": {
+    "0": [
+      {
+        "seed": 11,
+        "representation_similarity": 0.912293067471474,
+        "direction_score_similarity": 0.948068118908839
+      },
+      {
+        "seed": 19,
+        "representation_similarity": 0.9150137398763536,
+        "direction_score_similarity": 0.9315666482562404
+      },
+      {
+        "seed": 23,
+        "representation_similarity": 0.9077847592238659,
+        "direction_score_similarity": 0.9367652508744837
+      },
+      {
+        "seed": 31,
+        "representation_similarity": 0.764269186155935,
+        "direction_score_similarity": 0.8855539496034105
+      }
+    ],
+    "1": [
+      {
+        "seed": 11,
+        "representation_similarity": 0.8448588921704691,
+        "direction_score_similarity": 0.9230509336716414
+      },
+      {
+        "seed": 19,
+        "representation_similarity": 0.8646573906402766,
+        "direction_score_similarity": 0.8883175924257029
+      },
+      {
+        "seed": 23,
+        "representation_similarity": 0.8378273418496963,
+        "direction_score_similarity": 0.9125921985833675
+      },
+      {
+        "seed": 31,
+        "representation_similarity": 0.6994484359632114,
+        "direction_score_similarity": 0.8524784319559978
+      }
+    ],
+    "2": [
+      {
+        "seed": 11,
+        "representation_similarity": 0.8878303234319885,
+        "direction_score_similarity": 0.9509753691889633
+      },
+      {
+        "seed": 19,
+        "representation_similarity": 0.8760364511411544,
+        "direction_score_similarity": 0.9217464646429331
+      },
+      {
+        "seed": 23,
+        "representation_similarity": 0.906128373434315,
+        "direction_score_similarity": 0.9343486026057748
+      },
+      {
+        "seed": 31,
+        "representation_similarity": 0.7938408816812272,
+        "direction_score_similarity": 0.9225875200344803
+      }
+    ]
+  },
+  "stages": [
+    {
+      "name": "seed_stability",
+      "hypothesis": "representation structure and activity directions repeat across five seeds even when neuron IDs differ.",
+      "experiment": "pairwise sample distance geometry and direction-score correlations on identical test samples",
+      "result": {
+        "0": [
+          {
+            "seed": 11,
+            "representation_similarity": 0.912293067471474,
+            "direction_score_similarity": 0.948068118908839
+          },
+          {
+            "seed": 19,
+            "representation_similarity": 0.9150137398763536,
+            "direction_score_similarity": 0.9315666482562404
+          },
+          {
+            "seed": 23,
+            "representation_similarity": 0.9077847592238659,
+            "direction_score_similarity": 0.9367652508744837
+          },
+          {
+            "seed": 31,
+            "representation_similarity": 0.764269186155935,
+            "direction_score_similarity": 0.8855539496034105
+          }
+        ],
+        "1": [
+          {
+            "seed": 11,
+            "representation_similarity": 0.8448588921704691,
+            "direction_score_similarity": 0.9230509336716414
+          },
+          {
+            "seed": 19,
+            "representation_similarity": 0.8646573906402766,
+            "direction_score_similarity": 0.8883175924257029
+          },
+          {
+            "seed": 23,
+            "representation_similarity": 0.8378273418496963,
+            "direction_score_similarity": 0.9125921985833675
+          },
+          {
+            "seed": 31,
+            "representation_similarity": 0.6994484359632114,
+            "direction_score_similarity": 0.8524784319559978
+          }
+        ],
+        "2": [
+          {
+            "seed": 11,
+            "representation_similarity": 0.8878303234319885,
+            "direction_score_similarity": 0.9509753691889633
+          },
+          {
+            "seed": 19,
+            "representation_similarity": 0.8760364511411544,
+            "direction_score_similarity": 0.9217464646429331
+          },
+          {
+            "seed": 23,
+            "representation_similarity": 0.906128373434315,
+            "direction_score_similarity": 0.9343486026057748
+          },
+          {
+            "seed": 31,
+            "representation_similarity": 0.7938408816812272,
+            "direction_score_similarity": 0.9225875200344803
+          }
+        ]
+      },
+      "mismatch": "low direction score similarity would weaken the common-direction claim.",
+      "revised_hypothesis": "common geometry may be more stable than any named neuron or direction coordinate."
+    },
+    {
+      "name": "activity_directions",
+      "hypothesis": "each dynamic activity has a distinct distributed direction.",
+      "experiment": "one-vs-rest hidden-layer-2 centroid contrast for each activity",
+      "result": [
+        {
+          "seed": 7,
+          "activities": {
+            "0": {
+              "top_features": [
+                "fBodyAccMag-std()",
+                "fBodyAcc-bandsEnergy()-1,8",
+                "tBodyAcc-sma()",
+                "tBodyAccMag-iqr()",
+                "tBodyAcc-correlation()-X,Y",
+                "tGravityAcc-arCoeff()-X,4"
+              ],
+              "combination_r2": 0.8155435638519932
+            },
+            "1": {
+              "top_features": [
+                "tBodyAccJerkMag-mad()",
+                "tGravityAcc-arCoeff()-Z,1",
+                "fBodyAccJerk-mad()-Z",
+                "fBodyAcc-meanFreq()-Z",
+                "tGravityAcc-arCoeff()-Y,1",
+                "tBodyGyroJerk-sma()"
+              ],
+              "combination_r2": 0.7607493813310151
+            },
+            "2": {
+              "top_features": [
+                "fBodyAccMag-energy()",
+                "fBodyAcc-std()-X",
+                "fBodyAccMag-iqr()",
+                "tBodyAccJerk-max()-X",
+                "fBodyAcc-sma()",
+                "tGravityAccMag-iqr()"
+              ],
+              "combination_r2": 0.8814277823970265
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "activities": {
+            "0": {
+              "top_features": [
+                "fBodyAccMag-std()",
+                "fBodyAcc-bandsEnergy()-1,8",
+                "tBodyAcc-correlation()-X,Y",
+                "tBodyAcc-sma()",
+                "tGravityAcc-arCoeff()-X,4",
+                "tGravityAccMag-iqr()"
+              ],
+              "combination_r2": 0.7946282317907059
+            },
+            "1": {
+              "top_features": [
+                "tGravityAcc-arCoeff()-Y,1",
+                "tGravityAcc-arCoeff()-Z,1",
+                "fBodyAcc-meanFreq()-Z",
+                "fBodyBodyAccJerkMag-std()",
+                "fBodyAccJerk-std()-Z",
+                "tBodyAccJerkMag-entropy()"
+              ],
+              "combination_r2": 0.7758930906256091
+            },
+            "2": {
+              "top_features": [
+                "fBodyAccMag-energy()",
+                "fBodyAcc-std()-X",
+                "fBodyAccMag-iqr()",
+                "tBodyAccMag-iqr()",
+                "tBodyAccJerk-max()-X",
+                "fBodyAcc-sma()"
+              ],
+              "combination_r2": 0.8769265941734659
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "activities": {
+            "0": {
+              "top_features": [
+                "fBodyAccMag-std()",
+                "fBodyAcc-bandsEnergy()-1,8",
+                "tGravityAcc-arCoeff()-X,4",
+                "tBodyAcc-correlation()-X,Y",
+                "tBodyAcc-sma()",
+                "tBodyAccMag-iqr()"
+              ],
+              "combination_r2": 0.7973234581011348
+            },
+            "1": {
+              "top_features": [
+                "tGravityAcc-arCoeff()-Z,1",
+                "tGravityAcc-arCoeff()-Y,1",
+                "fBodyAcc-meanFreq()-Z",
+                "fBodyBodyAccJerkMag-std()",
+                "tBodyAccJerkMag-entropy()",
+                "fBodyAcc-skewness()-Y"
+              ],
+              "combination_r2": 0.7766158246841597
+            },
+            "2": {
+              "top_features": [
+                "fBodyAccMag-energy()",
+                "fBodyAcc-std()-X",
+                "fBodyAccMag-iqr()",
+                "tBodyAccJerk-max()-X",
+                "tBodyAccMag-iqr()",
+                "fBodyAcc-sma()"
+              ],
+              "combination_r2": 0.8330741753444466
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "activities": {
+            "0": {
+              "top_features": [
+                "fBodyAccMag-std()",
+                "fBodyAcc-bandsEnergy()-1,16",
+                "tGravityAccMag-iqr()",
+                "tBodyAcc-correlation()-X,Y",
+                "tGravityAcc-arCoeff()-X,4",
+                "fBodyAccMag-iqr()"
+              ],
+              "combination_r2": 0.8278212030564862
+            },
+            "1": {
+              "top_features": [
+                "tBodyAccJerkMag-mad()",
+                "tGravityAcc-arCoeff()-Z,1",
+                "fBodyAcc-meanFreq()-Z",
+                "fBodyAccJerk-mad()-Z",
+                "tGravityAcc-arCoeff()-Y,1",
+                "tBodyGyroJerk-sma()"
+              ],
+              "combination_r2": 0.748369975186381
+            },
+            "2": {
+              "top_features": [
+                "fBodyAccMag-energy()",
+                "fBodyAcc-std()-X",
+                "tBodyAccJerk-max()-X",
+                "fBodyAccMag-iqr()",
+                "tGravityAccMag-iqr()",
+                "fBodyAcc-sma()"
+              ],
+              "combination_r2": 0.847271236427857
+            }
+          }
+        },
+        {
+          "seed": 31,
+          "activities": {
+            "0": {
+              "top_features": [
+                "fBodyAccMag-std()",
+                "tGravityAcc-arCoeff()-X,3",
+                "fBodyAcc-bandsEnergy()-1,8",
+                "tBodyAcc-correlation()-X,Y",
+                "tBodyAccMag-arCoeff()1",
+                "tBodyAcc-sma()"
+              ],
+              "combination_r2": 0.8043903627596917
+            },
+            "1": {
+              "top_features": [
+                "tGravityAcc-arCoeff()-Z,1",
+                "tGravityAcc-arCoeff()-Y,1",
+                "fBodyAcc-meanFreq()-Z",
+                "fBodyBodyAccJerkMag-std()",
+                "fBodyBodyGyroMag-meanFreq()",
+                "fBodyAcc-skewness()-Y"
+              ],
+              "combination_r2": 0.749840676216514
+            },
+            "2": {
+              "top_features": [
+                "fBodyAccMag-energy()",
+                "fBodyAcc-bandsEnergy()-1,8",
+                "fBodyAccMag-iqr()",
+                "tBodyAcc-sma()",
+                "tBodyAccJerk-max()-X",
+                "tBodyAccMag-iqr()"
+              ],
+              "combination_r2": 0.8566673343505158
+            }
+          }
+        }
+      ],
+      "mismatch": "direction concentration or seed-specific feature sets can contradict a single shared explanation.",
+      "revised_hypothesis": "activity directions may be geometrically repeatable but feature implementations may vary."
+    },
+    {
+      "name": "feature_combinations",
+      "hypothesis": "feature combinations explain direction scores better than single features.",
+      "experiment": "controlled feature selection and pair joint R2 gain",
+      "result": [
+        {
+          "seed": 7,
+          "activities": {
+            "0": {
+              "r2": 0.8155435638519932,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccMag-iqr()",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    207,
+                    68
+                  ],
+                  "single_r2": 0.4190423134142288,
+                  "joint_r2": 0.6405872525748092,
+                  "joint_gain": 0.22154493916058038
+                },
+                {
+                  "features": [
+                    "tBodyAcc-sma()",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    15,
+                    68
+                  ],
+                  "single_r2": 0.4402953100151594,
+                  "joint_r2": 0.6467348048356211,
+                  "joint_gain": 0.20643949482046164
+                },
+                {
+                  "features": [
+                    "tBodyAcc-correlation()-X,Y",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    37,
+                    68
+                  ],
+                  "single_r2": 0.41073751605324693,
+                  "joint_r2": 0.6116314149344475,
+                  "joint_gain": 0.20089389888120057
+                }
+              ]
+            },
+            "1": {
+              "r2": 0.7607493813310151,
+              "interactions": [
+                {
+                  "features": [
+                    "fBodyAccJerk-mad()-Z",
+                    "tGravityAcc-arCoeff()-Y,1"
+                  ],
+                  "indices": [
+                    352,
+                    69
+                  ],
+                  "single_r2": 0.494406561649966,
+                  "joint_r2": 0.6789819768427661,
+                  "joint_gain": 0.18457541519280007
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "tBodyGyroJerk-sma()"
+                  ],
+                  "indices": [
+                    69,
+                    175
+                  ],
+                  "single_r2": 0.4630267275714802,
+                  "joint_r2": 0.6077228452005491,
+                  "joint_gain": 0.14469611762906887
+                },
+                {
+                  "features": [
+                    "fBodyAccJerk-mad()-Z",
+                    "fBodyAcc-meanFreq()-Z"
+                  ],
+                  "indices": [
+                    352,
+                    295
+                  ],
+                  "single_r2": 0.494406561649966,
+                  "joint_r2": 0.6222283270475457,
+                  "joint_gain": 0.12782176539757972
+                }
+              ]
+            },
+            "2": {
+              "r2": 0.8814277823970265,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccJerk-max()-X",
+                    "tGravityAccMag-iqr()"
+                  ],
+                  "indices": [
+                    89,
+                    220
+                  ],
+                  "single_r2": 0.6240555144195787,
+                  "joint_r2": 0.7191483702259918,
+                  "joint_gain": 0.09509285580641302
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    509,
+                    89
+                  ],
+                  "single_r2": 0.6461541902896992,
+                  "joint_r2": 0.7392217311209697,
+                  "joint_gain": 0.09306754083127045
+                },
+                {
+                  "features": [
+                    "fBodyAcc-std()-X",
+                    "fBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    268,
+                    509
+                  ],
+                  "single_r2": 0.7499163083016558,
+                  "joint_r2": 0.8241846008031961,
+                  "joint_gain": 0.07426829250154032
+                }
+              ]
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "activities": {
+            "0": {
+              "r2": 0.7946282317907059,
+              "interactions": [
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-X,4",
+                    "tGravityAccMag-iqr()"
+                  ],
+                  "indices": [
+                    68,
+                    220
+                  ],
+                  "single_r2": 0.4048264267055154,
+                  "joint_r2": 0.6188301504607012,
+                  "joint_gain": 0.21400372375518584
+                },
+                {
+                  "features": [
+                    "tBodyAcc-sma()",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    15,
+                    68
+                  ],
+                  "single_r2": 0.41508461564772836,
+                  "joint_r2": 0.6287551515287071,
+                  "joint_gain": 0.21367053588097873
+                },
+                {
+                  "features": [
+                    "tBodyAcc-correlation()-X,Y",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    37,
+                    68
+                  ],
+                  "single_r2": 0.41937267653425536,
+                  "joint_r2": 0.6197372427125154,
+                  "joint_gain": 0.20036456617826004
+                }
+              ]
+            },
+            "1": {
+              "r2": 0.7758930906256091,
+              "interactions": [
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "tGravityAcc-arCoeff()-Z,1"
+                  ],
+                  "indices": [
+                    69,
+                    73
+                  ],
+                  "single_r2": 0.5868040607062548,
+                  "joint_r2": 0.7128515306599724,
+                  "joint_gain": 0.12604746995371763
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "fBodyAccJerk-std()-Z"
+                  ],
+                  "indices": [
+                    69,
+                    349
+                  ],
+                  "single_r2": 0.5868040607062548,
+                  "joint_r2": 0.7070150672495488,
+                  "joint_gain": 0.12021100654329397
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "fBodyBodyAccJerkMag-std()"
+                  ],
+                  "indices": [
+                    69,
+                    516
+                  ],
+                  "single_r2": 0.5868040607062548,
+                  "joint_r2": 0.7001840992870123,
+                  "joint_gain": 0.11338003858075751
+                }
+              ]
+            },
+            "2": {
+              "r2": 0.8769265941734659,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccMag-iqr()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    207,
+                    89
+                  ],
+                  "single_r2": 0.5825918871858161,
+                  "joint_r2": 0.7016048013129287,
+                  "joint_gain": 0.11901291412711257
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    509,
+                    207
+                  ],
+                  "single_r2": 0.6310939532873481,
+                  "joint_r2": 0.7134511057802745,
+                  "joint_gain": 0.08235715249292641
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    509,
+                    89
+                  ],
+                  "single_r2": 0.6310939532873481,
+                  "joint_r2": 0.7072758141620121,
+                  "joint_gain": 0.07618186087466405
+                }
+              ]
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "activities": {
+            "0": {
+              "r2": 0.7973234581011348,
+              "interactions": [
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-X,4",
+                    "tBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    68,
+                    207
+                  ],
+                  "single_r2": 0.42847213883905155,
+                  "joint_r2": 0.623078588130664,
+                  "joint_gain": 0.19460644929161242
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-std()",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    503,
+                    68
+                  ],
+                  "single_r2": 0.563021672825404,
+                  "joint_r2": 0.7545577160828761,
+                  "joint_gain": 0.1915360432574721
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-X,4",
+                    "tBodyAcc-correlation()-X,Y"
+                  ],
+                  "indices": [
+                    68,
+                    37
+                  ],
+                  "single_r2": 0.42847213883905155,
+                  "joint_r2": 0.6186028974259132,
+                  "joint_gain": 0.19013075858686168
+                }
+              ]
+            },
+            "1": {
+              "r2": 0.7766158246841597,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccJerkMag-entropy()",
+                    "fBodyAcc-skewness()-Y"
+                  ],
+                  "indices": [
+                    234,
+                    298
+                  ],
+                  "single_r2": 0.41631143788845104,
+                  "joint_r2": 0.5649818263774551,
+                  "joint_gain": 0.14867038848900405
+                },
+                {
+                  "features": [
+                    "fBodyBodyAccJerkMag-std()",
+                    "fBodyAcc-skewness()-Y"
+                  ],
+                  "indices": [
+                    516,
+                    298
+                  ],
+                  "single_r2": 0.492342994573329,
+                  "joint_r2": 0.6352334003779212,
+                  "joint_gain": 0.14289040580459222
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "fBodyBodyAccJerkMag-std()"
+                  ],
+                  "indices": [
+                    69,
+                    516
+                  ],
+                  "single_r2": 0.5367524679673336,
+                  "joint_r2": 0.6796370031954424,
+                  "joint_gain": 0.14288453522810884
+                }
+              ]
+            },
+            "2": {
+              "r2": 0.8330741753444466,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccJerk-max()-X",
+                    "tBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    89,
+                    207
+                  ],
+                  "single_r2": 0.544058010446526,
+                  "joint_r2": 0.6396007068365105,
+                  "joint_gain": 0.09554269638998447
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    509,
+                    89
+                  ],
+                  "single_r2": 0.5634400615325248,
+                  "joint_r2": 0.6445316910173704,
+                  "joint_gain": 0.0810916294848456
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    509,
+                    207
+                  ],
+                  "single_r2": 0.5634400615325248,
+                  "joint_r2": 0.6353671862931027,
+                  "joint_gain": 0.07192712476057794
+                }
+              ]
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "activities": {
+            "0": {
+              "r2": 0.8278212030564862,
+              "interactions": [
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-X,4",
+                    "fBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    68,
+                    509
+                  ],
+                  "single_r2": 0.38597078044783306,
+                  "joint_r2": 0.6655434505443436,
+                  "joint_gain": 0.27957267009651054
+                },
+                {
+                  "features": [
+                    "tGravityAccMag-iqr()",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    220,
+                    68
+                  ],
+                  "single_r2": 0.4157674002345826,
+                  "joint_r2": 0.6250961966812626,
+                  "joint_gain": 0.20932879644668
+                },
+                {
+                  "features": [
+                    "tBodyAcc-correlation()-X,Y",
+                    "tGravityAcc-arCoeff()-X,4"
+                  ],
+                  "indices": [
+                    37,
+                    68
+                  ],
+                  "single_r2": 0.41114310986076663,
+                  "joint_r2": 0.5994724081624776,
+                  "joint_gain": 0.18832929830171097
+                }
+              ]
+            },
+            "1": {
+              "r2": 0.748369975186381,
+              "interactions": [
+                {
+                  "features": [
+                    "fBodyAccJerk-mad()-Z",
+                    "tGravityAcc-arCoeff()-Y,1"
+                  ],
+                  "indices": [
+                    352,
+                    69
+                  ],
+                  "single_r2": 0.452505594727883,
+                  "joint_r2": 0.6311297076551774,
+                  "joint_gain": 0.1786241129272944
+                },
+                {
+                  "features": [
+                    "tBodyAccJerkMag-mad()",
+                    "tGravityAcc-arCoeff()-Z,1"
+                  ],
+                  "indices": [
+                    228,
+                    73
+                  ],
+                  "single_r2": 0.5800379339087711,
+                  "joint_r2": 0.7003285334922695,
+                  "joint_gain": 0.12029059958349841
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Y,1",
+                    "tBodyGyroJerk-sma()"
+                  ],
+                  "indices": [
+                    69,
+                    175
+                  ],
+                  "single_r2": 0.4376984679821503,
+                  "joint_r2": 0.555782230865401,
+                  "joint_gain": 0.11808376288325073
+                }
+              ]
+            },
+            "2": {
+              "r2": 0.847271236427857,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccJerk-max()-X",
+                    "fBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    89,
+                    509
+                  ],
+                  "single_r2": 0.5789648263865954,
+                  "joint_r2": 0.6731167331806056,
+                  "joint_gain": 0.0941519067940102
+                },
+                {
+                  "features": [
+                    "tBodyAccJerk-max()-X",
+                    "tGravityAccMag-iqr()"
+                  ],
+                  "indices": [
+                    89,
+                    220
+                  ],
+                  "single_r2": 0.5789648263865954,
+                  "joint_r2": 0.6613851463763936,
+                  "joint_gain": 0.08242031998979815
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tGravityAccMag-iqr()"
+                  ],
+                  "indices": [
+                    509,
+                    220
+                  ],
+                  "single_r2": 0.5781032480492181,
+                  "joint_r2": 0.6441184531831154,
+                  "joint_gain": 0.06601520513389736
+                }
+              ]
+            }
+          }
+        },
+        {
+          "seed": 31,
+          "activities": {
+            "0": {
+              "r2": 0.8043903627596917,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccMag-arCoeff()1",
+                    "tBodyAcc-sma()"
+                  ],
+                  "indices": [
+                    209,
+                    15
+                  ],
+                  "single_r2": 0.3574444648134505,
+                  "joint_r2": 0.6807191786965097,
+                  "joint_gain": 0.3232747138830592
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-std()",
+                    "tGravityAcc-arCoeff()-X,3"
+                  ],
+                  "indices": [
+                    503,
+                    67
+                  ],
+                  "single_r2": 0.4824927631571131,
+                  "joint_r2": 0.7340263200858339,
+                  "joint_gain": 0.2515335569287208
+                },
+                {
+                  "features": [
+                    "fBodyAcc-bandsEnergy()-1,8",
+                    "tBodyAccMag-arCoeff()1"
+                  ],
+                  "indices": [
+                    302,
+                    209
+                  ],
+                  "single_r2": 0.42392400557133914,
+                  "joint_r2": 0.6578850232553157,
+                  "joint_gain": 0.2339610176839766
+                }
+              ]
+            },
+            "1": {
+              "r2": 0.749840676216514,
+              "interactions": [
+                {
+                  "features": [
+                    "fBodyBodyGyroMag-meanFreq()",
+                    "fBodyAcc-skewness()-Y"
+                  ],
+                  "indices": [
+                    538,
+                    298
+                  ],
+                  "single_r2": 0.36932919769191586,
+                  "joint_r2": 0.536719604216376,
+                  "joint_gain": 0.16739040652446013
+                },
+                {
+                  "features": [
+                    "fBodyBodyAccJerkMag-std()",
+                    "fBodyAcc-skewness()-Y"
+                  ],
+                  "indices": [
+                    516,
+                    298
+                  ],
+                  "single_r2": 0.38726851226959247,
+                  "joint_r2": 0.5385386462311545,
+                  "joint_gain": 0.15127013396156208
+                },
+                {
+                  "features": [
+                    "tGravityAcc-arCoeff()-Z,1",
+                    "tGravityAcc-arCoeff()-Y,1"
+                  ],
+                  "indices": [
+                    73,
+                    69
+                  ],
+                  "single_r2": 0.5785897599953402,
+                  "joint_r2": 0.7035232933250708,
+                  "joint_gain": 0.12493353332973056
+                }
+              ]
+            },
+            "2": {
+              "r2": 0.8566673343505158,
+              "interactions": [
+                {
+                  "features": [
+                    "tBodyAccJerk-max()-X",
+                    "tBodyAccMag-iqr()"
+                  ],
+                  "indices": [
+                    89,
+                    207
+                  ],
+                  "single_r2": 0.5280163482109559,
+                  "joint_r2": 0.628399068259059,
+                  "joint_gain": 0.10038272004810311
+                },
+                {
+                  "features": [
+                    "tBodyAcc-sma()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    15,
+                    89
+                  ],
+                  "single_r2": 0.5345100401179883,
+                  "joint_r2": 0.6264921284633078,
+                  "joint_gain": 0.09198208834531951
+                },
+                {
+                  "features": [
+                    "fBodyAccMag-iqr()",
+                    "tBodyAccJerk-max()-X"
+                  ],
+                  "indices": [
+                    509,
+                    89
+                  ],
+                  "single_r2": 0.5511863003879652,
+                  "joint_r2": 0.6281888102180502,
+                  "joint_gain": 0.07700250983008494
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "mismatch": "small joint gains mean the direction is mostly a single-feature or correlated proxy.",
+      "revised_hypothesis": "some activity directions require a group, but the group may be redundant."
+    },
+    {
+      "name": "correlation_control",
+      "hypothesis": "the same feature groups remain after correlated duplicates are removed.",
+      "experiment": "greedy correlation-controlled representatives with limit 0.85",
+      "result": [
+        {
+          "seed": 7,
+          "activities": {
+            "0": [
+              "fBodyAccMag-std()",
+              "fBodyAcc-bandsEnergy()-1,8",
+              "tBodyAcc-sma()",
+              "tBodyAccMag-iqr()",
+              "tBodyAcc-correlation()-X,Y",
+              "tGravityAcc-arCoeff()-X,4"
+            ],
+            "1": [
+              "tBodyAccJerkMag-mad()",
+              "tGravityAcc-arCoeff()-Z,1",
+              "fBodyAccJerk-mad()-Z",
+              "fBodyAcc-meanFreq()-Z",
+              "tGravityAcc-arCoeff()-Y,1",
+              "tBodyGyroJerk-sma()"
+            ],
+            "2": [
+              "fBodyAccMag-energy()",
+              "fBodyAcc-std()-X",
+              "fBodyAccMag-iqr()",
+              "tBodyAccJerk-max()-X",
+              "fBodyAcc-sma()",
+              "tGravityAccMag-iqr()"
+            ]
+          }
+        },
+        {
+          "seed": 11,
+          "activities": {
+            "0": [
+              "fBodyAccMag-std()",
+              "fBodyAcc-bandsEnergy()-1,8",
+              "tBodyAcc-correlation()-X,Y",
+              "tBodyAcc-sma()",
+              "tGravityAcc-arCoeff()-X,4",
+              "tGravityAccMag-iqr()"
+            ],
+            "1": [
+              "tGravityAcc-arCoeff()-Y,1",
+              "tGravityAcc-arCoeff()-Z,1",
+              "fBodyAcc-meanFreq()-Z",
+              "fBodyBodyAccJerkMag-std()",
+              "fBodyAccJerk-std()-Z",
+              "tBodyAccJerkMag-entropy()"
+            ],
+            "2": [
+              "fBodyAccMag-energy()",
+              "fBodyAcc-std()-X",
+              "fBodyAccMag-iqr()",
+              "tBodyAccMag-iqr()",
+              "tBodyAccJerk-max()-X",
+              "fBodyAcc-sma()"
+            ]
+          }
+        },
+        {
+          "seed": 19,
+          "activities": {
+            "0": [
+              "fBodyAccMag-std()",
+              "fBodyAcc-bandsEnergy()-1,8",
+              "tGravityAcc-arCoeff()-X,4",
+              "tBodyAcc-correlation()-X,Y",
+              "tBodyAcc-sma()",
+              "tBodyAccMag-iqr()"
+            ],
+            "1": [
+              "tGravityAcc-arCoeff()-Z,1",
+              "tGravityAcc-arCoeff()-Y,1",
+              "fBodyAcc-meanFreq()-Z",
+              "fBodyBodyAccJerkMag-std()",
+              "tBodyAccJerkMag-entropy()",
+              "fBodyAcc-skewness()-Y"
+            ],
+            "2": [
+              "fBodyAccMag-energy()",
+              "fBodyAcc-std()-X",
+              "fBodyAccMag-iqr()",
+              "tBodyAccJerk-max()-X",
+              "tBodyAccMag-iqr()",
+              "fBodyAcc-sma()"
+            ]
+          }
+        },
+        {
+          "seed": 23,
+          "activities": {
+            "0": [
+              "fBodyAccMag-std()",
+              "fBodyAcc-bandsEnergy()-1,16",
+              "tGravityAccMag-iqr()",
+              "tBodyAcc-correlation()-X,Y",
+              "tGravityAcc-arCoeff()-X,4",
+              "fBodyAccMag-iqr()"
+            ],
+            "1": [
+              "tBodyAccJerkMag-mad()",
+              "tGravityAcc-arCoeff()-Z,1",
+              "fBodyAcc-meanFreq()-Z",
+              "fBodyAccJerk-mad()-Z",
+              "tGravityAcc-arCoeff()-Y,1",
+              "tBodyGyroJerk-sma()"
+            ],
+            "2": [
+              "fBodyAccMag-energy()",
+              "fBodyAcc-std()-X",
+              "tBodyAccJerk-max()-X",
+              "fBodyAccMag-iqr()",
+              "tGravityAccMag-iqr()",
+              "fBodyAcc-sma()"
+            ]
+          }
+        },
+        {
+          "seed": 31,
+          "activities": {
+            "0": [
+              "fBodyAccMag-std()",
+              "tGravityAcc-arCoeff()-X,3",
+              "fBodyAcc-bandsEnergy()-1,8",
+              "tBodyAcc-correlation()-X,Y",
+              "tBodyAccMag-arCoeff()1",
+              "tBodyAcc-sma()"
+            ],
+            "1": [
+              "tGravityAcc-arCoeff()-Z,1",
+              "tGravityAcc-arCoeff()-Y,1",
+              "fBodyAcc-meanFreq()-Z",
+              "fBodyBodyAccJerkMag-std()",
+              "fBodyBodyGyroMag-meanFreq()",
+              "fBodyAcc-skewness()-Y"
+            ],
+            "2": [
+              "fBodyAccMag-energy()",
+              "fBodyAcc-bandsEnergy()-1,8",
+              "fBodyAccMag-iqr()",
+              "tBodyAcc-sma()",
+              "tBodyAccJerk-max()-X",
+              "tBodyAccMag-iqr()"
+            ]
+          }
+        }
+      ],
+      "mismatch": "different representatives from the same correlated family are not independent evidence.",
+      "revised_hypothesis": "feature families, rather than exact feature names, are the stable explanatory units."
+    },
+    {
+      "name": "feature_intervention",
+      "hypothesis": "joint feature perturbation selectively damages the matching activity more than a single or random feature.",
+      "experiment": "test dynamic subset: controlled combination vs first feature vs random combination",
+      "result": [
+        {
+          "seed": 7,
+          "activities": {
+            "0": {
+              "selected": {
+                "indices": [
+                  503,
+                  302,
+                  15,
+                  207
+                ],
+                "accuracy": 0.9452054794520548,
+                "loss_change": 0.030754853227470014,
+                "recall": [
+                  0.9919354838709677,
+                  0.9341825902335457,
+                  0.9023809523809524
+                ]
+              },
+              "single": {
+                "indices": [
+                  503
+                ],
+                "accuracy": 0.9480894015861572,
+                "loss_change": 0.021984368594020837
+              },
+              "random": {
+                "indices": [
+                  527,
+                  349,
+                  503,
+                  383
+                ],
+                "accuracy": 0.9480894015861572,
+                "loss_change": 0.03516593963178008
+              },
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "recall": [
+                  0.9919354838709677,
+                  0.9490445859872612,
+                  0.9119047619047619
+                ]
+              }
+            },
+            "1": {
+              "selected": {
+                "indices": [
+                  228,
+                  73,
+                  352,
+                  295
+                ],
+                "accuracy": 0.9574621485219899,
+                "loss_change": -0.010775027800954823,
+                "recall": [
+                  0.9919354838709677,
+                  0.9490445859872612,
+                  0.9261904761904762
+                ]
+              },
+              "single": {
+                "indices": [
+                  228
+                ],
+                "accuracy": 0.9552992069214131,
+                "loss_change": -0.008778642403957954
+              },
+              "random": {
+                "indices": [
+                  131,
+                  182,
+                  553,
+                  401
+                ],
+                "accuracy": 0.958904109589041,
+                "loss_change": -0.026176386185137263
+              },
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "recall": [
+                  0.9919354838709677,
+                  0.9490445859872612,
+                  0.9119047619047619
+                ]
+              }
+            },
+            "2": {
+              "selected": {
+                "indices": [
+                  508,
+                  268,
+                  509,
+                  89
+                ],
+                "accuracy": 0.9365537130497477,
+                "loss_change": 0.10327655608325659,
+                "recall": [
+                  0.9959677419354839,
+                  0.9447983014861996,
+                  0.8571428571428571
+                ]
+              },
+              "single": {
+                "indices": [
+                  508
+                ],
+                "accuracy": 0.9488103821196827,
+                "loss_change": 0.01988523124000799
+              },
+              "random": {
+                "indices": [
+                  160,
+                  538,
+                  486,
+                  235
+                ],
+                "accuracy": 0.9516943042537851,
+                "loss_change": 0.0006101869361795076
+              },
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "recall": [
+                  0.9919354838709677,
+                  0.9490445859872612,
+                  0.9119047619047619
+                ]
+              }
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "activities": {
+            "0": {
+              "selected": {
+                "indices": [
+                  503,
+                  302,
+                  37,
+                  15
+                ],
+                "accuracy": 0.9488103821196827,
+                "loss_change": 0.04856698381906155,
+                "recall": [
+                  0.9919354838709677,
+                  0.9469214437367304,
+                  0.9
+                ]
+              },
+              "single": {
+                "indices": [
+                  503
+                ],
+                "accuracy": 0.9560201874549387,
+                "loss_change": 0.018162123316552398
+              },
+              "random": {
+                "indices": [
+                  74,
+                  280,
+                  71,
+                  446
+                ],
+                "accuracy": 0.9632299927901946,
+                "loss_change": -0.002635697333577408
+              },
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "recall": [
+                  0.9919354838709677,
+                  0.9532908704883227,
+                  0.9333333333333333
+                ]
+              }
+            },
+            "1": {
+              "selected": {
+                "indices": [
+                  69,
+                  73,
+                  295,
+                  516
+                ],
+                "accuracy": 0.9581831290555155,
+                "loss_change": 0.009411071007002503,
+                "recall": [
+                  0.9919354838709677,
+                  0.9426751592356688,
+                  0.9357142857142857
+                ]
+              },
+              "single": {
+                "indices": [
+                  69
+                ],
+                "accuracy": 0.9617880317231434,
+                "loss_change": 0.0011859680602915312
+              },
+              "random": {
+                "indices": [
+                  140,
+                  544,
+                  531,
+                  341
+                ],
+                "accuracy": 0.9646719538572458,
+                "loss_change": -0.007001619877665011
+              },
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "recall": [
+                  0.9919354838709677,
+                  0.9532908704883227,
+                  0.9333333333333333
+                ]
+              }
+            },
+            "2": {
+              "selected": {
+                "indices": [
+                  508,
+                  268,
+                  509,
+                  207
+                ],
+                "accuracy": 0.9488103821196827,
+                "loss_change": 0.04435082534002749,
+                "recall": [
+                  0.9939516129032258,
+                  0.9447983014861996,
+                  0.9
+                ]
+              },
+              "single": {
+                "indices": [
+                  508
+                ],
+                "accuracy": 0.9567411679884643,
+                "loss_change": 0.016564258495686573
+              },
+              "random": {
+                "indices": [
+                  479,
+                  483,
+                  459,
+                  499
+                ],
+                "accuracy": 0.9567411679884643,
+                "loss_change": 0.01626583032516629
+              },
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "recall": [
+                  0.9919354838709677,
+                  0.9532908704883227,
+                  0.9333333333333333
+                ]
+              }
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "activities": {
+            "0": {
+              "selected": {
+                "indices": [
+                  503,
+                  302,
+                  68,
+                  37
+                ],
+                "accuracy": 0.9372746935832732,
+                "loss_change": 0.07665439175739067,
+                "recall": [
+                  0.9979838709677419,
+                  0.9363057324840764,
+                  0.8666666666666667
+                ]
+              },
+              "single": {
+                "indices": [
+                  503
+                ],
+                "accuracy": 0.946647440519106,
+                "loss_change": 0.022762267619107157
+              },
+              "random": {
+                "indices": [
+                  199,
+                  519,
+                  328,
+                  234
+                ],
+                "accuracy": 0.9560201874549387,
+                "loss_change": -0.03591069563221508
+              },
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "recall": [
+                  0.9979838709677419,
+                  0.940552016985138,
+                  0.9095238095238095
+                ]
+              }
+            },
+            "1": {
+              "selected": {
+                "indices": [
+                  73,
+                  69,
+                  295,
+                  516
+                ],
+                "accuracy": 0.9459264599855803,
+                "loss_change": 0.016469346433022752,
+                "recall": [
+                  0.9919354838709677,
+                  0.9235668789808917,
+                  0.9166666666666666
+                ]
+              },
+              "single": {
+                "indices": [
+                  73
+                ],
+                "accuracy": 0.9509733237202596,
+                "loss_change": 0.001254704662489614
+              },
+              "random": {
+                "indices": [
+                  156,
+                  146,
+                  497,
+                  258
+                ],
+                "accuracy": 0.9516943042537851,
+                "loss_change": -0.01760212885835391
+              },
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "recall": [
+                  0.9979838709677419,
+                  0.940552016985138,
+                  0.9095238095238095
+                ]
+              }
+            },
+            "2": {
+              "selected": {
+                "indices": [
+                  508,
+                  268,
+                  509,
+                  89
+                ],
+                "accuracy": 0.9322278298485941,
+                "loss_change": 0.08835951104048059,
+                "recall": [
+                  0.9979838709677419,
+                  0.9256900212314225,
+                  0.861904761904762
+                ]
+              },
+              "single": {
+                "indices": [
+                  508
+                ],
+                "accuracy": 0.9473684210526315,
+                "loss_change": 0.030505561660764624
+              },
+              "random": {
+                "indices": [
+                  339,
+                  168,
+                  216,
+                  436
+                ],
+                "accuracy": 0.9509733237202596,
+                "loss_change": 0.006982620302834891
+              },
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "recall": [
+                  0.9979838709677419,
+                  0.940552016985138,
+                  0.9095238095238095
+                ]
+              }
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "activities": {
+            "0": {
+              "selected": {
+                "indices": [
+                  503,
+                  310,
+                  220,
+                  37
+                ],
+                "accuracy": 0.9408795962509012,
+                "loss_change": 0.03911966522257598,
+                "recall": [
+                  0.9858870967741935,
+                  0.9426751592356688,
+                  0.8857142857142857
+                ]
+              },
+              "single": {
+                "indices": [
+                  503
+                ],
+                "accuracy": 0.9423215573179524,
+                "loss_change": 0.010961880122770634
+              },
+              "random": {
+                "indices": [
+                  236,
+                  359,
+                  20,
+                  387
+                ],
+                "accuracy": 0.9459264599855803,
+                "loss_change": 0.0024243862091817003
+              },
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "recall": [
+                  0.9838709677419355,
+                  0.9447983014861996,
+                  0.9023809523809524
+                ]
+              }
+            },
+            "1": {
+              "selected": {
+                "indices": [
+                  228,
+                  73,
+                  295,
+                  352
+                ],
+                "accuracy": 0.9423215573179524,
+                "loss_change": 0.031177774030089644,
+                "recall": [
+                  0.9818548387096774,
+                  0.9384288747346072,
+                  0.9
+                ]
+              },
+              "single": {
+                "indices": [
+                  228
+                ],
+                "accuracy": 0.9452054794520548,
+                "loss_change": 0.016959577524647662
+              },
+              "random": {
+                "indices": [
+                  420,
+                  213,
+                  184,
+                  227
+                ],
+                "accuracy": 0.9459264599855803,
+                "loss_change": -0.006248938487403072
+              },
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "recall": [
+                  0.9838709677419355,
+                  0.9447983014861996,
+                  0.9023809523809524
+                ]
+              }
+            },
+            "2": {
+              "selected": {
+                "indices": [
+                  508,
+                  268,
+                  89,
+                  509
+                ],
+                "accuracy": 0.9379956741167988,
+                "loss_change": 0.09326396871244919,
+                "recall": [
+                  0.9879032258064516,
+                  0.9384288747346072,
+                  0.8785714285714286
+                ]
+              },
+              "single": {
+                "indices": [
+                  508
+                ],
+                "accuracy": 0.9416005767844268,
+                "loss_change": 0.039859534776045535
+              },
+              "random": {
+                "indices": [
+                  478,
+                  89,
+                  0,
+                  281
+                ],
+                "accuracy": 0.9408795962509012,
+                "loss_change": 0.05621164213677465
+              },
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "recall": [
+                  0.9838709677419355,
+                  0.9447983014861996,
+                  0.9023809523809524
+                ]
+              }
+            }
+          }
+        },
+        {
+          "seed": 31,
+          "activities": {
+            "0": {
+              "selected": {
+                "indices": [
+                  503,
+                  67,
+                  302,
+                  37
+                ],
+                "accuracy": 0.9329488103821196,
+                "loss_change": 0.07243200003742395,
+                "recall": [
+                  0.9858870967741935,
+                  0.9426751592356688,
+                  0.8595238095238096
+                ]
+              },
+              "single": {
+                "indices": [
+                  503
+                ],
+                "accuracy": 0.9408795962509012,
+                "loss_change": 0.018524140245806175
+              },
+              "random": {
+                "indices": [
+                  504,
+                  306,
+                  37,
+                  276
+                ],
+                "accuracy": 0.9387166546503244,
+                "loss_change": 0.02932100423363987
+              },
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "recall": [
+                  0.9858870967741935,
+                  0.940552016985138,
+                  0.9
+                ]
+              }
+            },
+            "1": {
+              "selected": {
+                "indices": [
+                  73,
+                  69,
+                  295,
+                  516
+                ],
+                "accuracy": 0.9343907714491708,
+                "loss_change": 0.025762625656379268,
+                "recall": [
+                  0.9818548387096774,
+                  0.921443736730361,
+                  0.8928571428571429
+                ]
+              },
+              "single": {
+                "indices": [
+                  73
+                ],
+                "accuracy": 0.9416005767844268,
+                "loss_change": 0.009183251961771888
+              },
+              "random": {
+                "indices": [
+                  481,
+                  489,
+                  321,
+                  89
+                ],
+                "accuracy": 0.9379956741167988,
+                "loss_change": 0.0981883162519232
+              },
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "recall": [
+                  0.9858870967741935,
+                  0.940552016985138,
+                  0.9
+                ]
+              }
+            },
+            "2": {
+              "selected": {
+                "indices": [
+                  508,
+                  302,
+                  509,
+                  15
+                ],
+                "accuracy": 0.9343907714491708,
+                "loss_change": 0.08145202390558975,
+                "recall": [
+                  0.9899193548387096,
+                  0.9384288747346072,
+                  0.8642857142857143
+                ]
+              },
+              "single": {
+                "indices": [
+                  508
+                ],
+                "accuracy": 0.9379956741167988,
+                "loss_change": 0.0318568827190428
+              },
+              "random": {
+                "indices": [
+                  247,
+                  490,
+                  212,
+                  318
+                ],
+                "accuracy": 0.9459264599855803,
+                "loss_change": -0.020160591460633787
+              },
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "recall": [
+                  0.9858870967741935,
+                  0.940552016985138,
+                  0.9
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mismatch": "negative or seed-dependent changes weaken causal interpretation.",
+      "revised_hypothesis": "feature combinations are necessary under this model, but not necessarily uniquely causal."
+    },
+    {
+      "name": "activation_direction_intervention",
+      "hypothesis": "removing one activity direction selectively reduces that activity recall more than removing a random direction.",
+      "experiment": "full and half projection removal from hidden layer 2 on dynamic test subset",
+      "result": [
+        {
+          "seed": 7,
+          "activities": {
+            "0": {
+              "target_label": 0,
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "target_recall": 0.9919354838709677
+              },
+              "selected_full": {
+                "accuracy": 0.6604181687094448,
+                "loss_change": 1.03085097666029,
+                "target_recall": 0.17137096774193547
+              },
+              "selected_half": {
+                "accuracy": 0.958904109589041,
+                "loss_change": -0.01962948760028954,
+                "target_recall": 0.969758064516129
+              },
+              "random_direction": {
+                "accuracy": 0.9531362653208363,
+                "loss_change": 0.003881031949122038,
+                "target_recall": 0.9919354838709677
+              }
+            },
+            "1": {
+              "target_label": 1,
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "target_recall": 0.9490445859872612
+              },
+              "selected_full": {
+                "accuracy": 0.6496034607065609,
+                "loss_change": 1.6367443822858472,
+                "target_recall": 0.09978768577494693
+              },
+              "selected_half": {
+                "accuracy": 0.9077144917087239,
+                "loss_change": 0.1488292680476866,
+                "target_recall": 0.8067940552016986
+              },
+              "random_direction": {
+                "accuracy": 0.9524152847873107,
+                "loss_change": -0.002274276938441122,
+                "target_recall": 0.9532908704883227
+              }
+            },
+            "2": {
+              "target_label": 2,
+              "baseline": {
+                "accuracy": 0.9531362653208363,
+                "target_recall": 0.9119047619047619
+              },
+              "selected_full": {
+                "accuracy": 0.7361211247296323,
+                "loss_change": 1.4166071666908122,
+                "target_recall": 0.3547619047619048
+              },
+              "selected_half": {
+                "accuracy": 0.9336697909156453,
+                "loss_change": 0.1255314997501516,
+                "target_recall": 0.8238095238095238
+              },
+              "random_direction": {
+                "accuracy": 0.9473684210526315,
+                "loss_change": 0.036122645414017024,
+                "target_recall": 0.8785714285714286
+              }
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "activities": {
+            "0": {
+              "target_label": 0,
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "target_recall": 0.9919354838709677
+              },
+              "selected_full": {
+                "accuracy": 0.6524873828406633,
+                "loss_change": 0.967361585640475,
+                "target_recall": 0.12903225806451613
+              },
+              "selected_half": {
+                "accuracy": 0.9646719538572458,
+                "loss_change": -0.02716760297059724,
+                "target_recall": 0.967741935483871
+              },
+              "random_direction": {
+                "accuracy": 0.9603460706560922,
+                "loss_change": -0.0002994097251818595,
+                "target_recall": 0.9919354838709677
+              }
+            },
+            "1": {
+              "target_label": 1,
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "target_recall": 0.9532908704883227
+              },
+              "selected_full": {
+                "accuracy": 0.6669069935111752,
+                "loss_change": 1.293486840604512,
+                "target_recall": 0.1316348195329087
+              },
+              "selected_half": {
+                "accuracy": 0.9336697909156453,
+                "loss_change": 0.07436387853882365,
+                "target_recall": 0.861995753715499
+              },
+              "random_direction": {
+                "accuracy": 0.9560201874549387,
+                "loss_change": 0.011993941377056672,
+                "target_recall": 0.9554140127388535
+              }
+            },
+            "2": {
+              "target_label": 2,
+              "baseline": {
+                "accuracy": 0.9610670511896179,
+                "target_recall": 0.9333333333333333
+              },
+              "selected_full": {
+                "accuracy": 0.7317952415284787,
+                "loss_change": 1.1170322368622676,
+                "target_recall": 0.5261904761904762
+              },
+              "selected_half": {
+                "accuracy": 0.9365537130497477,
+                "loss_change": 0.13316183632592066,
+                "target_recall": 0.8571428571428571
+              },
+              "random_direction": {
+                "accuracy": 0.9596250901225667,
+                "loss_change": -0.005778964354179045,
+                "target_recall": 0.9333333333333333
+              }
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "activities": {
+            "0": {
+              "target_label": 0,
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "target_recall": 0.9979838709677419
+              },
+              "selected_full": {
+                "accuracy": 0.6279740447007931,
+                "loss_change": 0.8985750036943639,
+                "target_recall": 0.05040322580645161
+              },
+              "selected_half": {
+                "accuracy": 0.9502523431867339,
+                "loss_change": -0.021403618297581806,
+                "target_recall": 0.9596774193548387
+              },
+              "random_direction": {
+                "accuracy": 0.9495313626532084,
+                "loss_change": 0.0030173568025612663,
+                "target_recall": 0.9979838709677419
+              }
+            },
+            "1": {
+              "target_label": 1,
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "target_recall": 0.940552016985138
+              },
+              "selected_full": {
+                "accuracy": 0.6676279740447008,
+                "loss_change": 1.2285920851927412,
+                "target_recall": 0.09341825902335456
+              },
+              "selected_half": {
+                "accuracy": 0.9192501802451334,
+                "loss_change": 0.08569080420867611,
+                "target_recall": 0.8237791932059448
+              },
+              "random_direction": {
+                "accuracy": 0.9574621485219899,
+                "loss_change": -0.032316301270954945,
+                "target_recall": 0.9426751592356688
+              }
+            },
+            "2": {
+              "target_label": 2,
+              "baseline": {
+                "accuracy": 0.9516943042537851,
+                "target_recall": 0.9095238095238095
+              },
+              "selected_full": {
+                "accuracy": 0.7375630857966835,
+                "loss_change": 0.8359034408335838,
+                "target_recall": 0.3357142857142857
+              },
+              "selected_half": {
+                "accuracy": 0.9365537130497477,
+                "loss_change": 0.08637245224288678,
+                "target_recall": 0.8547619047619047
+              },
+              "random_direction": {
+                "accuracy": 0.9509733237202596,
+                "loss_change": -0.004628513270793472,
+                "target_recall": 0.9071428571428571
+              }
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "activities": {
+            "0": {
+              "target_label": 0,
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "target_recall": 0.9838709677419355
+              },
+              "selected_full": {
+                "accuracy": 0.6186012977649603,
+                "loss_change": 1.167546912317953,
+                "target_recall": 0.03225806451612903
+              },
+              "selected_half": {
+                "accuracy": 0.9452054794520548,
+                "loss_change": -0.0050799542373705375,
+                "target_recall": 0.9375
+              },
+              "random_direction": {
+                "accuracy": 0.9480894015861572,
+                "loss_change": 0.0018488118428527656,
+                "target_recall": 0.9818548387096774
+              }
+            },
+            "1": {
+              "target_label": 1,
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "target_recall": 0.9447983014861996
+              },
+              "selected_full": {
+                "accuracy": 0.6596971881759193,
+                "loss_change": 1.1251844856546174,
+                "target_recall": 0.07430997876857749
+              },
+              "selected_half": {
+                "accuracy": 0.9170872386445565,
+                "loss_change": 0.05316923021511577,
+                "target_recall": 0.8343949044585988
+              },
+              "random_direction": {
+                "accuracy": 0.9488103821196827,
+                "loss_change": -0.0037125082698804823,
+                "target_recall": 0.9554140127388535
+              }
+            },
+            "2": {
+              "target_label": 2,
+              "baseline": {
+                "accuracy": 0.9459264599855803,
+                "target_recall": 0.9023809523809524
+              },
+              "selected_full": {
+                "accuracy": 0.7245854361932228,
+                "loss_change": 0.9439902556533114,
+                "target_recall": 0.40714285714285714
+              },
+              "selected_half": {
+                "accuracy": 0.935832732516222,
+                "loss_change": 0.08658108838027728,
+                "target_recall": 0.8642857142857143
+              },
+              "random_direction": {
+                "accuracy": 0.9516943042537851,
+                "loss_change": -0.019945836273418532,
+                "target_recall": 0.9095238095238095
+              }
+            }
+          }
+        },
+        {
+          "seed": 31,
+          "activities": {
+            "0": {
+              "target_label": 0,
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "target_recall": 0.9858870967741935
+              },
+              "selected_full": {
+                "accuracy": 0.7274693583273252,
+                "loss_change": 0.9243876992265234,
+                "target_recall": 0.3487903225806452
+              },
+              "selected_half": {
+                "accuracy": 0.9279019466474405,
+                "loss_change": 0.04832091465355848,
+                "target_recall": 0.905241935483871
+              },
+              "random_direction": {
+                "accuracy": 0.9322278298485941,
+                "loss_change": 0.05933778752283697,
+                "target_recall": 0.9818548387096774
+              }
+            },
+            "1": {
+              "target_label": 1,
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "target_recall": 0.940552016985138
+              },
+              "selected_full": {
+                "accuracy": 0.6481614996395098,
+                "loss_change": 1.2146240354681284,
+                "target_recall": 0.01910828025477707
+              },
+              "selected_half": {
+                "accuracy": 0.9120403749098774,
+                "loss_change": 0.03381474209428609,
+                "target_recall": 0.8110403397027601
+              },
+              "random_direction": {
+                "accuracy": 0.9365537130497477,
+                "loss_change": 0.016028586505437037,
+                "target_recall": 0.910828025477707
+              }
+            },
+            "2": {
+              "target_label": 2,
+              "baseline": {
+                "accuracy": 0.9444844989185291,
+                "target_recall": 0.9
+              },
+              "selected_full": {
+                "accuracy": 0.7238644556596971,
+                "loss_change": 1.022855235365961,
+                "target_recall": 0.3238095238095238
+              },
+              "selected_half": {
+                "accuracy": 0.9257390050468637,
+                "loss_change": 0.10397465726121519,
+                "target_recall": 0.85
+              },
+              "random_direction": {
+                "accuracy": 0.943042537851478,
+                "loss_change": 0.004159038194575471,
+                "target_recall": 0.9
+              }
+            }
+          }
+        }
+      ],
+      "mismatch": "broad accuracy loss without selective target recall loss means the direction is not activity-specific.",
+      "revised_hypothesis": "directions are useful decision coordinates but may be entangled with neighboring activity boundaries."
+    },
+    {
+      "name": "human_structure",
+      "hypothesis": "temporal feature family combination\u2192distributed direction score\u2192activity judgment is a readable approximation.",
+      "experiment": "report controlled feature representatives, joint R2, projection intervention, and target recall per activity",
+      "result": {
+        "structure": "feature family representatives -> one-vs-rest direction score -> six-class output",
+        "caveat": "not a causal symbolic rule and not guaranteed unique across seeds"
+      },
+      "mismatch": "seed variation and correlated feature families prevent a unique final formula.",
+      "revised_hypothesis": "the stable object is a family-level computational motif, not a single formula."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "input_sources": [
+    "sensor_baseline.json",
+    "sensor_train.json",
+    "sensor_test.json",
+    "sensor_fresh.json"
+  ],
+  "generator_used": false,
+  "node_role_correlations": [
+    {
+      "node": 0,
+      "top_candidate_roles": [
+        {
+          "name": "rms",
+          "correlation": -0.8365255554256067
+        },
+        {
+          "name": "mean_abs",
+          "correlation": -0.8239694835340655
+        },
+        {
+          "name": "mean_abs_change",
+          "correlation": -0.7226274522194548
+        },
+        {
+          "name": "channel_1_rms",
+          "correlation": -0.6786731630447145
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "top_candidate_roles": [
+        {
+          "name": "channel_2_rms",
+          "correlation": 0.7108346613984925
+        },
+        {
+          "name": "channel_2_change",
+          "correlation": 0.6572085965616006
+        },
+        {
+          "name": "channel_0_rms",
+          "correlation": -0.49874480806823784
+        },
+        {
+          "name": "channel_0_change",
+          "correlation": -0.4768722743996138
+        }
+      ]
+    },
+    {
+      "node": 2,
+      "top_candidate_roles": [
+        {
+          "name": "trend",
+          "correlation": -0.4881410681887667
+        },
+        {
+          "name": "channel_0_change",
+          "correlation": -0.4021931728793388
+        },
+        {
+          "name": "channel_2_change",
+          "correlation": 0.40010378606326436
+        },
+        {
+          "name": "channel_2_rms",
+          "correlation": 0.37312048628218475
+        }
+      ]
+    },
+    {
+      "node": 3,
+      "top_candidate_roles": [
+        {
+          "name": "channel_0_rms",
+          "correlation": 0.6880327950798876
+        },
+        {
+          "name": "mean_abs_change",
+          "correlation": 0.6537261794114526
+        },
+        {
+          "name": "channel_0_change",
+          "correlation": 0.649857367996987
+        },
+        {
+          "name": "rms",
+          "correlation": 0.6310074681285658
+        }
+      ]
+    }
+  ],
+  "selected_roles": [
+    "rms",
+    "mean_abs",
+    "mean_abs_change",
+    "channel_2_rms",
+    "channel_0_rms",
+    "channel_1_rms",
+    "channel_2_change"
+  ],
+  "baseline": {
+    "train": 0.99,
+    "test": 0.92,
+    "fresh": 0.905
+  },
+  "blind_redesign": {
+    "train": 0.955,
+    "test": 0.95,
+    "fresh": 0.9425,
+    "parameters": 32
+  }
+}

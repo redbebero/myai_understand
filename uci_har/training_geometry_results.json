@@ -1,0 +1,1446 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "checkpoints": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      80
+    ],
+    "onset_fraction": 0.1
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "checkpoints": [
+        {
+          "epoch": 0,
+          "accuracy": 0.07329487614523245,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.33621231694317233,
+              "between_variance": 0.21065438559497082,
+              "separation_ratio": 0.6265516608975878,
+              "nearest_centroid_accuracy": 0.7556837461825585,
+              "same_class_distance": 6.093800284297147,
+              "different_class_distance": 8.19166487211577,
+              "distance_gap": 2.0978645878186226
+            },
+            "hidden2": {
+              "within_variance": 0.23853639730236179,
+              "between_variance": 0.0777521777303956,
+              "separation_ratio": 0.32595519430034486,
+              "nearest_centroid_accuracy": 0.6243637597556837,
+              "same_class_distance": 3.602504411727454,
+              "different_class_distance": 4.314288543907154,
+              "distance_gap": 0.7117841321797003
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1533763148965049,
+          "random_subspace_removed_accuracy": 0.07567017305734645,
+          "subspace_effect": -0.08008143875127247,
+          "hidden2_separation_gain": 0.0,
+          "accuracy_gain": 0.0
+        },
+        {
+          "epoch": 1,
+          "accuracy": 0.9032914828639295,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.8774249245468219,
+              "between_variance": 2.4791634868797012,
+              "separation_ratio": 2.825499273524918,
+              "nearest_centroid_accuracy": 0.8099762470308789,
+              "same_class_distance": 8.509742409614487,
+              "different_class_distance": 19.63894487656337,
+              "distance_gap": 11.129202466948884
+            },
+            "hidden2": {
+              "within_variance": 1.1929419321109647,
+              "between_variance": 4.13667586133877,
+              "separation_ratio": 3.4676254979307632,
+              "nearest_centroid_accuracy": 0.831014591109603,
+              "same_class_distance": 6.515278842954895,
+              "different_class_distance": 17.521614789335125,
+              "distance_gap": 11.00633594638023
+            }
+          },
+          "class_subspace_removed_accuracy": 0.2002035968781812,
+          "random_subspace_removed_accuracy": 0.9015948422124194,
+          "subspace_effect": 0.7030878859857482,
+          "hidden2_separation_gain": 3.1416703036304185,
+          "accuracy_gain": 0.829996606718697
+        },
+        {
+          "epoch": 2,
+          "accuracy": 0.9216152019002375,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.9229923156132588,
+              "between_variance": 2.7516836920101255,
+              "separation_ratio": 2.981263923288288,
+              "nearest_centroid_accuracy": 0.8496776382762131,
+              "same_class_distance": 8.722294890533862,
+              "different_class_distance": 20.67733887582032,
+              "distance_gap": 11.955043985286457
+            },
+            "hidden2": {
+              "within_variance": 1.3400577642481932,
+              "between_variance": 4.924579937898799,
+              "separation_ratio": 3.6749012387996682,
+              "nearest_centroid_accuracy": 0.8866644044791313,
+              "same_class_distance": 6.925932874439538,
+              "different_class_distance": 19.231938933873316,
+              "distance_gap": 12.306006059433777
+            }
+          },
+          "class_subspace_removed_accuracy": 0.22293858160841534,
+          "random_subspace_removed_accuracy": 0.9297590770274856,
+          "subspace_effect": 0.6986766202918222,
+          "hidden2_separation_gain": 3.3489460444993235,
+          "accuracy_gain": 0.848320325755005
+        },
+        {
+          "epoch": 5,
+          "accuracy": 0.9365456396335257,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.9763225385508117,
+              "between_variance": 3.1520168728284657,
+              "separation_ratio": 3.228458576309331,
+              "nearest_centroid_accuracy": 0.8761452324397693,
+              "same_class_distance": 9.00758076207046,
+              "different_class_distance": 22.096570150597326,
+              "distance_gap": 13.088989388526866
+            },
+            "hidden2": {
+              "within_variance": 1.5404351298653263,
+              "between_variance": 6.187747824427569,
+              "separation_ratio": 4.016883090019206,
+              "nearest_centroid_accuracy": 0.9131319986426875,
+              "same_class_distance": 7.4884546578289735,
+              "different_class_distance": 21.66713385450508,
+              "distance_gap": 14.178679196676107
+            }
+          },
+          "class_subspace_removed_accuracy": 0.2188666440447913,
+          "random_subspace_removed_accuracy": 0.9358669833729216,
+          "subspace_effect": 0.7176789955887344,
+          "hidden2_separation_gain": 3.6909278957188616,
+          "accuracy_gain": 0.8632507634882932
+        },
+        {
+          "epoch": 10,
+          "accuracy": 0.9321343739395996,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.0343615020264534,
+              "between_variance": 3.357723841839857,
+              "separation_ratio": 3.246180213843636,
+              "nearest_centroid_accuracy": 0.8920936545639634,
+              "same_class_distance": 9.330406718599628,
+              "different_class_distance": 22.9758687846066,
+              "distance_gap": 13.645462066006973
+            },
+            "hidden2": {
+              "within_variance": 1.7552991540710858,
+              "between_variance": 7.040937636269469,
+              "separation_ratio": 4.011246527373604,
+              "nearest_centroid_accuracy": 0.9246691550729556,
+              "same_class_distance": 8.075822912950953,
+              "different_class_distance": 23.434853773475034,
+              "distance_gap": 15.359030860524081
+            }
+          },
+          "class_subspace_removed_accuracy": 0.20868680013573127,
+          "random_subspace_removed_accuracy": 0.9334916864608076,
+          "subspace_effect": 0.7234475738038684,
+          "hidden2_separation_gain": 3.6852913330732595,
+          "accuracy_gain": 0.8588394977943672
+        },
+        {
+          "epoch": 20,
+          "accuracy": 0.9382422802850356,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.12688610662012,
+              "between_variance": 3.598389035274925,
+              "separation_ratio": 3.1932144820452235,
+              "nearest_centroid_accuracy": 0.8998982015609094,
+              "same_class_distance": 9.924771794994623,
+              "different_class_distance": 24.04092501370462,
+              "distance_gap": 14.116153218709997
+            },
+            "hidden2": {
+              "within_variance": 2.148994931621896,
+              "between_variance": 8.429803763395823,
+              "separation_ratio": 3.9226727059024076,
+              "nearest_centroid_accuracy": 0.9334916864608076,
+              "same_class_distance": 9.111351295281743,
+              "different_class_distance": 25.95917840892402,
+              "distance_gap": 16.84782711364228
+            }
+          },
+          "class_subspace_removed_accuracy": 0.2032575500508992,
+          "random_subspace_removed_accuracy": 0.9382422802850356,
+          "subspace_effect": 0.7349847302341365,
+          "hidden2_separation_gain": 3.596717511602063,
+          "accuracy_gain": 0.8649474041398032
+        },
+        {
+          "epoch": 80,
+          "accuracy": 0.9436715303698676,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.3774424327931427,
+              "between_variance": 4.621186569320601,
+              "separation_ratio": 3.3549035947367156,
+              "nearest_centroid_accuracy": 0.9080420766881574,
+              "same_class_distance": 11.311086754808953,
+              "different_class_distance": 27.416449101780117,
+              "distance_gap": 16.105362346971162
+            },
+            "hidden2": {
+              "within_variance": 3.2098780845580013,
+              "between_variance": 12.737733294646532,
+              "separation_ratio": 3.9682919285704,
+              "nearest_centroid_accuracy": 0.9331523583305056,
+              "same_class_distance": 11.578270584043615,
+              "different_class_distance": 32.490310642946426,
+              "distance_gap": 20.91204005890281
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1828978622327791,
+          "random_subspace_removed_accuracy": 0.9409569053274517,
+          "subspace_effect": 0.7607736681370885,
+          "hidden2_separation_gain": 3.642336734270055,
+          "accuracy_gain": 0.8703766542246352
+        }
+      ],
+      "onset_10pct": {
+        "accuracy": 1,
+        "hidden2_geometry": 1
+      }
+    },
+    {
+      "seed": 11,
+      "checkpoints": [
+        {
+          "epoch": 0,
+          "accuracy": 0.15812690872073296,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.35278840920749377,
+              "between_variance": 0.2710973852299183,
+              "separation_ratio": 0.7684418709756174,
+              "nearest_centroid_accuracy": 0.7265015269765863,
+              "same_class_distance": 6.086805452257551,
+              "different_class_distance": 8.623085463769524,
+              "distance_gap": 2.5362800115119724
+            },
+            "hidden2": {
+              "within_variance": 0.26753589344046075,
+              "between_variance": 0.17758284197430027,
+              "separation_ratio": 0.6637720258415373,
+              "nearest_centroid_accuracy": 0.6230064472344757,
+              "same_class_distance": 3.774546873208193,
+              "different_class_distance": 5.109881548160246,
+              "distance_gap": 1.335334674952053
+            }
+          },
+          "class_subspace_removed_accuracy": 0.18629114353579912,
+          "random_subspace_removed_accuracy": 0.16287750254496097,
+          "subspace_effect": -0.028164234815066164,
+          "hidden2_separation_gain": 0.0,
+          "accuracy_gain": 0.0
+        },
+        {
+          "epoch": 1,
+          "accuracy": 0.9063454360366474,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.6434027210678774,
+              "between_variance": 1.9408465272601816,
+              "separation_ratio": 3.016534533828039,
+              "nearest_centroid_accuracy": 0.819138106549033,
+              "same_class_distance": 7.858922042752436,
+              "different_class_distance": 17.744162833224852,
+              "distance_gap": 9.885240790472416
+            },
+            "hidden2": {
+              "within_variance": 0.8170099586954106,
+              "between_variance": 3.0770515387418,
+              "separation_ratio": 3.766235045231505,
+              "nearest_centroid_accuracy": 0.8510349507974211,
+              "same_class_distance": 6.2202927257083065,
+              "different_class_distance": 15.77400324505245,
+              "distance_gap": 9.553710519344143
+            }
+          },
+          "class_subspace_removed_accuracy": 0.17543264336613507,
+          "random_subspace_removed_accuracy": 0.8720732948761453,
+          "subspace_effect": 0.7309127926705123,
+          "hidden2_separation_gain": 3.102463019389968,
+          "accuracy_gain": 0.7482185273159144
+        },
+        {
+          "epoch": 2,
+          "accuracy": 0.9324737020699015,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.677516267565184,
+              "between_variance": 2.1871238333719734,
+              "separation_ratio": 3.228149548691906,
+              "nearest_centroid_accuracy": 0.8690193417034272,
+              "same_class_distance": 7.9978977882952895,
+              "different_class_distance": 18.730667768545903,
+              "distance_gap": 10.732769980250612
+            },
+            "hidden2": {
+              "within_variance": 0.9218977741774858,
+              "between_variance": 3.6366092086395576,
+              "separation_ratio": 3.944698979107666,
+              "nearest_centroid_accuracy": 0.8941296233457754,
+              "same_class_distance": 6.55880835702727,
+              "different_class_distance": 17.19309082097442,
+              "distance_gap": 10.634282463947148
+            }
+          },
+          "class_subspace_removed_accuracy": 0.19341703427214116,
+          "random_subspace_removed_accuracy": 0.9236511706820495,
+          "subspace_effect": 0.7390566677977604,
+          "hidden2_separation_gain": 3.2809269532661287,
+          "accuracy_gain": 0.7743467933491686
+        },
+        {
+          "epoch": 5,
+          "accuracy": 0.9389209365456397,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7214996762850959,
+              "between_variance": 2.5306579309308157,
+              "separation_ratio": 3.507496973471742,
+              "nearest_centroid_accuracy": 0.8941296233457754,
+              "same_class_distance": 8.276582809400805,
+              "different_class_distance": 20.08517978608851,
+              "distance_gap": 11.808596976687705
+            },
+            "hidden2": {
+              "within_variance": 1.082039303634396,
+              "between_variance": 4.406485941765018,
+              "separation_ratio": 4.0723899094647855,
+              "nearest_centroid_accuracy": 0.9158466236851035,
+              "same_class_distance": 7.124316159717018,
+              "different_class_distance": 19.086910017082193,
+              "distance_gap": 11.962593857365174
+            }
+          },
+          "class_subspace_removed_accuracy": 0.2022395656599932,
+          "random_subspace_removed_accuracy": 0.9314557176789956,
+          "subspace_effect": 0.7366813708856464,
+          "hidden2_separation_gain": 3.4086178836232484,
+          "accuracy_gain": 0.7807940278249067
+        },
+        {
+          "epoch": 10,
+          "accuracy": 0.9341703427214116,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7782045255996092,
+              "between_variance": 2.7052699772896625,
+              "separation_ratio": 3.4762968966355507,
+              "nearest_centroid_accuracy": 0.9093993892093655,
+              "same_class_distance": 8.662154408699843,
+              "different_class_distance": 20.898897591780962,
+              "distance_gap": 12.236743183081119
+            },
+            "hidden2": {
+              "within_variance": 1.2575601541666324,
+              "between_variance": 5.17139719608731,
+              "separation_ratio": 4.112246383565105,
+              "nearest_centroid_accuracy": 0.9267051238547676,
+              "same_class_distance": 7.693722749248384,
+              "different_class_distance": 20.788669505771708,
+              "distance_gap": 13.094946756523324
+            }
+          },
+          "class_subspace_removed_accuracy": 0.19205972175093317,
+          "random_subspace_removed_accuracy": 0.9399389209365456,
+          "subspace_effect": 0.7421106209704784,
+          "hidden2_separation_gain": 3.4484743577235677,
+          "accuracy_gain": 0.7760434340006787
+        },
+        {
+          "epoch": 20,
+          "accuracy": 0.9412962334577536,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.8912610233816759,
+              "between_variance": 2.9363871064869165,
+              "separation_ratio": 3.294643240815694,
+              "nearest_centroid_accuracy": 0.9158466236851035,
+              "same_class_distance": 9.3752178571302,
+              "different_class_distance": 21.99419593634877,
+              "distance_gap": 12.61897807921857
+            },
+            "hidden2": {
+              "within_variance": 1.5521094793157406,
+              "between_variance": 6.070056871060534,
+              "separation_ratio": 3.910843243955037,
+              "nearest_centroid_accuracy": 0.9321343739395996,
+              "same_class_distance": 8.602731922308035,
+              "different_class_distance": 22.732314918874998,
+              "distance_gap": 14.129582996566963
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1981676280963692,
+          "random_subspace_removed_accuracy": 0.9429928741092637,
+          "subspace_effect": 0.7431286053613844,
+          "hidden2_separation_gain": 3.2470712181134997,
+          "accuracy_gain": 0.7831693247370206
+        },
+        {
+          "epoch": 80,
+          "accuracy": 0.9457074991516796,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.1090713542600559,
+              "between_variance": 3.929163048232139,
+              "separation_ratio": 3.542750457975336,
+              "nearest_centroid_accuracy": 0.9202578893790295,
+              "same_class_distance": 10.536078835492418,
+              "different_class_distance": 25.298034487304726,
+              "distance_gap": 14.761955651812308
+            },
+            "hidden2": {
+              "within_variance": 2.394817318855101,
+              "between_variance": 9.675919000167177,
+              "separation_ratio": 4.040357869464957,
+              "nearest_centroid_accuracy": 0.9372242958941296,
+              "same_class_distance": 10.729480659051587,
+              "different_class_distance": 28.79712725429973,
+              "distance_gap": 18.067646595248142
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1818798778418731,
+          "random_subspace_removed_accuracy": 0.9423142178486597,
+          "subspace_effect": 0.7638276213098065,
+          "hidden2_separation_gain": 3.37658584362342,
+          "accuracy_gain": 0.7875805904309466
+        }
+      ],
+      "onset_10pct": {
+        "accuracy": 1,
+        "hidden2_geometry": 1
+      }
+    },
+    {
+      "seed": 19,
+      "checkpoints": [
+        {
+          "epoch": 0,
+          "accuracy": 0.2568713946386155,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.3369616493310539,
+              "between_variance": 0.19704795640333136,
+              "separation_ratio": 0.5847785847277183,
+              "nearest_centroid_accuracy": 0.7244655581947743,
+              "same_class_distance": 6.085397305519684,
+              "different_class_distance": 8.102089580685718,
+              "distance_gap": 2.016692275166034
+            },
+            "hidden2": {
+              "within_variance": 0.27450133910823726,
+              "between_variance": 0.12009075302348741,
+              "separation_ratio": 0.43748694783647313,
+              "nearest_centroid_accuracy": 0.652867322701052,
+              "same_class_distance": 3.8930832712724057,
+              "different_class_distance": 4.917196997835049,
+              "distance_gap": 1.0241137265626432
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1465897522904649,
+          "random_subspace_removed_accuracy": 0.25856803529012556,
+          "subspace_effect": 0.11028164234815063,
+          "hidden2_separation_gain": 0.0,
+          "accuracy_gain": 0.0
+        },
+        {
+          "epoch": 1,
+          "accuracy": 0.9073634204275535,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7148397701206465,
+              "between_variance": 1.9991616803283065,
+              "separation_ratio": 2.796657046642634,
+              "nearest_centroid_accuracy": 0.8177807940278249,
+              "same_class_distance": 8.292366322665513,
+              "different_class_distance": 18.111826265767736,
+              "distance_gap": 9.819459943102222
+            },
+            "hidden2": {
+              "within_variance": 1.0468272089031663,
+              "between_variance": 3.3411873514164228,
+              "separation_ratio": 3.191727653809474,
+              "nearest_centroid_accuracy": 0.846284356973193,
+              "same_class_distance": 6.608741324488023,
+              "different_class_distance": 16.45678786835689,
+              "distance_gap": 9.848046543868868
+            }
+          },
+          "class_subspace_removed_accuracy": 0.16152019002375298,
+          "random_subspace_removed_accuracy": 0.8751272480488632,
+          "subspace_effect": 0.7458432304038005,
+          "hidden2_separation_gain": 2.7542407059730007,
+          "accuracy_gain": 0.6504920257889379
+        },
+        {
+          "epoch": 2,
+          "accuracy": 0.9304377332880895,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7571565074403201,
+              "between_variance": 2.2707573283364293,
+              "separation_ratio": 2.9990593833936146,
+              "nearest_centroid_accuracy": 0.8523922633186292,
+              "same_class_distance": 8.513120554846228,
+              "different_class_distance": 19.165469354087307,
+              "distance_gap": 10.652348799241079
+            },
+            "hidden2": {
+              "within_variance": 1.1947674655603158,
+              "between_variance": 3.897891824526212,
+              "separation_ratio": 3.2624690049608938,
+              "nearest_centroid_accuracy": 0.8920936545639634,
+              "same_class_distance": 7.0929725834853725,
+              "different_class_distance": 17.89472737870065,
+              "distance_gap": 10.801754795215277
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1319986426874788,
+          "random_subspace_removed_accuracy": 0.9029521547336274,
+          "subspace_effect": 0.7984390906006107,
+          "hidden2_separation_gain": 2.8249820571244206,
+          "accuracy_gain": 0.673566338649474
+        },
+        {
+          "epoch": 5,
+          "accuracy": 0.9365456396335257,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7937366125046901,
+              "between_variance": 2.451203714219734,
+              "separation_ratio": 3.0881827492936145,
+              "nearest_centroid_accuracy": 0.8900576857821514,
+              "same_class_distance": 8.680393477846973,
+              "different_class_distance": 19.95199646900512,
+              "distance_gap": 11.271602991158147
+            },
+            "hidden2": {
+              "within_variance": 1.3452302691347828,
+              "between_variance": 4.667375127640211,
+              "separation_ratio": 3.4695733769372774,
+              "nearest_centroid_accuracy": 0.9192399049881235,
+              "same_class_distance": 7.534902128483127,
+              "different_class_distance": 19.709981637846546,
+              "distance_gap": 12.17507950936342
+            }
+          },
+          "class_subspace_removed_accuracy": 0.12826603325415678,
+          "random_subspace_removed_accuracy": 0.9083814048184594,
+          "subspace_effect": 0.8082796063793689,
+          "hidden2_separation_gain": 3.0320864291008043,
+          "accuracy_gain": 0.6796742449949101
+        },
+        {
+          "epoch": 10,
+          "accuracy": 0.9382422802850356,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.8365463812185322,
+              "between_variance": 2.624919106213658,
+              "separation_ratio": 3.137804627628826,
+              "nearest_centroid_accuracy": 0.9093993892093655,
+              "same_class_distance": 8.972104982018093,
+              "different_class_distance": 20.74637742866776,
+              "distance_gap": 11.774272446649666
+            },
+            "hidden2": {
+              "within_variance": 1.5012898446941814,
+              "between_variance": 5.258021913669361,
+              "separation_ratio": 3.5023362958539432,
+              "nearest_centroid_accuracy": 0.9331523583305056,
+              "same_class_distance": 8.043640189943252,
+              "different_class_distance": 21.11160686014497,
+              "distance_gap": 13.067966670201718
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1309806582965728,
+          "random_subspace_removed_accuracy": 0.9158466236851035,
+          "subspace_effect": 0.8072616219884629,
+          "hidden2_separation_gain": 3.06484934801747,
+          "accuracy_gain": 0.6813708856464201
+        },
+        {
+          "epoch": 20,
+          "accuracy": 0.9426535459789617,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.90785438176037,
+              "between_variance": 2.736360023638037,
+              "separation_ratio": 3.0140957389357017,
+              "nearest_centroid_accuracy": 0.9165252799457075,
+              "same_class_distance": 9.492710360956876,
+              "different_class_distance": 21.490586168978655,
+              "distance_gap": 11.99787580802178
+            },
+            "hidden2": {
+              "within_variance": 1.730765168430026,
+              "between_variance": 5.936765012369714,
+              "separation_ratio": 3.4301389470155232,
+              "nearest_centroid_accuracy": 0.9385816084153377,
+              "same_class_distance": 8.791335868556105,
+              "different_class_distance": 22.742792573473526,
+              "distance_gap": 13.95145670491742
+            }
+          },
+          "class_subspace_removed_accuracy": 0.12521208008143875,
+          "random_subspace_removed_accuracy": 0.9267051238547676,
+          "subspace_effect": 0.8174414658975229,
+          "hidden2_separation_gain": 2.99265199917905,
+          "accuracy_gain": 0.6857821513403461
+        },
+        {
+          "epoch": 80,
+          "accuracy": 0.9433322022395657,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.1390489952434144,
+              "between_variance": 3.5314004246077353,
+              "separation_ratio": 3.100305991537332,
+              "nearest_centroid_accuracy": 0.9270444519850696,
+              "same_class_distance": 10.827857527417539,
+              "different_class_distance": 24.58335796916598,
+              "distance_gap": 13.755500441748442
+            },
+            "hidden2": {
+              "within_variance": 2.6063980338508883,
+              "between_variance": 9.74344760837773,
+              "separation_ratio": 3.738280754448709,
+              "nearest_centroid_accuracy": 0.9416355615880556,
+              "same_class_distance": 11.046815678403432,
+              "different_class_distance": 29.234432531687137,
+              "distance_gap": 18.187616853283707
+            }
+          },
+          "class_subspace_removed_accuracy": 0.12317611129962674,
+          "random_subspace_removed_accuracy": 0.9362063115032236,
+          "subspace_effect": 0.820156090939939,
+          "hidden2_separation_gain": 3.3007938066122358,
+          "accuracy_gain": 0.6864608076009502
+        }
+      ],
+      "onset_10pct": {
+        "accuracy": 1,
+        "hidden2_geometry": 1
+      }
+    },
+    {
+      "seed": 23,
+      "checkpoints": [
+        {
+          "epoch": 0,
+          "accuracy": 0.14183915846623685,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.33429365087108304,
+              "between_variance": 0.19349645708806973,
+              "separation_ratio": 0.5788218130492992,
+              "nearest_centroid_accuracy": 0.7349847302341365,
+              "same_class_distance": 6.041385434945185,
+              "different_class_distance": 8.038376341021005,
+              "distance_gap": 1.99699090607582
+            },
+            "hidden2": {
+              "within_variance": 0.2832368147369889,
+              "between_variance": 0.10837767613341719,
+              "separation_ratio": 0.3826397929028248,
+              "nearest_centroid_accuracy": 0.66949440108585,
+              "same_class_distance": 3.7914434906972416,
+              "different_class_distance": 4.745633456675727,
+              "distance_gap": 0.9541899659784856
+            }
+          },
+          "class_subspace_removed_accuracy": 0.15473362741771293,
+          "random_subspace_removed_accuracy": 0.1818798778418731,
+          "subspace_effect": -0.012894468951476085,
+          "hidden2_separation_gain": 0.0,
+          "accuracy_gain": 0.0
+        },
+        {
+          "epoch": 1,
+          "accuracy": 0.8978622327790974,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7472979731566833,
+              "between_variance": 1.971619073376455,
+              "separation_ratio": 2.6383305511295325,
+              "nearest_centroid_accuracy": 0.8215134034611469,
+              "same_class_distance": 8.12785720098201,
+              "different_class_distance": 18.01915727605337,
+              "distance_gap": 9.89130007507136
+            },
+            "hidden2": {
+              "within_variance": 1.012009617994446,
+              "between_variance": 3.4018608294027515,
+              "separation_ratio": 3.3614906112694882,
+              "nearest_centroid_accuracy": 0.8693586698337292,
+              "same_class_distance": 6.320424209660453,
+              "different_class_distance": 16.469130156796634,
+              "distance_gap": 10.148705947136182
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1496437054631829,
+          "random_subspace_removed_accuracy": 0.7729894808279606,
+          "subspace_effect": 0.7482185273159145,
+          "hidden2_separation_gain": 2.9788508183666633,
+          "accuracy_gain": 0.7560230743128605
+        },
+        {
+          "epoch": 2,
+          "accuracy": 0.9260264675941635,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7582386751267288,
+              "between_variance": 2.102013898355065,
+              "separation_ratio": 2.772232500543108,
+              "nearest_centroid_accuracy": 0.8717339667458432,
+              "same_class_distance": 8.249392173325907,
+              "different_class_distance": 18.625954020991003,
+              "distance_gap": 10.376561847665096
+            },
+            "hidden2": {
+              "within_variance": 1.0953024718329323,
+              "between_variance": 3.9500434042017467,
+              "separation_ratio": 3.6063493927769126,
+              "nearest_centroid_accuracy": 0.9121140142517815,
+              "same_class_distance": 6.618306839804234,
+              "different_class_distance": 17.782841592638665,
+              "distance_gap": 11.164534752834431
+            }
+          },
+          "class_subspace_removed_accuracy": 0.16355615880556498,
+          "random_subspace_removed_accuracy": 0.8154054971157109,
+          "subspace_effect": 0.7624703087885986,
+          "hidden2_separation_gain": 3.2237095998740877,
+          "accuracy_gain": 0.7841873091279267
+        },
+        {
+          "epoch": 5,
+          "accuracy": 0.9219545300305395,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7777318623871271,
+              "between_variance": 2.2574696316267757,
+              "separation_ratio": 2.9026323091583563,
+              "nearest_centroid_accuracy": 0.8998982015609094,
+              "same_class_distance": 8.463611330197976,
+              "different_class_distance": 19.39765573766481,
+              "distance_gap": 10.934044407466834
+            },
+            "hidden2": {
+              "within_variance": 1.2867107618571023,
+              "between_variance": 4.808876974242861,
+              "separation_ratio": 3.7373410690233415,
+              "nearest_centroid_accuracy": 0.9212758737699356,
+              "same_class_distance": 7.269345543240172,
+              "different_class_distance": 19.8249436288711,
+              "distance_gap": 12.555598085630928
+            }
+          },
+          "class_subspace_removed_accuracy": 0.17950458092975907,
+          "random_subspace_removed_accuracy": 0.8266033254156769,
+          "subspace_effect": 0.7424499491007804,
+          "hidden2_separation_gain": 3.3547012761205166,
+          "accuracy_gain": 0.7801153715643027
+        },
+        {
+          "epoch": 10,
+          "accuracy": 0.9277231082456736,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.8351309267749385,
+              "between_variance": 2.379310225092689,
+              "separation_ratio": 2.849026600273295,
+              "nearest_centroid_accuracy": 0.9073634204275535,
+              "same_class_distance": 8.809347046848135,
+              "different_class_distance": 20.080565556980023,
+              "distance_gap": 11.271218510131888
+            },
+            "hidden2": {
+              "within_variance": 1.4635065645156722,
+              "between_variance": 5.473811451682337,
+              "separation_ratio": 3.740202869191654,
+              "nearest_centroid_accuracy": 0.9311163895486936,
+              "same_class_distance": 7.8587819759923905,
+              "different_class_distance": 21.409791875107132,
+              "distance_gap": 13.551009899114742
+            }
+          },
+          "class_subspace_removed_accuracy": 0.17203936206311504,
+          "random_subspace_removed_accuracy": 0.8598574821852731,
+          "subspace_effect": 0.7556837461825585,
+          "hidden2_separation_gain": 3.357563076288829,
+          "accuracy_gain": 0.7858839497794368
+        },
+        {
+          "epoch": 20,
+          "accuracy": 0.9311163895486936,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.9311824374161044,
+              "between_variance": 2.466178278202308,
+              "separation_ratio": 2.6484372762072206,
+              "nearest_centroid_accuracy": 0.9182219205972175,
+              "same_class_distance": 9.406672449514465,
+              "different_class_distance": 20.77922017670764,
+              "distance_gap": 11.372547727193174
+            },
+            "hidden2": {
+              "within_variance": 1.7551518520773304,
+              "between_variance": 6.449415505488737,
+              "separation_ratio": 3.6745626869011114,
+              "nearest_centroid_accuracy": 0.9328130302002036,
+              "same_class_distance": 8.664852145522335,
+              "different_class_distance": 23.5412496730742,
+              "distance_gap": 14.876397527551866
+            }
+          },
+          "class_subspace_removed_accuracy": 0.17882592466915506,
+          "random_subspace_removed_accuracy": 0.8802171700033933,
+          "subspace_effect": 0.7522904648795385,
+          "hidden2_separation_gain": 3.2919228939982865,
+          "accuracy_gain": 0.7892772310824567
+        },
+        {
+          "epoch": 80,
+          "accuracy": 0.9395995928062436,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.0943798148520252,
+              "between_variance": 3.1750598466627333,
+              "separation_ratio": 2.901241235970753,
+              "nearest_centroid_accuracy": 0.9280624363759755,
+              "same_class_distance": 10.363993548107223,
+              "different_class_distance": 23.48706986727927,
+              "distance_gap": 13.123076319172048
+            },
+            "hidden2": {
+              "within_variance": 2.5442297837756818,
+              "between_variance": 9.83014735726911,
+              "separation_ratio": 3.8637026497980065,
+              "nearest_centroid_accuracy": 0.9365456396335257,
+              "same_class_distance": 10.608139563228942,
+              "different_class_distance": 29.324846407125825,
+              "distance_gap": 18.716706843896883
+            }
+          },
+          "class_subspace_removed_accuracy": 0.17543264336613507,
+          "random_subspace_removed_accuracy": 0.9131319986426875,
+          "subspace_effect": 0.7641669494401085,
+          "hidden2_separation_gain": 3.4810628568951816,
+          "accuracy_gain": 0.7977604343400068
+        }
+      ],
+      "onset_10pct": {
+        "accuracy": 1,
+        "hidden2_geometry": 1
+      }
+    },
+    {
+      "seed": 31,
+      "checkpoints": [
+        {
+          "epoch": 0,
+          "accuracy": 0.20732948761452324,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.3518855430831767,
+              "between_variance": 0.31567766066216957,
+              "separation_ratio": 0.8971032395825124,
+              "nearest_centroid_accuracy": 0.7217509331523583,
+              "same_class_distance": 6.147112402411525,
+              "different_class_distance": 9.078582279269888,
+              "distance_gap": 2.9314698768583627
+            },
+            "hidden2": {
+              "within_variance": 0.31975624930198326,
+              "between_variance": 0.17161412783528482,
+              "separation_ratio": 0.5367029673694024,
+              "nearest_centroid_accuracy": 0.6582965727858839,
+              "same_class_distance": 4.067701630399183,
+              "different_class_distance": 5.374943890525872,
+              "distance_gap": 1.3072422601266886
+            }
+          },
+          "class_subspace_removed_accuracy": 0.13640990838140482,
+          "random_subspace_removed_accuracy": 0.1866304716661011,
+          "subspace_effect": 0.07091957923311842,
+          "hidden2_separation_gain": 0.0,
+          "accuracy_gain": 0.0
+        },
+        {
+          "epoch": 1,
+          "accuracy": 0.9097387173396675,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.6977922221169264,
+              "between_variance": 1.9887492913135159,
+              "separation_ratio": 2.850059413502991,
+              "nearest_centroid_accuracy": 0.838479809976247,
+              "same_class_distance": 7.9462731970669855,
+              "different_class_distance": 18.00794609385989,
+              "distance_gap": 10.061672896792903
+            },
+            "hidden2": {
+              "within_variance": 0.986879507480408,
+              "between_variance": 2.963951206216437,
+              "separation_ratio": 3.0033567256692466,
+              "nearest_centroid_accuracy": 0.8639294197488971,
+              "same_class_distance": 6.103400556413685,
+              "different_class_distance": 15.309160224027202,
+              "distance_gap": 9.205759667613517
+            }
+          },
+          "class_subspace_removed_accuracy": 0.2354937224295894,
+          "random_subspace_removed_accuracy": 0.8666440447913132,
+          "subspace_effect": 0.674244994910078,
+          "hidden2_separation_gain": 2.4666537582998442,
+          "accuracy_gain": 0.7024092297251443
+        },
+        {
+          "epoch": 2,
+          "accuracy": 0.9080420766881574,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7345368652010101,
+              "between_variance": 2.251766282623324,
+              "separation_ratio": 3.065559251416354,
+              "nearest_centroid_accuracy": 0.8924329826942654,
+              "same_class_distance": 8.151148192656853,
+              "different_class_distance": 19.100010429485845,
+              "distance_gap": 10.948862236828992
+            },
+            "hidden2": {
+              "within_variance": 1.0665630802545751,
+              "between_variance": 3.360421249724555,
+              "separation_ratio": 3.150700893305312,
+              "nearest_centroid_accuracy": 0.9053274516457415,
+              "same_class_distance": 6.489654835310816,
+              "different_class_distance": 16.52668858392253,
+              "distance_gap": 10.037033748611716
+            }
+          },
+          "class_subspace_removed_accuracy": 0.1330166270783848,
+          "random_subspace_removed_accuracy": 0.8839497794367153,
+          "subspace_effect": 0.7750254496097726,
+          "hidden2_separation_gain": 2.6139979259359096,
+          "accuracy_gain": 0.7007125890736341
+        },
+        {
+          "epoch": 5,
+          "accuracy": 0.9341703427214116,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.7522292641083886,
+              "between_variance": 2.4423652002684992,
+              "separation_ratio": 3.246836193169665,
+              "nearest_centroid_accuracy": 0.9189005768578216,
+              "same_class_distance": 8.36851897693764,
+              "different_class_distance": 19.977326335964698,
+              "distance_gap": 11.608807359027058
+            },
+            "hidden2": {
+              "within_variance": 1.1907113221713532,
+              "between_variance": 4.13243233963951,
+              "separation_ratio": 3.47055769328178,
+              "nearest_centroid_accuracy": 0.9277231082456736,
+              "same_class_distance": 7.019039361619948,
+              "different_class_distance": 18.49744672311172,
+              "distance_gap": 11.478407361491774
+            }
+          },
+          "class_subspace_removed_accuracy": 0.13878520529351884,
+          "random_subspace_removed_accuracy": 0.9202578893790295,
+          "subspace_effect": 0.7953851374278929,
+          "hidden2_separation_gain": 2.9338547259123775,
+          "accuracy_gain": 0.7268408551068883
+        },
+        {
+          "epoch": 10,
+          "accuracy": 0.9382422802850356,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.8071270759517261,
+              "between_variance": 2.5765124603634564,
+              "separation_ratio": 3.192201745091199,
+              "nearest_centroid_accuracy": 0.9209365456396336,
+              "same_class_distance": 8.808980179792183,
+              "different_class_distance": 20.7473588826291,
+              "distance_gap": 11.938378702836918
+            },
+            "hidden2": {
+              "within_variance": 1.3856003473172225,
+              "between_variance": 4.906400127197954,
+              "separation_ratio": 3.5409922758013512,
+              "nearest_centroid_accuracy": 0.9351883271123176,
+              "same_class_distance": 7.70207840344288,
+              "different_class_distance": 20.340937713516286,
+              "distance_gap": 12.638859310073407
+            }
+          },
+          "class_subspace_removed_accuracy": 0.14794706481167288,
+          "random_subspace_removed_accuracy": 0.9243298269426535,
+          "subspace_effect": 0.7902952154733628,
+          "hidden2_separation_gain": 3.004289308431949,
+          "accuracy_gain": 0.7309127926705123
+        },
+        {
+          "epoch": 20,
+          "accuracy": 0.9382422802850356,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 0.931615666311909,
+              "between_variance": 2.7575375981833194,
+              "separation_ratio": 2.9599519393012055,
+              "nearest_centroid_accuracy": 0.9260264675941635,
+              "same_class_distance": 9.63609707244702,
+              "different_class_distance": 21.85157392953707,
+              "distance_gap": 12.215476857090051
+            },
+            "hidden2": {
+              "within_variance": 1.7864259329545662,
+              "between_variance": 6.309608048910167,
+              "separation_ratio": 3.531972936865465,
+              "nearest_centroid_accuracy": 0.9280624363759755,
+              "same_class_distance": 8.830204053975308,
+              "different_class_distance": 23.253649370996015,
+              "distance_gap": 14.423445317020708
+            }
+          },
+          "class_subspace_removed_accuracy": 0.16559212758737699,
+          "random_subspace_removed_accuracy": 0.9202578893790295,
+          "subspace_effect": 0.7726501526976587,
+          "hidden2_separation_gain": 2.9952699694960625,
+          "accuracy_gain": 0.7309127926705123
+        },
+        {
+          "epoch": 80,
+          "accuracy": 0.9406175771971497,
+          "geometry": {
+            "input": {
+              "within_variance": 0.4371458331194625,
+              "between_variance": 0.44237097775085504,
+              "separation_ratio": 1.0119528638626292,
+              "nearest_centroid_accuracy": 0.825246012894469,
+              "same_class_distance": 20.22697116762098,
+              "different_class_distance": 30.73078631293389,
+              "distance_gap": 10.50381514531291
+            },
+            "hidden1": {
+              "within_variance": 1.350823116015797,
+              "between_variance": 3.449708932151862,
+              "separation_ratio": 2.5537828685717576,
+              "nearest_centroid_accuracy": 0.9328130302002036,
+              "same_class_distance": 11.870883223949773,
+              "different_class_distance": 25.29547969963527,
+              "distance_gap": 13.424596475685496
+            },
+            "hidden2": {
+              "within_variance": 2.902785924725551,
+              "between_variance": 9.659681546526356,
+              "separation_ratio": 3.327727843877997,
+              "nearest_centroid_accuracy": 0.9382422802850356,
+              "same_class_distance": 11.856352099143276,
+              "different_class_distance": 29.62167568931322,
+              "distance_gap": 17.765323590169945
+            }
+          },
+          "class_subspace_removed_accuracy": 0.21377672209026127,
+          "random_subspace_removed_accuracy": 0.9351883271123176,
+          "subspace_effect": 0.7268408551068883,
+          "hidden2_separation_gain": 2.7910248765085948,
+          "accuracy_gain": 0.7332880895826264
+        }
+      ],
+      "onset_10pct": {
+        "accuracy": 1,
+        "hidden2_geometry": 1
+      }
+    }
+  ],
+  "stages": [
+    {
+      "hypothesis": "\uc131\ub2a5 \ud5a5\uc0c1\uc740 hidden representation\uc758 class-separating geometry \ud615\uc131\uacfc \ud568\uaed8 \uc77c\uc5b4\ub09c\ub2e4.",
+      "experiment": "epoch 0,1,2,5,10,20,80\uc5d0\uc11c input\u00b7hidden1\u00b7hidden2\uc758 \uac70\ub9ac\uc640 \ubd84\ub9ac\ub3c4\ub97c \uce21\uc815\ud55c\ub2e4.",
+      "actual_result": "checkpoint\ubcc4 \uc6d0\uc790\ub8cc\ub294 runs\uc5d0 \uc800\uc7a5\ub41c\ub2e4."
+    },
+    {
+      "hypothesis": "geometry\uac00 accuracy\ubcf4\ub2e4 \uba3c\uc800 \ud615\uc131\ub41c\ub2e4.",
+      "experiment": "\uac01 seed\uc5d0\uc11c \ucd08\uae30\uac12 \ub300\ube44 \ucd5c\uc885 \ubcc0\ud654\uc758 10%\uc5d0 \ub3c4\ub2ec\ud558\ub294 epoch\ub97c accuracy\uc640 hidden2 separation ratio\uc5d0 \ub300\ud574 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": [
+        {
+          "seed": 7,
+          "accuracy": 1,
+          "hidden2_geometry": 1
+        },
+        {
+          "seed": 11,
+          "accuracy": 1,
+          "hidden2_geometry": 1
+        },
+        {
+          "seed": 19,
+          "accuracy": 1,
+          "hidden2_geometry": 1
+        },
+        {
+          "seed": 23,
+          "accuracy": 1,
+          "hidden2_geometry": 1
+        },
+        {
+          "seed": 31,
+          "accuracy": 1,
+          "hidden2_geometry": 1
+        }
+      ]
+    },
+    {
+      "hypothesis": "\ucd08\uae30 geometry\ub3c4 \uc774\ubbf8 \uc2e4\uc81c \ud310\ub2e8\uc5d0 \uc0ac\uc6a9\ub41c\ub2e4.",
+      "experiment": "\uac01 checkpoint\uc5d0\uc11c class-separating hidden2 subspace\uc640 random subspace\ub97c \uc81c\uac70\ud574 test accuracy\ub97c \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": "\uac01 checkpoint\uc758 class/random subspace accuracy\uac00 runs\uc5d0 \uc800\uc7a5\ub41c\ub2e4."
+    },
+    {
+      "hypothesis": "\uac19\uc740 \ubc1c\ub2ec \uc21c\uc11c\uac00 seed\ub9c8\ub2e4 \ubc18\ubcf5\ub41c\ub2e4.",
+      "experiment": "5\uac1c seed\uc758 checkpoint \uace1\uc120\uacfc onset epoch\ub97c \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": "seed\ubcc4 \uacb0\uacfc\uc640 \uc608\uc678\ub97c \uace1\uc120 \uc6d0\uc790\ub8cc\ub85c \ube44\uad50\ud55c\ub2e4."
+    }
+  ]
+}

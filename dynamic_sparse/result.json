@@ -1,0 +1,150 @@
+{
+  "architecture": [
+    2,
+    12,
+    12,
+    1
+  ],
+  "active_connections": 90.0,
+  "train_accuracy": 0.5833333333333334,
+  "test_accuracy": 0.525,
+  "rewire_events": [
+    {
+      "epoch": 100,
+      "changes": [
+        "remove L0[6,0]",
+        "grow L0[9,0]",
+        "remove L1[2,7]",
+        "grow L1[11,10]",
+        "remove L2[0,10]",
+        "grow L2[0,6]"
+      ]
+    },
+    {
+      "epoch": 200,
+      "changes": [
+        "remove L0[9,0]",
+        "grow L0[11,0]",
+        "remove L1[0,8]",
+        "grow L1[1,5]",
+        "remove L2[0,6]",
+        "grow L2[0,5]"
+      ]
+    },
+    {
+      "epoch": 300,
+      "changes": [
+        "remove L0[6,1]",
+        "grow L0[4,0]",
+        "remove L1[11,1]",
+        "grow L1[8,5]",
+        "remove L2[0,5]",
+        "grow L2[0,6]"
+      ]
+    },
+    {
+      "epoch": 400,
+      "changes": [
+        "remove L0[4,0]",
+        "grow L0[9,0]",
+        "remove L1[1,0]",
+        "grow L1[4,5]",
+        "remove L2[0,6]",
+        "grow L2[0,2]"
+      ]
+    },
+    {
+      "epoch": 500,
+      "changes": [
+        "remove L0[11,0]",
+        "grow L0[4,0]",
+        "remove L1[11,10]",
+        "grow L1[1,9]",
+        "remove L2[0,2]",
+        "grow L2[0,6]"
+      ]
+    },
+    {
+      "epoch": 600,
+      "changes": [
+        "remove L0[4,0]",
+        "grow L0[11,0]",
+        "remove L1[8,0]",
+        "grow L1[11,11]",
+        "remove L2[0,6]",
+        "grow L2[0,5]"
+      ]
+    },
+    {
+      "epoch": 700,
+      "changes": [
+        "remove L0[2,0]",
+        "grow L0[3,0]",
+        "remove L1[11,11]",
+        "grow L1[8,9]",
+        "remove L2[0,5]",
+        "grow L2[0,6]"
+      ]
+    },
+    {
+      "epoch": 800,
+      "changes": [
+        "remove L0[3,0]",
+        "grow L0[4,0]",
+        "remove L1[8,9]",
+        "grow L1[4,11]",
+        "remove L2[0,6]",
+        "grow L2[0,5]"
+      ]
+    },
+    {
+      "epoch": 900,
+      "changes": [
+        "remove L0[4,0]",
+        "grow L0[3,0]",
+        "remove L1[4,11]",
+        "grow L1[5,5]",
+        "remove L2[0,5]",
+        "grow L2[0,6]"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "epoch": 100,
+      "train_accuracy": 0.5583333333333333
+    },
+    {
+      "epoch": 200,
+      "train_accuracy": 0.5666666666666667
+    },
+    {
+      "epoch": 300,
+      "train_accuracy": 0.5583333333333333
+    },
+    {
+      "epoch": 400,
+      "train_accuracy": 0.6
+    },
+    {
+      "epoch": 500,
+      "train_accuracy": 0.5666666666666667
+    },
+    {
+      "epoch": 600,
+      "train_accuracy": 0.5916666666666667
+    },
+    {
+      "epoch": 700,
+      "train_accuracy": 0.55
+    },
+    {
+      "epoch": 800,
+      "train_accuracy": 0.575
+    },
+    {
+      "epoch": 900,
+      "train_accuracy": 0.5833333333333334
+    }
+  ]
+}

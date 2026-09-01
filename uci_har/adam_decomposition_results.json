@@ -1,0 +1,3106 @@
+{
+  "settings": {
+    "seeds": [
+      7,
+      11,
+      19,
+      23,
+      31
+    ],
+    "updates_per_condition": 10,
+    "operations": [
+      "raw_gradient",
+      "momentum",
+      "variance_scaled",
+      "full_adam"
+    ]
+  },
+  "summary": {
+    "scale_only": {
+      "raw_gradient": {
+        "raw_norm": 2.6997273788950364,
+        "alignment": 0.8933221260890971,
+        "same_norm_geometry_gain": 3.452860009167532,
+        "hidden_class_distance_gap_change": 3.452860009167532
+      },
+      "momentum": {
+        "raw_norm": 2.7632058692785493,
+        "alignment": 0.9620235813185789,
+        "same_norm_geometry_gain": 4.755992482610674,
+        "hidden_class_distance_gap_change": 4.755992482610674
+      },
+      "variance_scaled": {
+        "raw_norm": 145.8557139469911,
+        "alignment": 0.7978551295757196,
+        "same_norm_geometry_gain": 2.6766468943239334,
+        "hidden_class_distance_gap_change": 2.6766468943239334
+      },
+      "full_adam": {
+        "raw_norm": 115.58473214054264,
+        "alignment": 0.8846722438187494,
+        "same_norm_geometry_gain": 4.0927265470398195,
+        "hidden_class_distance_gap_change": 4.0927265470398195
+      }
+    },
+    "decorrelated": {
+      "raw_gradient": {
+        "raw_norm": 4.663401256121993,
+        "alignment": 0.9536980868642368,
+        "same_norm_geometry_gain": 5.13472869047843,
+        "hidden_class_distance_gap_change": 5.134728690478431
+      },
+      "momentum": {
+        "raw_norm": 4.967970602198861,
+        "alignment": 0.9833571266033558,
+        "same_norm_geometry_gain": 5.347439671569945,
+        "hidden_class_distance_gap_change": 5.347439671569945
+      },
+      "variance_scaled": {
+        "raw_norm": 164.9020220803429,
+        "alignment": 0.14538185434255782,
+        "same_norm_geometry_gain": 0.27359328520166576,
+        "hidden_class_distance_gap_change": 0.27359328520166565
+      },
+      "full_adam": {
+        "raw_norm": 92.491786912858,
+        "alignment": 0.2635861033347211,
+        "same_norm_geometry_gain": 0.36392321351424967,
+        "hidden_class_distance_gap_change": 0.36392321351424967
+      }
+    }
+  },
+  "results": {
+    "scale_only": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.463428452718148,
+                  "alignment": 0.9586498561870976,
+                  "same_norm_geometry_gain": 4.274127329791913,
+                  "hidden_class_distance_gap_change": 4.274127329791913
+                },
+                "momentum": {
+                  "raw_norm": 5.463428452718149,
+                  "alignment": 0.9586498561870979,
+                  "same_norm_geometry_gain": 4.274127329791913,
+                  "hidden_class_distance_gap_change": 4.274127329791913
+                },
+                "variance_scaled": {
+                  "raw_norm": 189.48274047037935,
+                  "alignment": 0.8402314419130389,
+                  "same_norm_geometry_gain": 3.4720091870661145,
+                  "hidden_class_distance_gap_change": 3.4720091870661145
+                },
+                "full_adam": {
+                  "raw_norm": 189.48274047037935,
+                  "alignment": 0.8402314419130391,
+                  "same_norm_geometry_gain": 3.472009187066116,
+                  "hidden_class_distance_gap_change": 3.472009187066116
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.2898604989554183,
+                  "alignment": 0.9474717469571183,
+                  "same_norm_geometry_gain": 4.482737124226089,
+                  "hidden_class_distance_gap_change": 4.482737124226088
+                },
+                "momentum": {
+                  "raw_norm": 3.995198322574746,
+                  "alignment": 0.9698869966970718,
+                  "same_norm_geometry_gain": 4.7233818264924485,
+                  "hidden_class_distance_gap_change": 4.7233818264924485
+                },
+                "variance_scaled": {
+                  "raw_norm": 157.5320512032036,
+                  "alignment": 0.8142092477985485,
+                  "same_norm_geometry_gain": 3.815897913539448,
+                  "hidden_class_distance_gap_change": 3.8158979135394486
+                },
+                "full_adam": {
+                  "raw_norm": 153.6210846461356,
+                  "alignment": 0.8832324195679381,
+                  "same_norm_geometry_gain": 4.173418520344139,
+                  "hidden_class_distance_gap_change": 4.173418520344139
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.559894286365505,
+                  "alignment": 0.9212086054837885,
+                  "same_norm_geometry_gain": 3.156473412500551,
+                  "hidden_class_distance_gap_change": 3.156473412500551
+                },
+                "momentum": {
+                  "raw_norm": 3.0609786109456043,
+                  "alignment": 0.9694484135170659,
+                  "same_norm_geometry_gain": 4.357286032444838,
+                  "hidden_class_distance_gap_change": 4.357286032444838
+                },
+                "variance_scaled": {
+                  "raw_norm": 147.21598503296772,
+                  "alignment": 0.8052640467254224,
+                  "same_norm_geometry_gain": 2.4825644998988032,
+                  "hidden_class_distance_gap_change": 2.4825644998988032
+                },
+                "full_adam": {
+                  "raw_norm": 133.40474584725294,
+                  "alignment": 0.891847338186088,
+                  "same_norm_geometry_gain": 3.885789045022725,
+                  "hidden_class_distance_gap_change": 3.8857890450227246
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.295233381343964,
+                  "alignment": 0.9125153412905435,
+                  "same_norm_geometry_gain": 3.3592063266227803,
+                  "hidden_class_distance_gap_change": 3.3592063266227807
+                },
+                "momentum": {
+                  "raw_norm": 2.4563629878442597,
+                  "alignment": 0.9674172009435208,
+                  "same_norm_geometry_gain": 4.679036572901363,
+                  "hidden_class_distance_gap_change": 4.679036572901363
+                },
+                "variance_scaled": {
+                  "raw_norm": 143.74859744983138,
+                  "alignment": 0.8065119179210334,
+                  "same_norm_geometry_gain": 2.63080015840509,
+                  "hidden_class_distance_gap_change": 2.63080015840509
+                },
+                "full_adam": {
+                  "raw_norm": 118.07179693408992,
+                  "alignment": 0.8979445625291319,
+                  "same_norm_geometry_gain": 4.559869230086116,
+                  "hidden_class_distance_gap_change": 4.559869230086115
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.1676503518941828,
+                  "alignment": 0.7994909078178496,
+                  "same_norm_geometry_gain": 1.4036526190980847,
+                  "hidden_class_distance_gap_change": 1.4036526190980847
+                },
+                "momentum": {
+                  "raw_norm": 2.071119014400989,
+                  "alignment": 0.9571564960463189,
+                  "same_norm_geometry_gain": 4.086476893381231,
+                  "hidden_class_distance_gap_change": 4.086476893381231
+                },
+                "variance_scaled": {
+                  "raw_norm": 138.50695448517519,
+                  "alignment": 0.7349286872053179,
+                  "same_norm_geometry_gain": 1.1038440318898084,
+                  "hidden_class_distance_gap_change": 1.1038440318898084
+                },
+                "full_adam": {
+                  "raw_norm": 108.27463162139965,
+                  "alignment": 0.8951071551040672,
+                  "same_norm_geometry_gain": 4.029257031429141,
+                  "hidden_class_distance_gap_change": 4.029257031429141
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.60923785670399,
+                  "alignment": 0.8870784033314393,
+                  "same_norm_geometry_gain": 1.3246091920664584,
+                  "hidden_class_distance_gap_change": 1.3246091920664584
+                },
+                "momentum": {
+                  "raw_norm": 1.7967789919129742,
+                  "alignment": 0.9559061187602832,
+                  "same_norm_geometry_gain": 3.918482553223808,
+                  "hidden_class_distance_gap_change": 3.918482553223808
+                },
+                "variance_scaled": {
+                  "raw_norm": 116.33123410456874,
+                  "alignment": 0.7636592773234496,
+                  "same_norm_geometry_gain": 0.9106372717924626,
+                  "hidden_class_distance_gap_change": 0.9106372717924627
+                },
+                "full_adam": {
+                  "raw_norm": 100.3446073737557,
+                  "alignment": 0.8933155261895322,
+                  "same_norm_geometry_gain": 3.835453122421326,
+                  "hidden_class_distance_gap_change": 3.835453122421326
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.5263828256241536,
+                  "alignment": 0.862992642174881,
+                  "same_norm_geometry_gain": 1.976404635082174,
+                  "hidden_class_distance_gap_change": 1.976404635082174
+                },
+                "momentum": {
+                  "raw_norm": 1.6148078678097395,
+                  "alignment": 0.9556699664805539,
+                  "same_norm_geometry_gain": 4.121386877814064,
+                  "hidden_class_distance_gap_change": 4.121386877814065
+                },
+                "variance_scaled": {
+                  "raw_norm": 118.73926550835641,
+                  "alignment": 0.7600121910789515,
+                  "same_norm_geometry_gain": 1.5525228284734534,
+                  "hidden_class_distance_gap_change": 1.5525228284734534
+                },
+                "full_adam": {
+                  "raw_norm": 95.68851100009812,
+                  "alignment": 0.8963134986994419,
+                  "same_norm_geometry_gain": 4.126200532898889,
+                  "hidden_class_distance_gap_change": 4.126200532898889
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.3075702553714783,
+                  "alignment": 0.8635442574115861,
+                  "same_norm_geometry_gain": 2.5470287688073188,
+                  "hidden_class_distance_gap_change": 2.5470287688073188
+                },
+                "momentum": {
+                  "raw_norm": 1.4250057389636044,
+                  "alignment": 0.9545118851190321,
+                  "same_norm_geometry_gain": 4.030670136031567,
+                  "hidden_class_distance_gap_change": 4.030670136031567
+                },
+                "variance_scaled": {
+                  "raw_norm": 115.84379200590703,
+                  "alignment": 0.7798597915436025,
+                  "same_norm_geometry_gain": 2.1016961353900627,
+                  "hidden_class_distance_gap_change": 2.101696135390063
+                },
+                "full_adam": {
+                  "raw_norm": 90.0010839390058,
+                  "alignment": 0.8973665923900915,
+                  "same_norm_geometry_gain": 4.024057353340315,
+                  "hidden_class_distance_gap_change": 4.024057353340315
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.5727379476456502,
+                  "alignment": 0.832059055937384,
+                  "same_norm_geometry_gain": 2.337963886331062,
+                  "hidden_class_distance_gap_change": 2.337963886331062
+                },
+                "momentum": {
+                  "raw_norm": 1.3130561248613815,
+                  "alignment": 0.9504631962451073,
+                  "same_norm_geometry_gain": 4.14636181947102,
+                  "hidden_class_distance_gap_change": 4.14636181947102
+                },
+                "variance_scaled": {
+                  "raw_norm": 134.61287081315544,
+                  "alignment": 0.7438785201547746,
+                  "same_norm_geometry_gain": 1.7917366327794508,
+                  "hidden_class_distance_gap_change": 1.7917366327794508
+                },
+                "full_adam": {
+                  "raw_norm": 86.61418673019028,
+                  "alignment": 0.8941040950279745,
+                  "same_norm_geometry_gain": 4.083415257593124,
+                  "hidden_class_distance_gap_change": 4.083415257593124
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.6175866650850919,
+                  "alignment": 0.9105875143686348,
+                  "same_norm_geometry_gain": 3.0250547101720846,
+                  "hidden_class_distance_gap_change": 3.0250547101720846
+                },
+                "momentum": {
+                  "raw_norm": 1.2277237936580936,
+                  "alignment": 0.9523348696695446,
+                  "same_norm_geometry_gain": 4.405277965730278,
+                  "hidden_class_distance_gap_change": 4.405277965730278
+                },
+                "variance_scaled": {
+                  "raw_norm": 130.0085463080946,
+                  "alignment": 0.8249965098807668,
+                  "same_norm_geometry_gain": 2.7561203704338704,
+                  "hidden_class_distance_gap_change": 2.756120370433871
+                },
+                "full_adam": {
+                  "raw_norm": 83.44284203274857,
+                  "alignment": 0.8979718290900796,
+                  "same_norm_geometry_gain": 4.3640585518966875,
+                  "hidden_class_distance_gap_change": 4.3640585518966875
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 7.983771696172307,
+                  "alignment": 0.9793916137056595,
+                  "same_norm_geometry_gain": 4.073776175733473,
+                  "hidden_class_distance_gap_change": 4.073776175733472
+                },
+                "momentum": {
+                  "raw_norm": 7.983771696172308,
+                  "alignment": 0.9793916137056597,
+                  "same_norm_geometry_gain": 4.073776175733473,
+                  "hidden_class_distance_gap_change": 4.073776175733473
+                },
+                "variance_scaled": {
+                  "raw_norm": 189.48285056610692,
+                  "alignment": 0.843187666955627,
+                  "same_norm_geometry_gain": 2.713750664107189,
+                  "hidden_class_distance_gap_change": 2.7137506641071885
+                },
+                "full_adam": {
+                  "raw_norm": 189.482850566107,
+                  "alignment": 0.8431876669556269,
+                  "same_norm_geometry_gain": 2.7137506641071876,
+                  "hidden_class_distance_gap_change": 2.713750664107187
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.701998891535228,
+                  "alignment": 0.9587619422364838,
+                  "same_norm_geometry_gain": 3.3199184486843025,
+                  "hidden_class_distance_gap_change": 3.3199184486843025
+                },
+                "momentum": {
+                  "raw_norm": 5.883578154237021,
+                  "alignment": 0.9836222212142616,
+                  "same_norm_geometry_gain": 4.560724953803811,
+                  "hidden_class_distance_gap_change": 4.560724953803811
+                },
+                "variance_scaled": {
+                  "raw_norm": 161.14260283784645,
+                  "alignment": 0.8071048337880506,
+                  "same_norm_geometry_gain": 1.1705410905320504,
+                  "hidden_class_distance_gap_change": 1.1705410905320504
+                },
+                "full_adam": {
+                  "raw_norm": 149.04968046659104,
+                  "alignment": 0.8804744939498474,
+                  "same_norm_geometry_gain": 2.7813513215774757,
+                  "hidden_class_distance_gap_change": 2.7813513215774757
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.1577464526132712,
+                  "alignment": 0.9221162222462392,
+                  "same_norm_geometry_gain": 2.990255955683367,
+                  "hidden_class_distance_gap_change": 2.9902559556833666
+                },
+                "momentum": {
+                  "raw_norm": 4.32775355065398,
+                  "alignment": 0.9801918931047348,
+                  "same_norm_geometry_gain": 4.243370923437211,
+                  "hidden_class_distance_gap_change": 4.243370923437211
+                },
+                "variance_scaled": {
+                  "raw_norm": 153.1035215836392,
+                  "alignment": 0.7986911434442736,
+                  "same_norm_geometry_gain": 2.0850031951416783,
+                  "hidden_class_distance_gap_change": 2.0850031951416783
+                },
+                "full_adam": {
+                  "raw_norm": 128.7071556048724,
+                  "alignment": 0.8815996844717142,
+                  "same_norm_geometry_gain": 2.7048542503724597,
+                  "hidden_class_distance_gap_change": 2.7048542503724597
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.2936064490241104,
+                  "alignment": 0.9437683242965355,
+                  "same_norm_geometry_gain": 4.193414688773013,
+                  "hidden_class_distance_gap_change": 4.193414688773013
+                },
+                "momentum": {
+                  "raw_norm": 3.359426393712028,
+                  "alignment": 0.9766682501914798,
+                  "same_norm_geometry_gain": 4.393942076044125,
+                  "hidden_class_distance_gap_change": 4.393942076044125
+                },
+                "variance_scaled": {
+                  "raw_norm": 170.57748319130636,
+                  "alignment": 0.8585598666133664,
+                  "same_norm_geometry_gain": 3.3143828710175263,
+                  "hidden_class_distance_gap_change": 3.314382871017526
+                },
+                "full_adam": {
+                  "raw_norm": 115.59546663990616,
+                  "alignment": 0.8894783626733306,
+                  "same_norm_geometry_gain": 3.005846493399674,
+                  "hidden_class_distance_gap_change": 3.005846493399674
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.9659403211618605,
+                  "alignment": 0.932403423870091,
+                  "same_norm_geometry_gain": 3.789325096881451,
+                  "hidden_class_distance_gap_change": 3.789325096881451
+                },
+                "momentum": {
+                  "raw_norm": 2.861535280654341,
+                  "alignment": 0.9743146182226968,
+                  "same_norm_geometry_gain": 4.541748212614308,
+                  "hidden_class_distance_gap_change": 4.541748212614308
+                },
+                "variance_scaled": {
+                  "raw_norm": 155.3636997740408,
+                  "alignment": 0.8358145838845127,
+                  "same_norm_geometry_gain": 2.8794100606128614,
+                  "hidden_class_distance_gap_change": 2.8794100606128614
+                },
+                "full_adam": {
+                  "raw_norm": 108.66012440823255,
+                  "alignment": 0.8936900977207464,
+                  "same_norm_geometry_gain": 3.509541315493104,
+                  "hidden_class_distance_gap_change": 3.509541315493105
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.494395128149581,
+                  "alignment": 0.9185036691015337,
+                  "same_norm_geometry_gain": 3.747717618688317,
+                  "hidden_class_distance_gap_change": 3.747717618688317
+                },
+                "momentum": {
+                  "raw_norm": 2.458299957485433,
+                  "alignment": 0.9714864147425777,
+                  "same_norm_geometry_gain": 4.491661324152073,
+                  "hidden_class_distance_gap_change": 4.491661324152073
+                },
+                "variance_scaled": {
+                  "raw_norm": 149.64659594349877,
+                  "alignment": 0.8395144562970351,
+                  "same_norm_geometry_gain": 3.3727775519664034,
+                  "hidden_class_distance_gap_change": 3.3727775519664034
+                },
+                "full_adam": {
+                  "raw_norm": 102.15906435535285,
+                  "alignment": 0.8982866105580896,
+                  "same_norm_geometry_gain": 3.62172724531806,
+                  "hidden_class_distance_gap_change": 3.6217272453180605
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.0702511775781383,
+                  "alignment": 0.8806039297155323,
+                  "same_norm_geometry_gain": 3.4499930805682815,
+                  "hidden_class_distance_gap_change": 3.449993080568281
+                },
+                "momentum": {
+                  "raw_norm": 2.174907136501951,
+                  "alignment": 0.969681559511982,
+                  "same_norm_geometry_gain": 4.794626477415052,
+                  "hidden_class_distance_gap_change": 4.794626477415052
+                },
+                "variance_scaled": {
+                  "raw_norm": 134.3737949801766,
+                  "alignment": 0.7972588940738538,
+                  "same_norm_geometry_gain": 3.0286159510477004,
+                  "hidden_class_distance_gap_change": 3.0286159510477004
+                },
+                "full_adam": {
+                  "raw_norm": 98.25190143184038,
+                  "alignment": 0.9022033337843852,
+                  "same_norm_geometry_gain": 4.106541694892761,
+                  "hidden_class_distance_gap_change": 4.106541694892761
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.6514567585386972,
+                  "alignment": 0.8780930325941216,
+                  "same_norm_geometry_gain": 3.9699355361986033,
+                  "hidden_class_distance_gap_change": 3.9699355361986033
+                },
+                "momentum": {
+                  "raw_norm": 1.9065814786989987,
+                  "alignment": 0.9671955263176725,
+                  "same_norm_geometry_gain": 4.6851543199995085,
+                  "hidden_class_distance_gap_change": 4.6851543199995085
+                },
+                "variance_scaled": {
+                  "raw_norm": 106.01770168641761,
+                  "alignment": 0.771017937990586,
+                  "same_norm_geometry_gain": 2.7924615179719185,
+                  "hidden_class_distance_gap_change": 2.7924615179719185
+                },
+                "full_adam": {
+                  "raw_norm": 91.27795180263529,
+                  "alignment": 0.9018139807722324,
+                  "same_norm_geometry_gain": 4.027978314851172,
+                  "hidden_class_distance_gap_change": 4.027978314851172
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.2350164946641335,
+                  "alignment": 0.897379488434605,
+                  "same_norm_geometry_gain": 2.5787159467990226,
+                  "hidden_class_distance_gap_change": 2.578715946799022
+                },
+                "momentum": {
+                  "raw_norm": 1.7361441285240198,
+                  "alignment": 0.9628756114104807,
+                  "same_norm_geometry_gain": 4.7805273007802365,
+                  "hidden_class_distance_gap_change": 4.7805273007802365
+                },
+                "variance_scaled": {
+                  "raw_norm": 136.58129091048022,
+                  "alignment": 0.8132924117110478,
+                  "same_norm_geometry_gain": 1.8222089994135753,
+                  "hidden_class_distance_gap_change": 1.8222089994135753
+                },
+                "full_adam": {
+                  "raw_norm": 87.93744129274553,
+                  "alignment": 0.9019905401546526,
+                  "same_norm_geometry_gain": 4.136646906759149,
+                  "hidden_class_distance_gap_change": 4.136646906759149
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.9420482382556021,
+                  "alignment": 0.8958818785387914,
+                  "same_norm_geometry_gain": 3.3145635171490913,
+                  "hidden_class_distance_gap_change": 3.3145635171490913
+                },
+                "momentum": {
+                  "raw_norm": 1.6108373603245674,
+                  "alignment": 0.9599832309459864,
+                  "same_norm_geometry_gain": 4.800556021664395,
+                  "hidden_class_distance_gap_change": 4.800556021664395
+                },
+                "variance_scaled": {
+                  "raw_norm": 122.57621977783685,
+                  "alignment": 0.7852082520830779,
+                  "same_norm_geometry_gain": 1.9870711273007755,
+                  "hidden_class_distance_gap_change": 1.9870711273007755
+                },
+                "full_adam": {
+                  "raw_norm": 84.03820239240628,
+                  "alignment": 0.8975541131405792,
+                  "same_norm_geometry_gain": 4.1911768365896425,
+                  "hidden_class_distance_gap_change": 4.1911768365896425
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.210152153136903,
+                  "alignment": 0.9763390083824766,
+                  "same_norm_geometry_gain": 4.674284476449211,
+                  "hidden_class_distance_gap_change": 4.674284476449211
+                },
+                "momentum": {
+                  "raw_norm": 6.210152153136904,
+                  "alignment": 0.9763390083824772,
+                  "same_norm_geometry_gain": 4.674284476449212,
+                  "hidden_class_distance_gap_change": 4.674284476449212
+                },
+                "variance_scaled": {
+                  "raw_norm": 189.48280822998095,
+                  "alignment": 0.8454486851524141,
+                  "same_norm_geometry_gain": 3.6915680994654556,
+                  "hidden_class_distance_gap_change": 3.6915680994654556
+                },
+                "full_adam": {
+                  "raw_norm": 189.482808229981,
+                  "alignment": 0.8454486851524142,
+                  "same_norm_geometry_gain": 3.6915680994654556,
+                  "hidden_class_distance_gap_change": 3.6915680994654556
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.8469117467664136,
+                  "alignment": 0.9418946999065589,
+                  "same_norm_geometry_gain": 3.771071983963581,
+                  "hidden_class_distance_gap_change": 3.771071983963581
+                },
+                "momentum": {
+                  "raw_norm": 4.4899432083409945,
+                  "alignment": 0.9767627372641797,
+                  "same_norm_geometry_gain": 4.23179573886993,
+                  "hidden_class_distance_gap_change": 4.23179573886993
+                },
+                "variance_scaled": {
+                  "raw_norm": 162.62156368280162,
+                  "alignment": 0.8103822980774077,
+                  "same_norm_geometry_gain": 3.4248871497413447,
+                  "hidden_class_distance_gap_change": 3.4248871497413447
+                },
+                "full_adam": {
+                  "raw_norm": 156.2414608340573,
+                  "alignment": 0.8896250997938926,
+                  "same_norm_geometry_gain": 4.272153306544582,
+                  "hidden_class_distance_gap_change": 4.272153306544581
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.099574770217025,
+                  "alignment": 0.9301782775908377,
+                  "same_norm_geometry_gain": 4.651908924735693,
+                  "hidden_class_distance_gap_change": 4.651908924735693
+                },
+                "momentum": {
+                  "raw_norm": 3.5179542816010243,
+                  "alignment": 0.9757496399659941,
+                  "same_norm_geometry_gain": 4.592837524614003,
+                  "hidden_class_distance_gap_change": 4.592837524614003
+                },
+                "variance_scaled": {
+                  "raw_norm": 153.4041050537532,
+                  "alignment": 0.8068139612739683,
+                  "same_norm_geometry_gain": 3.347496202560362,
+                  "hidden_class_distance_gap_change": 3.347496202560362
+                },
+                "full_adam": {
+                  "raw_norm": 132.67557011088016,
+                  "alignment": 0.893678550858726,
+                  "same_norm_geometry_gain": 4.278793198217422,
+                  "hidden_class_distance_gap_change": 4.278793198217422
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.5111897994192405,
+                  "alignment": 0.8926886666076727,
+                  "same_norm_geometry_gain": 3.837759644233649,
+                  "hidden_class_distance_gap_change": 3.837759644233649
+                },
+                "momentum": {
+                  "raw_norm": 2.9124657354785493,
+                  "alignment": 0.9726721161495029,
+                  "same_norm_geometry_gain": 4.828173195656422,
+                  "hidden_class_distance_gap_change": 4.828173195656423
+                },
+                "variance_scaled": {
+                  "raw_norm": 140.8612463950141,
+                  "alignment": 0.7735620947621563,
+                  "same_norm_geometry_gain": 2.289630390502107,
+                  "hidden_class_distance_gap_change": 2.289630390502107
+                },
+                "full_adam": {
+                  "raw_norm": 120.1426432760052,
+                  "alignment": 0.8955087516606643,
+                  "same_norm_geometry_gain": 4.426288133058428,
+                  "hidden_class_distance_gap_change": 4.426288133058428
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.1623198004521105,
+                  "alignment": 0.7790224875408837,
+                  "same_norm_geometry_gain": 2.8619927687912226,
+                  "hidden_class_distance_gap_change": 2.8619927687912226
+                },
+                "momentum": {
+                  "raw_norm": 2.4286264889078057,
+                  "alignment": 0.966274807068267,
+                  "same_norm_geometry_gain": 5.034062719074537,
+                  "hidden_class_distance_gap_change": 5.034062719074537
+                },
+                "variance_scaled": {
+                  "raw_norm": 132.4507112324987,
+                  "alignment": 0.7400744762128392,
+                  "same_norm_geometry_gain": 2.6896036360431763,
+                  "hidden_class_distance_gap_change": 2.6896036360431763
+                },
+                "full_adam": {
+                  "raw_norm": 108.3534587493184,
+                  "alignment": 0.8913463933027138,
+                  "same_norm_geometry_gain": 4.613792066114064,
+                  "hidden_class_distance_gap_change": 4.613792066114064
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.0187408545491956,
+                  "alignment": 0.8749255031350318,
+                  "same_norm_geometry_gain": 2.8668959549481237,
+                  "hidden_class_distance_gap_change": 2.8668959549481237
+                },
+                "momentum": {
+                  "raw_norm": 2.103971883657369,
+                  "alignment": 0.9630131519956117,
+                  "same_norm_geometry_gain": 4.88536462053459,
+                  "hidden_class_distance_gap_change": 4.88536462053459
+                },
+                "variance_scaled": {
+                  "raw_norm": 133.25493756767892,
+                  "alignment": 0.7931827163642072,
+                  "same_norm_geometry_gain": 3.1212290331840693,
+                  "hidden_class_distance_gap_change": 3.1212290331840693
+                },
+                "full_adam": {
+                  "raw_norm": 99.38324382443062,
+                  "alignment": 0.888049276406658,
+                  "same_norm_geometry_gain": 4.700841059529893,
+                  "hidden_class_distance_gap_change": 4.700841059529893
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.8868311115593919,
+                  "alignment": 0.8503303975206651,
+                  "same_norm_geometry_gain": 3.7158133012519152,
+                  "hidden_class_distance_gap_change": 3.715813301251915
+                },
+                "momentum": {
+                  "raw_norm": 1.8652710204088094,
+                  "alignment": 0.9587601366721887,
+                  "same_norm_geometry_gain": 4.8746728977251195,
+                  "hidden_class_distance_gap_change": 4.8746728977251195
+                },
+                "variance_scaled": {
+                  "raw_norm": 128.75662124136397,
+                  "alignment": 0.7558647572587699,
+                  "same_norm_geometry_gain": 3.3046443717111824,
+                  "hidden_class_distance_gap_change": 3.3046443717111824
+                },
+                "full_adam": {
+                  "raw_norm": 93.0143652076781,
+                  "alignment": 0.883632149753638,
+                  "same_norm_geometry_gain": 4.597287247898063,
+                  "hidden_class_distance_gap_change": 4.597287247898062
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.6650848556288695,
+                  "alignment": 0.8730748158063817,
+                  "same_norm_geometry_gain": 3.1679356899290214,
+                  "hidden_class_distance_gap_change": 3.167935689929021
+                },
+                "momentum": {
+                  "raw_norm": 1.6687497861144722,
+                  "alignment": 0.9574345681046968,
+                  "same_norm_geometry_gain": 4.414838746380793,
+                  "hidden_class_distance_gap_change": 4.414838746380793
+                },
+                "variance_scaled": {
+                  "raw_norm": 130.3093923975392,
+                  "alignment": 0.8277166240595791,
+                  "same_norm_geometry_gain": 3.038188157318792,
+                  "hidden_class_distance_gap_change": 3.038188157318792
+                },
+                "full_adam": {
+                  "raw_norm": 88.5049300585558,
+                  "alignment": 0.8890968423694966,
+                  "same_norm_geometry_gain": 4.317853887965564,
+                  "hidden_class_distance_gap_change": 4.317853887965564
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.4864098765569704,
+                  "alignment": 0.8237399178973095,
+                  "same_norm_geometry_gain": 2.1944452860965624,
+                  "hidden_class_distance_gap_change": 2.1944452860965615
+                },
+                "momentum": {
+                  "raw_norm": 1.520397594798499,
+                  "alignment": 0.9551496695699878,
+                  "same_norm_geometry_gain": 4.357759947404951,
+                  "hidden_class_distance_gap_change": 4.357759947404951
+                },
+                "variance_scaled": {
+                  "raw_norm": 112.71575575294023,
+                  "alignment": 0.7296045477730868,
+                  "same_norm_geometry_gain": 1.6422432201260024,
+                  "hidden_class_distance_gap_change": 1.6422432201260024
+                },
+                "full_adam": {
+                  "raw_norm": 84.69373745601418,
+                  "alignment": 0.8881544356401211,
+                  "same_norm_geometry_gain": 4.261907041708172,
+                  "hidden_class_distance_gap_change": 4.261907041708172
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.8420453016642027,
+                  "alignment": 0.9082719427363092,
+                  "same_norm_geometry_gain": 2.7205528086565236,
+                  "hidden_class_distance_gap_change": 2.7205528086565236
+                },
+                "momentum": {
+                  "raw_norm": 1.4080158866856758,
+                  "alignment": 0.9547325334337412,
+                  "same_norm_geometry_gain": 4.273434575023369,
+                  "hidden_class_distance_gap_change": 4.273434575023369
+                },
+                "variance_scaled": {
+                  "raw_norm": 136.15879921082671,
+                  "alignment": 0.8633149285982864,
+                  "same_norm_geometry_gain": 2.914163142175703,
+                  "hidden_class_distance_gap_change": 2.914163142175703
+                },
+                "full_adam": {
+                  "raw_norm": 82.42977003697496,
+                  "alignment": 0.8946305207780368,
+                  "same_norm_geometry_gain": 4.219137778750282,
+                  "hidden_class_distance_gap_change": 4.219137778750282
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.029147071337948,
+                  "alignment": 0.9547560900240626,
+                  "same_norm_geometry_gain": 5.156105754550735,
+                  "hidden_class_distance_gap_change": 5.156105754550735
+                },
+                "momentum": {
+                  "raw_norm": 5.02914707133795,
+                  "alignment": 0.9547560900240625,
+                  "same_norm_geometry_gain": 5.156105754550733,
+                  "hidden_class_distance_gap_change": 5.156105754550733
+                },
+                "variance_scaled": {
+                  "raw_norm": 189.4828630038498,
+                  "alignment": 0.8267607435820694,
+                  "same_norm_geometry_gain": 3.630543736208604,
+                  "hidden_class_distance_gap_change": 3.630543736208605
+                },
+                "full_adam": {
+                  "raw_norm": 189.48286300384987,
+                  "alignment": 0.8267607435820693,
+                  "same_norm_geometry_gain": 3.6305437362086033,
+                  "hidden_class_distance_gap_change": 3.630543736208604
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.3606425163059668,
+                  "alignment": 0.9267047681041409,
+                  "same_norm_geometry_gain": 5.877526406771411,
+                  "hidden_class_distance_gap_change": 5.877526406771411
+                },
+                "momentum": {
+                  "raw_norm": 3.8464859696983384,
+                  "alignment": 0.9679883635564982,
+                  "same_norm_geometry_gain": 6.223778569704999,
+                  "hidden_class_distance_gap_change": 6.223778569704999
+                },
+                "variance_scaled": {
+                  "raw_norm": 167.68179870483408,
+                  "alignment": 0.8112478838202879,
+                  "same_norm_geometry_gain": 4.140663122788096,
+                  "hidden_class_distance_gap_change": 4.140663122788096
+                },
+                "full_adam": {
+                  "raw_norm": 157.03148195940162,
+                  "alignment": 0.8859648545800508,
+                  "same_norm_geometry_gain": 5.022738347326621,
+                  "hidden_class_distance_gap_change": 5.022738347326621
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.677621141160331,
+                  "alignment": 0.9008014664003265,
+                  "same_norm_geometry_gain": 3.6598353126668055,
+                  "hidden_class_distance_gap_change": 3.6598353126668055
+                },
+                "momentum": {
+                  "raw_norm": 2.9915689571166353,
+                  "alignment": 0.9662847867446742,
+                  "same_norm_geometry_gain": 5.764910603815398,
+                  "hidden_class_distance_gap_change": 5.764910603815398
+                },
+                "variance_scaled": {
+                  "raw_norm": 149.74756317678268,
+                  "alignment": 0.795257332231532,
+                  "same_norm_geometry_gain": 2.3008785800238867,
+                  "hidden_class_distance_gap_change": 2.300878580023886
+                },
+                "full_adam": {
+                  "raw_norm": 131.39497801399597,
+                  "alignment": 0.8887254335296741,
+                  "same_norm_geometry_gain": 4.553400836370204,
+                  "hidden_class_distance_gap_change": 4.553400836370203
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.0870280496730036,
+                  "alignment": 0.8650118104654403,
+                  "same_norm_geometry_gain": 4.309321997362004,
+                  "hidden_class_distance_gap_change": 4.309321997362004
+                },
+                "momentum": {
+                  "raw_norm": 2.479626090389099,
+                  "alignment": 0.963765177872564,
+                  "same_norm_geometry_gain": 5.834615482296415,
+                  "hidden_class_distance_gap_change": 5.834615482296415
+                },
+                "variance_scaled": {
+                  "raw_norm": 144.05673508855222,
+                  "alignment": 0.7698931363141763,
+                  "same_norm_geometry_gain": 2.993239248715574,
+                  "hidden_class_distance_gap_change": 2.993239248715573
+                },
+                "full_adam": {
+                  "raw_norm": 118.50839393782354,
+                  "alignment": 0.8898906450835375,
+                  "same_norm_geometry_gain": 4.70206030377684,
+                  "hidden_class_distance_gap_change": 4.70206030377684
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.0480192160320656,
+                  "alignment": 0.8532393528626645,
+                  "same_norm_geometry_gain": 2.7755921348359887,
+                  "hidden_class_distance_gap_change": 2.7755921348359887
+                },
+                "momentum": {
+                  "raw_norm": 2.1280396780272652,
+                  "alignment": 0.9588590292960159,
+                  "same_norm_geometry_gain": 5.401661243947622,
+                  "hidden_class_distance_gap_change": 5.401661243947622
+                },
+                "variance_scaled": {
+                  "raw_norm": 144.0591054333774,
+                  "alignment": 0.7743206230522568,
+                  "same_norm_geometry_gain": 2.3345059418134624,
+                  "hidden_class_distance_gap_change": 2.3345059418134624
+                },
+                "full_adam": {
+                  "raw_norm": 110.00518696626071,
+                  "alignment": 0.8903256474835899,
+                  "same_norm_geometry_gain": 4.410523566002825,
+                  "hidden_class_distance_gap_change": 4.4105235660028255
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.7409623218716999,
+                  "alignment": 0.764884609513013,
+                  "same_norm_geometry_gain": 2.3871199658367543,
+                  "hidden_class_distance_gap_change": 2.3871199658367543
+                },
+                "momentum": {
+                  "raw_norm": 1.8742197803232443,
+                  "alignment": 0.9534482659278785,
+                  "same_norm_geometry_gain": 4.8702692478837815,
+                  "hidden_class_distance_gap_change": 4.8702692478837815
+                },
+                "variance_scaled": {
+                  "raw_norm": 132.3998624556285,
+                  "alignment": 0.69508785974565,
+                  "same_norm_geometry_gain": 1.6089789984942464,
+                  "hidden_class_distance_gap_change": 1.6089789984942464
+                },
+                "full_adam": {
+                  "raw_norm": 101.8548694831402,
+                  "alignment": 0.8857534469462593,
+                  "same_norm_geometry_gain": 4.094075595789691,
+                  "hidden_class_distance_gap_change": 4.09407559578969
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.557104336539917,
+                  "alignment": 0.8182229238156151,
+                  "same_norm_geometry_gain": 3.0673393314071973,
+                  "hidden_class_distance_gap_change": 3.0673393314071973
+                },
+                "momentum": {
+                  "raw_norm": 1.6486099478504948,
+                  "alignment": 0.9475886519430761,
+                  "same_norm_geometry_gain": 4.752493996830176,
+                  "hidden_class_distance_gap_change": 4.752493996830176
+                },
+                "variance_scaled": {
+                  "raw_norm": 119.87975924303501,
+                  "alignment": 0.7240429037869613,
+                  "same_norm_geometry_gain": 1.7347405281027868,
+                  "hidden_class_distance_gap_change": 1.7347405281027863
+                },
+                "full_adam": {
+                  "raw_norm": 94.59859068783598,
+                  "alignment": 0.877685511825222,
+                  "same_norm_geometry_gain": 4.039927128226725,
+                  "hidden_class_distance_gap_change": 4.039927128226725
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.1826647065815354,
+                  "alignment": 0.8942127957797725,
+                  "same_norm_geometry_gain": 3.5855853711741297,
+                  "hidden_class_distance_gap_change": 3.5855853711741297
+                },
+                "momentum": {
+                  "raw_norm": 1.5038790610880979,
+                  "alignment": 0.941765639653795,
+                  "same_norm_geometry_gain": 5.4230918045279175,
+                  "hidden_class_distance_gap_change": 5.4230918045279175
+                },
+                "variance_scaled": {
+                  "raw_norm": 168.93328760204324,
+                  "alignment": 0.8427824332045368,
+                  "same_norm_geometry_gain": 2.7172370888402884,
+                  "hidden_class_distance_gap_change": 2.7172370888402884
+                },
+                "full_adam": {
+                  "raw_norm": 88.79724526202898,
+                  "alignment": 0.8761250041958025,
+                  "same_norm_geometry_gain": 4.535045291415983,
+                  "hidden_class_distance_gap_change": 4.535045291415983
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.4396452674118156,
+                  "alignment": 0.840970979179251,
+                  "same_norm_geometry_gain": 2.3320089997668516,
+                  "hidden_class_distance_gap_change": 2.3320089997668516
+                },
+                "momentum": {
+                  "raw_norm": 1.3795425807357917,
+                  "alignment": 0.9425185237829339,
+                  "same_norm_geometry_gain": 4.994404772179579,
+                  "hidden_class_distance_gap_change": 4.994404772179578
+                },
+                "variance_scaled": {
+                  "raw_norm": 118.32488728295155,
+                  "alignment": 0.7568085416327606,
+                  "same_norm_geometry_gain": 1.4396409008924076,
+                  "hidden_class_distance_gap_change": 1.4396409008924071
+                },
+                "full_adam": {
+                  "raw_norm": 84.5732561056512,
+                  "alignment": 0.8744525853080696,
+                  "same_norm_geometry_gain": 4.104648000140316,
+                  "hidden_class_distance_gap_change": 4.104648000140316
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.7017806388717904,
+                  "alignment": 0.8651419901153798,
+                  "same_norm_geometry_gain": 3.50474055866524,
+                  "hidden_class_distance_gap_change": 3.504740558665238
+                },
+                "momentum": {
+                  "raw_norm": 1.2829055701447363,
+                  "alignment": 0.9426649148493199,
+                  "same_norm_geometry_gain": 5.110900736876282,
+                  "hidden_class_distance_gap_change": 5.110900736876282
+                },
+                "variance_scaled": {
+                  "raw_norm": 135.56405587493606,
+                  "alignment": 0.7906926570268888,
+                  "same_norm_geometry_gain": 2.922975598204616,
+                  "hidden_class_distance_gap_change": 2.922975598204616
+                },
+                "full_adam": {
+                  "raw_norm": 81.53577155910448,
+                  "alignment": 0.8772606104809223,
+                  "same_norm_geometry_gain": 4.2511372913186865,
+                  "hidden_class_distance_gap_change": 4.2511372913186865
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.197830462281961,
+                  "alignment": 0.9709492446096255,
+                  "same_norm_geometry_gain": 5.049692437185389,
+                  "hidden_class_distance_gap_change": 5.049692437185389
+                },
+                "momentum": {
+                  "raw_norm": 5.197830462281962,
+                  "alignment": 0.9709492446096255,
+                  "same_norm_geometry_gain": 5.0496924371853895,
+                  "hidden_class_distance_gap_change": 5.049692437185389
+                },
+                "variance_scaled": {
+                  "raw_norm": 189.48282208846385,
+                  "alignment": 0.8244344465143729,
+                  "same_norm_geometry_gain": 3.638718701583011,
+                  "hidden_class_distance_gap_change": 3.638718701583011
+                },
+                "full_adam": {
+                  "raw_norm": 189.4828220884639,
+                  "alignment": 0.8244344465143729,
+                  "same_norm_geometry_gain": 3.6387187015830116,
+                  "hidden_class_distance_gap_change": 3.6387187015830116
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.8883194863631685,
+                  "alignment": 0.9594385656186084,
+                  "same_norm_geometry_gain": 5.153380888107878,
+                  "hidden_class_distance_gap_change": 5.153380888107878
+                },
+                "momentum": {
+                  "raw_norm": 4.47097587983015,
+                  "alignment": 0.9779022348425719,
+                  "same_norm_geometry_gain": 5.6109865438539135,
+                  "hidden_class_distance_gap_change": 5.6109865438539135
+                },
+                "variance_scaled": {
+                  "raw_norm": 185.3083792843561,
+                  "alignment": 0.8590268506457445,
+                  "same_norm_geometry_gain": 4.774564946694447,
+                  "hidden_class_distance_gap_change": 4.774564946694447
+                },
+                "full_adam": {
+                  "raw_norm": 153.4106977842719,
+                  "alignment": 0.8897808689353823,
+                  "same_norm_geometry_gain": 4.622732425338055,
+                  "hidden_class_distance_gap_change": 4.622732425338055
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.721738369270171,
+                  "alignment": 0.92998847992426,
+                  "same_norm_geometry_gain": 3.7080814593407805,
+                  "hidden_class_distance_gap_change": 3.7080814593407805
+                },
+                "momentum": {
+                  "raw_norm": 3.4460459986991885,
+                  "alignment": 0.9772138398003352,
+                  "same_norm_geometry_gain": 5.454634903566975,
+                  "hidden_class_distance_gap_change": 5.454634903566975
+                },
+                "variance_scaled": {
+                  "raw_norm": 150.9568098363187,
+                  "alignment": 0.8194385521683348,
+                  "same_norm_geometry_gain": 2.64644720619806,
+                  "hidden_class_distance_gap_change": 2.646447206198061
+                },
+                "full_adam": {
+                  "raw_norm": 131.04426952455813,
+                  "alignment": 0.8973935542438414,
+                  "same_norm_geometry_gain": 4.57665568667189,
+                  "hidden_class_distance_gap_change": 4.57665568667189
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.0889903029958408,
+                  "alignment": 0.8752879874298868,
+                  "same_norm_geometry_gain": 4.950309677944046,
+                  "hidden_class_distance_gap_change": 4.950309677944045
+                },
+                "momentum": {
+                  "raw_norm": 3.019101499515057,
+                  "alignment": 0.968456064095533,
+                  "same_norm_geometry_gain": 5.963520891612651,
+                  "hidden_class_distance_gap_change": 5.963520891612651
+                },
+                "variance_scaled": {
+                  "raw_norm": 163.7365852866732,
+                  "alignment": 0.7962072553040083,
+                  "same_norm_geometry_gain": 4.111650764839896,
+                  "hidden_class_distance_gap_change": 4.111650764839896
+                },
+                "full_adam": {
+                  "raw_norm": 123.63690717401256,
+                  "alignment": 0.9009472525037391,
+                  "same_norm_geometry_gain": 5.273390651785804,
+                  "hidden_class_distance_gap_change": 5.273390651785804
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.378738907429245,
+                  "alignment": 0.875358285017302,
+                  "same_norm_geometry_gain": 3.4686087869290496,
+                  "hidden_class_distance_gap_change": 3.4686087869290496
+                },
+                "momentum": {
+                  "raw_norm": 2.493598167713939,
+                  "alignment": 0.9618417171648166,
+                  "same_norm_geometry_gain": 5.127966379728317,
+                  "hidden_class_distance_gap_change": 5.127966379728317
+                },
+                "variance_scaled": {
+                  "raw_norm": 150.61177036783073,
+                  "alignment": 0.815512230548363,
+                  "same_norm_geometry_gain": 2.745318433075739,
+                  "hidden_class_distance_gap_change": 2.7453184330757394
+                },
+                "full_adam": {
+                  "raw_norm": 110.56958448482942,
+                  "alignment": 0.8950893929505878,
+                  "same_norm_geometry_gain": 4.428693462701575,
+                  "hidden_class_distance_gap_change": 4.428693462701575
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.3189574278513425,
+                  "alignment": 0.8778239739098213,
+                  "same_norm_geometry_gain": 2.47023264922554,
+                  "hidden_class_distance_gap_change": 2.47023264922554
+                },
+                "momentum": {
+                  "raw_norm": 2.1238324638488213,
+                  "alignment": 0.950906582372362,
+                  "same_norm_geometry_gain": 5.132731705295255,
+                  "hidden_class_distance_gap_change": 5.132731705295255
+                },
+                "variance_scaled": {
+                  "raw_norm": 146.1415976989875,
+                  "alignment": 0.8006988400195304,
+                  "same_norm_geometry_gain": 2.154655295745304,
+                  "hidden_class_distance_gap_change": 2.154655295745304
+                },
+                "full_adam": {
+                  "raw_norm": 101.92047910579258,
+                  "alignment": 0.8871475910672332,
+                  "same_norm_geometry_gain": 4.347665333714608,
+                  "hidden_class_distance_gap_change": 4.347665333714609
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.647436361932795,
+                  "alignment": 0.9268702057405451,
+                  "same_norm_geometry_gain": 3.466032653919376,
+                  "hidden_class_distance_gap_change": 3.4660326539193766
+                },
+                "momentum": {
+                  "raw_norm": 1.8870632707113426,
+                  "alignment": 0.9468809323318609,
+                  "same_norm_geometry_gain": 4.708499697785685,
+                  "hidden_class_distance_gap_change": 4.708499697785687
+                },
+                "variance_scaled": {
+                  "raw_norm": 156.25776237535814,
+                  "alignment": 0.8628579922961032,
+                  "same_norm_geometry_gain": 2.5512613277634317,
+                  "hidden_class_distance_gap_change": 2.551261327763432
+                },
+                "full_adam": {
+                  "raw_norm": 94.5682706789127,
+                  "alignment": 0.8857294368429556,
+                  "same_norm_geometry_gain": 3.8773644194784107,
+                  "hidden_class_distance_gap_change": 3.877364419478409
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.4144407544954087,
+                  "alignment": 0.8284982209937313,
+                  "same_norm_geometry_gain": 2.3828705361639333,
+                  "hidden_class_distance_gap_change": 2.3828705361639333
+                },
+                "momentum": {
+                  "raw_norm": 1.680583721995406,
+                  "alignment": 0.9477337648841684,
+                  "same_norm_geometry_gain": 4.223263061616602,
+                  "hidden_class_distance_gap_change": 4.223263061616602
+                },
+                "variance_scaled": {
+                  "raw_norm": 103.54919621016414,
+                  "alignment": 0.703808724675197,
+                  "same_norm_geometry_gain": 1.8269335074859685,
+                  "hidden_class_distance_gap_change": 1.8269335074859685
+                },
+                "full_adam": {
+                  "raw_norm": 88.4976342264219,
+                  "alignment": 0.8872838314958821,
+                  "same_norm_geometry_gain": 3.7447217005957856,
+                  "hidden_class_distance_gap_change": 3.744721700595785
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 1.7158032204706386,
+                  "alignment": 0.8836796561177233,
+                  "same_norm_geometry_gain": 3.3293582194317084,
+                  "hidden_class_distance_gap_change": 3.3293582194317084
+                },
+                "momentum": {
+                  "raw_norm": 1.4846474343935099,
+                  "alignment": 0.9462653010568901,
+                  "same_norm_geometry_gain": 4.222428227483745,
+                  "hidden_class_distance_gap_change": 4.222428227483745
+                },
+                "variance_scaled": {
+                  "raw_norm": 131.86394208822998,
+                  "alignment": 0.8148540371403311,
+                  "same_norm_geometry_gain": 2.8061836011894226,
+                  "hidden_class_distance_gap_change": 2.806183601189422
+                },
+                "full_adam": {
+                  "raw_norm": 82.15671996570306,
+                  "alignment": 0.8826746545851173,
+                  "same_norm_geometry_gain": 4.010393903714724,
+                  "hidden_class_distance_gap_change": 4.010393903714725
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.154423986524367,
+                  "alignment": 0.9012973260096409,
+                  "same_norm_geometry_gain": 4.231722408178846,
+                  "hidden_class_distance_gap_change": 4.231722408178847
+                },
+                "momentum": {
+                  "raw_norm": 1.3397467764421442,
+                  "alignment": 0.9396456334801924,
+                  "same_norm_geometry_gain": 4.49786783513261,
+                  "hidden_class_distance_gap_change": 4.49786783513261
+                },
+                "variance_scaled": {
+                  "raw_norm": 153.84317484979573,
+                  "alignment": 0.8398566671578191,
+                  "same_norm_geometry_gain": 3.505501725928978,
+                  "hidden_class_distance_gap_change": 3.505501725928978
+                },
+                "full_adam": {
+                  "raw_norm": 77.1385276754329,
+                  "alignment": 0.8733026301882163,
+                  "same_norm_geometry_gain": 4.039326275119401,
+                  "hidden_class_distance_gap_change": 4.0393262751194
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "decorrelated": {
+      "runs": [
+        {
+          "seed": 7,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.063992027318411,
+                  "alignment": 0.9633265226502391,
+                  "same_norm_geometry_gain": 5.379696763603803,
+                  "hidden_class_distance_gap_change": 5.379696763603803
+                },
+                "momentum": {
+                  "raw_norm": 6.063992027318413,
+                  "alignment": 0.9633265226502391,
+                  "same_norm_geometry_gain": 5.379696763603803,
+                  "hidden_class_distance_gap_change": 5.379696763603803
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.24460489222957,
+                  "alignment": 0.12550352136325135,
+                  "same_norm_geometry_gain": 0.24257888338148142,
+                  "hidden_class_distance_gap_change": 0.24257888338148148
+                },
+                "full_adam": {
+                  "raw_norm": 173.2446048922296,
+                  "alignment": 0.12550352136325138,
+                  "same_norm_geometry_gain": 0.24257888338148142,
+                  "hidden_class_distance_gap_change": 0.24257888338148142
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.190135739728906,
+                  "alignment": 0.9752272366162504,
+                  "same_norm_geometry_gain": 5.8400422009474156,
+                  "hidden_class_distance_gap_change": 5.8400422009474156
+                },
+                "momentum": {
+                  "raw_norm": 5.427362473748284,
+                  "alignment": 0.9819486648114275,
+                  "same_norm_geometry_gain": 5.656700967663481,
+                  "hidden_class_distance_gap_change": 5.656700967663481
+                },
+                "variance_scaled": {
+                  "raw_norm": 166.86004631339793,
+                  "alignment": 0.14419821261957516,
+                  "same_norm_geometry_gain": 0.3236629953976939,
+                  "hidden_class_distance_gap_change": 0.3236629953976939
+                },
+                "full_adam": {
+                  "raw_norm": 123.7903921346472,
+                  "alignment": 0.1764468043241697,
+                  "same_norm_geometry_gain": 0.32919862656636045,
+                  "hidden_class_distance_gap_change": 0.3291986265663604
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.403647222225912,
+                  "alignment": 0.9651753504795192,
+                  "same_norm_geometry_gain": 5.459753069219566,
+                  "hidden_class_distance_gap_change": 5.459753069219566
+                },
+                "momentum": {
+                  "raw_norm": 4.959554525941028,
+                  "alignment": 0.9854395501235363,
+                  "same_norm_geometry_gain": 5.338808440443717,
+                  "hidden_class_distance_gap_change": 5.3388084404437155
+                },
+                "variance_scaled": {
+                  "raw_norm": 165.36457286768513,
+                  "alignment": 0.1429844166533075,
+                  "same_norm_geometry_gain": 0.2634336242157304,
+                  "hidden_class_distance_gap_change": 0.2634336242157304
+                },
+                "full_adam": {
+                  "raw_norm": 102.39677061876516,
+                  "alignment": 0.2131419792049666,
+                  "same_norm_geometry_gain": 0.31842468081016184,
+                  "hidden_class_distance_gap_change": 0.31842468081016195
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.7850481704375145,
+                  "alignment": 0.9338257501938535,
+                  "same_norm_geometry_gain": 5.632481026863111,
+                  "hidden_class_distance_gap_change": 5.632481026863111
+                },
+                "momentum": {
+                  "raw_norm": 4.784831916314751,
+                  "alignment": 0.9832431516934192,
+                  "same_norm_geometry_gain": 5.84632552363632,
+                  "hidden_class_distance_gap_change": 5.84632552363632
+                },
+                "variance_scaled": {
+                  "raw_norm": 169.64551595274833,
+                  "alignment": 0.1519950076066728,
+                  "same_norm_geometry_gain": 0.3592008281034397,
+                  "hidden_class_distance_gap_change": 0.3592008281034396
+                },
+                "full_adam": {
+                  "raw_norm": 90.57999041300573,
+                  "alignment": 0.24054460221157764,
+                  "same_norm_geometry_gain": 0.4049043672224792,
+                  "hidden_class_distance_gap_change": 0.4049043672224792
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.9431206338041838,
+                  "alignment": 0.959805166818489,
+                  "same_norm_geometry_gain": 6.026429486245792,
+                  "hidden_class_distance_gap_change": 6.026429486245792
+                },
+                "momentum": {
+                  "raw_norm": 4.499142764658008,
+                  "alignment": 0.9850070517396752,
+                  "same_norm_geometry_gain": 6.023782320627278,
+                  "hidden_class_distance_gap_change": 6.023782320627278
+                },
+                "variance_scaled": {
+                  "raw_norm": 161.4839589598792,
+                  "alignment": 0.1404784364407365,
+                  "same_norm_geometry_gain": 0.33853723370417405,
+                  "hidden_class_distance_gap_change": 0.33853723370417405
+                },
+                "full_adam": {
+                  "raw_norm": 82.35629089288551,
+                  "alignment": 0.26090798791147235,
+                  "same_norm_geometry_gain": 0.5035960645999037,
+                  "hidden_class_distance_gap_change": 0.5035960645999037
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.6812122522944284,
+                  "alignment": 0.9646779344583185,
+                  "same_norm_geometry_gain": 5.488084965163118,
+                  "hidden_class_distance_gap_change": 5.488084965163118
+                },
+                "momentum": {
+                  "raw_norm": 4.243370171067832,
+                  "alignment": 0.9865898764387954,
+                  "same_norm_geometry_gain": 5.539972985083266,
+                  "hidden_class_distance_gap_change": 5.539972985083266
+                },
+                "variance_scaled": {
+                  "raw_norm": 150.86044461465218,
+                  "alignment": 0.13705367537488933,
+                  "same_norm_geometry_gain": 0.3279399800356696,
+                  "hidden_class_distance_gap_change": 0.3279399800356696
+                },
+                "full_adam": {
+                  "raw_norm": 75.76739608790481,
+                  "alignment": 0.27783529404247015,
+                  "same_norm_geometry_gain": 0.45130936610528716,
+                  "hidden_class_distance_gap_change": 0.45130936610528716
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.2935587821702765,
+                  "alignment": 0.9634381322258564,
+                  "same_norm_geometry_gain": 6.066444710444456,
+                  "hidden_class_distance_gap_change": 6.066444710444456
+                },
+                "momentum": {
+                  "raw_norm": 3.9857643335334703,
+                  "alignment": 0.9875895338319935,
+                  "same_norm_geometry_gain": 6.227527117238914,
+                  "hidden_class_distance_gap_change": 6.227527117238914
+                },
+                "variance_scaled": {
+                  "raw_norm": 145.16992243164046,
+                  "alignment": 0.16693930374402255,
+                  "same_norm_geometry_gain": 0.45445156113959134,
+                  "hidden_class_distance_gap_change": 0.45445156113959134
+                },
+                "full_adam": {
+                  "raw_norm": 70.93575478296307,
+                  "alignment": 0.30127720426207993,
+                  "same_norm_geometry_gain": 0.6227167698176245,
+                  "hidden_class_distance_gap_change": 0.6227167698176245
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.4838254664075716,
+                  "alignment": 0.9650160993174188,
+                  "same_norm_geometry_gain": 5.9647449211586245,
+                  "hidden_class_distance_gap_change": 5.9647449211586245
+                },
+                "momentum": {
+                  "raw_norm": 3.8486014811708618,
+                  "alignment": 0.9886531773144628,
+                  "same_norm_geometry_gain": 6.29969009343932,
+                  "hidden_class_distance_gap_change": 6.29969009343932
+                },
+                "variance_scaled": {
+                  "raw_norm": 156.81462397105216,
+                  "alignment": 0.1471126880548744,
+                  "same_norm_geometry_gain": 0.4269168413717942,
+                  "hidden_class_distance_gap_change": 0.4269168413717942
+                },
+                "full_adam": {
+                  "raw_norm": 67.52052426359171,
+                  "alignment": 0.31934977772314677,
+                  "same_norm_geometry_gain": 0.7013476847440002,
+                  "hidden_class_distance_gap_change": 0.7013476847440002
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.1103757067372424,
+                  "alignment": 0.93475138324548,
+                  "same_norm_geometry_gain": 6.312147888143928,
+                  "hidden_class_distance_gap_change": 6.312147888143928
+                },
+                "momentum": {
+                  "raw_norm": 3.6389589407074854,
+                  "alignment": 0.9882861510993923,
+                  "same_norm_geometry_gain": 6.351167553901195,
+                  "hidden_class_distance_gap_change": 6.351167553901195
+                },
+                "variance_scaled": {
+                  "raw_norm": 161.36348395640528,
+                  "alignment": 0.14714345063661832,
+                  "same_norm_geometry_gain": 0.4565402850544953,
+                  "hidden_class_distance_gap_change": 0.4565402850544953
+                },
+                "full_adam": {
+                  "raw_norm": 65.08109777821898,
+                  "alignment": 0.33159082382074007,
+                  "same_norm_geometry_gain": 0.7477679707048751,
+                  "hidden_class_distance_gap_change": 0.747767970704875
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.136567318832702,
+                  "alignment": 0.9610966076366915,
+                  "same_norm_geometry_gain": 6.1668102914205845,
+                  "hidden_class_distance_gap_change": 6.1668102914205845
+                },
+                "momentum": {
+                  "raw_norm": 3.505798136118626,
+                  "alignment": 0.9890521773558291,
+                  "same_norm_geometry_gain": 6.51130307451041,
+                  "hidden_class_distance_gap_change": 6.51130307451041
+                },
+                "variance_scaled": {
+                  "raw_norm": 149.33730444376502,
+                  "alignment": 0.1680882663162667,
+                  "same_norm_geometry_gain": 0.5408578860718036,
+                  "hidden_class_distance_gap_change": 0.5408578860718035
+                },
+                "full_adam": {
+                  "raw_norm": 62.48504720047433,
+                  "alignment": 0.34735890991402757,
+                  "same_norm_geometry_gain": 0.8191014363356447,
+                  "hidden_class_distance_gap_change": 0.8191014363356447
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 11,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.490788710298822,
+                  "alignment": 0.9678442100786798,
+                  "same_norm_geometry_gain": 4.177319167967184,
+                  "hidden_class_distance_gap_change": 4.177319167967184
+                },
+                "momentum": {
+                  "raw_norm": 5.490788710298823,
+                  "alignment": 0.96784421007868,
+                  "same_norm_geometry_gain": 4.177319167967186,
+                  "hidden_class_distance_gap_change": 4.177319167967186
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.2370543446048,
+                  "alignment": 0.14837376360413074,
+                  "same_norm_geometry_gain": 0.10734725909986113,
+                  "hidden_class_distance_gap_change": 0.10734725909986113
+                },
+                "full_adam": {
+                  "raw_norm": 173.23705434460484,
+                  "alignment": 0.14837376360413074,
+                  "same_norm_geometry_gain": 0.10734725909986105,
+                  "hidden_class_distance_gap_change": 0.10734725909986106
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.9562141785149025,
+                  "alignment": 0.9616876292725149,
+                  "same_norm_geometry_gain": 4.357153928130919,
+                  "hidden_class_distance_gap_change": 4.357153928130919
+                },
+                "momentum": {
+                  "raw_norm": 5.027879198432544,
+                  "alignment": 0.9802512441698054,
+                  "same_norm_geometry_gain": 4.329662360519424,
+                  "hidden_class_distance_gap_change": 4.329662360519424
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.776141916143,
+                  "alignment": 0.1490657037753124,
+                  "same_norm_geometry_gain": 0.1624164049217392,
+                  "hidden_class_distance_gap_change": 0.1624164049217392
+                },
+                "full_adam": {
+                  "raw_norm": 124.32427197666789,
+                  "alignment": 0.19884096903860662,
+                  "same_norm_geometry_gain": 0.14276238165170008,
+                  "hidden_class_distance_gap_change": 0.14276238165170008
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.362781849332031,
+                  "alignment": 0.9351269480254066,
+                  "same_norm_geometry_gain": 4.11200353593813,
+                  "hidden_class_distance_gap_change": 4.11200353593813
+                },
+                "momentum": {
+                  "raw_norm": 5.005984156075215,
+                  "alignment": 0.9785224312872747,
+                  "same_norm_geometry_gain": 4.324827592994699,
+                  "hidden_class_distance_gap_change": 4.324827592994699
+                },
+                "variance_scaled": {
+                  "raw_norm": 176.8802508297345,
+                  "alignment": 0.12564721780743937,
+                  "same_norm_geometry_gain": 0.11096678050969523,
+                  "hidden_class_distance_gap_change": 0.11096678050969523
+                },
+                "full_adam": {
+                  "raw_norm": 103.49563578902658,
+                  "alignment": 0.2186645366610194,
+                  "same_norm_geometry_gain": 0.11767404830523963,
+                  "hidden_class_distance_gap_change": 0.11767404830523964
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.03397878380499,
+                  "alignment": 0.9432580507364359,
+                  "same_norm_geometry_gain": 3.7965807340977964,
+                  "hidden_class_distance_gap_change": 3.7965807340977964
+                },
+                "momentum": {
+                  "raw_norm": 4.54740228735742,
+                  "alignment": 0.980424857989719,
+                  "same_norm_geometry_gain": 4.278704535355267,
+                  "hidden_class_distance_gap_change": 4.278704535355267
+                },
+                "variance_scaled": {
+                  "raw_norm": 165.13164279372066,
+                  "alignment": 0.1529196358386916,
+                  "same_norm_geometry_gain": 0.33129785316712057,
+                  "hidden_class_distance_gap_change": 0.33129785316712057
+                },
+                "full_adam": {
+                  "raw_norm": 91.1756375135047,
+                  "alignment": 0.2487934990627576,
+                  "same_norm_geometry_gain": 0.2761843246066802,
+                  "hidden_class_distance_gap_change": 0.2761843246066802
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.9461467352953803,
+                  "alignment": 0.9431612484799362,
+                  "same_norm_geometry_gain": 4.2528567168547635,
+                  "hidden_class_distance_gap_change": 4.2528567168547635
+                },
+                "momentum": {
+                  "raw_norm": 4.251616024690419,
+                  "alignment": 0.9814456577108027,
+                  "same_norm_geometry_gain": 4.290593331019182,
+                  "hidden_class_distance_gap_change": 4.290593331019181
+                },
+                "variance_scaled": {
+                  "raw_norm": 167.3427499562794,
+                  "alignment": 0.1585941216386336,
+                  "same_norm_geometry_gain": 0.2927443515782423,
+                  "hidden_class_distance_gap_change": 0.29274435157824236
+                },
+                "full_adam": {
+                  "raw_norm": 84.22147671001693,
+                  "alignment": 0.2724521834673255,
+                  "same_norm_geometry_gain": 0.3102892155897884,
+                  "hidden_class_distance_gap_change": 0.3102892155897884
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.390280667156714,
+                  "alignment": 0.9289012763802154,
+                  "same_norm_geometry_gain": 3.8791542704678648,
+                  "hidden_class_distance_gap_change": 3.879154270467865
+                },
+                "momentum": {
+                  "raw_norm": 3.9208348757609035,
+                  "alignment": 0.981010242553229,
+                  "same_norm_geometry_gain": 4.362001824366191,
+                  "hidden_class_distance_gap_change": 4.362001824366191
+                },
+                "variance_scaled": {
+                  "raw_norm": 164.73630770979423,
+                  "alignment": 0.13970647279709106,
+                  "same_norm_geometry_gain": 0.2729873567982035,
+                  "hidden_class_distance_gap_change": 0.2729873567982035
+                },
+                "full_adam": {
+                  "raw_norm": 78.20171556988737,
+                  "alignment": 0.28961203288749815,
+                  "same_norm_geometry_gain": 0.35897281261566516,
+                  "hidden_class_distance_gap_change": 0.35897281261566516
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.35261652845982,
+                  "alignment": 0.921368143723781,
+                  "same_norm_geometry_gain": 3.8963222566864637,
+                  "hidden_class_distance_gap_change": 3.8963222566864637
+                },
+                "momentum": {
+                  "raw_norm": 3.7031455280180055,
+                  "alignment": 0.9810610497189799,
+                  "same_norm_geometry_gain": 4.461635508678496,
+                  "hidden_class_distance_gap_change": 4.461635508678496
+                },
+                "variance_scaled": {
+                  "raw_norm": 164.7454952028179,
+                  "alignment": 0.14840872509239944,
+                  "same_norm_geometry_gain": 0.3507636915972089,
+                  "hidden_class_distance_gap_change": 0.3507636915972089
+                },
+                "full_adam": {
+                  "raw_norm": 73.8977311049335,
+                  "alignment": 0.30632539860212343,
+                  "same_norm_geometry_gain": 0.4608038398433258,
+                  "hidden_class_distance_gap_change": 0.4608038398433258
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.948824355315973,
+                  "alignment": 0.9451376773088105,
+                  "same_norm_geometry_gain": 4.542387796177871,
+                  "hidden_class_distance_gap_change": 4.542387796177872
+                },
+                "momentum": {
+                  "raw_norm": 3.4960453670197227,
+                  "alignment": 0.983172192311345,
+                  "same_norm_geometry_gain": 4.2143823076038345,
+                  "hidden_class_distance_gap_change": 4.2143823076038345
+                },
+                "variance_scaled": {
+                  "raw_norm": 148.40832826641824,
+                  "alignment": 0.15682111444470676,
+                  "same_norm_geometry_gain": 0.3893599423305648,
+                  "hidden_class_distance_gap_change": 0.3893599423305648
+                },
+                "full_adam": {
+                  "raw_norm": 69.95541820745716,
+                  "alignment": 0.3245289757818626,
+                  "same_norm_geometry_gain": 0.45760935125904123,
+                  "hidden_class_distance_gap_change": 0.4576093512590413
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.7651641016599755,
+                  "alignment": 0.9257394529657778,
+                  "same_norm_geometry_gain": 4.204591315042448,
+                  "hidden_class_distance_gap_change": 4.204591315042448
+                },
+                "momentum": {
+                  "raw_norm": 3.288537359094446,
+                  "alignment": 0.9834022646217572,
+                  "same_norm_geometry_gain": 4.5565490983383246,
+                  "hidden_class_distance_gap_change": 4.5565490983383246
+                },
+                "variance_scaled": {
+                  "raw_norm": 152.1948359286936,
+                  "alignment": 0.1578394805718644,
+                  "same_norm_geometry_gain": 0.30823145262061685,
+                  "hidden_class_distance_gap_change": 0.30823145262061685
+                },
+                "full_adam": {
+                  "raw_norm": 66.26066333285623,
+                  "alignment": 0.3426887851828103,
+                  "same_norm_geometry_gain": 0.48844407855758465,
+                  "hidden_class_distance_gap_change": 0.48844407855758465
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 2.710337041391081,
+                  "alignment": 0.8937959024792205,
+                  "same_norm_geometry_gain": 3.981283112188586,
+                  "hidden_class_distance_gap_change": 3.981283112188586
+                },
+                "momentum": {
+                  "raw_norm": 3.1022121995124694,
+                  "alignment": 0.9814842207543413,
+                  "same_norm_geometry_gain": 4.522772935738029,
+                  "hidden_class_distance_gap_change": 4.522772935738029
+                },
+                "variance_scaled": {
+                  "raw_norm": 156.399473602531,
+                  "alignment": 0.16727802653354693,
+                  "same_norm_geometry_gain": 0.4134663251758751,
+                  "hidden_class_distance_gap_change": 0.4134663251758751
+                },
+                "full_adam": {
+                  "raw_norm": 64.10149661077604,
+                  "alignment": 0.3577386365232347,
+                  "same_norm_geometry_gain": 0.5940687803645847,
+                  "hidden_class_distance_gap_change": 0.5940687803645847
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 19,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.384395536485975,
+                  "alignment": 0.969503032909871,
+                  "same_norm_geometry_gain": 4.876328645269672,
+                  "hidden_class_distance_gap_change": 4.876328645269672
+                },
+                "momentum": {
+                  "raw_norm": 6.384395536485978,
+                  "alignment": 0.9695030329098708,
+                  "same_norm_geometry_gain": 4.8763286452696715,
+                  "hidden_class_distance_gap_change": 4.8763286452696715
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.2555597498748,
+                  "alignment": 0.16039312630505959,
+                  "same_norm_geometry_gain": 0.046665463599554015,
+                  "hidden_class_distance_gap_change": 0.046665463599554015
+                },
+                "full_adam": {
+                  "raw_norm": 173.25555974987483,
+                  "alignment": 0.1603931263050596,
+                  "same_norm_geometry_gain": 0.04666546359955399,
+                  "hidden_class_distance_gap_change": 0.04666546359955398
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.916261602446911,
+                  "alignment": 0.965146506311361,
+                  "same_norm_geometry_gain": 4.177987184271391,
+                  "hidden_class_distance_gap_change": 4.177987184271391
+                },
+                "momentum": {
+                  "raw_norm": 5.949448240505869,
+                  "alignment": 0.9790132461112849,
+                  "same_norm_geometry_gain": 4.3343532423939415,
+                  "hidden_class_distance_gap_change": 4.3343532423939415
+                },
+                "variance_scaled": {
+                  "raw_norm": 176.25431816369235,
+                  "alignment": 0.150371304471966,
+                  "same_norm_geometry_gain": 0.05543957865945828,
+                  "hidden_class_distance_gap_change": 0.05543957865945828
+                },
+                "full_adam": {
+                  "raw_norm": 125.02669382701525,
+                  "alignment": 0.20445185967657908,
+                  "same_norm_geometry_gain": 0.03380346312969944,
+                  "hidden_class_distance_gap_change": 0.03380346312969943
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.817094253451399,
+                  "alignment": 0.964005721295488,
+                  "same_norm_geometry_gain": 4.695848779352392,
+                  "hidden_class_distance_gap_change": 4.695848779352392
+                },
+                "momentum": {
+                  "raw_norm": 5.7724292383680424,
+                  "alignment": 0.9824697837798168,
+                  "same_norm_geometry_gain": 4.954855059980384,
+                  "hidden_class_distance_gap_change": 4.954855059980384
+                },
+                "variance_scaled": {
+                  "raw_norm": 171.8225544864518,
+                  "alignment": 0.16660625791704634,
+                  "same_norm_geometry_gain": 0.08015172307082494,
+                  "hidden_class_distance_gap_change": 0.08015172307082494
+                },
+                "full_adam": {
+                  "raw_norm": 104.237206444837,
+                  "alignment": 0.24667321889366595,
+                  "same_norm_geometry_gain": 0.07004433741105498,
+                  "hidden_class_distance_gap_change": 0.07004433741105497
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.874549836264689,
+                  "alignment": 0.9522046094615619,
+                  "same_norm_geometry_gain": 5.027063869140335,
+                  "hidden_class_distance_gap_change": 5.027063869140335
+                },
+                "momentum": {
+                  "raw_norm": 5.3865713428427275,
+                  "alignment": 0.98457098082627,
+                  "same_norm_geometry_gain": 5.289337552573606,
+                  "hidden_class_distance_gap_change": 5.289337552573606
+                },
+                "variance_scaled": {
+                  "raw_norm": 175.2026922115464,
+                  "alignment": 0.1378895816729858,
+                  "same_norm_geometry_gain": 0.24617396792000734,
+                  "hidden_class_distance_gap_change": 0.24617396792000737
+                },
+                "full_adam": {
+                  "raw_norm": 92.85924581781731,
+                  "alignment": 0.2655139263421736,
+                  "same_norm_geometry_gain": 0.26374380092202787,
+                  "hidden_class_distance_gap_change": 0.2637438009220278
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.269282498959251,
+                  "alignment": 0.9673511228851943,
+                  "same_norm_geometry_gain": 4.9795070361678135,
+                  "hidden_class_distance_gap_change": 4.9795070361678135
+                },
+                "momentum": {
+                  "raw_norm": 5.263051418338695,
+                  "alignment": 0.9862239102525103,
+                  "same_norm_geometry_gain": 5.443744024925779,
+                  "hidden_class_distance_gap_change": 5.443744024925779
+                },
+                "variance_scaled": {
+                  "raw_norm": 164.39697201107865,
+                  "alignment": 0.13824427706292938,
+                  "same_norm_geometry_gain": 0.2735220635710881,
+                  "hidden_class_distance_gap_change": 0.2735220635710881
+                },
+                "full_adam": {
+                  "raw_norm": 84.46598426367129,
+                  "alignment": 0.282316439410556,
+                  "same_norm_geometry_gain": 0.32052473335734305,
+                  "hidden_class_distance_gap_change": 0.32052473335734305
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.014041241098019,
+                  "alignment": 0.9619667891229969,
+                  "same_norm_geometry_gain": 5.009166363537155,
+                  "hidden_class_distance_gap_change": 5.009166363537155
+                },
+                "momentum": {
+                  "raw_norm": 5.124225385995957,
+                  "alignment": 0.9869207070088613,
+                  "same_norm_geometry_gain": 5.14464370833143,
+                  "hidden_class_distance_gap_change": 5.14464370833143
+                },
+                "variance_scaled": {
+                  "raw_norm": 163.83684824951536,
+                  "alignment": 0.16125022823984625,
+                  "same_norm_geometry_gain": 0.2850243074352625,
+                  "hidden_class_distance_gap_change": 0.2850243074352625
+                },
+                "full_adam": {
+                  "raw_norm": 79.06221722646234,
+                  "alignment": 0.30156812315604214,
+                  "same_norm_geometry_gain": 0.3568422703173282,
+                  "hidden_class_distance_gap_change": 0.3568422703173282
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.093714151186006,
+                  "alignment": 0.939965999204143,
+                  "same_norm_geometry_gain": 5.19819123356957,
+                  "hidden_class_distance_gap_change": 5.19819123356957
+                },
+                "momentum": {
+                  "raw_norm": 4.809015483147767,
+                  "alignment": 0.9869848458335359,
+                  "same_norm_geometry_gain": 5.1731502567308105,
+                  "hidden_class_distance_gap_change": 5.17315025673081
+                },
+                "variance_scaled": {
+                  "raw_norm": 162.75996451096498,
+                  "alignment": 0.13385562221095315,
+                  "same_norm_geometry_gain": 0.3914879898241771,
+                  "hidden_class_distance_gap_change": 0.3914879898241771
+                },
+                "full_adam": {
+                  "raw_norm": 74.12028498674078,
+                  "alignment": 0.31042304287203876,
+                  "same_norm_geometry_gain": 0.42141621471089463,
+                  "hidden_class_distance_gap_change": 0.42141621471089463
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.536731471056854,
+                  "alignment": 0.9574087333980071,
+                  "same_norm_geometry_gain": 5.335362421923174,
+                  "hidden_class_distance_gap_change": 5.335362421923174
+                },
+                "momentum": {
+                  "raw_norm": 4.701669754997482,
+                  "alignment": 0.9872112197253518,
+                  "same_norm_geometry_gain": 4.98725226583744,
+                  "hidden_class_distance_gap_change": 4.98725226583744
+                },
+                "variance_scaled": {
+                  "raw_norm": 157.54594861632677,
+                  "alignment": 0.15018288892712964,
+                  "same_norm_geometry_gain": 0.41141463728359057,
+                  "hidden_class_distance_gap_change": 0.4114146372835905
+                },
+                "full_adam": {
+                  "raw_norm": 70.32011762614185,
+                  "alignment": 0.32419270006065637,
+                  "same_norm_geometry_gain": 0.5121049631640472,
+                  "hidden_class_distance_gap_change": 0.5121049631640472
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.275865117728572,
+                  "alignment": 0.9518602328610497,
+                  "same_norm_geometry_gain": 4.992298328596962,
+                  "hidden_class_distance_gap_change": 4.992298328596962
+                },
+                "momentum": {
+                  "raw_norm": 4.561308048688749,
+                  "alignment": 0.9871479818718218,
+                  "same_norm_geometry_gain": 5.181755541780746,
+                  "hidden_class_distance_gap_change": 5.1817555417807455
+                },
+                "variance_scaled": {
+                  "raw_norm": 162.37197475286285,
+                  "alignment": 0.1493106106120474,
+                  "same_norm_geometry_gain": 0.4457557821426571,
+                  "hidden_class_distance_gap_change": 0.4457557821426571
+                },
+                "full_adam": {
+                  "raw_norm": 67.54352536160246,
+                  "alignment": 0.3360498689527225,
+                  "same_norm_geometry_gain": 0.5648193354405424,
+                  "hidden_class_distance_gap_change": 0.5648193354405424
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.02387151752397,
+                  "alignment": 0.9440870807253777,
+                  "same_norm_geometry_gain": 5.084924354042462,
+                  "hidden_class_distance_gap_change": 5.084924354042462
+                },
+                "momentum": {
+                  "raw_norm": 4.382212043196714,
+                  "alignment": 0.9875749003054815,
+                  "same_norm_geometry_gain": 5.406410516752533,
+                  "hidden_class_distance_gap_change": 5.406410516752533
+                },
+                "variance_scaled": {
+                  "raw_norm": 165.60482578229295,
+                  "alignment": 0.13841847836965537,
+                  "same_norm_geometry_gain": 0.42626207861343457,
+                  "hidden_class_distance_gap_change": 0.42626207861343457
+                },
+                "full_adam": {
+                  "raw_norm": 65.00646597896976,
+                  "alignment": 0.34475450212668735,
+                  "same_norm_geometry_gain": 0.6134744242873406,
+                  "hidden_class_distance_gap_change": 0.6134744242873406
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 23,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 7.5153146290012725,
+                  "alignment": 0.9589654210642113,
+                  "same_norm_geometry_gain": 5.5520605334256405,
+                  "hidden_class_distance_gap_change": 5.5520605334256405
+                },
+                "momentum": {
+                  "raw_norm": 7.515314629001274,
+                  "alignment": 0.9589654210642113,
+                  "same_norm_geometry_gain": 5.55206053342564,
+                  "hidden_class_distance_gap_change": 5.55206053342564
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.2360126973592,
+                  "alignment": 0.1346597448285729,
+                  "same_norm_geometry_gain": 0.017137115783336446,
+                  "hidden_class_distance_gap_change": 0.017137115783336446
+                },
+                "full_adam": {
+                  "raw_norm": 173.23601269735926,
+                  "alignment": 0.13465974482857293,
+                  "same_norm_geometry_gain": 0.017137115783336362,
+                  "hidden_class_distance_gap_change": 0.017137115783336362
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.748070468918304,
+                  "alignment": 0.9737020936397552,
+                  "same_norm_geometry_gain": 5.7584488818290165,
+                  "hidden_class_distance_gap_change": 5.758448881829017
+                },
+                "momentum": {
+                  "raw_norm": 6.942690041990988,
+                  "alignment": 0.9804235683446909,
+                  "same_norm_geometry_gain": 5.943033590207955,
+                  "hidden_class_distance_gap_change": 5.943033590207955
+                },
+                "variance_scaled": {
+                  "raw_norm": 169.58909718338347,
+                  "alignment": 0.14792073858973634,
+                  "same_norm_geometry_gain": 0.016913919736462252,
+                  "hidden_class_distance_gap_change": 0.016913919736462255
+                },
+                "full_adam": {
+                  "raw_norm": 123.77272501537857,
+                  "alignment": 0.18806407138040385,
+                  "same_norm_geometry_gain": 0.020422100294140356,
+                  "hidden_class_distance_gap_change": 0.020422100294140343
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.306851982887223,
+                  "alignment": 0.9687684760226516,
+                  "same_norm_geometry_gain": 5.6826372569898815,
+                  "hidden_class_distance_gap_change": 5.6826372569898815
+                },
+                "momentum": {
+                  "raw_norm": 6.564716967661441,
+                  "alignment": 0.9865873949424574,
+                  "same_norm_geometry_gain": 5.951977345648836,
+                  "hidden_class_distance_gap_change": 5.951977345648836
+                },
+                "variance_scaled": {
+                  "raw_norm": 167.1481942264662,
+                  "alignment": 0.14385160994402915,
+                  "same_norm_geometry_gain": 0.026199533387965206,
+                  "hidden_class_distance_gap_change": 0.026199533387965213
+                },
+                "full_adam": {
+                  "raw_norm": 102.67027915410998,
+                  "alignment": 0.22318490658155324,
+                  "same_norm_geometry_gain": 0.08846410731022852,
+                  "hidden_class_distance_gap_change": 0.08846410731022851
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.128909149178471,
+                  "alignment": 0.954502260096272,
+                  "same_norm_geometry_gain": 5.55919242644269,
+                  "hidden_class_distance_gap_change": 5.55919242644269
+                },
+                "momentum": {
+                  "raw_norm": 6.0426647013147745,
+                  "alignment": 0.9871478225268435,
+                  "same_norm_geometry_gain": 6.082053184479484,
+                  "hidden_class_distance_gap_change": 6.082053184479483
+                },
+                "variance_scaled": {
+                  "raw_norm": 167.05952602879808,
+                  "alignment": 0.15104537723682426,
+                  "same_norm_geometry_gain": 0.1357734665144329,
+                  "hidden_class_distance_gap_change": 0.1357734665144329
+                },
+                "full_adam": {
+                  "raw_norm": 90.19251773228561,
+                  "alignment": 0.2531957702229394,
+                  "same_norm_geometry_gain": 0.21461131567118102,
+                  "hidden_class_distance_gap_change": 0.21461131567118097
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.443158130207677,
+                  "alignment": 0.9697130416365444,
+                  "same_norm_geometry_gain": 6.216231063499862,
+                  "hidden_class_distance_gap_change": 6.216231063499862
+                },
+                "momentum": {
+                  "raw_norm": 5.83351213241426,
+                  "alignment": 0.9886513670783074,
+                  "same_norm_geometry_gain": 6.441730498045356,
+                  "hidden_class_distance_gap_change": 6.441730498045356
+                },
+                "variance_scaled": {
+                  "raw_norm": 166.84866731926024,
+                  "alignment": 0.14517737888781423,
+                  "same_norm_geometry_gain": 0.20565597012937098,
+                  "hidden_class_distance_gap_change": 0.20565597012937092
+                },
+                "full_adam": {
+                  "raw_norm": 82.60434735122114,
+                  "alignment": 0.2783026041424624,
+                  "same_norm_geometry_gain": 0.2762410642840668,
+                  "hidden_class_distance_gap_change": 0.2762410642840668
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.627047833214329,
+                  "alignment": 0.9470511201575438,
+                  "same_norm_geometry_gain": 4.955975790009923,
+                  "hidden_class_distance_gap_change": 4.955975790009923
+                },
+                "momentum": {
+                  "raw_norm": 5.4278619272165916,
+                  "alignment": 0.9891142712023416,
+                  "same_norm_geometry_gain": 5.674366824569614,
+                  "hidden_class_distance_gap_change": 5.674366824569614
+                },
+                "variance_scaled": {
+                  "raw_norm": 170.93944371909805,
+                  "alignment": 0.14290646260939965,
+                  "same_norm_geometry_gain": 0.2791739281338891,
+                  "hidden_class_distance_gap_change": 0.2791739281338891
+                },
+                "full_adam": {
+                  "raw_norm": 76.8713755398737,
+                  "alignment": 0.2962597873875904,
+                  "same_norm_geometry_gain": 0.27499280166295015,
+                  "hidden_class_distance_gap_change": 0.27499280166295015
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.138042909338901,
+                  "alignment": 0.9473435042168454,
+                  "same_norm_geometry_gain": 5.075717999439766,
+                  "hidden_class_distance_gap_change": 5.075717999439764
+                },
+                "momentum": {
+                  "raw_norm": 5.090242295129223,
+                  "alignment": 0.9888461095622036,
+                  "same_norm_geometry_gain": 5.515555062044469,
+                  "hidden_class_distance_gap_change": 5.515555062044469
+                },
+                "variance_scaled": {
+                  "raw_norm": 162.08093912671302,
+                  "alignment": 0.16027819699947038,
+                  "same_norm_geometry_gain": 0.2923988543745723,
+                  "hidden_class_distance_gap_change": 0.2923988543745723
+                },
+                "full_adam": {
+                  "raw_norm": 72.73568543037193,
+                  "alignment": 0.31548436041409966,
+                  "same_norm_geometry_gain": 0.3778099082494209,
+                  "hidden_class_distance_gap_change": 0.37780990824942096
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.998214854318739,
+                  "alignment": 0.942622351034497,
+                  "same_norm_geometry_gain": 4.777227548361836,
+                  "hidden_class_distance_gap_change": 4.777227548361835
+                },
+                "momentum": {
+                  "raw_norm": 4.806882788524645,
+                  "alignment": 0.98950418090368,
+                  "same_norm_geometry_gain": 5.77533362863269,
+                  "hidden_class_distance_gap_change": 5.77533362863269
+                },
+                "variance_scaled": {
+                  "raw_norm": 161.53786635182573,
+                  "alignment": 0.1524823701028628,
+                  "same_norm_geometry_gain": 0.26867525114237406,
+                  "hidden_class_distance_gap_change": 0.26867525114237406
+                },
+                "full_adam": {
+                  "raw_norm": 68.6586231336847,
+                  "alignment": 0.33275499705707373,
+                  "same_norm_geometry_gain": 0.38129454220410613,
+                  "hidden_class_distance_gap_change": 0.38129454220410613
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.920518444797314,
+                  "alignment": 0.9438705687120577,
+                  "same_norm_geometry_gain": 5.672610869734923,
+                  "hidden_class_distance_gap_change": 5.672610869734923
+                },
+                "momentum": {
+                  "raw_norm": 4.59357459015087,
+                  "alignment": 0.9888457585351494,
+                  "same_norm_geometry_gain": 6.084691488059646,
+                  "hidden_class_distance_gap_change": 6.084691488059646
+                },
+                "variance_scaled": {
+                  "raw_norm": 151.97141684375634,
+                  "alignment": 0.15929907101415552,
+                  "same_norm_geometry_gain": 0.34325826708160495,
+                  "hidden_class_distance_gap_change": 0.34325826708160495
+                },
+                "full_adam": {
+                  "raw_norm": 65.40918922830097,
+                  "alignment": 0.3481675326550408,
+                  "same_norm_geometry_gain": 0.5361943819995916,
+                  "hidden_class_distance_gap_change": 0.5361943819995916
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.012503413774952,
+                  "alignment": 0.9668472977496069,
+                  "same_norm_geometry_gain": 5.893429224443016,
+                  "hidden_class_distance_gap_change": 5.893429224443015
+                },
+                "momentum": {
+                  "raw_norm": 4.570767170851181,
+                  "alignment": 0.9896475701036749,
+                  "same_norm_geometry_gain": 6.250336976148194,
+                  "hidden_class_distance_gap_change": 6.250336976148194
+                },
+                "variance_scaled": {
+                  "raw_norm": 163.72535902354193,
+                  "alignment": 0.1587067798466264,
+                  "same_norm_geometry_gain": 0.272431071093544,
+                  "hidden_class_distance_gap_change": 0.27243107109354403
+                },
+                "full_adam": {
+                  "raw_norm": 63.89468852583522,
+                  "alignment": 0.35657043769183583,
+                  "same_norm_geometry_gain": 0.47542297516344095,
+                  "hidden_class_distance_gap_change": 0.47542297516344095
+                }
+              }
+            }
+          ]
+        },
+        {
+          "seed": 31,
+          "records": [
+            {
+              "update": 1,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.9348674505603025,
+                  "alignment": 0.9715655681437033,
+                  "same_norm_geometry_gain": 5.188094367201057,
+                  "hidden_class_distance_gap_change": 5.188094367201058
+                },
+                "momentum": {
+                  "raw_norm": 5.934867450560303,
+                  "alignment": 0.9715655681437034,
+                  "same_norm_geometry_gain": 5.188094367201059,
+                  "hidden_class_distance_gap_change": 5.188094367201058
+                },
+                "variance_scaled": {
+                  "raw_norm": 173.22380326251988,
+                  "alignment": 0.13205885601006795,
+                  "same_norm_geometry_gain": 0.10951519698436885,
+                  "hidden_class_distance_gap_change": 0.10951519698436886
+                },
+                "full_adam": {
+                  "raw_norm": 173.22380326251994,
+                  "alignment": 0.13205885601006792,
+                  "same_norm_geometry_gain": 0.10951519698436886,
+                  "hidden_class_distance_gap_change": 0.10951519698436886
+                }
+              }
+            },
+            {
+              "update": 2,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 6.1134206091947085,
+                  "alignment": 0.9647160950869917,
+                  "same_norm_geometry_gain": 4.815585641734863,
+                  "hidden_class_distance_gap_change": 4.815585641734863
+                },
+                "momentum": {
+                  "raw_norm": 5.701307688311167,
+                  "alignment": 0.9798392272176089,
+                  "same_norm_geometry_gain": 5.2589791055562,
+                  "hidden_class_distance_gap_change": 5.2589791055562
+                },
+                "variance_scaled": {
+                  "raw_norm": 174.9007124077502,
+                  "alignment": 0.1353074881406256,
+                  "same_norm_geometry_gain": 0.21808308769814172,
+                  "hidden_class_distance_gap_change": 0.21808308769814172
+                },
+                "full_adam": {
+                  "raw_norm": 124.74166162920761,
+                  "alignment": 0.16642777917610643,
+                  "same_norm_geometry_gain": 0.22255492464459797,
+                  "hidden_class_distance_gap_change": 0.22255492464459797
+                }
+              }
+            },
+            {
+              "update": 3,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.78308345706691,
+                  "alignment": 0.9736685455604448,
+                  "same_norm_geometry_gain": 5.581124581067864,
+                  "hidden_class_distance_gap_change": 5.581124581067864
+                },
+                "momentum": {
+                  "raw_norm": 5.608947086899876,
+                  "alignment": 0.9852135555087138,
+                  "same_norm_geometry_gain": 5.209063052959658,
+                  "hidden_class_distance_gap_change": 5.209063052959658
+                },
+                "variance_scaled": {
+                  "raw_norm": 170.28034105288307,
+                  "alignment": 0.13189711905547125,
+                  "same_norm_geometry_gain": 0.18165699860231765,
+                  "hidden_class_distance_gap_change": 0.18165699860231765
+                },
+                "full_adam": {
+                  "raw_norm": 104.13976749136181,
+                  "alignment": 0.1981097476257652,
+                  "same_norm_geometry_gain": 0.212186033206952,
+                  "hidden_class_distance_gap_change": 0.212186033206952
+                }
+              }
+            },
+            {
+              "update": 4,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.643432858149615,
+                  "alignment": 0.9486711086833353,
+                  "same_norm_geometry_gain": 5.601714146587998,
+                  "hidden_class_distance_gap_change": 5.601714146587997
+                },
+                "momentum": {
+                  "raw_norm": 5.506204464550271,
+                  "alignment": 0.9853287144445736,
+                  "same_norm_geometry_gain": 5.802759743506283,
+                  "hidden_class_distance_gap_change": 5.802759743506282
+                },
+                "variance_scaled": {
+                  "raw_norm": 181.3590850380557,
+                  "alignment": 0.12255012637837585,
+                  "same_norm_geometry_gain": 0.22339755839242217,
+                  "hidden_class_distance_gap_change": 0.22339755839242217
+                },
+                "full_adam": {
+                  "raw_norm": 91.43965249274798,
+                  "alignment": 0.21887138662868402,
+                  "same_norm_geometry_gain": 0.3040996719716057,
+                  "hidden_class_distance_gap_change": 0.30409967197160576
+                }
+              }
+            },
+            {
+              "update": 5,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.846801544020374,
+                  "alignment": 0.9586578649214913,
+                  "same_norm_geometry_gain": 5.449312759737784,
+                  "hidden_class_distance_gap_change": 5.449312759737785
+                },
+                "momentum": {
+                  "raw_norm": 5.252807284872304,
+                  "alignment": 0.985601416383869,
+                  "same_norm_geometry_gain": 5.25593869462607,
+                  "hidden_class_distance_gap_change": 5.25593869462607
+                },
+                "variance_scaled": {
+                  "raw_norm": 158.2804661355307,
+                  "alignment": 0.13393267554586658,
+                  "same_norm_geometry_gain": 0.3025709308982457,
+                  "hidden_class_distance_gap_change": 0.30257093089824577
+                },
+                "full_adam": {
+                  "raw_norm": 82.88425804180386,
+                  "alignment": 0.23879881142857082,
+                  "same_norm_geometry_gain": 0.37724440330596737,
+                  "hidden_class_distance_gap_change": 0.37724440330596737
+                }
+              }
+            },
+            {
+              "update": 6,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 5.292113712855152,
+                  "alignment": 0.9633901223724028,
+                  "same_norm_geometry_gain": 5.491351447823618,
+                  "hidden_class_distance_gap_change": 5.491351447823618
+                },
+                "momentum": {
+                  "raw_norm": 5.193230004165835,
+                  "alignment": 0.9870067357287932,
+                  "same_norm_geometry_gain": 5.713103097883681,
+                  "hidden_class_distance_gap_change": 5.71310309788368
+                },
+                "variance_scaled": {
+                  "raw_norm": 174.75344497684472,
+                  "alignment": 0.12555902737955685,
+                  "same_norm_geometry_gain": 0.30339781177966046,
+                  "hidden_class_distance_gap_change": 0.3033978117796604
+                },
+                "full_adam": {
+                  "raw_norm": 77.3128081492614,
+                  "alignment": 0.2578395358976521,
+                  "same_norm_geometry_gain": 0.42902046295255997,
+                  "hidden_class_distance_gap_change": 0.42902046295255997
+                }
+              }
+            },
+            {
+              "update": 7,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.65780856827878,
+                  "alignment": 0.9522037822404784,
+                  "same_norm_geometry_gain": 6.119015406678848,
+                  "hidden_class_distance_gap_change": 6.119015406678848
+                },
+                "momentum": {
+                  "raw_norm": 5.004673265034699,
+                  "alignment": 0.9873366263359911,
+                  "same_norm_geometry_gain": 6.167070173592882,
+                  "hidden_class_distance_gap_change": 6.167070173592883
+                },
+                "variance_scaled": {
+                  "raw_norm": 163.19746665039526,
+                  "alignment": 0.13869016495444264,
+                  "same_norm_geometry_gain": 0.41560564023082514,
+                  "hidden_class_distance_gap_change": 0.4156056402308252
+                },
+                "full_adam": {
+                  "raw_norm": 72.56112404174945,
+                  "alignment": 0.276780739467784,
+                  "same_norm_geometry_gain": 0.5643745155851453,
+                  "hidden_class_distance_gap_change": 0.5643745155851454
+                }
+              }
+            },
+            {
+              "update": 8,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.9749729213303424,
+                  "alignment": 0.9465340939341957,
+                  "same_norm_geometry_gain": 4.410168672038468,
+                  "hidden_class_distance_gap_change": 4.410168672038468
+                },
+                "momentum": {
+                  "raw_norm": 4.735313733720313,
+                  "alignment": 0.9873340838155159,
+                  "same_norm_geometry_gain": 5.055303043736962,
+                  "hidden_class_distance_gap_change": 5.055303043736963
+                },
+                "variance_scaled": {
+                  "raw_norm": 162.75051029656126,
+                  "alignment": 0.11605650065782984,
+                  "same_norm_geometry_gain": 0.25587898383031593,
+                  "hidden_class_distance_gap_change": 0.255878983830316
+                },
+                "full_adam": {
+                  "raw_norm": 69.23973020357164,
+                  "alignment": 0.28269397527917467,
+                  "same_norm_geometry_gain": 0.5001490232680261,
+                  "hidden_class_distance_gap_change": 0.5001490232680261
+                }
+              }
+            },
+            {
+              "update": 9,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 4.04954495999438,
+                  "alignment": 0.95117271113164,
+                  "same_norm_geometry_gain": 4.798142277708885,
+                  "hidden_class_distance_gap_change": 4.798142277708886
+                },
+                "momentum": {
+                  "raw_norm": 4.558381621700874,
+                  "alignment": 0.98746856867721,
+                  "same_norm_geometry_gain": 5.297662598337941,
+                  "hidden_class_distance_gap_change": 5.297662598337941
+                },
+                "variance_scaled": {
+                  "raw_norm": 160.57989956813543,
+                  "alignment": 0.14130598300623987,
+                  "same_norm_geometry_gain": 0.2919485168835621,
+                  "hidden_class_distance_gap_change": 0.2919485168835621
+                },
+                "full_adam": {
+                  "raw_norm": 66.39898652417403,
+                  "alignment": 0.2951280509943556,
+                  "same_norm_geometry_gain": 0.5335586797152311,
+                  "hidden_class_distance_gap_change": 0.533558679715231
+                }
+              }
+            },
+            {
+              "update": 10,
+              "operations": {
+                "raw_gradient": {
+                  "raw_norm": 3.780961411623455,
+                  "alignment": 0.9550777655392267,
+                  "same_norm_geometry_gain": 5.225427256532266,
+                  "hidden_class_distance_gap_change": 5.2254272565322655
+                },
+                "momentum": {
+                  "raw_norm": 4.388421296465458,
+                  "alignment": 0.9880535327687455,
+                  "same_norm_geometry_gain": 5.66761625252997,
+                  "hidden_class_distance_gap_change": 5.66761625252997
+                },
+                "variance_scaled": {
+                  "raw_norm": 155.59043461946786,
+                  "alignment": 0.13273342923627357,
+                  "same_norm_geometry_gain": 0.3843930290108172,
+                  "hidden_class_distance_gap_change": 0.3843930290108172
+                },
+                "full_adam": {
+                  "raw_norm": 63.67583849053141,
+                  "alignment": 0.30763957848086976,
+                  "same_norm_geometry_gain": 0.6223265029344459,
+                  "hidden_class_distance_gap_change": 0.622326502934446
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "stages": [
+    {
+      "prediction": "input geometry\uac00 raw gradient\uc758 class-direction \uc815\ub82c\uc744 \ub9cc\ub4e0\ub2e4.",
+      "control": "scale-only\uc640 decorrelated \uc785\ub825\uc5d0\uc11c g_t\ub97c \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": {
+        "scale_only": {
+          "raw_norm": 2.6997273788950364,
+          "alignment": 0.8933221260890971,
+          "same_norm_geometry_gain": 3.452860009167532,
+          "hidden_class_distance_gap_change": 3.452860009167532
+        },
+        "decorrelated": {
+          "raw_norm": 4.663401256121993,
+          "alignment": 0.9536980868642368,
+          "same_norm_geometry_gain": 5.13472869047843,
+          "hidden_class_distance_gap_change": 5.134728690478431
+        }
+      }
+    },
+    {
+      "prediction": "momentum\uc740 gradient \uc815\ub82c\uc744 \uc720\uc9c0\ud55c\ub2e4.",
+      "control": "m_t\ub9cc \uac19\uc740 norm\uc73c\ub85c \uc801\uc6a9\ud55c\ub2e4.",
+      "actual_result": {
+        "scale_only": {
+          "raw_norm": 2.7632058692785493,
+          "alignment": 0.9620235813185789,
+          "same_norm_geometry_gain": 4.755992482610674,
+          "hidden_class_distance_gap_change": 4.755992482610674
+        },
+        "decorrelated": {
+          "raw_norm": 4.967970602198861,
+          "alignment": 0.9833571266033558,
+          "same_norm_geometry_gain": 5.347439671569945,
+          "hidden_class_distance_gap_change": 5.347439671569945
+        }
+      }
+    },
+    {
+      "prediction": "second-moment scaling\uc740 \uc88c\ud45c\ubcc4 variance\ub97c \ubcf4\uc815\ud558\uc9c0\ub9cc \ubc29\ud5a5\uc744 \ud06c\uac8c \ubc14\uafb8\uc9c0 \uc54a\ub294\ub2e4.",
+      "control": "g_t/\u221av_t\ub9cc \uac19\uc740 norm\uc73c\ub85c \uc801\uc6a9\ud55c\ub2e4.",
+      "actual_result": {
+        "scale_only": {
+          "raw_norm": 145.8557139469911,
+          "alignment": 0.7978551295757196,
+          "same_norm_geometry_gain": 2.6766468943239334,
+          "hidden_class_distance_gap_change": 2.6766468943239334
+        },
+        "decorrelated": {
+          "raw_norm": 164.9020220803429,
+          "alignment": 0.14538185434255782,
+          "same_norm_geometry_gain": 0.27359328520166576,
+          "hidden_class_distance_gap_change": 0.27359328520166565
+        }
+      }
+    },
+    {
+      "prediction": "full Adam\uc740 \uc55e \ub2e8\uacc4\uc758 \uc7a5\uc810\uc744 \uacb0\ud569\ud55c\ub2e4.",
+      "control": "m_t/\u221av_t\ub97c same-norm\uc73c\ub85c \uc801\uc6a9\ud558\uace0 \uac01 \ub2e8\uacc4\uc640 \ube44\uad50\ud55c\ub2e4.",
+      "actual_result": {
+        "scale_only": {
+          "raw_norm": 115.58473214054264,
+          "alignment": 0.8846722438187494,
+          "same_norm_geometry_gain": 4.0927265470398195,
+          "hidden_class_distance_gap_change": 4.0927265470398195
+        },
+        "decorrelated": {
+          "raw_norm": 92.491786912858,
+          "alignment": 0.2635861033347211,
+          "same_norm_geometry_gain": 0.36392321351424967,
+          "hidden_class_distance_gap_change": 0.36392321351424967
+        }
+      }
+    }
+  ]
+}
