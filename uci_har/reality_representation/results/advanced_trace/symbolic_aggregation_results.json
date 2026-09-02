@@ -1,0 +1,866 @@
+{
+  "source": "/home/redbebero/Projects/myai/uci_har/reality_representation/results/advanced_trace/auto_structure_results.json",
+  "aggregation": "same operation, same raw channels, overlapping time windows",
+  "clusters": [
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 68,
+          "end": 84
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 7,
+          "expression": "mean(square(x[5,68:84]))",
+          "coefficient": -0.15750712690366317,
+          "validation_r2": 0.28832737872583636
+        },
+        {
+          "variant": "flat",
+          "seed": 19,
+          "expression": "mean(square(x[5,74:90]))",
+          "coefficient": -0.15720369323990604,
+          "validation_r2": 0.2709694937793272
+        },
+        {
+          "variant": "flat",
+          "seed": 31,
+          "expression": "mean(square(x[5,66:82]))",
+          "coefficient": -0.15419241317273824,
+          "validation_r2": 0.25364116154824823
+        },
+        {
+          "variant": "wide",
+          "seed": 11,
+          "expression": "mean(square(x[5,59:75]))",
+          "coefficient": -0.1203353250005848,
+          "validation_r2": 0.27752338614870253
+        },
+        {
+          "variant": "wide",
+          "seed": 19,
+          "expression": "mean(square(x[5,65:81]))",
+          "coefficient": -0.15259199723781994,
+          "validation_r2": 0.26209050309094506
+        }
+      ],
+      "meaning": "body_gyro_z local signal magnitude",
+      "model_count": 5,
+      "mean_abs_coefficient": 0.14836611111094244,
+      "mean_coefficient": -0.14836611111094244
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 94,
+          "end": 110
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 23,
+          "expression": "max(x[6,94:110])-min(x[6,94:110])",
+          "coefficient": -0.14837158974204037,
+          "validation_r2": 0.32110875545662776
+        },
+        {
+          "variant": "wide",
+          "seed": 19,
+          "expression": "max(x[6,94:110])-min(x[6,94:110])",
+          "coefficient": -0.15856072491191697,
+          "validation_r2": 0.26209050309094506
+        },
+        {
+          "variant": "wide",
+          "seed": 23,
+          "expression": "max(x[6,103:119])-min(x[6,103:119])",
+          "coefficient": -0.1395796161904775,
+          "validation_r2": 0.2637241842489676
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 3,
+      "mean_abs_coefficient": 0.14883731028147829,
+      "mean_coefficient": -0.14883731028147829
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 0,
+          "channel": "body_acc_x",
+          "start": 38,
+          "end": 54
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 23,
+          "expression": "mean(square(x[0,38:54]))",
+          "coefficient": -0.14124684226966505,
+          "validation_r2": 0.32110875545662776
+        },
+        {
+          "variant": "flat",
+          "seed": 31,
+          "expression": "mean(square(x[0,41:57]))",
+          "coefficient": -0.1541901570343424,
+          "validation_r2": 0.25364116154824823
+        },
+        {
+          "variant": "wide",
+          "seed": 7,
+          "expression": "mean(square(x[0,45:61]))",
+          "coefficient": -0.11802150232527066,
+          "validation_r2": 0.29284152365072647
+        }
+      ],
+      "meaning": "body_acc_x local signal magnitude",
+      "model_count": 3,
+      "mean_abs_coefficient": 0.1378195005430927,
+      "mean_coefficient": -0.1378195005430927
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 74,
+          "end": 90
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 19,
+          "expression": "max(x[5,74:90])-min(x[5,74:90])",
+          "coefficient": 0.10632040789383106,
+          "validation_r2": 0.2709694937793272
+        },
+        {
+          "variant": "flat",
+          "seed": 31,
+          "expression": "max(x[5,66:82])-min(x[5,66:82])",
+          "coefficient": 0.15883681559895074,
+          "validation_r2": 0.25364116154824823
+        },
+        {
+          "variant": "wide",
+          "seed": 19,
+          "expression": "max(x[5,65:81])-min(x[5,65:81])",
+          "coefficient": 0.12863720918346974,
+          "validation_r2": 0.26209050309094506
+        }
+      ],
+      "meaning": "body_gyro_z local movement range",
+      "model_count": 3,
+      "mean_abs_coefficient": 0.13126481089208383,
+      "mean_coefficient": 0.13126481089208383
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 85,
+          "end": 101
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 23,
+          "expression": "mean(square(x[5,85:101]))",
+          "coefficient": -0.13475814372349193,
+          "validation_r2": 0.32110875545662776
+        },
+        {
+          "variant": "wide",
+          "seed": 7,
+          "expression": "mean(square(x[5,88:104]))",
+          "coefficient": -0.12433652611122109,
+          "validation_r2": 0.29284152365072647
+        },
+        {
+          "variant": "wide",
+          "seed": 31,
+          "expression": "mean(square(x[5,89:105]))",
+          "coefficient": -0.11468298119131344,
+          "validation_r2": 0.2760434569072161
+        }
+      ],
+      "meaning": "body_gyro_z local signal magnitude",
+      "model_count": 3,
+      "mean_abs_coefficient": 0.12459255034200882,
+      "mean_coefficient": -0.12459255034200882
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 85,
+          "end": 101
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 23,
+          "expression": "max(x[5,85:101])-min(x[5,85:101])",
+          "coefficient": 0.15057041292647932,
+          "validation_r2": 0.32110875545662776
+        },
+        {
+          "variant": "wide",
+          "seed": 7,
+          "expression": "max(x[5,88:104])-min(x[5,88:104])",
+          "coefficient": 0.17182341056174383,
+          "validation_r2": 0.29284152365072647
+        }
+      ],
+      "meaning": "body_gyro_z local movement range",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.16119691174411158,
+      "mean_coefficient": 0.16119691174411158
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 63,
+          "end": 79
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 7,
+          "expression": "max(x[6,63:79])-min(x[6,63:79])",
+          "coefficient": -0.16407969932257943,
+          "validation_r2": 0.28832737872583636
+        },
+        {
+          "variant": "flat",
+          "seed": 19,
+          "expression": "max(x[6,70:86])-min(x[6,70:86])",
+          "coefficient": -0.15122309072223333,
+          "validation_r2": 0.2709694937793272
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.15765139502240638,
+      "mean_coefficient": -0.15765139502240638
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 30,
+          "end": 46
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 11,
+          "expression": "max(x[5,30:46])-min(x[5,30:46])",
+          "coefficient": 0.1635886630910543,
+          "validation_r2": 0.22743268876916778
+        },
+        {
+          "variant": "wide",
+          "seed": 23,
+          "expression": "max(x[5,34:50])-min(x[5,34:50])",
+          "coefficient": 0.14589947909977075,
+          "validation_r2": 0.2637241842489676
+        }
+      ],
+      "meaning": "body_gyro_z local movement range",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.15474407109541252,
+      "mean_coefficient": 0.15474407109541252
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 45,
+          "end": 61
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 7,
+          "expression": "mean(abs(diff(x[2,45:61])))",
+          "coefficient": 0.17496018523335477,
+          "validation_r2": 0.29284152365072647
+        },
+        {
+          "variant": "wide",
+          "seed": 23,
+          "expression": "mean(abs(diff(x[2,42:58])))",
+          "coefficient": 0.13402158361400396,
+          "validation_r2": 0.2637241842489676
+        }
+      ],
+      "meaning": "body_acc_z local temporal change",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.15449088442367936,
+      "mean_coefficient": 0.15449088442367936
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 76,
+          "end": 92
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 19,
+          "expression": "mean(abs(diff(x[2,76:92])))",
+          "coefficient": 0.1420844715112747,
+          "validation_r2": 0.26209050309094506
+        },
+        {
+          "variant": "wide",
+          "seed": 31,
+          "expression": "mean(abs(diff(x[2,78:94])))",
+          "coefficient": 0.14739770118092663,
+          "validation_r2": 0.2760434569072161
+        }
+      ],
+      "meaning": "body_acc_z local temporal change",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.14474108634610067,
+      "mean_coefficient": 0.14474108634610067
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 0,
+          "channel": "body_acc_x",
+          "start": 96,
+          "end": 112
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 19,
+          "expression": "mean(square(x[0,96:112]))",
+          "coefficient": -0.1408513822462264,
+          "validation_r2": 0.2709694937793272
+        },
+        {
+          "variant": "wide",
+          "seed": 11,
+          "expression": "mean(square(x[0,104:120]))",
+          "coefficient": -0.14198275606787453,
+          "validation_r2": 0.27752338614870253
+        }
+      ],
+      "meaning": "body_acc_x local signal magnitude",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.14141706915705046,
+      "mean_coefficient": -0.14141706915705046
+    },
+    {
+      "operation": "local_mean_level",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 67,
+          "end": 83
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 23,
+          "expression": "mean(x[7,67:83])",
+          "coefficient": 0.11480387647254658,
+          "validation_r2": 0.32110875545662776
+        },
+        {
+          "variant": "wide",
+          "seed": 23,
+          "expression": "mean(x[7,63:79])",
+          "coefficient": 0.13824379608719634,
+          "validation_r2": 0.2637241842489676
+        }
+      ],
+      "meaning": "total_acc_y local mean level",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.12652383627987146,
+      "mean_coefficient": 0.12652383627987146
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 76,
+          "end": 92
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 19,
+          "expression": "mean(square(x[2,76:92]))",
+          "coefficient": -0.12083376657623061,
+          "validation_r2": 0.26209050309094506
+        },
+        {
+          "variant": "wide",
+          "seed": 31,
+          "expression": "mean(square(x[2,78:94]))",
+          "coefficient": -0.12426035439985364,
+          "validation_r2": 0.2760434569072161
+        }
+      ],
+      "meaning": "body_acc_z local signal magnitude",
+      "model_count": 2,
+      "mean_abs_coefficient": 0.12254706048804212,
+      "mean_coefficient": -0.12254706048804212
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 50,
+          "end": 66
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 11,
+          "expression": "max(x[6,50:66])-min(x[6,50:66])",
+          "coefficient": -0.20210673935657386,
+          "validation_r2": 0.22743268876916778
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.20210673935657386,
+      "mean_coefficient": -0.20210673935657386
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 11,
+          "end": 27
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 7,
+          "expression": "max(x[6,11:27])-min(x[6,11:27])",
+          "coefficient": -0.16744258466841638,
+          "validation_r2": 0.29284152365072647
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.16744258466841638,
+      "mean_coefficient": -0.16744258466841638
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 84,
+          "end": 100
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 11,
+          "expression": "max(x[6,84:100])-min(x[6,84:100])",
+          "coefficient": -0.15313597597326245,
+          "validation_r2": 0.27752338614870253
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.15313597597326245,
+      "mean_coefficient": -0.15313597597326245
+    },
+    {
+      "operation": "local_range",
+      "refs": [
+        {
+          "channel_index": 6,
+          "channel": "total_acc_x",
+          "start": 21,
+          "end": 37
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 31,
+          "expression": "max(x[6,21:37])-min(x[6,21:37])",
+          "coefficient": -0.14171222517590756,
+          "validation_r2": 0.25364116154824823
+        }
+      ],
+      "meaning": "total_acc_x local movement range",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.14171222517590756,
+      "mean_coefficient": -0.14171222517590756
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 53,
+          "end": 69
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 31,
+          "expression": "mean(abs(diff(x[7,53:69])))",
+          "coefficient": 0.13906167494190444,
+          "validation_r2": 0.25364116154824823
+        }
+      ],
+      "meaning": "total_acc_y local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.13906167494190444,
+      "mean_coefficient": 0.13906167494190444
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 1,
+          "channel": "body_acc_y",
+          "start": 94,
+          "end": 110
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 11,
+          "expression": "mean(abs(diff(x[1,94:110])))",
+          "coefficient": 0.13757239805000393,
+          "validation_r2": 0.27752338614870253
+        }
+      ],
+      "meaning": "body_acc_y local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.13757239805000393,
+      "mean_coefficient": 0.13757239805000393
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 42,
+          "end": 58
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 23,
+          "expression": "mean(square(x[2,42:58]))",
+          "coefficient": -0.1346717903020519,
+          "validation_r2": 0.2637241842489676
+        }
+      ],
+      "meaning": "body_acc_z local signal magnitude",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.1346717903020519,
+      "mean_coefficient": -0.1346717903020519
+    },
+    {
+      "operation": "local_mean_level",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 1,
+          "end": 17
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 31,
+          "expression": "mean(x[7,1:17])",
+          "coefficient": 0.12422340358691229,
+          "validation_r2": 0.2760434569072161
+        }
+      ],
+      "meaning": "total_acc_y local mean level",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.12422340358691229,
+      "mean_coefficient": 0.12422340358691229
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 5,
+          "channel": "body_gyro_z",
+          "start": 68,
+          "end": 84
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 7,
+          "expression": "mean(abs(diff(x[5,68:84])))",
+          "coefficient": 0.12227891265973474,
+          "validation_r2": 0.28832737872583636
+        }
+      ],
+      "meaning": "body_gyro_z local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.12227891265973474,
+      "mean_coefficient": 0.12227891265973474
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 0,
+          "channel": "body_acc_x",
+          "start": 66,
+          "end": 82
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 31,
+          "expression": "mean(square(x[0,66:82]))",
+          "coefficient": -0.11831972397606803,
+          "validation_r2": 0.2760434569072161
+        }
+      ],
+      "meaning": "body_acc_x local signal magnitude",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.11831972397606803,
+      "mean_coefficient": -0.11831972397606803
+    },
+    {
+      "operation": "local_mean_level",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 27,
+          "end": 43
+        }
+      ],
+      "members": [
+        {
+          "variant": "wide",
+          "seed": 11,
+          "expression": "mean(x[7,27:43])",
+          "coefficient": 0.11787963107301444,
+          "validation_r2": 0.27752338614870253
+        }
+      ],
+      "meaning": "total_acc_y local mean level",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.11787963107301444,
+      "mean_coefficient": 0.11787963107301444
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 4,
+          "channel": "body_gyro_y",
+          "start": 11,
+          "end": 27
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 19,
+          "expression": "mean(abs(diff(x[4,11:27])))",
+          "coefficient": 0.11281040871596366,
+          "validation_r2": 0.2709694937793272
+        }
+      ],
+      "meaning": "body_gyro_y local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.11281040871596366,
+      "mean_coefficient": 0.11281040871596366
+    },
+    {
+      "operation": "local_mean_level",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 98,
+          "end": 114
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 11,
+          "expression": "mean(x[7,98:114])",
+          "coefficient": 0.11115782850017715,
+          "validation_r2": 0.22743268876916778
+        }
+      ],
+      "meaning": "total_acc_y local mean level",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.11115782850017715,
+      "mean_coefficient": 0.11115782850017715
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 109,
+          "end": 125
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 7,
+          "expression": "mean(abs(diff(x[2,109:125])))",
+          "coefficient": 0.11108488889487943,
+          "validation_r2": 0.28832737872583636
+        }
+      ],
+      "meaning": "body_acc_z local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.11108488889487943,
+      "mean_coefficient": 0.11108488889487943
+    },
+    {
+      "operation": "local_squared_magnitude",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 2,
+          "end": 18
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 11,
+          "expression": "mean(square(x[2,2:18]))",
+          "coefficient": -0.10874162003182831,
+          "validation_r2": 0.22743268876916778
+        }
+      ],
+      "meaning": "body_acc_z local signal magnitude",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.10874162003182831,
+      "mean_coefficient": -0.10874162003182831
+    },
+    {
+      "operation": "local_temporal_change",
+      "refs": [
+        {
+          "channel_index": 2,
+          "channel": "body_acc_z",
+          "start": 2,
+          "end": 18
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 11,
+          "expression": "mean(abs(diff(x[2,2:18])))",
+          "coefficient": 0.10667487330461038,
+          "validation_r2": 0.22743268876916778
+        }
+      ],
+      "meaning": "body_acc_z local temporal change",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.10667487330461038,
+      "mean_coefficient": 0.10667487330461038
+    },
+    {
+      "operation": "local_mean_level",
+      "refs": [
+        {
+          "channel_index": 7,
+          "channel": "total_acc_y",
+          "start": 110,
+          "end": 126
+        }
+      ],
+      "members": [
+        {
+          "variant": "flat",
+          "seed": 7,
+          "expression": "mean(x[7,110:126])",
+          "coefficient": 0.10621756038358326,
+          "validation_r2": 0.28832737872583636
+        }
+      ],
+      "meaning": "total_acc_y local mean level",
+      "model_count": 1,
+      "mean_abs_coefficient": 0.10621756038358326,
+      "mean_coefficient": 0.10621756038358326
+    }
+  ]
+}
