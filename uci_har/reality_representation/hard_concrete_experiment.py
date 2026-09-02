@@ -32,9 +32,13 @@ def softmax(x):
     return p / p.sum(axis=1, keepdims=True)
 
 
-def gate_values(log_alpha):
+def gate_values(log_alpha, rng=None):
     probability = sigmoid(log_alpha - BETA * np.log(-GAMMA / ZETA))
-    raw = sigmoid(log_alpha / BETA)
+    if rng is None:
+        raw = sigmoid(log_alpha / BETA)
+    else:
+        u = rng.uniform(1e-6, 1 - 1e-6, size=log_alpha.shape)
+        raw = sigmoid((np.log(u) - np.log1p(-u) + log_alpha) / BETA)
     stretched = raw * (ZETA - GAMMA) + GAMMA
     gate = np.clip(stretched, 0.0, 1.0)
     derivative = np.where((stretched > 0) & (stretched < 1), (ZETA - GAMMA) * raw * (1 - raw) / BETA, 0.0)
@@ -51,9 +55,9 @@ def new_model(seed, k, variant):
             "w4": rng.normal(0, np.sqrt(2 / k), (k, 6)), "b4": np.zeros(6)}
 
 
-def forward(model, x, cache=False):
+def forward(model, x, cache=False, rng=None):
     flat = x.reshape(len(x), -1)
-    gate, probability, derivative = gate_values(model["log_alpha"])
+    gate, probability, derivative = gate_values(model["log_alpha"], rng=rng)
     gated = flat * gate
     z1 = gated @ model["w1"] + model["b1"]; h1 = relu(z1)
     z2 = h1 @ model["w2"] + model["b2"]; h2 = relu(z2)
@@ -73,7 +77,7 @@ def train_model(x, y, seed, k, variant, l0_penalty, epochs=25):
     moments = {name: [np.zeros_like(value), np.zeros_like(value)] for name, value in model.items()}; step = 0
     for _ in range(epochs):
         for idx in np.array_split(rng.permutation(len(x)), max(1, len(x) // 128)):
-            p, cache = forward(model, x[idx], cache=True)
+            p, cache = forward(model, x[idx], cache=True, rng=rng)
             flat, gate, probability, derivative, gated, z1, h1, z2, h2, z3 = cache
             error = p.copy(); error[np.arange(len(idx)), y[idx]] -= 1; error /= len(idx)
             gradients = {"w4": z3.T @ error, "b4": error.sum(0)}
@@ -107,9 +111,9 @@ def run(seeds=(7, 11, 19, 23, 31), variants=("flat", "wide"), ks=(4,), penalties
                     np.savez(OUT / f"model_{variant}_k{k}_lambda{penalty}_seed{seed}.npz", **model)
                     gate, probability, _ = gate_values(model["log_alpha"])
                     runs.append({"variant": variant, "k": k, "lambda": penalty, "seed": seed, "test_accuracy": accuracy(model, test_x, test_y),
-                                 "expected_active_count": float(probability.sum()), "hard_active_count": int(np.sum(gate > 0.5)),
+                                 "expected_active_count": float(probability.sum()), "hard_active_count": int(np.sum(probability > 0.5)),
                                  "gate_mean": float(gate.mean()), "gate_p90": float(np.quantile(gate, .9))})
-    result = {"input": "raw 9 x 128", "gate": "deterministic hard-concrete relaxation", "runs": runs}
+    result = {"input": "raw 9 x 128", "gate": "stochastic hard-concrete relaxation", "runs": runs}
     (OUT / "hard_concrete_results.json").write_text(json.dumps(result, indent=2)); return result
 
 
