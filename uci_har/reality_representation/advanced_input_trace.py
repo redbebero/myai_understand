@@ -50,10 +50,10 @@ def r2(y, pred):
     return float(1 - np.sum((y - pred) ** 2) / max(np.sum((y - y.mean()) ** 2), 1e-12))
 
 
-def lasso_explain(y_fit, y_val, x_fit, x_val, names):
+def lasso_explain(y_fit, y_val, x_fit, x_val, names, iterations=120):
     best = None
     for alpha in (0.01, 0.03, 0.1, 0.3, 1.0, 3.0):
-        beta, mean, scale, y_mean = lasso_fit(x_fit, y_fit, alpha)
+        beta, mean, scale, y_mean = lasso_fit(x_fit, y_fit, alpha, iterations=iterations)
         pred = ((x_val - mean) / scale) @ beta + y_mean
         score = r2(y_val, pred)
         nonzero = int(np.count_nonzero(beta))
