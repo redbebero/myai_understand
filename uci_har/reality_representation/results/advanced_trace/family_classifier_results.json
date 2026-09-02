@@ -1,0 +1,71 @@
+{
+  "training_subjects": "official train subjects excluding validation subjects",
+  "evaluation": "held-out UCI-HAR test subjects",
+  "classifier": "linear softmax trained from scratch",
+  "results": [
+    {
+      "families": [
+        "temporal_change"
+      ],
+      "feature_count": 36,
+      "test_accuracy_mean": 0.8428910756701731,
+      "test_accuracy_values": [
+        0.842212419409569,
+        0.8432304038004751,
+        0.842551747539871,
+        0.8435697319307771,
+        0.8428910756701731
+      ]
+    },
+    {
+      "families": [
+        "temporal_change",
+        "acceleration_rotation_coupling"
+      ],
+      "feature_count": 72,
+      "test_accuracy_mean": 0.8604004071937563,
+      "test_accuracy_values": [
+        0.8595181540549711,
+        0.8601968103155752,
+        0.8601968103155752,
+        0.8608754665761792,
+        0.8612147947064812
+      ]
+    },
+    {
+      "families": [
+        "temporal_change",
+        "acceleration_rotation_coupling",
+        "movement_energy"
+      ],
+      "feature_count": 81,
+      "test_accuracy_mean": 0.8799457074991517,
+      "test_accuracy_values": [
+        0.8802171700033933,
+        0.8805564981336953,
+        0.8795385137427892,
+        0.8795385137427892,
+        0.8798778418730913
+      ]
+    },
+    {
+      "families": [
+        "temporal_change",
+        "acceleration_rotation_coupling",
+        "movement_energy",
+        "cross_channel_coordination",
+        "temporal_periodicity",
+        "sensor_level"
+      ],
+      "feature_count": 144,
+      "test_accuracy_mean": 0.9161180861893451,
+      "test_accuracy_values": [
+        0.9161859518154055,
+        0.9161859518154055,
+        0.9161859518154055,
+        0.9161859518154055,
+        0.9158466236851035
+      ]
+    }
+  ]
+}
