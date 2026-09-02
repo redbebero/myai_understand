@@ -1,0 +1,288 @@
+{
+  "training": "fit subjects only",
+  "evaluation": "untouched UCI-HAR test subjects",
+  "summary": [
+    {
+      "method": "human_top3_families",
+      "test_accuracy": 0.8799457074991517
+    },
+    {
+      "method": "human_all6_families",
+      "test_accuracy": 0.9161180861893451
+    },
+    {
+      "method": "ai_discovered_raw_expressions",
+      "test_accuracy": 0.7431964709874448,
+      "expression_count_mean": 11.7
+    }
+  ],
+  "automatic_runs": [
+    {
+      "variant": "flat",
+      "seed": 7,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7333559552086868,
+      "test_accuracy_values": [
+        0.7332880895826264,
+        0.7329487614523243,
+        0.7336274177129284,
+        0.7336274177129284,
+        0.7332880895826264
+      ],
+      "expressions": [
+        "mean(x[6,81:97])",
+        "mean(square(x[6,81:97]))",
+        "mean(x[7,6:22])",
+        "mean(square(x[0,71:87]))",
+        "max(x[8,5:21])-min(x[8,5:21])",
+        "max(x[0,71:87])-min(x[0,71:87])",
+        "mean(square(x[6,16:32]))",
+        "mean(x[7,47:63])",
+        "mean(x[6,16:32])",
+        "mean(x[7,83:99])",
+        "mean(square(x[6,94:110]))",
+        "mean(square(x[7,83:99]))"
+      ]
+    },
+    {
+      "variant": "flat",
+      "seed": 11,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7275873769935528,
+      "test_accuracy_values": [
+        0.7271801832371904,
+        0.7278588394977944,
+        0.7275195113674924,
+        0.7275195113674924,
+        0.7278588394977944
+      ],
+      "expressions": [
+        "mean(x[7,106:122])",
+        "mean(square(x[8,103:119]))",
+        "mean(abs(diff(x[5,64:80])))",
+        "mean(x[6,63:79])",
+        "mean(x[8,36:52])",
+        "mean(square(x[7,89:105]))",
+        "mean(square(x[7,60:76]))",
+        "mean(x[8,19:35])",
+        "mean(square(x[8,19:35]))",
+        "mean(square(x[0,73:89]))",
+        "mean(x[7,85:101])",
+        "mean(square(x[7,85:101]))"
+      ]
+    },
+    {
+      "variant": "flat",
+      "seed": 19,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7659993213437394,
+      "test_accuracy_values": [
+        0.7658635900916186,
+        0.7662029182219205,
+        0.7658635900916186,
+        0.7658635900916186,
+        0.7662029182219205
+      ],
+      "expressions": [
+        "mean(x[7,62:78])",
+        "max(x[6,12:28])-min(x[6,12:28])",
+        "mean(x[6,12:28])",
+        "mean(x[7,112:128])",
+        "mean(square(x[0,89:105]))",
+        "mean(square(x[8,67:83]))",
+        "mean(x[6,29:45])",
+        "mean(square(x[0,18:34]))",
+        "mean(abs(diff(x[4,45:61])))",
+        "mean(square(x[6,44:60]))",
+        "mean(x[6,44:60])",
+        "mean(x[7,19:35])"
+      ]
+    },
+    {
+      "variant": "flat",
+      "seed": 23,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7521547336274178,
+      "test_accuracy_values": [
+        0.7519511367492365,
+        0.7516118086189345,
+        0.7522904648795385,
+        0.7526297930098406,
+        0.7522904648795385
+      ],
+      "expressions": [
+        "mean(x[6,91:107])",
+        "mean(square(x[6,91:107]))",
+        "mean(square(x[7,66:82]))",
+        "mean(x[7,7:23])",
+        "mean(square(x[7,7:23]))",
+        "mean(abs(diff(x[4,77:93])))",
+        "mean(x[7,112:128])",
+        "mean(square(x[7,112:128]))",
+        "max(x[5,28:44])-min(x[5,28:44])",
+        "mean(x[6,67:83])",
+        "mean(square(x[0,43:59]))",
+        "max(x[7,109:125])-min(x[7,109:125])"
+      ]
+    },
+    {
+      "variant": "flat",
+      "seed": 31,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7115032236172378,
+      "test_accuracy_values": [
+        0.7119104173736003,
+        0.7115710892432983,
+        0.7112317611129962,
+        0.7115710892432983,
+        0.7112317611129962
+      ],
+      "expressions": [
+        "mean(x[7,16:32])",
+        "mean(square(x[8,88:104]))",
+        "mean(x[8,88:104])",
+        "mean(x[7,41:57])",
+        "mean(x[7,41:53]*x[6,41:53])",
+        "mean(x[6,37:53])",
+        "mean(x[7,91:107])",
+        "max(x[5,84:100])-min(x[5,84:100])",
+        "max(x[0,54:70])-min(x[0,54:70])",
+        "mean(x[6,28:44])",
+        "mean(x[6,28:41]*x[7,28:41])",
+        "max(x[0,39:55])-min(x[0,39:55])"
+      ]
+    },
+    {
+      "variant": "wide",
+      "seed": 7,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7253478113335595,
+      "test_accuracy_values": [
+        0.7258228707159824,
+        0.7251442144553784,
+        0.7251442144553784,
+        0.7248048863250763,
+        0.7258228707159824
+      ],
+      "expressions": [
+        "mean(x[6,80:96])",
+        "mean(square(x[0,42:58]))",
+        "max(x[0,42:58])-min(x[0,42:58])",
+        "mean(x[7,10:26])",
+        "mean(x[8,110:126])",
+        "mean(square(x[8,110:126]))",
+        "mean(x[6,29:45])",
+        "max(x[6,29:45])-min(x[6,29:45])",
+        "max(x[0,34:50])-min(x[0,34:50])",
+        "mean(x[7,64:80])",
+        "mean(square(x[0,88:104]))",
+        "mean(x[8,60:76])"
+      ]
+    },
+    {
+      "variant": "wide",
+      "seed": 11,
+      "expression_count": 9,
+      "test_accuracy_mean": 0.7524940617577197,
+      "test_accuracy_values": [
+        0.7526297930098406,
+        0.7526297930098406,
+        0.7519511367492365,
+        0.7522904648795385,
+        0.7529691211401425
+      ],
+      "expressions": [
+        "mean(x[6,98:114])",
+        "mean(square(x[0,106:122]))",
+        "mean(abs(diff(x[4,30:46])))",
+        "mean(x[6,96:112])",
+        "mean(square(x[6,96:112]))",
+        "max(x[6,96:112])-min(x[6,96:112])",
+        "mean(x[6,96:105]*x[7,96:105])",
+        "mean(x[8,77:93])",
+        "mean(x[7,75:91])"
+      ]
+    },
+    {
+      "variant": "wide",
+      "seed": 19,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7477434679334917,
+      "test_accuracy_values": [
+        0.7475398710553105,
+        0.7478791991856125,
+        0.7478791991856125,
+        0.7475398710553105,
+        0.7478791991856125
+      ],
+      "expressions": [
+        "mean(square(x[6,48:64]))",
+        "mean(x[7,92:108])",
+        "mean(abs(diff(x[4,57:73])))",
+        "mean(x[7,1:17])",
+        "mean(square(x[7,1:17]))",
+        "max(x[6,46:62])-min(x[6,46:62])",
+        "mean(x[7,15:31])",
+        "mean(x[6,103:112]*x[8,103:112])",
+        "mean(x[8,103:119])",
+        "mean(x[6,92:108])",
+        "mean(square(x[6,92:108]))",
+        "mean(square(x[0,67:83]))"
+      ]
+    },
+    {
+      "variant": "wide",
+      "seed": 23,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.7672887682388869,
+      "test_accuracy_values": [
+        0.7682388870037327,
+        0.7662029182219205,
+        0.7672209026128266,
+        0.7668815744825246,
+        0.7678995588734306
+      ],
+      "expressions": [
+        "mean(square(x[0,33:49]))",
+        "mean(square(x[6,95:111]))",
+        "max(x[0,33:49])-min(x[0,33:49])",
+        "max(x[6,13:29])-min(x[6,13:29])",
+        "max(x[0,38:54])-min(x[0,38:54])",
+        "mean(x[6,13:29])",
+        "mean(x[6,15:31])",
+        "max(x[0,48:64])-min(x[0,48:64])",
+        "mean(square(x[0,48:64]))",
+        "mean(x[7,66:82])",
+        "mean(square(x[0,39:55]))",
+        "mean(abs(diff(x[8,5:21])))"
+      ]
+    },
+    {
+      "variant": "wide",
+      "seed": 31,
+      "expression_count": 12,
+      "test_accuracy_mean": 0.748489989820156,
+      "test_accuracy_values": [
+        0.7488971835765185,
+        0.7482185273159145,
+        0.7488971835765185,
+        0.7488971835765185,
+        0.7475398710553105
+      ],
+      "expressions": [
+        "max(x[2,0:16])-min(x[2,0:16])",
+        "max(x[0,44:60])-min(x[0,44:60])",
+        "mean(x[6,105:121])",
+        "mean(x[7,26:42])",
+        "mean(square(x[0,58:74]))",
+        "max(x[6,26:42])-min(x[6,26:42])",
+        "mean(square(x[6,110:126]))",
+        "mean(x[6,110:126])",
+        "max(x[0,45:61])-min(x[0,45:61])",
+        "mean(x[6,87:103])",
+        "mean(x[7,112:128])",
+        "mean(square(x[6,87:103]))"
+      ]
+    }
+  ]
+}
