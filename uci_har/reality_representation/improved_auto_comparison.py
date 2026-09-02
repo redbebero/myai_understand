@@ -64,15 +64,32 @@ def run(seeds=(7,11,19,23,31), variants=("flat","wide")):
         order=np.argsort(-np.std(fit,axis=0))
         fit, val, test = (np.nan_to_num(a[:,order]) for a in (fit,val,test))
         names=tuple(names[i] for i in order)
-        scores=[]
-        for n in [5,10,20,40,min(80,len(names))]:
-            if n>len(names): continue
-            scores.append({"expression_count":n,"validation_accuracy":accuracy_from_expression_subset(fit,val,train_y[fitting],train_y[~fitting],n,source["seed"])})
-        best=max(scores,key=lambda r:r["validation_accuracy"])
         mean,scale=fit.mean(0),fit.std(0); scale[scale<1e-10]=1
-        weights,bias=train_linear(((fit-mean)/scale)[:,:best["expression_count"]],train_y[fitting],source["seed"],epochs=300)
-        test_accuracy=float(np.mean(np.argmax(((test-mean)/scale)[:,:best["expression_count"]]@weights+bias,1)==test_y))
-        rows.append({"variant":source["variant"],"seed":source["seed"],"candidate_count":len(names),"curves":scores,"best":best,"test_accuracy":test_accuracy,"selected_expressions":list(names[:best["expression_count"]])})
+        fit_z=(fit-mean)/scale; val_z=(val-mean)/scale; test_z=(test-mean)/scale
+        full_weights, _=train_linear(fit_z,train_y[fitting],source["seed"],epochs=300)
+        predictive_order=np.argsort(-np.max(np.abs(full_weights),axis=1))[:30]
+        fit_z,val_z,test_z=(a[:,predictive_order] for a in (fit_z,val_z,test_z))
+        names=tuple(names[i] for i in predictive_order)
+        selected=[]; remaining=list(range(len(names))); curves=[]
+        for step in range(15):
+            candidates=[]
+            for candidate in remaining:
+                trial=selected+[candidate]
+                weights,bias=train_linear(fit_z[:,trial],train_y[fitting],source["seed"],epochs=100)
+                score=float(np.mean(np.argmax(val_z[:,trial]@weights+bias,1)==train_y[~fitting]))
+                candidates.append((score,candidate))
+            score,candidate=max(candidates)
+            selected.append(candidate); remaining.remove(candidate)
+            curves.append({"expression_count":step+1,"validation_accuracy":score})
+        for n in [5,8,10,12,15]:
+            trial=selected[:n]
+            weights,bias=train_linear(fit_z[:,trial],train_y[fitting],source["seed"],epochs=300)
+            val_accuracy=float(np.mean(np.argmax(val_z[:,trial]@weights+bias,1)==train_y[~fitting]))
+            test_accuracy=float(np.mean(np.argmax(test_z[:,trial]@weights+bias,1)==test_y))
+            curves[n-1]["validation_accuracy"]=val_accuracy
+            curves[n-1]["test_accuracy"]=test_accuracy
+        best=max((r for r in curves if "test_accuracy" in r),key=lambda r:r["validation_accuracy"])
+        rows.append({"variant":source["variant"],"seed":source["seed"],"candidate_count":len(names),"curves":curves,"best":best,"selected_expressions":[names[i] for i in selected[:best["expression_count"]]]})
     result={"selection":"validation classification accuracy over AI-discovered raw regions","runs":rows}; OUT.write_text(json.dumps(result,indent=2)); return result
 
 if __name__=="__main__":
