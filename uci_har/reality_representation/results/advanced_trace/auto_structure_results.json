@@ -1,0 +1,2516 @@
+{
+  "discovery": "influence-derived regions, then primitive expression search",
+  "no_semantic_feature_families": true,
+  "runs": [
+    {
+      "variant": "flat",
+      "seed": 7,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 63,
+          "end": 79,
+          "strength": 0.1457099145068295
+        },
+        {
+          "channel": 7,
+          "start": 110,
+          "end": 126,
+          "strength": 0.12200012650942124
+        },
+        {
+          "channel": 5,
+          "start": 68,
+          "end": 84,
+          "strength": 0.11734647229687761
+        },
+        {
+          "channel": 3,
+          "start": 36,
+          "end": 52,
+          "strength": 0.11106698024513087
+        },
+        {
+          "channel": 4,
+          "start": 106,
+          "end": 122,
+          "strength": 0.10697628346198394
+        },
+        {
+          "channel": 2,
+          "start": 109,
+          "end": 125,
+          "strength": 0.1055070343486558
+        },
+        {
+          "channel": 0,
+          "start": 67,
+          "end": 83,
+          "strength": 0.10490779566011225
+        },
+        {
+          "channel": 8,
+          "start": 61,
+          "end": 77,
+          "strength": 0.10320437111180816
+        },
+        {
+          "channel": 1,
+          "start": 55,
+          "end": 71,
+          "strength": 0.10154685502019259
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.28832737872583636,
+        "nonzero_count": 33,
+        "features": [
+          {
+            "name": "max(x[6,63:79])-min(x[6,63:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.16407969932257943
+          },
+          {
+            "name": "mean(square(x[5,68:84]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15750712690366317
+          },
+          {
+            "name": "mean(abs(diff(x[5,68:84])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.12227891265973474
+          },
+          {
+            "name": "mean(abs(diff(x[2,109:125])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11108488889487943
+          },
+          {
+            "name": "mean(x[7,110:126])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10621756038358326
+          },
+          {
+            "name": "mean(square(x[0,67:83]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10284396153582807
+          },
+          {
+            "name": "mean(abs(diff(x[3,36:52])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10070245210844457
+          },
+          {
+            "name": "mean(square(x[2,109:125]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10053274187926341
+          },
+          {
+            "name": "max(x[5,68:84])-min(x[5,68:84])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0953187577059206
+          },
+          {
+            "name": "max(x[4,106:122])-min(x[4,106:122])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09412997691888288
+          },
+          {
+            "name": "mean(square(x[7,110:126]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08833050781781034
+          },
+          {
+            "name": "mean(abs(diff(x[8,61:77])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.08064154631722335
+          },
+          {
+            "name": "mean(square(x[3,36:52]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08038022631580179
+          },
+          {
+            "name": "mean(square(x[4,106:122]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.07629539489733073
+          },
+          {
+            "name": "mean(abs(diff(x[7,110:126])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06199658327717272
+          },
+          {
+            "name": "mean(square(x[8,61:77]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04449428859838824
+          },
+          {
+            "name": "mean(abs(diff(x[1,55:71])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0438528103043856
+          },
+          {
+            "name": "mean(x[5,68:83]*x[0,68:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.043082302016659704
+          },
+          {
+            "name": "max(x[0,67:83])-min(x[0,67:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04017980502615212
+          },
+          {
+            "name": "mean(x[8,61:71]*x[1,61:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03796965432074827
+          },
+          {
+            "name": "corr(x[6,63:71],x[1,63:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03689935725521978
+          },
+          {
+            "name": "mean(square(x[6,63:79]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03607079011965807
+          },
+          {
+            "name": "mean(x[6,63:71]*x[1,63:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.028808713795340328
+          },
+          {
+            "name": "mean(square(x[1,55:71]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.019251992121611494
+          },
+          {
+            "name": "mean(x[8,61:77])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013358437794872698
+          },
+          {
+            "name": "corr(x[5,68:83],x[0,68:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.011010791684527106
+          },
+          {
+            "name": "corr(x[6,68:79],x[5,68:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.010529673899623934
+          },
+          {
+            "name": "corr(x[8,61:71],x[1,61:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006945771357103972
+          },
+          {
+            "name": "mean(x[0,67:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.005451363433883903
+          },
+          {
+            "name": "slope(x[7,110:126])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.005351538822414279
+          },
+          {
+            "name": "mean(x[2,109:125])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0032308609564348227
+          },
+          {
+            "name": "slope(x[4,106:122])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0013748254044944985
+          },
+          {
+            "name": "corr(x[7,110:125],x[2,110:125])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0010949554171483
+          }
+        ]
+      },
+      "mean_abs_influence": 0.09927356892581013
+    },
+    {
+      "variant": "flat",
+      "seed": 11,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 50,
+          "end": 66,
+          "strength": 0.13448611199668228
+        },
+        {
+          "channel": 7,
+          "start": 98,
+          "end": 114,
+          "strength": 0.12722079870342592
+        },
+        {
+          "channel": 5,
+          "start": 30,
+          "end": 46,
+          "strength": 0.1237764200166786
+        },
+        {
+          "channel": 3,
+          "start": 60,
+          "end": 76,
+          "strength": 0.12376809957164861
+        },
+        {
+          "channel": 2,
+          "start": 2,
+          "end": 18,
+          "strength": 0.12180880946450463
+        },
+        {
+          "channel": 1,
+          "start": 73,
+          "end": 89,
+          "strength": 0.11937729411779359
+        },
+        {
+          "channel": 0,
+          "start": 100,
+          "end": 116,
+          "strength": 0.11116326185544913
+        },
+        {
+          "channel": 8,
+          "start": 36,
+          "end": 52,
+          "strength": 0.1098840903820112
+        },
+        {
+          "channel": 4,
+          "start": 76,
+          "end": 92,
+          "strength": 0.10748156512965519
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.22743268876916778,
+        "nonzero_count": 35,
+        "features": [
+          {
+            "name": "max(x[6,50:66])-min(x[6,50:66])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.20210673935657386
+          },
+          {
+            "name": "max(x[5,30:46])-min(x[5,30:46])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.1635886630910543
+          },
+          {
+            "name": "mean(x[7,98:114])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11115782850017715
+          },
+          {
+            "name": "mean(square(x[2,2:18]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10874162003182831
+          },
+          {
+            "name": "mean(abs(diff(x[2,2:18])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10667487330461038
+          },
+          {
+            "name": "mean(square(x[4,76:92]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10482763135258813
+          },
+          {
+            "name": "mean(abs(diff(x[3,60:76])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09941598526323278
+          },
+          {
+            "name": "mean(abs(diff(x[1,73:89])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0993791301811297
+          },
+          {
+            "name": "mean(square(x[7,98:114]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09872361386406026
+          },
+          {
+            "name": "mean(square(x[5,30:46]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09562265970191394
+          },
+          {
+            "name": "mean(square(x[0,100:116]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08714748458058612
+          },
+          {
+            "name": "mean(abs(diff(x[7,98:114])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07324280978772671
+          },
+          {
+            "name": "max(x[4,76:92])-min(x[4,76:92])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06771999919628637
+          },
+          {
+            "name": "mean(abs(diff(x[4,76:92])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06180311452633744
+          },
+          {
+            "name": "mean(square(x[8,36:52]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05909295466195519
+          },
+          {
+            "name": "corr(x[7,100:114],x[0,100:114])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05778483305629383
+          },
+          {
+            "name": "mean(square(x[6,50:66]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05209661073610626
+          },
+          {
+            "name": "mean(square(x[1,73:89]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04473670462737389
+          },
+          {
+            "name": "mean(square(x[3,60:76]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04409040343214239
+          },
+          {
+            "name": "mean(x[2,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03478968524564262
+          },
+          {
+            "name": "mean(x[1,76:89]*x[4,76:89])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.031778971445828724
+          },
+          {
+            "name": "mean(x[8,36:52])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02776117648111975
+          },
+          {
+            "name": "max(x[0,100:116])-min(x[0,100:116])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.025784342167605605
+          },
+          {
+            "name": "slope(x[6,50:66])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02093893553989501
+          },
+          {
+            "name": "mean(abs(diff(x[8,36:52])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.020293438423243895
+          },
+          {
+            "name": "mean(x[5,36:46]*x[8,36:46])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.016936848821371104
+          },
+          {
+            "name": "mean(x[4,76:92])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014786431992647115
+          },
+          {
+            "name": "corr(x[5,36:46],x[8,36:46])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014512824251370134
+          },
+          {
+            "name": "slope(x[3,60:76])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.011706103864916988
+          },
+          {
+            "name": "slope(x[7,98:114])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.009599633079954668
+          },
+          {
+            "name": "mean(abs(diff(x[5,30:46])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.005140038742004079
+          },
+          {
+            "name": "mean(x[0,100:116])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.002397029434154758
+          },
+          {
+            "name": "slope(x[1,73:89])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0015560327951118524
+          },
+          {
+            "name": "slope(x[8,36:52])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0007605268241558391
+          },
+          {
+            "name": "slope(x[2,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0006617647798696833
+          }
+        ]
+      },
+      "mean_abs_influence": 0.10350285375105435
+    },
+    {
+      "variant": "flat",
+      "seed": 19,
+      "regions": [
+        {
+          "channel": 1,
+          "start": 61,
+          "end": 77,
+          "strength": 0.1435058497526375
+        },
+        {
+          "channel": 2,
+          "start": 108,
+          "end": 124,
+          "strength": 0.13930626945267954
+        },
+        {
+          "channel": 5,
+          "start": 74,
+          "end": 90,
+          "strength": 0.13655222842697345
+        },
+        {
+          "channel": 0,
+          "start": 96,
+          "end": 112,
+          "strength": 0.13342298859741297
+        },
+        {
+          "channel": 6,
+          "start": 70,
+          "end": 86,
+          "strength": 0.13196151202097567
+        },
+        {
+          "channel": 4,
+          "start": 11,
+          "end": 27,
+          "strength": 0.12160775641058555
+        },
+        {
+          "channel": 3,
+          "start": 110,
+          "end": 126,
+          "strength": 0.11994048396464885
+        },
+        {
+          "channel": 7,
+          "start": 67,
+          "end": 83,
+          "strength": 0.11956892757106277
+        },
+        {
+          "channel": 8,
+          "start": 99,
+          "end": 115,
+          "strength": 0.11316822832327907
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.2709694937793272,
+        "nonzero_count": 41,
+        "features": [
+          {
+            "name": "mean(square(x[5,74:90]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15720369323990604
+          },
+          {
+            "name": "max(x[6,70:86])-min(x[6,70:86])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15122309072223333
+          },
+          {
+            "name": "mean(square(x[0,96:112]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1408513822462264
+          },
+          {
+            "name": "mean(abs(diff(x[4,11:27])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11281040871596366
+          },
+          {
+            "name": "max(x[5,74:90])-min(x[5,74:90])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10632040789383106
+          },
+          {
+            "name": "mean(x[7,67:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10196851159144926
+          },
+          {
+            "name": "mean(square(x[4,11:27]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09775753955881683
+          },
+          {
+            "name": "mean(abs(diff(x[8,99:115])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09750630257231219
+          },
+          {
+            "name": "mean(square(x[2,108:124]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09336711003115125
+          },
+          {
+            "name": "mean(abs(diff(x[3,110:126])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.08870345395484543
+          },
+          {
+            "name": "mean(abs(diff(x[5,74:90])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.08090209952280146
+          },
+          {
+            "name": "mean(square(x[7,67:83]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.07981825470077655
+          },
+          {
+            "name": "mean(abs(diff(x[7,67:83])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0781093889222696
+          },
+          {
+            "name": "mean(abs(diff(x[2,108:124])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07809641791102208
+          },
+          {
+            "name": "mean(abs(diff(x[1,61:77])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07312644481852704
+          },
+          {
+            "name": "corr(x[6,70:83],x[7,70:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.060381308722729995
+          },
+          {
+            "name": "mean(square(x[1,61:77]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.03925542580660725
+          },
+          {
+            "name": "max(x[0,96:112])-min(x[0,96:112])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.03819688519597431
+          },
+          {
+            "name": "corr(x[5,74:86],x[6,74:86])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.030328553194554155
+          },
+          {
+            "name": "mean(square(x[8,99:115]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02825496395199287
+          },
+          {
+            "name": "mean(x[5,74:83]*x[7,74:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0268335180315838
+          },
+          {
+            "name": "mean(x[0,96:112])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.023360770330478255
+          },
+          {
+            "name": "mean(square(x[3,110:126]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.022575357439850233
+          },
+          {
+            "name": "mean(x[4,11:27])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.020194344122723692
+          },
+          {
+            "name": "corr(x[0,99:112],x[8,99:112])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02007037183985325
+          },
+          {
+            "name": "mean(square(x[6,70:86]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.01817075381661256
+          },
+          {
+            "name": "mean(x[8,99:115])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.016613577310380802
+          },
+          {
+            "name": "max(x[4,11:27])-min(x[4,11:27])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014664462774952513
+          },
+          {
+            "name": "mean(x[5,74:86]*x[6,74:86])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.014372294281143035
+          },
+          {
+            "name": "corr(x[5,74:83],x[7,74:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013235420760903767
+          },
+          {
+            "name": "mean(x[5,74:90])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013127730500881327
+          },
+          {
+            "name": "mean(x[2,110:124]*x[3,110:124])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.010689759152842938
+          },
+          {
+            "name": "slope(x[1,61:77])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.009851375230936528
+          },
+          {
+            "name": "slope(x[8,99:115])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.006208024900752649
+          },
+          {
+            "name": "slope(x[6,70:86])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.005914163127920221
+          },
+          {
+            "name": "mean(x[3,110:126])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00440515355361519
+          },
+          {
+            "name": "slope(x[2,108:124])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.002638055969427248
+          },
+          {
+            "name": "slope(x[4,11:27])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0017891190274988912
+          },
+          {
+            "name": "slope(x[7,67:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0017128075485729668
+          },
+          {
+            "name": "corr(x[1,67:77],x[7,67:77])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0009534458111252827
+          },
+          {
+            "name": "slope(x[0,96:112])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0004481613466079919
+          }
+        ]
+      },
+      "mean_abs_influence": 0.10923476106866113
+    },
+    {
+      "variant": "flat",
+      "seed": 23,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 94,
+          "end": 110,
+          "strength": 0.1369238158796473
+        },
+        {
+          "channel": 2,
+          "start": 13,
+          "end": 29,
+          "strength": 0.10820413829727103
+        },
+        {
+          "channel": 5,
+          "start": 85,
+          "end": 101,
+          "strength": 0.10656042820995025
+        },
+        {
+          "channel": 0,
+          "start": 38,
+          "end": 54,
+          "strength": 0.10323101330434532
+        },
+        {
+          "channel": 7,
+          "start": 67,
+          "end": 83,
+          "strength": 0.09486366177896949
+        },
+        {
+          "channel": 4,
+          "start": 111,
+          "end": 127,
+          "strength": 0.09389817491342456
+        },
+        {
+          "channel": 1,
+          "start": 81,
+          "end": 97,
+          "strength": 0.09381031210334496
+        },
+        {
+          "channel": 8,
+          "start": 92,
+          "end": 108,
+          "strength": 0.09361678922801246
+        },
+        {
+          "channel": 3,
+          "start": 24,
+          "end": 40,
+          "strength": 0.09286258229338419
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.32110875545662776,
+        "nonzero_count": 35,
+        "features": [
+          {
+            "name": "max(x[5,85:101])-min(x[5,85:101])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.15057041292647932
+          },
+          {
+            "name": "max(x[6,94:110])-min(x[6,94:110])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.14837158974204037
+          },
+          {
+            "name": "mean(square(x[0,38:54]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.14124684226966505
+          },
+          {
+            "name": "mean(square(x[5,85:101]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.13475814372349193
+          },
+          {
+            "name": "mean(x[7,67:83])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11480387647254658
+          },
+          {
+            "name": "mean(abs(diff(x[2,13:29])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10681450492573179
+          },
+          {
+            "name": "mean(square(x[2,13:29]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10570251156876696
+          },
+          {
+            "name": "mean(square(x[7,67:83]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10149898803392116
+          },
+          {
+            "name": "mean(abs(diff(x[7,67:83])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09530565758863963
+          },
+          {
+            "name": "mean(abs(diff(x[8,92:108])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09327157258353588
+          },
+          {
+            "name": "mean(square(x[1,81:97]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08299549411304329
+          },
+          {
+            "name": "mean(x[5,85:97]*x[1,85:97])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.08265472160661037
+          },
+          {
+            "name": "mean(abs(diff(x[3,24:40])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07994745664306094
+          },
+          {
+            "name": "mean(abs(diff(x[1,81:97])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06895122608094087
+          },
+          {
+            "name": "mean(square(x[3,24:40]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.068095189741772
+          },
+          {
+            "name": "mean(x[0,38:54])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.047885789263383584
+          },
+          {
+            "name": "mean(abs(diff(x[4,111:127])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04594197525657747
+          },
+          {
+            "name": "mean(square(x[6,94:110]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04130410375153591
+          },
+          {
+            "name": "mean(square(x[8,92:108]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.039680754800269974
+          },
+          {
+            "name": "mean(square(x[4,111:127]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.030017666558719625
+          },
+          {
+            "name": "mean(x[8,92:108])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02829018343668416
+          },
+          {
+            "name": "mean(x[3,24:40])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02623973777600281
+          },
+          {
+            "name": "mean(abs(diff(x[5,85:101])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.023489411432223637
+          },
+          {
+            "name": "mean(x[2,13:29])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.023390773105643657
+          },
+          {
+            "name": "corr(x[6,94:108],x[8,94:108])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.023260427257691594
+          },
+          {
+            "name": "slope(x[6,94:110])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.017446613807938542
+          },
+          {
+            "name": "slope(x[4,111:127])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.012637384942477405
+          },
+          {
+            "name": "mean(x[6,94:108]*x[8,94:108])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.010509709408726742
+          },
+          {
+            "name": "corr(x[5,85:97],x[1,85:97])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.008520820222756239
+          },
+          {
+            "name": "mean(x[5,92:101]*x[8,92:101])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.005446845304020877
+          },
+          {
+            "name": "corr(x[5,92:101],x[8,92:101])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.004825612950461099
+          },
+          {
+            "name": "mean(x[5,85:101])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.004188242244656921
+          },
+          {
+            "name": "max(x[3,24:40])-min(x[3,24:40])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.004032207413932162
+          },
+          {
+            "name": "slope(x[8,92:108])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.00400579978057204
+          },
+          {
+            "name": "max(x[0,38:54])-min(x[0,38:54])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0018248026543612776
+          }
+        ]
+      },
+      "mean_abs_influence": 0.08755765527554796
+    },
+    {
+      "variant": "flat",
+      "seed": 31,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 21,
+          "end": 37,
+          "strength": 0.1642181850059325
+        },
+        {
+          "channel": 2,
+          "start": 69,
+          "end": 85,
+          "strength": 0.11322051448844411
+        },
+        {
+          "channel": 7,
+          "start": 53,
+          "end": 69,
+          "strength": 0.11033183462614239
+        },
+        {
+          "channel": 0,
+          "start": 41,
+          "end": 57,
+          "strength": 0.10710662040443407
+        },
+        {
+          "channel": 3,
+          "start": 62,
+          "end": 78,
+          "strength": 0.10597441936957527
+        },
+        {
+          "channel": 5,
+          "start": 66,
+          "end": 82,
+          "strength": 0.10069975540462721
+        },
+        {
+          "channel": 1,
+          "start": 56,
+          "end": 72,
+          "strength": 0.10068280792251573
+        },
+        {
+          "channel": 8,
+          "start": 42,
+          "end": 58,
+          "strength": 0.09411125928750459
+        },
+        {
+          "channel": 4,
+          "start": 2,
+          "end": 18,
+          "strength": 0.0865979065255228
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.25364116154824823,
+        "nonzero_count": 35,
+        "features": [
+          {
+            "name": "max(x[5,66:82])-min(x[5,66:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.15883681559895074
+          },
+          {
+            "name": "mean(square(x[5,66:82]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15419241317273824
+          },
+          {
+            "name": "mean(square(x[0,41:57]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1541901570343424
+          },
+          {
+            "name": "max(x[6,21:37])-min(x[6,21:37])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.14171222517590756
+          },
+          {
+            "name": "mean(abs(diff(x[7,53:69])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.13906167494190444
+          },
+          {
+            "name": "mean(abs(diff(x[8,42:58])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.12694779748610693
+          },
+          {
+            "name": "mean(abs(diff(x[2,69:85])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11522705382968036
+          },
+          {
+            "name": "mean(square(x[2,69:85]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1141218264441145
+          },
+          {
+            "name": "mean(x[7,53:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10166833137396061
+          },
+          {
+            "name": "mean(abs(diff(x[3,62:78])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.08573657782817938
+          },
+          {
+            "name": "mean(square(x[7,53:69]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08021556181803018
+          },
+          {
+            "name": "mean(square(x[1,56:72]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04869880447095032
+          },
+          {
+            "name": "max(x[4,2:18])-min(x[4,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.043810425147118075
+          },
+          {
+            "name": "mean(square(x[8,42:58]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.03968861306442013
+          },
+          {
+            "name": "mean(square(x[4,2:18]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.03811049798715651
+          },
+          {
+            "name": "mean(x[4,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03614252696232107
+          },
+          {
+            "name": "mean(square(x[3,62:78]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.034471603905207565
+          },
+          {
+            "name": "max(x[0,41:57])-min(x[0,41:57])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02892095895053081
+          },
+          {
+            "name": "slope(x[0,41:57])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02604655692706203
+          },
+          {
+            "name": "mean(x[8,42:58])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.024807618366425033
+          },
+          {
+            "name": "mean(square(x[6,21:37]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.024574512205020837
+          },
+          {
+            "name": "corr(x[0,42:57],x[8,42:57])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02197563488972259
+          },
+          {
+            "name": "slope(x[6,21:37])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.018912473256138013
+          },
+          {
+            "name": "mean(abs(diff(x[4,2:18])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.018632800855067393
+          },
+          {
+            "name": "mean(x[2,69:78]*x[3,69:78])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.013817029138249028
+          },
+          {
+            "name": "slope(x[2,69:85])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013741891800572522
+          },
+          {
+            "name": "mean(x[0,42:57]*x[8,42:57])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.012677063664239768
+          },
+          {
+            "name": "mean(abs(diff(x[5,66:82])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.010981285988756036
+          },
+          {
+            "name": "mean(x[3,62:78])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.010049277339563852
+          },
+          {
+            "name": "mean(x[3,62:72]*x[1,62:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00797232853702273
+          },
+          {
+            "name": "corr(x[2,69:82],x[5,69:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.007195650804538103
+          },
+          {
+            "name": "corr(x[7,56:69],x[1,56:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0023631685543059975
+          },
+          {
+            "name": "slope(x[1,56:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.001363955664983917
+          },
+          {
+            "name": "slope(x[5,66:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0003363601784368208
+          },
+          {
+            "name": "mean(abs(diff(x[1,56:72])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.00022402192975583192
+          }
+        ]
+      },
+      "mean_abs_influence": 0.09207719022332678
+    },
+    {
+      "variant": "wide",
+      "seed": 7,
+      "regions": [
+        {
+          "channel": 5,
+          "start": 88,
+          "end": 104,
+          "strength": 0.12039945243007942
+        },
+        {
+          "channel": 3,
+          "start": 53,
+          "end": 69,
+          "strength": 0.10945043478734919
+        },
+        {
+          "channel": 2,
+          "start": 45,
+          "end": 61,
+          "strength": 0.10606467085295151
+        },
+        {
+          "channel": 0,
+          "start": 45,
+          "end": 61,
+          "strength": 0.10386462735346771
+        },
+        {
+          "channel": 6,
+          "start": 11,
+          "end": 27,
+          "strength": 0.1034441852066147
+        },
+        {
+          "channel": 4,
+          "start": 2,
+          "end": 18,
+          "strength": 0.10237191415702643
+        },
+        {
+          "channel": 1,
+          "start": 61,
+          "end": 77,
+          "strength": 0.09680087080591389
+        },
+        {
+          "channel": 7,
+          "start": 2,
+          "end": 18,
+          "strength": 0.0951420569457714
+        },
+        {
+          "channel": 8,
+          "start": 95,
+          "end": 111,
+          "strength": 0.0912215820801811
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.29284152365072647,
+        "nonzero_count": 38,
+        "features": [
+          {
+            "name": "mean(abs(diff(x[2,45:61])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.17496018523335477
+          },
+          {
+            "name": "max(x[5,88:104])-min(x[5,88:104])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.17182341056174383
+          },
+          {
+            "name": "max(x[6,11:27])-min(x[6,11:27])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.16744258466841638
+          },
+          {
+            "name": "mean(square(x[5,88:104]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.12433652611122109
+          },
+          {
+            "name": "mean(square(x[0,45:61]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.11802150232527066
+          },
+          {
+            "name": "mean(x[7,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11303792901155615
+          },
+          {
+            "name": "mean(abs(diff(x[1,61:77])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10635885133554453
+          },
+          {
+            "name": "mean(square(x[7,2:18]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1013450166132833
+          },
+          {
+            "name": "mean(square(x[2,45:61]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08673092994018494
+          },
+          {
+            "name": "max(x[0,45:61])-min(x[0,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.08034748769189962
+          },
+          {
+            "name": "mean(square(x[4,2:18]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.06453290539060046
+          },
+          {
+            "name": "mean(square(x[1,61:77]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05927687483982252
+          },
+          {
+            "name": "mean(abs(diff(x[4,2:18])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05778041767680131
+          },
+          {
+            "name": "mean(x[0,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05537774753164381
+          },
+          {
+            "name": "mean(abs(diff(x[3,53:69])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0539649631759429
+          },
+          {
+            "name": "mean(square(x[8,95:111]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.053858301533574314
+          },
+          {
+            "name": "mean(x[4,2:18]*x[7,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05202202312126043
+          },
+          {
+            "name": "mean(square(x[6,11:27]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04926094410131644
+          },
+          {
+            "name": "mean(abs(diff(x[7,2:18])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04463209263344151
+          },
+          {
+            "name": "max(x[4,2:18])-min(x[4,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.042256489912075465
+          },
+          {
+            "name": "mean(abs(diff(x[8,95:111])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.041660677689934165
+          },
+          {
+            "name": "mean(square(x[3,53:69]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04113146488132763
+          },
+          {
+            "name": "max(x[3,53:69])-min(x[3,53:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.031938611963795785
+          },
+          {
+            "name": "mean(x[2,45:61]*x[0,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02566730461741012
+          },
+          {
+            "name": "mean(x[3,53:61]*x[0,53:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02401338018914185
+          },
+          {
+            "name": "mean(x[8,95:111])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02148500889195482
+          },
+          {
+            "name": "corr(x[3,53:61],x[0,53:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.01902047624881121
+          },
+          {
+            "name": "corr(x[5,95:104],x[8,95:104])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.016547506736587704
+          },
+          {
+            "name": "mean(x[3,53:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.011600257626207963
+          },
+          {
+            "name": "mean(abs(diff(x[5,88:104])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.011407051590722677
+          },
+          {
+            "name": "corr(x[2,45:61],x[0,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.010078065573659836
+          },
+          {
+            "name": "slope(x[4,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.008304319504817635
+          },
+          {
+            "name": "corr(x[3,61:69],x[1,61:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.007328719832908377
+          },
+          {
+            "name": "mean(x[3,53:61]*x[2,53:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.005229052422895011
+          },
+          {
+            "name": "mean(x[5,95:104]*x[8,95:104])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0042939518867553626
+          },
+          {
+            "name": "corr(x[4,2:18],x[7,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.002104073614908384
+          },
+          {
+            "name": "slope(x[7,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.001085720409016899
+          },
+          {
+            "name": "mean(x[4,2:18])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.00012779781372779787
+          }
+        ]
+      },
+      "mean_abs_influence": 0.0902661982183172
+    },
+    {
+      "variant": "wide",
+      "seed": 11,
+      "regions": [
+        {
+          "channel": 5,
+          "start": 59,
+          "end": 75,
+          "strength": 0.12679963006327255
+        },
+        {
+          "channel": 2,
+          "start": 15,
+          "end": 31,
+          "strength": 0.12501939690078034
+        },
+        {
+          "channel": 7,
+          "start": 27,
+          "end": 43,
+          "strength": 0.11777751447787466
+        },
+        {
+          "channel": 3,
+          "start": 26,
+          "end": 42,
+          "strength": 0.10959127050052722
+        },
+        {
+          "channel": 1,
+          "start": 94,
+          "end": 110,
+          "strength": 0.109549553318414
+        },
+        {
+          "channel": 0,
+          "start": 104,
+          "end": 120,
+          "strength": 0.10789549456186354
+        },
+        {
+          "channel": 6,
+          "start": 84,
+          "end": 100,
+          "strength": 0.10736034197062176
+        },
+        {
+          "channel": 4,
+          "start": 53,
+          "end": 69,
+          "strength": 0.0997191725124357
+        },
+        {
+          "channel": 8,
+          "start": 14,
+          "end": 30,
+          "strength": 0.0976719335114633
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.27752338614870253,
+        "nonzero_count": 37,
+        "features": [
+          {
+            "name": "max(x[6,84:100])-min(x[6,84:100])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15313597597326245
+          },
+          {
+            "name": "mean(square(x[0,104:120]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.14198275606787453
+          },
+          {
+            "name": "mean(abs(diff(x[1,94:110])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.13757239805000393
+          },
+          {
+            "name": "mean(square(x[5,59:75]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1203353250005848
+          },
+          {
+            "name": "mean(x[7,27:43])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11787963107301444
+          },
+          {
+            "name": "mean(abs(diff(x[3,26:42])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11450689763532952
+          },
+          {
+            "name": "mean(square(x[2,15:31]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10407029474580384
+          },
+          {
+            "name": "mean(square(x[7,27:43]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10120451915225769
+          },
+          {
+            "name": "mean(abs(diff(x[8,14:30])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09558147666823505
+          },
+          {
+            "name": "mean(abs(diff(x[5,59:75])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07941385119982841
+          },
+          {
+            "name": "mean(abs(diff(x[2,15:31])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07637342274606268
+          },
+          {
+            "name": "mean(square(x[1,94:110]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.07355646409504452
+          },
+          {
+            "name": "max(x[5,59:75])-min(x[5,59:75])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0713730956805867
+          },
+          {
+            "name": "mean(square(x[3,26:42]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.06293404987247704
+          },
+          {
+            "name": "mean(square(x[4,53:69]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05970408920984817
+          },
+          {
+            "name": "max(x[4,53:69])-min(x[4,53:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05591800450700778
+          },
+          {
+            "name": "mean(abs(diff(x[0,104:120])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04817237601181044
+          },
+          {
+            "name": "mean(x[0,104:120])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03258820868308499
+          },
+          {
+            "name": "mean(square(x[8,14:30]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.03229165333589409
+          },
+          {
+            "name": "mean(square(x[6,84:100]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03220218616501131
+          },
+          {
+            "name": "max(x[0,104:120])-min(x[0,104:120])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.030172619351651286
+          },
+          {
+            "name": "corr(x[5,59:69],x[4,59:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.026210287160949138
+          },
+          {
+            "name": "slope(x[6,84:100])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02401675739168394
+          },
+          {
+            "name": "mean(x[2,15:31])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.022731950430387098
+          },
+          {
+            "name": "slope(x[4,53:69])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.020912836382121422
+          },
+          {
+            "name": "slope(x[0,104:120])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.01933907572236779
+          },
+          {
+            "name": "slope(x[5,59:75])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.017182819697649385
+          },
+          {
+            "name": "mean(x[3,26:42])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.015975339339184783
+          },
+          {
+            "name": "slope(x[3,26:42])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014853511762537278
+          },
+          {
+            "name": "mean(abs(diff(x[4,53:69])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014587947096946082
+          },
+          {
+            "name": "max(x[3,26:42])-min(x[3,26:42])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013996293562738765
+          },
+          {
+            "name": "mean(x[8,14:30])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.011659086711252245
+          },
+          {
+            "name": "mean(x[5,59:75])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.009312547968406535
+          },
+          {
+            "name": "max(x[7,27:43])-min(x[7,27:43])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006856074653440517
+          },
+          {
+            "name": "corr(x[2,15:30],x[8,15:30])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006802111277258233
+          },
+          {
+            "name": "corr(x[7,27:42],x[3,27:42])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006159886777696804
+          },
+          {
+            "name": "slope(x[7,27:43])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0014538342551120103
+          }
+        ]
+      },
+      "mean_abs_influence": 0.09687653903050228
+    },
+    {
+      "variant": "wide",
+      "seed": 19,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 94,
+          "end": 110,
+          "strength": 0.1432292510157635
+        },
+        {
+          "channel": 2,
+          "start": 76,
+          "end": 92,
+          "strength": 0.11969300938588437
+        },
+        {
+          "channel": 5,
+          "start": 65,
+          "end": 81,
+          "strength": 0.11828964950777413
+        },
+        {
+          "channel": 7,
+          "start": 110,
+          "end": 126,
+          "strength": 0.11783034126041851
+        },
+        {
+          "channel": 1,
+          "start": 63,
+          "end": 79,
+          "strength": 0.11437514618043
+        },
+        {
+          "channel": 4,
+          "start": 54,
+          "end": 70,
+          "strength": 0.11364858097199552
+        },
+        {
+          "channel": 8,
+          "start": 78,
+          "end": 94,
+          "strength": 0.10839284138182265
+        },
+        {
+          "channel": 3,
+          "start": 82,
+          "end": 98,
+          "strength": 0.1044588605720841
+        },
+        {
+          "channel": 0,
+          "start": 101,
+          "end": 117,
+          "strength": 0.0940569058579821
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.26209050309094506,
+        "nonzero_count": 35,
+        "features": [
+          {
+            "name": "max(x[6,94:110])-min(x[6,94:110])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15856072491191697
+          },
+          {
+            "name": "mean(square(x[5,65:81]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.15259199723781994
+          },
+          {
+            "name": "mean(abs(diff(x[2,76:92])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.1420844715112747
+          },
+          {
+            "name": "max(x[5,65:81])-min(x[5,65:81])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.12863720918346974
+          },
+          {
+            "name": "mean(square(x[2,76:92]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.12083376657623061
+          },
+          {
+            "name": "mean(x[7,110:126])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.11601258386313372
+          },
+          {
+            "name": "mean(abs(diff(x[7,110:126])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10950465528073161
+          },
+          {
+            "name": "mean(square(x[0,101:117]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10899007157532872
+          },
+          {
+            "name": "mean(square(x[7,110:126]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09222736219626877
+          },
+          {
+            "name": "mean(abs(diff(x[1,63:79])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07281668813731428
+          },
+          {
+            "name": "mean(abs(diff(x[5,65:81])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06204053367202248
+          },
+          {
+            "name": "max(x[4,54:70])-min(x[4,54:70])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.057538809097620054
+          },
+          {
+            "name": "mean(square(x[3,82:98]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05608405431215381
+          },
+          {
+            "name": "max(x[0,101:117])-min(x[0,101:117])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05553176667701352
+          },
+          {
+            "name": "mean(abs(diff(x[0,101:117])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05268196736026836
+          },
+          {
+            "name": "mean(square(x[1,63:79]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04834270564316142
+          },
+          {
+            "name": "mean(square(x[4,54:70]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04610703454996681
+          },
+          {
+            "name": "max(x[3,82:98])-min(x[3,82:98])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04604054809258904
+          },
+          {
+            "name": "corr(x[5,65:79],x[1,65:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.040910858736800365
+          },
+          {
+            "name": "mean(x[5,65:79]*x[1,65:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03838759801852495
+          },
+          {
+            "name": "mean(square(x[6,94:110]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.029765197844156956
+          },
+          {
+            "name": "mean(abs(diff(x[3,82:98])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.02433351532351794
+          },
+          {
+            "name": "mean(square(x[8,78:94]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0226959776878083
+          },
+          {
+            "name": "mean(x[1,63:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014258003936911484
+          },
+          {
+            "name": "slope(x[4,54:70])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.010203384765970097
+          },
+          {
+            "name": "corr(x[2,78:92],x[8,78:92])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.008168685627099515
+          },
+          {
+            "name": "mean(abs(diff(x[6,94:110])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.007063955389045701
+          },
+          {
+            "name": "mean(x[3,82:98])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006949073159745103
+          },
+          {
+            "name": "corr(x[8,82:94],x[3,82:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.006084262517267598
+          },
+          {
+            "name": "slope(x[6,94:110])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.005257343829782552
+          },
+          {
+            "name": "slope(x[8,78:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.003727242038177492
+          },
+          {
+            "name": "mean(x[8,78:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0030004578726079045
+          },
+          {
+            "name": "mean(x[8,82:94]*x[3,82:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0022129313200310403
+          },
+          {
+            "name": "mean(x[2,76:92])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0020233045626466607
+          },
+          {
+            "name": "slope(x[1,63:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0009916488094365622
+          }
+        ]
+      },
+      "mean_abs_influence": 0.09822259981144589
+    },
+    {
+      "variant": "wide",
+      "seed": 23,
+      "regions": [
+        {
+          "channel": 3,
+          "start": 45,
+          "end": 61,
+          "strength": 0.11813937229985251
+        },
+        {
+          "channel": 5,
+          "start": 34,
+          "end": 50,
+          "strength": 0.11425800024875925
+        },
+        {
+          "channel": 1,
+          "start": 48,
+          "end": 64,
+          "strength": 0.1140206951220741
+        },
+        {
+          "channel": 2,
+          "start": 42,
+          "end": 58,
+          "strength": 0.10985609682056491
+        },
+        {
+          "channel": 6,
+          "start": 103,
+          "end": 119,
+          "strength": 0.10413100348460357
+        },
+        {
+          "channel": 4,
+          "start": 112,
+          "end": 128,
+          "strength": 0.10237611526553565
+        },
+        {
+          "channel": 7,
+          "start": 63,
+          "end": 79,
+          "strength": 0.09187087619963953
+        },
+        {
+          "channel": 0,
+          "start": 13,
+          "end": 29,
+          "strength": 0.09034116894730812
+        },
+        {
+          "channel": 8,
+          "start": 56,
+          "end": 72,
+          "strength": 0.08609695425776477
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.2637241842489676,
+        "nonzero_count": 41,
+        "features": [
+          {
+            "name": "max(x[5,34:50])-min(x[5,34:50])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.14589947909977075
+          },
+          {
+            "name": "max(x[6,103:119])-min(x[6,103:119])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1395796161904775
+          },
+          {
+            "name": "mean(x[7,63:79])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.13824379608719634
+          },
+          {
+            "name": "mean(square(x[2,42:58]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1346717903020519
+          },
+          {
+            "name": "mean(abs(diff(x[2,42:58])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.13402158361400396
+          },
+          {
+            "name": "max(x[0,13:29])-min(x[0,13:29])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.1224960095920357
+          },
+          {
+            "name": "mean(square(x[7,63:79]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10915260611880143
+          },
+          {
+            "name": "mean(square(x[5,34:50]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10160184986536099
+          },
+          {
+            "name": "mean(abs(diff(x[1,48:64])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09769832385874057
+          },
+          {
+            "name": "mean(abs(diff(x[3,45:61])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07684596883942875
+          },
+          {
+            "name": "mean(square(x[0,13:29]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0752376211692215
+          },
+          {
+            "name": "mean(abs(diff(x[7,63:79])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.07222421457786915
+          },
+          {
+            "name": "mean(abs(diff(x[8,56:72])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06804716697026922
+          },
+          {
+            "name": "mean(abs(diff(x[5,34:50])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.06571991648293374
+          },
+          {
+            "name": "mean(square(x[3,45:61]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.059561277345672486
+          },
+          {
+            "name": "max(x[4,112:128])-min(x[4,112:128])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05452607138899932
+          },
+          {
+            "name": "mean(square(x[6,103:119]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05428193991664123
+          },
+          {
+            "name": "mean(square(x[1,48:64]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04729391546143316
+          },
+          {
+            "name": "mean(x[0,13:29])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.045521461841771506
+          },
+          {
+            "name": "mean(square(x[4,112:128]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04392613452708252
+          },
+          {
+            "name": "mean(square(x[8,56:72]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04226890095417235
+          },
+          {
+            "name": "mean(x[5,42:50]*x[2,42:50])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.029594300359190136
+          },
+          {
+            "name": "mean(x[7,63:72]*x[8,63:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02792177879831289
+          },
+          {
+            "name": "mean(abs(diff(x[4,112:128])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.020792464369848728
+          },
+          {
+            "name": "max(x[8,56:72])-min(x[8,56:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.019089586926862946
+          },
+          {
+            "name": "slope(x[1,48:64])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.018105573351050522
+          },
+          {
+            "name": "mean(x[1,48:64])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.016648893717514917
+          },
+          {
+            "name": "corr(x[5,42:50],x[2,42:50])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014636744077699056
+          },
+          {
+            "name": "corr(x[7,63:72],x[8,63:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.013530712174668074
+          },
+          {
+            "name": "mean(x[8,56:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.013208445214874472
+          },
+          {
+            "name": "mean(x[5,34:50])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.012181445976162315
+          },
+          {
+            "name": "mean(x[3,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00788109403121429
+          },
+          {
+            "name": "slope(x[4,112:128])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.007248697641309309
+          },
+          {
+            "name": "corr(x[1,56:64],x[8,56:64])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006778355317287064
+          },
+          {
+            "name": "slope(x[8,56:72])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.006264859077860073
+          },
+          {
+            "name": "mean(x[3,45:58]*x[2,45:58])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00576301624314982
+          },
+          {
+            "name": "slope(x[3,45:61])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.004934696360703744
+          },
+          {
+            "name": "slope(x[6,103:119])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.003633874996863039
+          },
+          {
+            "name": "corr(x[1,48:58],x[2,48:58])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.0011690620036677592
+          },
+          {
+            "name": "corr(x[3,45:58],x[2,45:58])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0008422749126237684
+          },
+          {
+            "name": "slope(x[0,13:29])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0006107296428458553
+          }
+        ]
+      },
+      "mean_abs_influence": 0.0895853587014388
+    },
+    {
+      "variant": "wide",
+      "seed": 31,
+      "regions": [
+        {
+          "channel": 6,
+          "start": 69,
+          "end": 85,
+          "strength": 0.15520397641227565
+        },
+        {
+          "channel": 7,
+          "start": 1,
+          "end": 17,
+          "strength": 0.15154319902187288
+        },
+        {
+          "channel": 2,
+          "start": 78,
+          "end": 94,
+          "strength": 0.1152646100254128
+        },
+        {
+          "channel": 5,
+          "start": 89,
+          "end": 105,
+          "strength": 0.11441161068001861
+        },
+        {
+          "channel": 3,
+          "start": 0,
+          "end": 16,
+          "strength": 0.10699487390795243
+        },
+        {
+          "channel": 1,
+          "start": 84,
+          "end": 100,
+          "strength": 0.10643198416315189
+        },
+        {
+          "channel": 4,
+          "start": 55,
+          "end": 71,
+          "strength": 0.10520803198362265
+        },
+        {
+          "channel": 0,
+          "start": 66,
+          "end": 82,
+          "strength": 0.1007768844857404
+        },
+        {
+          "channel": 8,
+          "start": 107,
+          "end": 123,
+          "strength": 0.09807422541956304
+        }
+      ],
+      "expressions": {
+        "alpha": 0.01,
+        "validation_r2": 0.2760434569072161,
+        "nonzero_count": 36,
+        "features": [
+          {
+            "name": "mean(abs(diff(x[2,78:94])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.14739770118092663
+          },
+          {
+            "name": "mean(square(x[2,78:94]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.12426035439985364
+          },
+          {
+            "name": "mean(x[7,1:17])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.12422340358691229
+          },
+          {
+            "name": "mean(square(x[0,66:82]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.11831972397606803
+          },
+          {
+            "name": "mean(square(x[5,89:105]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.11468298119131344
+          },
+          {
+            "name": "mean(square(x[7,1:17]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.10799564132749356
+          },
+          {
+            "name": "mean(abs(diff(x[5,89:105])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.10239202132153587
+          },
+          {
+            "name": "mean(abs(diff(x[3,0:16])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0978980586167389
+          },
+          {
+            "name": "max(x[5,89:105])-min(x[5,89:105])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.09435358607666441
+          },
+          {
+            "name": "max(x[0,66:82])-min(x[0,66:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.09044847732935693
+          },
+          {
+            "name": "mean(abs(diff(x[8,107:123])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0850169303051265
+          },
+          {
+            "name": "mean(square(x[1,84:100]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.06302731921207372
+          },
+          {
+            "name": "max(x[6,69:85])-min(x[6,69:85])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.06244610435661067
+          },
+          {
+            "name": "mean(square(x[3,0:16]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05907631390892124
+          },
+          {
+            "name": "mean(x[5,89:100]*x[1,89:100])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.057340093762647544
+          },
+          {
+            "name": "max(x[4,55:71])-min(x[4,55:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05638242604430634
+          },
+          {
+            "name": "mean(abs(diff(x[1,84:100])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.05273786755343042
+          },
+          {
+            "name": "mean(square(x[4,55:71]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.05127094245747836
+          },
+          {
+            "name": "mean(square(x[6,69:85]))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.049150161432926866
+          },
+          {
+            "name": "mean(x[0,66:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.04625236214781838
+          },
+          {
+            "name": "mean(square(x[8,107:123]))",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.04430944790375453
+          },
+          {
+            "name": "mean(x[4,55:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.03662452400032871
+          },
+          {
+            "name": "slope(x[5,89:105])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.02701869397391249
+          },
+          {
+            "name": "mean(x[2,78:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.021008703499275243
+          },
+          {
+            "name": "mean(x[3,0:16])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.020774272132213206
+          },
+          {
+            "name": "mean(x[7,1:16]*x[3,1:16])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.016442950707327205
+          },
+          {
+            "name": "slope(x[4,55:71])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.014567598764930235
+          },
+          {
+            "name": "mean(abs(diff(x[7,1:17])))",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.011307646394567083
+          },
+          {
+            "name": "slope(x[1,84:100])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.01079893831631506
+          },
+          {
+            "name": "slope(x[2,78:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.009989081861811659
+          },
+          {
+            "name": "mean(x[8,107:123])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.009433927481168987
+          },
+          {
+            "name": "corr(x[2,84:94],x[1,84:94])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.006157781405663107
+          },
+          {
+            "name": "corr(x[5,89:100],x[1,89:100])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.005689104337091777
+          },
+          {
+            "name": "slope(x[0,66:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": 0.0008023793952031792
+          },
+          {
+            "name": "corr(x[6,69:82],x[0,69:82])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00023443998224893274
+          },
+          {
+            "name": "corr(x[7,1:16],x[3,1:16])",
+            "family": "auto_discovered_expression",
+            "coefficient": -0.00013511832512997892
+          }
+        ]
+      },
+      "mean_abs_influence": 0.10312363741713264
+    }
+  ]
+}
