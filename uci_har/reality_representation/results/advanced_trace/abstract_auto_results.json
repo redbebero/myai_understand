@@ -1,0 +1,225 @@
+{
+  "aggregation": "standardized mean of AI-discovered expressions grouped by mathematical operation",
+  "runs": [
+    {
+      "variant": "flat",
+      "seed": 7,
+      "candidate_count": 312,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 32,
+        "temporal_change": 32,
+        "local_range": 32,
+        "trend": 32,
+        "sensor_coordination": 152,
+        "sensor_level": 32
+      },
+      "test_accuracy": 0.652867322701052
+    },
+    {
+      "variant": "flat",
+      "seed": 11,
+      "candidate_count": 273,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 31,
+        "temporal_change": 31,
+        "local_range": 31,
+        "trend": 31,
+        "sensor_coordination": 118,
+        "sensor_level": 31
+      },
+      "test_accuracy": 0.6813708856464201
+    },
+    {
+      "variant": "flat",
+      "seed": 19,
+      "candidate_count": 294,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 32,
+        "temporal_change": 32,
+        "local_range": 32,
+        "trend": 32,
+        "sensor_coordination": 134,
+        "sensor_level": 32
+      },
+      "test_accuracy": 0.673566338649474
+    },
+    {
+      "variant": "flat",
+      "seed": 23,
+      "candidate_count": 287,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 31,
+        "temporal_change": 31,
+        "local_range": 31,
+        "trend": 31,
+        "sensor_coordination": 132,
+        "sensor_level": 31
+      },
+      "test_accuracy": 0.667458432304038
+    },
+    {
+      "variant": "flat",
+      "seed": 31,
+      "candidate_count": 278,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 30,
+        "temporal_change": 30,
+        "local_range": 30,
+        "trend": 30,
+        "sensor_coordination": 128,
+        "sensor_level": 30
+      },
+      "test_accuracy": 0.6827281981676281
+    },
+    {
+      "variant": "wide",
+      "seed": 7,
+      "candidate_count": 264,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 30,
+        "temporal_change": 30,
+        "local_range": 30,
+        "trend": 30,
+        "sensor_coordination": 114,
+        "sensor_level": 30
+      },
+      "test_accuracy": 0.666779776043434
+    },
+    {
+      "variant": "wide",
+      "seed": 11,
+      "candidate_count": 236,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 28,
+        "temporal_change": 28,
+        "local_range": 28,
+        "trend": 28,
+        "sensor_coordination": 96,
+        "sensor_level": 28
+      },
+      "test_accuracy": 0.6823888700373261
+    },
+    {
+      "variant": "wide",
+      "seed": 19,
+      "candidate_count": 326,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 32,
+        "temporal_change": 32,
+        "local_range": 32,
+        "trend": 32,
+        "sensor_coordination": 166,
+        "sensor_level": 32
+      },
+      "test_accuracy": 0.6922293858160842
+    },
+    {
+      "variant": "wide",
+      "seed": 23,
+      "candidate_count": 291,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 31,
+        "temporal_change": 31,
+        "local_range": 31,
+        "trend": 31,
+        "sensor_coordination": 136,
+        "sensor_level": 31
+      },
+      "test_accuracy": 0.6179165252799457
+    },
+    {
+      "variant": "wide",
+      "seed": 31,
+      "candidate_count": 237,
+      "concepts": [
+        "movement_energy",
+        "temporal_change",
+        "local_range",
+        "trend",
+        "sensor_coordination",
+        "sensor_level"
+      ],
+      "concept_sizes": {
+        "movement_energy": 29,
+        "temporal_change": 29,
+        "local_range": 29,
+        "trend": 29,
+        "sensor_coordination": 92,
+        "sensor_level": 29
+      },
+      "test_accuracy": 0.6104513064133017
+    }
+  ]
+}
